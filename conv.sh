@@ -4,6 +4,9 @@
 mkdir -p posts
 mkdir -p recipes
 
+rm posts/*
+rm recipes/*
+
 # Convert blog posts to plain text
 for i in ~/git_proj/johngodlee.github.io/_posts/*.md; do
 	# Get file name of post, without extension
@@ -53,7 +56,7 @@ echo "
 
 # Create map file for post archive with header content
 touch posts/gophermap 
-cat archive_head > posts/gophermap 
+cat posts_head > posts/gophermap 
 
 # Add posts to posts/gophermap
 rev_all_base=$(basename ${rev_all[@]})
@@ -76,16 +79,18 @@ for i in ~/git_proj/recipes/*/*.md; do
 	pandoc --from markdown --to plain --reference-links --reference-location=block -o recipes/$name.txt $i
 done
 
+rm recipes/README.txt
+
 # Get name of directory recipe resided in for a header in gophermap
 dir_list=$(find ~/git_proj/recipes -type d -depth 1 | sed -e '/\.git/d' | sed 's|^\./||')
 
 # Add links for recipes to recipes/gophermap
 for i in $dir_list; do
 	
-	# Insert header into recipes/gophermap
+	# Insert directory header into recipes/gophermap
 	dir_title=$(basename $i | sed 's/_/ /g' | awk '{ print toupper($0) }')	
 	dir_title_lo=$(echo "$dir_title" | sed 's/./=/g')
-	printf "\n$dir_title\n\n" >> recipes/gophermap
+	printf "\ni$dir_title\t/\n\n" >> recipes/gophermap
 	
 	# Get list of all recipe markdown files
 	md_list=$(find $i/* -type f | sed '/README.md/d')
@@ -107,6 +112,12 @@ cv="Curriculum Vitae"
 cv_lo=$(echo "$cv" | sed 's/./=/g')
 
 sed -i -e "1i$cv\n$cv_lo\n" cv.txt
+
+# Set file permissions, world read, nonexecutable
+find posts/ -type f -print0 | xargs -0 chmod 644
+find recipes/ -type f -print0 | xargs -0 chmod 644
+find . -name 'gophermap' -print0 | xargs -0 chmod 644
+find . -type d -print0 | xargs -0 chmod 755
 
 scp gophermap contact.txt cv.txt johngodlee@tty.sdf.org:/udd/j/johngodlee/gopher
 scp posts/* johngodlee@tty.sdf.org:/udd/j/johngodlee/gopher/posts

@@ -1,7 +1,7 @@
- ==== Recipes =====================================================
+i==== Recipes =====================================================	/
 
 
-DRINKS
+iDRINKS	/
 
 0Beach Leaf Gin	Beech_Leaf_Gin.txt
 0Blackberry Wine	Blackberry_Wine.txt
@@ -11,7 +11,7 @@ DRINKS
 0Plum Wine	Plum_Wine.txt
 0Buckwheat Saison with Cashmere Hops	buckwheat_saison.txt
 
-DESSERT
+iDESSERT	/
 
 0Apricot and orange blossom baklava	Apricot_orange_blossom_baklava.txt
 0Baked Pumpkin with Apple	Baked_pumpkin_with_apple.txt
@@ -29,14 +29,14 @@ DESSERT
 0Chocolate peanut butter cups	peanut_butter_cups.txt
 0Vegan brownies	vegan_brownie.txt
 
-MISCELLANEOUS
+iMISCELLANEOUS	/
 
 0Black bean hummus	Black_bean_hummus.txt
 0Lip Balm	Lip_balm.txt
 0Tomato Ketchup 	Tomato_Ketchup.txt
 0Wood Sealant	Wood_sealant.txt
 
-MAIN DISHES
+iMAIN DISHES	/
 
 0Basil Sage Gnocchi	Basil_Sage_Gnocchi.txt
 0Beans with charred chillies	Beans_with_charred_chillies.txt
@@ -77,7 +77,7 @@ MAIN DISHES
 0Vegan Chickpea Potato Curry	vegan_chickpea_potato_curry.txt
 0Creamy vegan pasta with broccoli and mushrooms	vegan_creamy_pasta.txt
 
-SNACKS SANDWICHES BREAKFAST
+iSNACKS SANDWICHES BREAKFAST	/
 
 0Battered avocado BAT sandwich	Battered_avocado_BAT_sandwich.txt
 0Bean and Cheese Taquitos	Bean_and_Cheese_Taquitos.txt
@@ -93,7 +93,7 @@ SNACKS SANDWICHES BREAKFAST
 0Chickpea and carrot crepes	chickpea_carrot_crepes.txt
 0Freezer vegan breakfast burritos	freezer_vegan_breakfast_burritos.txt
 
-BREAD
+iBREAD	/
 
 0Arabic Bread	arabic_bread.txt
 0Cheesy beer bread rolls	beer_rolls.txt
@@ -110,13 +110,13 @@ BREAD
 0Stuffing Rolls	stuffing_rolls.txt
 0Sweet Potato Crescent Rolls	sweet_potato_crescent_pastry_rolls.txt
 
-PIZZA
+iPIZZA	/
 
 0Mini Calzones	Mini_Calzones.txt
 0Pizza Margherita	Pizza_Margherita.txt
 0Spinach Pizzetta	Spinach_Pizzetta.txt
 0Vegan Lahmajun	vegan_lahmajun.txt
 
-FORAGED FOOD
+iFORAGED FOOD	/
 
 0Hairy bittercress pesto	bittercress_pesto.txt

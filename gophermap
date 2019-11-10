@@ -1,23 +1,24 @@
-      _       _            _         _____           _ _           
-     | |     | |          | |       / ____|         | | |          
-     | | ___ | |__  _ __  | |      | |  __  ___   __| | | ___  ___ 
- _   | |/ _ \| '_ \| '_ \ | |      | | |_ |/ _ \ / _` | |/ _ \/ _ \
-| |__| | (_) | | | | | | || |___ _ | |__| | (_) | (_| | |  __/  __/
- \____/ \___/|_| |_|_| |_||_____(_) \_____|\___/ \__,_|_|\___|\___|
+i      _       _            _         _____           _ _           	/
+i     | |     | |          | |       / ____|         | | |          	/
+i     | | ___ | |__  _ __  | |      | |  __  ___   __| | | ___  ___ 	/
+i _   | |/ _ \| '_ \| '_ \ | |      | | |_ |/ _ \ / _` | |/ _ \/ _ \	/
+i| |__| | (_) | | | | | | || |___ _ | |__| | (_) | (_| | |  __/  __/	/
+i \____/ \___/|_| |_|_| |_||_____(_) \_____|\___/ \__,_|_|\___|\___|	/
                                                                        
                                                                                                         
-John L. Godlee
+iJohn L. Godlee	/
 
-This is a copy of https://johngodlee.github.io, where I keep my CV,
-a collection of recipes, and a blog/phlog.
+iThis is a copy of https://johngodlee.github.io, where I keep my CV,	/
+ia collection of recipes, and a blog/phlog.	/
 
 0Contact details	contact.txt
 0CV	cv.txt
 
 1Recipes	recipes
 
- ==== Posts =======================================================
+i==== Posts =======================================================	/
 
+0Making a Gopherhole - [2019-11-20]	posts/2019-11-20-gopher.txt
 0Making better ggiNEXT plots - [2019-11-15]	posts/2019-11-15-gginext.txt
 0Making a LaTeX Beamer template - [2019-11-10]	posts/2019-11-10-beamer.txt
 0Shell script to get wifi password in macOS - [2019-11-05]	posts/2019-11-05-wifi-pass.txt
@@ -27,6 +28,5 @@ a collection of recipes, and a blog/phlog.
 0Writing ggplot2 grobs in a loop to maintain data values - [2019-10-15]	posts/2019-10-15-ggplot-loop.txt
 0A Pandoc template for converting markdown letters to LaTeX PDFs - [2019-10-10]	posts/2019-10-10-md-letter.txt
 0Custom .sty files in LaTeX - [2019-10-05]	posts/2019-10-05-sty-latex.txt
-0Miscellaneous LaTeX snippets - [2019-09-30]	posts/2019-09-30-tips-latex.txt
 
 1Archive	posts
