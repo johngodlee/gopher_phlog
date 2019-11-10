@@ -1,0 +1,126 @@
+ ==== Post archive ================================================
+
+0Making better ggiNEXT plots - [2019-11-15]	2019-11-15-gginext.txt
+0Making a LaTeX Beamer template - [2019-11-10]	2019-11-10-beamer.txt
+0Shell script to get wifi password in macOS - [2019-11-05]	2019-11-05-wifi-pass.txt
+0UltiSnips cheatsheet - [2019-10-30]	2019-10-30-snips-cheat.txt
+0urlview to easily handle URLs in the terminal - [2019-10-25]	2019-10-25-urlview.txt
+0Scraping instagram without an account - [2019-10-20]	2019-10-20-ig-dl.txt
+0Writing ggplot2 grobs in a loop to maintain data values - [2019-10-15]	2019-10-15-ggplot-loop.txt
+0A Pandoc template for converting markdown letters to LaTeX PDFs - [2019-10-10]	2019-10-10-md-letter.txt
+0Custom .sty files in LaTeX - [2019-10-05]	2019-10-05-sty-latex.txt
+0Miscellaneous LaTeX snippets - [2019-09-30]	2019-09-30-tips-latex.txt
+0Notes on Poisson regression - [2019-09-21]	2019-09-21-poisson.txt
+0Analysing BibTeX files in R - [2019-09-12]	2019-09-12-bibtex-analysis.txt
+0Notes on diversity indices - [2019-09-05]	2019-09-05-shannon.txt
+0My spot in Summer - [2019-08-25]	2019-08-25-spot-summer.txt
+0Writing non-standard notation in ggplot2 - [2019-08-20]	2019-08-20-expression.txt
+0Writing a Makefile for LaTeX and R - [2019-08-08]	2019-08-08-makefile.txt
+0Customising plots drawn to estimate pairwise marginal means comparisons with emmeans::pwpp() - [2019-08-07]	2019-08-07-pwpp.txt
+0Vim fold expression for BibTeX files - [2019-07-31]	2019-07-31-bibtex-fold.txt
+0Making lists - [2019-07-25]	2019-07-25-lists.txt
+0Plotting a semi-variogram fit in ggplot2 - [2019-07-12]	2019-07-20-variogram.txt
+0Marking laser scanning targets to aid processing - [2019-07-15]	2019-07-15-target-marking.txt
+0An email about setting up 1 Ha plots - [2019-07-10]	2019-07-10-plot-setup.txt
+0Compressing images for this website - [2019-07-05]	2019-07-05-img-convert.txt
+0Fetching mail with offlineimap within Mutt - [2019-06-25]	2019-06-25-mutt-key.txt
+0The Mackenzie Dendrometer - [2019-06-10]	2019-06-10-dendrometer.txt
+0Hotter than average map - [2019-06-05]	2019-06-05-hot-map.txt
+0Poster for Postgraduate Research Conference - [2019-05-30]	2019-05-30-poster-pgr.txt
+0Talk at Remote Sensing of Vegetation meeting - [2019-05-28]	2019-05-28-veg-remote-talk.txt
+0Task management macros in Vim - [2019-05-25]	2019-05-25-vim-task.txt
+0Fewer geocaches - [2019-05-20]	2019-05-20-cache.txt
+0Plain text data entry in the terminal - [2019-05-17]	2019-05-17-plain-csv.txt
+0Managing receipts on fieldwork - [2019-05-15]	2019-05-15-field-receipts.txt
+0Edinburgh Teaching Award - [2019-05-10]	2019-05-10-edta.txt
+0Taking notes in the field - [2019-05-05]	2019-05-05-field-book.txt
+0A 20 cm measuring stick - [2019-04-30]	2019-04-30-measuring-stick.txt
+0Thoughts on natural surroundings in Bicuar National Park - [2019-04-25]	2019-04-25-angola-smells.txt
+0Angolan matchbox designs - [2019-04-20]	2019-04-20-angola-matchbox.txt
+0Fermented drinks and exotic food in Huila province Angola - [2019-04-15]	2019-04-15-angola-drinks.txt
+0Ubuntu network timeout - [2019-04-10]	2019-04-10-network-timeout.txt
+0DIY disc pasture meter in action - [2019-04-05]	2019-04-05-dpm-build.txt
+0Exporting a list of R packages to install on a new machine - [2019-03-15]	2019-03-15-rpack.txt
+0Python conda virtual environment in bash prompt - [2019-02-28]	2019-02-28-conda.txt
+0Making inset maps for publication - [2019-02-20]	2019-02-20-inset.txt
+0Using vifm to attach files to emails in Mutt - [2019-02-15]	2019-02-15-vifm-mutt.txt
+0DIY disc pasture meter - [2019-02-05]	2019-02-05-dpm.txt
+0Using the LaTeX 'float' package with Pandoc - [2019-01-29]	2019-01-29-float-latex.txt
+0Diagrams for tree measurements - [2019-01-23]	2019-01-23-mensuration.txt
+0Weekend walk on the Southern Upland Way and John Muir Link - [2019-01-13]	2019-01-13-suw.txt
+0Using notmuch to search email in Mutt - [2019-01-05]	2019-01-05-notmuch-mutt.txt
+0Putting a Linux distro on a USB, from a Mac - [2018-12-29]	2018-12-29-linux-usb.txt
+0Converting Alpine addressbook to Mutt aliases - [2018-12-23]	2018-12-23-alpine-to-mutt.txt
+0Updated Mutt config, multiple accounts - [2018-12-15]	2018-12-15-mutt.txt
+0Calculating Vapour Pressure Deficit and other atmospheric things - [2018-12-05]	2018-12-05-vpd.txt
+0Converting Qutebrowser bookmarks to w3m bookmarks - [2018-12-01]	2018-12-01-qute-w3m.txt
+0A better system for referencing - [2018-11-25]	2018-11-25-referencing.txt
+0Calculating NDVI from Sentinel 2 images for Bicuar National Park - [2018-11-20]	2018-11-20-gdal-ndvi.txt
+0How much miombo is in each country - [2018-11-15]	2018-11-15-miombo-countries.txt
+0Making cider, bottling update - [2018-11-06]	2018-11-06-cider.txt
+0My spot in the woods in Autumn - [2018-11-02]	2018-11-02-spot.txt
+0Fixing up an Emmelle Diamond 5 bike - [2018-10-25]	2018-10-25-bike-station.txt
+0What I carry in my bag everyday - [2018-10-19]	2018-10-19-edc.txt
+0An R function to fill abbreviated genus names in a list of species - [2018-10-15]	2018-10-15-fill-genus.txt
+0I made a mistake with cropping fisheye photos to a field of view - [2018-10-10]	2018-10-10-lai-fix.txt
+0Hemispherical photography - should the focus be set to infinity? - [2018-10-02]	2018-10-02-infinity-focus.txt
+0Comparing forest canopy measurements with a phone lens and an expensive DSLR fisheye - [2018-09-30]	2018-09-30-lai-phone.txt
+0Making Cider - [2018-09-29]	2018-09-29-cider.txt
+0Update on plant growth - [2018-09-24]	2018-09-24-plants-update.txt
+0Figuring out Sums of Squares in ANOVA - [2018-09-20]	2018-09-20-anova-ssq.txt
+0A method to crop hemispherical images to a field of view - [2018-09-12]	2018-09-12-fov-function.txt
+0A guide about processing hemispherical photos - [2018-09-07]	2018-09-07-hemi-guide.txt
+0An email about hemispherical photography - [2018-09-02]	2018-09-02-hemi-email.txt
+0Ideas for a DIY bike chain tensioner - [2018-08-31]	2018-08-31-chain-tensioner.txt
+0Foraging Chicken of the Woods - [2018-08-25]	2018-08-25-chicken-woods.txt
+0Pandoc CSS templates - [2018-08-20]	2018-08-20-pandoc-css.txt
+0Spoon carving trees in the SEOSAW network - [2018-08-20]	2018-08-20-africa-spoons.txt
+0Converting a bank .csv statement to ledger - [2018-08-12]	2018-08-12-ledger-bank-csv.txt
+0Qutebrowser setup - [2018-08-10]	2018-08-10-qutebrowser.txt
+0VLC from the command line on macOS - [2018-08-06]	2018-08-06-vlc.txt
+0Generating a static site using pandoc - [2018-08-02]	2018-08-02-site-gen.txt
+0Rebuilding a bike - [2018-07-25]	2018-07-25-bike.txt
+0Gmail on macOS command line: neomutt + offlineimap + notmuch + pass + vim + launchd (brew services) + w3m - [2018-07-15]	2018-07-15-mutt.txt
+0Making a minimal wallet - [2018-07-10]	2018-07-10-wallet.txt
+0Making a chopping board - [2018-07-08]	2018-07-08-board.txt
+0Making arty renders of Belize's rivers - [2018-07-01]	2018-07-01-belize-rivers.txt
+0Updating pypodd to download most recent - [2018-06-25]	2018-06-25-pypodd_dl_all.txt
+0Knife wear and tear - [2018-06-20]	2018-06-20-knife.txt
+0Hammock setup - [2018-06-10]	2018-06-10-hammock.txt
+0Foraging and making wild garlic pesto - [2018-05-05]	2018-05-05-pesto.txt
+0Converting stem locations in a square plot to X Y metre coordinates - [2018-05-01]	2018-05-01-latlong-xy.txt
+0Mapping GPX tracks from AAT for Android, in R - [2018-04-28]	2018-04-28-gpx.txt
+0A workshop on Git for version control - [2018-04-25]	2018-04-25-geotaster.txt
+0Making a geoJSON powered Leaflet map - [2018-04-18]	2018-04-18-geojson.txt
+0New hemispherical photography equipment - [2018-04-15]	2018-04-15-hemi-photo.txt
+0Dirty Weekenders Kitchen Table Talk - [2018-04-07]	2018-04-12-kitchen-table-talk.txt
+0Updating pypodd to run .opml files - [2018-04-07]	2018-04-07-pypodd-opml.txt
+0Kalanchoe propagation - [2018-04-05]	2018-04-05-kalanchoe.txt
+0I made a command line podcast grabber in Python - [2018-03-26]	2018-03-26-pypodd.txt
+0Spring woodworking in my spot - [2018-03-25]	2018-03-25-spot.txt
+0How many trees have I measured? - [2018-03-22]	2018-03-22-dbh-total.txt
+0Grievances with email clients and the state of email usage - [2018-03-02]	2018-03-02-email.txt
+0Expedition food - [2018-02-21]	2018-02-21-exped-food.txt
+0How to properly roll and store DBH tape measure - [2018-02-21]	2018-02-21-dbh.txt
+0Replacing the lightline.vim plugin with a custom statusline/tabline - [2018-01-11]	2018-01-11-lightline.txt
+0What are the possible uses for local webpages in a shared flat? - [2017-12-10]	2017-12-10-localpage.txt
+0Elephants affect the spatial distribution of savannah trees - [2017-12-01]	2017-12-01-elephants.txt
+0Producing Gitbooks - [2017-11-01]	2017-11-30-gitbook.txt
+0Methods of writing and collaboration - [2017-11-01]	2017-11-20-writing.txt
+0My workflow, tmux, vim, etc. - [2017-11-01]	2017-11-01-terminal.txt
+0Cycling from Bridge of Allan to Blackford - [2017-09-15]	2017-10-28-blackford.txt
+0Initial PhD ideas - [2017-09-25]	2017-10-25-phd-ideas.txt
+0Automating imageJ leaf area processing - [2017-10-12]	2017-10-12-imagej.txt
+0Using R to locate spatial data points inside map polygons  - [2017-09-27]	2017-10-11-sankaran.txt
+0Making Coding Club logos in R - [2017-09-27]	2017-09-27-cc-logos-r.txt
+0Reconditioning an old axe - [2017-09-25]	2017-09-25-axe-repair.txt
+0Walking the Great Glen Way - [2017-09-22]	2017-09-22-gg-way.txt
+0Visualising Survey Data with Likert Scales - [2017-09-16]	2017-09-16-likert.txt
+0Brewing Plum Wine - [2017-09-15]	2017-09-15-plum-wine.txt
+0Making Logos for Coding Club - [2017-09-10]	2017-09-10-logos.txt
+0Growing micro-greens on cotton wool - [2017-09-10]	2017-09-10-cress.txt
+0Mapping The Vegetation and Climate of Africa in R - [2017-09-05]	2017-09-05-whites-veg-map.txt
+0Analysing Ledger Personal Accounting Data Using R - [2017-09-01]	2017-09-01-ledger-r-analysis-tut.txt
+0Fire experiments in the Congo - [2017-08-20]	2017-08-20-congo.txt
+0Constructing a Useful Bash Prompt - [2017-08-14]	2017-08-14-bash-prompt.txt
+0Configuring Ranger, a File Manager for macOS, with rifle.conf - [2017-07-20]	2017-07-20-ranger-rifle-conf-mac.txt

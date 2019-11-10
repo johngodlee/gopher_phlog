@@ -1,0 +1,32 @@
+      _       _            _         _____           _ _           
+     | |     | |          | |       / ____|         | | |          
+     | | ___ | |__  _ __  | |      | |  __  ___   __| | | ___  ___ 
+ _   | |/ _ \| '_ \| '_ \ | |      | | |_ |/ _ \ / _` | |/ _ \/ _ \
+| |__| | (_) | | | | | | || |___ _ | |__| | (_) | (_| | |  __/  __/
+ \____/ \___/|_| |_|_| |_||_____(_) \_____|\___/ \__,_|_|\___|\___|
+                                                                       
+                                                                                                        
+John L. Godlee
+
+This is a copy of https://johngodlee.github.io, where I keep my CV,
+a collection of recipes, and a blog/phlog.
+
+0Contact details	contact.txt
+0CV	cv.txt
+
+1Recipes	recipes
+
+ ==== Posts =======================================================
+
+0Making better ggiNEXT plots - [2019-11-15]	posts/2019-11-15-gginext.txt
+0Making a LaTeX Beamer template - [2019-11-10]	posts/2019-11-10-beamer.txt
+0Shell script to get wifi password in macOS - [2019-11-05]	posts/2019-11-05-wifi-pass.txt
+0UltiSnips cheatsheet - [2019-10-30]	posts/2019-10-30-snips-cheat.txt
+0urlview to easily handle URLs in the terminal - [2019-10-25]	posts/2019-10-25-urlview.txt
+0Scraping instagram without an account - [2019-10-20]	posts/2019-10-20-ig-dl.txt
+0Writing ggplot2 grobs in a loop to maintain data values - [2019-10-15]	posts/2019-10-15-ggplot-loop.txt
+0A Pandoc template for converting markdown letters to LaTeX PDFs - [2019-10-10]	posts/2019-10-10-md-letter.txt
+0Custom .sty files in LaTeX - [2019-10-05]	posts/2019-10-05-sty-latex.txt
+0Miscellaneous LaTeX snippets - [2019-09-30]	posts/2019-09-30-tips-latex.txt
+
+1Archive	posts

@@ -1,0 +1,12 @@
+Poster for Postgraduate Research Conference - [2019-05-30]
+============================================================
+
+I made a poster for the internal Postgraduate Research Conference in my
+department last week, so I thought I would post it here.
+
+  {IMAGE}
+
+
+[Here is a link to a pdf version of the poster]
+
+  [Here is a link to a pdf version of the poster]: https://johngodlee.github.io/files/poster_pgr/poster.pdf
