@@ -8,11 +8,11 @@ Updating pypodd to run .opml files - [2018-04-07]
 OPML (Outline Processor Markup Language) is a type of .xml which is
 often used to hold information for RSS feeds. Lots of podcast
 aggregators use the OPML format to allow exporting of your list of
-podcasts, including the one that I use on my phone, [PocketCasts]. So
-I wanted to extend the functionality of my pypodd program so that it
-would be able to use an OPML list of subscriptions instead of the .csv
-that I put together in a quite ad hoc manner when I was writing the
-program.
+podcasts, including the one that I use on my phone, [PocketCasts].
+So I wanted to extend the functionality of my pypodd program so that
+it would be able to use an OPML list of subscriptions instead of the
+.csv that I put together in a quite ad hoc manner when I was writing
+the program.
 
   [PocketCasts]: https://play.pocketcasts.com
 
@@ -33,15 +33,16 @@ Here is a sample of what an OPML file looks like:
       </body>
     </opml>
 
-I found that actually, thanks to a package that has already been written
-called [listparser], adding this feature was REALLY REALLY EASY!
+I found that actually, thanks to a package that has already been
+written called [listparser], adding this feature was REALLY REALLY
+EASY!
 
   [listparser]: https://pythonhosted.org/listparser/
 
 I wrapped the existing .csv import method in an if else statement,
-saying that if the file extension was csv proceed with the .csv import
-method, but if the file extension was .xml, use the other import method.
-The code looks like this:
+saying that if the file extension was csv proceed with the .csv
+import method, but if the file extension was .xml, use the other
+import method. The code looks like this:
 
     if subsLoc.endswith("csv"): 
       with open(subsLoc) as f:
@@ -60,6 +61,6 @@ The code looks like this:
       sys.exit(0)
 
 Also note the “quit” if the designated file doesn’t include either of
-the two specified extensions. Maybe to be super bulletproof I should do
-a check to see if the .xml file includes <opml version="">, as I suppose
-there are lots of different .xml formats.
+the two specified extensions. Maybe to be super bulletproof I should
+do a check to see if the .xml file includes <opml version="">, as I
+suppose there are lots of different .xml formats.

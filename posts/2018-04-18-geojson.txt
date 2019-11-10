@@ -1,10 +1,10 @@
 Making a geoJSON powered Leaflet map - [2018-04-18]
 =====================================================
 
-I made a website for my labgroup using Jekyll and Github-pages. It can
-be seen here at [seosaw.github.io]. The bit I want to show off about
-is the interactive map I made for the page on data and sites, which can
-be seen [here].
+I made a website for my labgroup using Jekyll and Github-pages. It
+can be seen here at [seosaw.github.io]. The bit I want to show off
+about is the interactive map I made for the page on data and sites,
+which can be seen [here].
 
   [seosaw.github.io]: https://seosaw.github.io
   [here]: https://seosaw.github.io/data.html
@@ -16,12 +16,12 @@ specifically for making maps.
 
 This is how I got our data to run on the map.
 
-First I have to generate the geoJSON files for the location of our sites
-as points, and also for a polygon layer showing the extent of savannas
-in Africa. I used R to generate these files because that is the platform
-I have the most experience with GIS stuff in. This is a stripped down
-version of the script I used to transform the original data .csv and
-.shp into geoJSON outputs:
+First I have to generate the geoJSON files for the location of our
+sites as points, and also for a polygon layer showing the extent of
+savannas in Africa. I used R to generate these files because that is
+the platform I have the most experience with GIS stuff in. This is a
+stripped down version of the script I used to transform the original
+data .csv and .shp into geoJSON outputs:
 
 For the plot data:
 
@@ -85,13 +85,13 @@ And for the polygon data:
     geojson_write(input = white_woodlands_poly,
         file = "miombo_po")
 
-The polygon data comes from White’s 1983 vegetation map of Africa, which
-remains the best approximation of the biomes of Africa, even though it
-was constructed in a very non-systematic fashion.
+The polygon data comes from White’s 1983 vegetation map of Africa,
+which remains the best approximation of the biomes of Africa, even
+though it was constructed in a very non-systematic fashion.
 
-Next I have to convert these geoJSON files to .js files and name them as
-variables by adding a variable designation at the top of the files like
-this:
+Next I have to convert these geoJSON files to .js files and name them
+as variables by adding a variable designation at the top of the files
+like this:
 
     var miombo = [
         {"type": "FeatureCollection",
@@ -106,9 +106,9 @@ this:
 
     ...
 
-Then, I need to construct the javascript file which makes the map, which
-calls the map tiles (L.tileLayer), and gives the plot locations and
-polygons various aesthetic attributes:
+Then, I need to construct the javascript file which makes the map,
+which calls the map tiles (L.tileLayer), and gives the plot locations
+and polygons various aesthetic attributes:
 
     var mymap = L.map('leaf-map').setView([-16.5, 24.7], 4);
 
@@ -147,8 +147,8 @@ polygons various aesthetic attributes:
         }
     }).addTo(mymap);
 
-The only thing left to do is make sure all of these scripts are called
-in the right order in the HTML file:
+The only thing left to do is make sure all of these scripts are
+called in the right order in the HTML file:
 
 
     <script src="{{ site.baseurl }}/scripts/plot_loc.js"></script> <!plot locations>

@@ -15,8 +15,8 @@ The packages I used are:
     library(ggplot2)
     library(ggmap)
 
-First I needed a base map of Africa, ideally with countries on, [which I
-found here].
+First I needed a base map of Africa, ideally with countries on,
+[which I found here].
 
   [which I found here]: http://maplibrary.org/library/stacks/Africa/index.htm
 
@@ -39,9 +39,9 @@ found here].
         ylab("Latitude") + 
         coord_map()
 
-To investigate vegetation types I tracked down a [shapefile version of
-White’s 1983 Vegetation Map]. The map is the result of 15 years of
-work by UNESCO and AEFTET and was created by first compiling many
+To investigate vegetation types I tracked down a [shapefile version
+of White’s 1983 Vegetation Map]. The map is the result of 15 years
+of work by UNESCO and AEFTET and was created by first compiling many
 existing maps, then cross-checking with extensive fieldwork and
 consultation with local experts.
 
@@ -103,15 +103,16 @@ error to get the x and y limits right in the ggplot() call:
       ylab("Latitude") +
       coord_map(xlim = c(10, 40), ylim = c(-35, -10))
 
-The steps once again for anyone interested in a mapping workflow in R:
+The steps once again for anyone interested in a mapping workflow in
+R:
 
 1.  Import shapefile with readOGR()
 2.  Explore shapefile
 3.  “Fortify” shapefile for use in ggplot()
 4.  Plot using ggplot()
 
-[I also wrote a tutorial for the Coding Club group I’m involved with on
-using R as a GIS]
+[I also wrote a tutorial for the Coding Club group I’m involved with
+on using R as a GIS]
 
-  [I also wrote a tutorial for the Coding Club group I’m involved with
-  on using R as a GIS]: https://ourcodingclub.github.io/2016/12/11/maps_tutorial.html
+  [I also wrote a tutorial for the Coding Club group I’m involved
+  with on using R as a GIS]: https://ourcodingclub.github.io/2016/12/11/maps_tutorial.html

@@ -1,12 +1,12 @@
 Converting Qutebrowser bookmarks to w3m bookmarks - [2018-12-01]
 ==================================================================
 
-I use [Qutebrowser] as my primary web browser, but I also really like
-using [w3m] for super fast text-based browsing when I’m working mostly
-in the terminal. As a bit of practice in writing bash scripts, I figured
-I would try to write a script which constructed a w3m style
-bookmark.html from my Qutebrowser formatted bookmarks/urls and
-quickmarks, because confusingly, Qutebrowser uses two files for
+I use [Qutebrowser] as my primary web browser, but I also really
+like using [w3m] for super fast text-based browsing when I’m
+working mostly in the terminal. As a bit of practice in writing bash
+scripts, I figured I would try to write a script which constructed a
+w3m style bookmark.html from my Qutebrowser formatted bookmarks/urls
+and quickmarks, because confusingly, Qutebrowser uses two files for
 bookmarks, with different formatting. This is what I came up with:
 
   [Qutebrowser]: https://qutebrowser.org/
@@ -46,13 +46,13 @@ bookmarks, with different formatting. This is what I came up with:
     </body>
     </html>" >> ~/.w3m/bookmark.html
 
-Firstly it creates a new bookmark.html, then echos some preamble HTML,
-then loops through each line of quickmarks then urls, cutting the line
-into the URL and the description of that URL, and forwards it to
-bookmark.html, then it puts in the footer HTML material. Importantly, it
-doesn’t include any bookmarks with the string qute in them, which all
-refer to Qutebrowser only special URIs, it does this with an if
-statement if [[ $line != *"qute"* ]]; then.
+Firstly it creates a new bookmark.html, then echos some preamble
+HTML, then loops through each line of quickmarks then urls, cutting
+the line into the URL and the description of that URL, and forwards
+it to bookmark.html, then it puts in the footer HTML material.
+Importantly, it doesn’t include any bookmarks with the string qute in
+them, which all refer to Qutebrowser only special URIs, it does this
+with an if statement if [[ $line != *"qute"* ]]; then.
 
 In w3m, I can then open bookmark.html with Esc-b.
 

@@ -1,29 +1,30 @@
 Gmail on macOS command line: neomutt + offlineimap + notmuch + pass + vim + launchd (brew services) + w3m - [2018-07-15]
 ==========================================================================================================================
 
-I’ve been experimenting with a new email client on the command line. I
-used alpine for a long time, but I’ve heard a lot about mutt as well. It
-seems to be the standard terminal email program, but my past attempts to
-set it up have always failed, so I set aside a couple of hours over the
-last few days to really get into the subject. This is the setup I have
-so far, which uses the neomutt fork. It’s an amalgamation of lots of
-different guides and snippets that I’ve found scattered around on the
-internet. I’ve referenced the important ones at the end.
+I’ve been experimenting with a new email client on the command line.
+I used alpine for a long time, but I’ve heard a lot about mutt as
+well. It seems to be the standard terminal email program, but my past
+attempts to set it up have always failed, so I set aside a couple of
+hours over the last few days to really get into the subject. This is
+the setup I have so far, which uses the neomutt fork. It’s an
+amalgamation of lots of different guides and snippets that I’ve found
+scattered around on the internet. I’ve referenced the important ones
+at the end.
 
 My setup is fairly particular to me and my needs. I use macOS rather
-than Linux which produces some interesting idiosyncrasies, and I wanted
-to integrate my existing command line programs where possible, notably
-vim (text editor) and pass (GPG enabled password manager), and w3m (web
-browser). I also use Gmail, so interacting with that requires
-understanding their slightly odd IMAP configuration.
+than Linux which produces some interesting idiosyncrasies, and I
+wanted to integrate my existing command line programs where possible,
+notably vim (text editor) and pass (GPG enabled password manager),
+and w3m (web browser). I also use Gmail, so interacting with that
+requires understanding their slightly odd IMAP configuration.
 
 
 Offlineimap
 
-For now we won’t even install neomutt, there isn’t anything to see yet
-anyway and much of the config won’t make sense until we’ve set up the
-back end stuff. The first thing to set up is the syncing of emails with
-Gmail’s IMAP system.
+For now we won’t even install neomutt, there isn’t anything to see
+yet anyway and much of the config won’t make sense until we’ve set up
+the back end stuff. The first thing to set up is the syncing of
+emails with Gmail’s IMAP system.
 
 neomutt can handle IMAP email, but grabbing from a remote server to read an email requires that there be an internet connection everytime you open neomutt. To keep an offline database of my Gmail account, so I can search it when travelling, I use offlineimap, which can also be installed using [Homebrew]:
 
@@ -35,8 +36,8 @@ neomutt can handle IMAP email, but grabbing from a remote server to read an emai
 
 [Steve Losh] says that offlineimap tends to include script breaking
 changes between updates, and they recommend installing an earlier
-version, but I used v7.2.1, which is current as of 27th Mar 2018 and it
-worked fine.
+version, but I used v7.2.1, which is current as of 27th Mar 2018 and
+it worked fine.
 
   [Steve Losh]: http://stevelosh.com/blog/2012/10/the-homely-mutt/
 
@@ -86,9 +87,9 @@ config:
 
 There is a lot there, so here is a line by line breakdown:
 
-ui = TTY.TTYUI signals which user interface to use. TTY.TTYUI makes sure
-that the process runs quietly in the background, there are also other
-options which may be better, but this one works for me.
+ui = TTY.TTYUI signals which user interface to use. TTY.TTYUI makes
+sure that the process runs quietly in the background, there are also
+other options which may be better, but this one works for me.
 
 accounts = johngodlee@gmail.com is the email account to be checked.
 
@@ -96,9 +97,9 @@ pythonfile = ~/.offlineimap.py is a python script which offlineimap
 calls to get the password for my email account from pass. I’ll go
 through .offlineimap.py later.
 
-fsync = False just tells offlineimap that it doesn’t need to make sure a
-full sync is completed every time, if a few emails get lost, no bother,
-they will just get synced next time
+fsync = False just tells offlineimap that it doesn’t need to make
+sure a full sync is completed every time, if a few emails get lost,
+no bother, they will just get synced next time
 
     [Account johngodlee@gmail.com]
     localrepository = johngodlee-local
@@ -115,14 +116,14 @@ The section above defines the location and mailbox type of the local
 repository for the email from my account
 
 nametrans = lambda folder: {'drafts': '[Google Mail]/Drafts', ...}.get(folder, folder)
-translates Gmail’s IMAP folders into folders in my local mail directory.
-I think this is necessary as Gmail’s folders contain forward slashes,
-which would mess up a normal file system. I only translated the system
-IMAP folders, as custom folders (labels) don’t use the [Google Mail]/
-prefix and are synced automatically as is. I had some trouble getting
-offlineimap to recognise my system folders, as many other guides
-recommend using the [Gmail]/ prefix, but for whatever reason my account
-uses [Google Mail]/.
+translates Gmail’s IMAP folders into folders in my local mail
+directory. I think this is necessary as Gmail’s folders contain
+forward slashes, which would mess up a normal file system. I only
+translated the system IMAP folders, as custom folders (labels) don’t
+use the [Google Mail]/ prefix and are synced automatically as is. I
+had some trouble getting offlineimap to recognise my system folders,
+as many other guides recommend using the [Gmail]/ prefix, but for
+whatever reason my account uses [Google Mail]/.
 
     [Repository johngodlee-remote]
     maxconnections = 3
@@ -133,40 +134,41 @@ uses [Google Mail]/.
     ssl=true
     sslcacertfile = /usr/local/etc/openssl/cert.pem
 
-This section configures the remote repository and how to interact with
-it.
+This section configures the remote repository and how to interact
+with it.
 
 maxconnections = 3 defines the number of parallel connections
 offlineimap can make when syncing emails. 3 is low enough that Gmail
 won’t enforce rate limits and break the connection.
 
-type = Gmail tells offlineimap that the account is a Gmail account, and
-so it should take that into account when dealing with their weird IMAP
-setup.
+type = Gmail tells offlineimap that the account is a Gmail account,
+and so it should take that into account when dealing with their weird
+IMAP setup.
 
-remoteuser = johngodlee@gmail.com simply tells us what account is being
-accessed.
+remoteuser = johngodlee@gmail.com simply tells us what account is
+being accessed.
 
-remotepasseval = get_pass() tells offlineimap where to get the password
-for the account. get_pass() is the python function that is created in
-~/.offlineimap.py
+remotepasseval = get_pass() tells offlineimap where to get the
+password for the account. get_pass() is the python function that is
+created in ~/.offlineimap.py
 
 realdelete = no tells offlineimap not to totally delete an email when
 you press delete in neomutt, instead it will keep it in All Mail.
 
 ssl = true says to always use ssl encryption when syncing
 
-sslcacertfile = /usr/local/etc/openssl/cert.pem gives the location of a
-security certificate, which I think helps ssl to further prevent man in
-the middle attacks when syncing.
+sslcacertfile = /usr/local/etc/openssl/cert.pem gives the location of
+a security certificate, which I think helps ssl to further prevent
+man in the middle attacks when syncing.
 
 nametrans = lambda folder: {'[Google Mail]/Drafts':    'drafts', ...}.get(folder, folder)
-is just like the nametrans function earlier, only it goes in the other
-direction.
+is just like the nametrans function earlier, only it goes in the
+other direction.
 
 folderfilter = lambda folder: folder not in ['[Google Mail]/Bin', ...]
-gives a list of folders that should not be synced. In my case, I don’t
-want to sync the trash (Bin because British), Spam, Chats, and All Mail.
+gives a list of folders that should not be synced. In my case, I
+don’t want to sync the trash (Bin because British), Spam, Chats, and
+All Mail.
 
 Later on I’ll look at how to get offlineimap to run in the background
 using launchd, a macOS alternative to crontab.
@@ -199,9 +201,9 @@ installed via Homebrew:
     brew install notmuch
 
 When installed, neomutt allows searching using notmuch by defining a
-custom macro. You can then use all the notmuch search syntax to quickly
-find emails within neomutt. I’ll go through that in the next section
-where I define the muttrc.
+custom macro. You can then use all the notmuch search syntax to
+quickly find emails within neomutt. I’ll go through that in the next
+section where I define the muttrc.
 
 w3m
 
@@ -212,9 +214,9 @@ using Homebrew:
 
     brew install w3m
 
-To tell neomutt to forward HTML emails to w3m for plain text encoding,
-then send it back to neomutt, we need to create a file called .mailcap.
-Keep it in the home directory as convention:
+To tell neomutt to forward HTML emails to w3m for plain text
+encoding, then send it back to neomutt, we need to create a file
+called .mailcap. Keep it in the home directory as convention:
 
     touch ~/.mailcap
 
@@ -228,17 +230,17 @@ Ten add the following snippet to the file:
 Neomutt
 
 Now that we’ve set up all the background, we can install the central
-part of the workflow, mutt. Specifically, I’m using neomutt, which is a
-fork of the original mutt which incorporates some of the most widely
-used plugins.
+part of the workflow, mutt. Specifically, I’m using neomutt, which is
+a fork of the original mutt which incorporates some of the most
+widely used plugins.
 
 neomutt can be installed using Homebrew:
 
     brew install neomutt
 
 Then we need to make a configuration file, I like to keep mine in
-~/.mutt/muttrc but see man neomutt for more locations where neomutt will
-look for a config file:
+~/.mutt/muttrc but see man neomutt for more locations where neomutt
+will look for a config file:
 
     mkdir ~/.mutt
 
@@ -285,30 +287,31 @@ The first thing to add to the configuration is some IMAP settings:
     set timeout = 10
     set mail_check = 5
 
-Some of this is self explanatory, so I’ll only go through the important
-bits
+Some of this is self explanatory, so I’ll only go through the
+important bits
 
-set my_pass ... calls pass to create the variable my_pass which is then
-sent to imap_pass to set the password for my Gmail account, which is
-needed for sending mail.
+set my_pass ... calls pass to create the variable my_pass which is
+then sent to imap_pass to set the password for my Gmail account,
+which is needed for sending mail.
 
-set folder ... sets the location of the mailbox which offlineimap syncs
-email to. The value of folder also acts as the prefix for set spoolfile,
-set postponed and set record, as indicated by putting + before the
-folder names.
+set folder ... sets the location of the mailbox which offlineimap
+syncs email to. The value of folder also acts as the prefix for
+set spoolfile, set postponed and set record, as indicated by putting
++ before the folder names.
 
-set spoolfile ... should be the location of your inbox, where new mail
-arrives
+set spoolfile ... should be the location of your inbox, where new
+mail arrives
 
 set postponed ... is where unfinished new emails are kept if they are
 aborted before being sent
 
-set record ... should be a folder where a copy of sent messages are kept
+set record ... should be a folder where a copy of sent messages are
+kept
 
 Note that set smtp_pass ... also calls the my_pass variable
 
-As neomutt comes with the sidebar patch, I wanted to make use of it by
-displaying any folders that are synced from offlineimap:
+As neomutt comes with the sidebar patch, I wanted to make use of it
+by displaying any folders that are synced from offlineimap:
 
     ## Mailboxes to display in sidebar and check regularly 
     mailboxes +INBOX +'starred' +'trash' +'drafts' +'sent' +'Archived' +'coding_club' +'diss_manuscript' +'personal' +'PhD' +'SEOSAW_contacts' +'SEOSAW_logos' +'STEB_2018' +'urgent' +'hemi_lens_proposal' +kew_taxonomy_course +'angola_botanic_garden'
@@ -322,10 +325,10 @@ displaying any folders that are synced from offlineimap:
     ## Don't abbreviate folders in sidebar
     set sidebar_short_path = no
 
-I use a stripped down .vimrc for writing email, as I don’t need a lot of
-the plugins that I use for programming. I can tell neomutt to write
-emails using vim with this alternative .vimrc (.vimrc_alpine) by adding
-the following to the neomuttrc:
+I use a stripped down .vimrc for writing email, as I don’t need a lot
+of the plugins that I use for programming. I can tell neomutt to
+write emails using vim with this alternative .vimrc (.vimrc_alpine)
+by adding the following to the neomuttrc:
 
     set editor = 'vim -u ~/.vimrc_alpine'
 
@@ -442,12 +445,13 @@ Here is my .vimrc_alpine:
     " Ragged right line breaks
     set linebreak
 
-I want to read emails in plain text if possible, with the provided plain
-text being used preferentially, and a converted HTML version if plain
-text isn’t available, which I can set using alternative_order .... I
-also want to tell neomutt how to deal with forced HTML emails, which is
-to automatically view them and also to give the path to the .mailcap
-file we created earlier, which uses w3m to parse HTML as plain text:
+I want to read emails in plain text if possible, with the provided
+plain text being used preferentially, and a converted HTML version if
+plain text isn’t available, which I can set using
+alternative_order .... I also want to tell neomutt how to deal with
+forced HTML emails, which is to automatically view them and also to
+give the path to the .mailcap file we created earlier, which uses w3m
+to parse HTML as plain text:
 
     # Read in plain text if possible
     alternative_order text/plain text/html
@@ -458,8 +462,8 @@ file we created earlier, which uses w3m to parse HTML as plain text:
     set send_charset="utf-8"
 
 To allow notmuch to work I need to allow neomutt to create virtual
-folders when searching and also to give the location of the mailbox to
-search (set nm_default_uri ...)
+folders when searching and also to give the location of the mailbox
+to search (set nm_default_uri ...)
 
 I also set up a keybinding to initiate the notmuch search from within
 neomutt as \\
@@ -475,10 +479,11 @@ Other guides that I read recommended that I use crontab to schedule
 offlineimap updates. But on macOS launchd is the proper way to do
 things. macOS uses .plist scripts stored in ~/Library/LaunchAgents to
 designate jobs, which use an XML format. Helpfully, Homebrew services
-can generate .plist scripts for many programs, which can then be amended
-later.
+can generate .plist scripts for many programs, which can then be
+amended later.
 
-To start running Homebrew services, first see what services are listed:
+To start running Homebrew services, first see what services are
+listed:
 
     brew services list
 
@@ -489,8 +494,8 @@ To generate the script to start the service at login:
     brew services start offlineimap
 
 To ensure that notmuch follows behind offlineimap and updates its
-database after every pull from Gmail, I added some extra commands to the
-.plist file which Homebrew services generated:
+database after every pull from Gmail, I added some extra commands to
+the .plist file which Homebrew services generated:
 
     vim ~/Library/LaunchAgents/homebrew.mxcl.offlineimap.plist
 
@@ -505,9 +510,9 @@ Then amend the <array> section so it looks like this:
           <string>new</string>
         </array>
 
-This runs a notmuch new everytime offlineimap runs. The other flags -u
-and quiet tell offlineimap not to print anything to the terminal which
-could disrupt the job running in the background.
+This runs a notmuch new everytime offlineimap runs. The other flags
+-u and quiet tell offlineimap not to print anything to the terminal
+which could disrupt the job running in the background.
 
 
 Guides I used

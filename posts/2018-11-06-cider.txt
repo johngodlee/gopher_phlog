@@ -14,8 +14,8 @@ Fruit:
 -   LS - Lady Sudeley - West Farm
 -   BM - Bramley - David Burk’s
 -   GE - Green Eaters - Mike Cooper’s
--   GD - Green Dessert - Mike Cooper’s - Have a few cooking apples mixed
-    in, maybe 5-10%
+-   GD - Green Dessert - Mike Cooper’s - Have a few cooking apples
+    mixed in, maybe 5-10%
 -   P - Pears - West Farm
 
 Yeast:
@@ -55,9 +55,9 @@ rinsing with cold water.
   {IMAGE}
 
 
-I think we should leave the bottles for another couple of months before
-we start drinking in earnest, as with previous experience I’ve found
-that they get better over time.
+I think we should leave the bottles for another couple of months
+before we start drinking in earnest, as with previous experience I’ve
+found that they get better over time.
 
   {IMAGE}
 

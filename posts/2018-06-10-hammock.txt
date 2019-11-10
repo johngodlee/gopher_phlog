@@ -1,13 +1,14 @@
 Hammock setup - [2018-06-10]
 ==============================
 
-When I went to Peru in the Madre de Dios as a field assistant in 2015 I
-decided on the recommendation of a friend who had been before to camp
-using a hammock rather than a tent. It worked out really well, I was off
-the ground which meant that everything stayed much drier, and one I got
-used to sleeping in the hammock I slept very soundly. I’ve recently
-started sleeping in the hammock again, on little overnight trips at the
-weekends, so I wanted to share what equipment I use and how I use it.
+When I went to Peru in the Madre de Dios as a field assistant in 2015
+I decided on the recommendation of a friend who had been before to
+camp using a hammock rather than a tent. It worked out really well, I
+was off the ground which meant that everything stayed much drier, and
+one I got used to sleeping in the hammock I slept very soundly. I’ve
+recently started sleeping in the hammock again, on little overnight
+trips at the weekends, so I wanted to share what equipment I use and
+how I use it.
 
 This is the equipment that I used when I was in Peru.
 
@@ -33,8 +34,8 @@ This is the equipment that I used when I was in Peru.
   [2x fixed loop tarp fasteners]: https://www.ddhammocks.com/product/fixedloopfasteners?from_cat=5
   [2x 2" aluminium toggles]: http://www.buttinasling.com/aluminum-toggles.html
 
-Here are a few diagram and photos to show how I constructed the hammock
-setup.
+Here are a few diagram and photos to show how I constructed the
+hammock setup.
 
   {IMAGE}
 
@@ -45,12 +46,12 @@ setup.
 
 The hammock
 
-The original design of the Grand Trunk hammock is pretty simplistic, and
-can be improved fairly easily. I removed the original hammock ends and
-threaded through the whoopie slings, which are lighter, stronger and
-more versatile. As I threaded the whoopie slings through I looped
-through the adjustable ridgeline, so the ridgeline couldn’t ever come
-off.
+The original design of the Grand Trunk hammock is pretty simplistic,
+and can be improved fairly easily. I removed the original hammock
+ends and threaded through the whoopie slings, which are lighter,
+stronger and more versatile. As I threaded the whoopie slings through
+I looped through the adjustable ridgeline, so the ridgeline couldn’t
+ever come off.
 
   {IMAGE}
 
@@ -64,62 +65,66 @@ Tarp
 
 To keep the tarp taut, I used fixed loops of cord attached to a
 caribiner on the final eyelet of the tarp which slide along the
-ridgeline that the tarp hangs off. The fixed loops are tied into Prusik
-knots, which are a type of friction knot. The Prusik knot means that the
-loop won’t move unless it is pushed, and the knot becomes tighter the
-more strain is put on the loop. [Here is a good video on how Prusik
-knots work].
+ridgeline that the tarp hangs off. The fixed loops are tied into
+Prusik knots, which are a type of friction knot. The Prusik knot
+means that the loop won’t move unless it is pushed, and the knot
+becomes tighter the more strain is put on the loop. [Here is a good
+video on how Prusik knots work].
 
   [Here is a good video on how Prusik knots work]: https://www.youtube.com/watch?v=CP7iAF_YU7A
 
   {IMAGE}
 
 
-To create the elastic/guyline composite guyropes I used a knot called a
-clove hitch. Basically you make two loops on the guyline, back to back,
-then thread the elastic through both loops and pull tigh. It’s a slippy
-knot, so it’s easy to get out if you release the tension from the
-elastic. Here is a [good example of how to create the knot], and below
-a rough diagram:
+To create the elastic/guyline composite guyropes I used a knot called
+a clove hitch. Basically you make two loops on the guyline, back to
+back, then thread the elastic through both loops and pull tigh. It’s
+a slippy knot, so it’s easy to get out if you release the tension
+from the elastic. Here is a [good example of how to create the
+knot], and below a rough diagram:
 
   [good example of how to create the knot]: https://www.youtube.com/watch?v=Gs9WyrzNjJs
 
   {IMAGE}
 
 
-It’s important to make the guyropes for the tarp elastic so that if the
-wind picks up, the tarp remains tight but doesn’t rip as the tension is
-used up in the elastic section of the guyropes. They also mean that as
-the tarp heats up and cools down it remains tight and doesn’t sag.
+It’s important to make the guyropes for the tarp elastic so that if
+the wind picks up, the tarp remains tight but doesn’t rip as the
+tension is used up in the elastic section of the guyropes. They also
+mean that as the tarp heats up and cools down it remains tight and
+doesn’t sag.
 
   {IMAGE}
 
 
 To adjust guylines for the tarp I used a taut-line hitch, which locks
 until it is moved, below is a diagram that I drew to help me remember
-how to tie the knot, and [here is a site with an animated example] :
+how to tie the knot, and [here is a site with an animated example]
+:
 
   [here is a site with an animated example]: https://www.netknots.com/rope_knots/tautline-hitch
 
   {IMAGE}
 
 
-In an attempt to save weight, I spent a lot of time learning how to use
-various knots to take the place of more heavy hardware options for
-securing things. The only thing that I compromised on was the tree
-straps which, while heavy, are so easy to put up and stop any damage to
-the tree by spreading the weight over a larger area.
+In an attempt to save weight, I spent a lot of time learning how to
+use various knots to take the place of more heavy hardware options
+for securing things. The only thing that I compromised on was the
+tree straps which, while heavy, are so easy to put up and stop any
+damage to the tree by spreading the weight over a larger area.
 
-The most useful knot was the Marlin Spike Hitch, which I used to fit the
-aluminium toggles along the tree straps, through which I could hang the
-end of the hammock. [Here is a good webpage with an animated example of
-how to tie one].
+The most useful knot was the Marlin Spike Hitch, which I used to fit
+the aluminium toggles along the tree straps, through which I could
+hang the end of the hammock. [Here is a good webpage with an animated
+example of how to tie one].
 
-  [Here is a good webpage with an animated example of how to tie one]: http://www.animatedknots.com/marlinspike/
+  [Here is a good webpage with an animated example of how to tie
+  one]: http://www.animatedknots.com/marlinspike/
 
-In order to get the paracord ridgeline for the tarp as tight as possible
-I used a knot that is often used for tying down loads on the back of
-trucks, and is called the Truckers Hitch, or the Lorry Driver’s Flitch.
-[Here is another link to an example of how to tie one].
+In order to get the paracord ridgeline for the tarp as tight as
+possible I used a knot that is often used for tying down loads on the
+back of trucks, and is called the Truckers Hitch, or the Lorry
+Driver’s Flitch. [Here is another link to an example of how to tie
+one].
 
   [Here is another link to an example of how to tie one]: https://www.netknots.com/rope_knots/truckers-hitch

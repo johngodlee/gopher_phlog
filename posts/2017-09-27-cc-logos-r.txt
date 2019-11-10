@@ -1,17 +1,18 @@
 Making Coding Club logos in R - [2017-09-27]
 ==============================================
 
-A previous post showcased the new Coding Club logos that I made for our
-website. Seeing as the website is all about programming in R I thought
-it would be a fruitful exercise to attempt to make a logo template in R,
-using ggplot2. the result is a lot of experimentation with tge graphical
-primitive functions in ggplot2 and a quick dabble in how to import .png
-images and create raster arrays for them in R.
+A previous post showcased the new Coding Club logos that I made for
+our website. Seeing as the website is all about programming in R I
+thought it would be a fruitful exercise to attempt to make a logo
+template in R, using ggplot2. the result is a lot of experimentation
+with tge graphical primitive functions in ggplot2 and a quick dabble
+in how to import .png images and create raster arrays for them in R.
 
-I still haven’t figured out a reliable and intuitive way to create png
-objects of the ggplot2 output, I tried using png() but the proportions
-always went way off and I don’t have time to fiddle with the dimension
-options and all their interactions with the options in ggplot2.
+I still haven’t figured out a reliable and intuitive way to create
+png objects of the ggplot2 output, I tried using png() but the
+proportions always went way off and I don’t have time to fiddle with
+the dimension options and all their interactions with the options in
+ggplot2.
 
 First do the usual, setwd, packages, import data etc.. If you want to
 try and follow along, sample_image.png can be found [here] and the
@@ -82,8 +83,8 @@ point locations on a grid:
     # Text
     text <- c("TEST")
 
-To test all the above works I just plot it as wires, with the points in
-the vectors visible:
+To test all the above works I just plot it as wires, with the points
+in the vectors visible:
 
     # Test
     ggplot() +

@@ -1,14 +1,14 @@
 Updated Mutt config, multiple accounts - [2018-12-15]
 =======================================================
 
-In a long transition away from Google, I made another email account, on
-an email system that values privacy and doesn’t sell information to
-advertisers. That means that for the moment, I now have two email
-accounts. Simultaneously, I thought I would give (Neo)Mutt another go as
-my email client, along with Offlineimap (grabbing mail), notmuch/alot
-(indexing mail), msmtp (sending email), pass (managing passwords), vim
-(writing mail), launchd (scheduling mail sync), and w3m (parsing HTML
-email).
+In a long transition away from Google, I made another email account,
+on an email system that values privacy and doesn’t sell information
+to advertisers. That means that for the moment, I now have two email
+accounts. Simultaneously, I thought I would give (Neo)Mutt another go
+as my email client, along with Offlineimap (grabbing mail),
+notmuch/alot (indexing mail), msmtp (sending email), pass (managing
+passwords), vim (writing mail), launchd (scheduling mail sync), and
+w3m (parsing HTML email).
 
 
 
@@ -77,14 +77,14 @@ This is my current .offlineimaprc:
 accounts = riseup, gmail tells offlineimap that I have two accounts.
 
 The password for each account, defined by remotepasseval is mapped to
-two python functions, found in pythonfile = ~/.offlineimap_pass.py. See
-below in the PASS section for what the pythonfile contains.
+two python functions, found in pythonfile = ~/.offlineimap_pass.py.
+See below in the PASS section for what the pythonfile contains.
 
-The rest I think is self explanatory, except for the name translations.
-This takes the IMAP name for certain default gmail, like
-[Google Mail].Starred, and turns them into names that are easy to read
-in the Neomutt sidebar, like starred. It’s also necessary to change
-these names back in the remote section of the config file.
+The rest I think is self explanatory, except for the name
+translations. This takes the IMAP name for certain default gmail,
+like [Google Mail].Starred, and turns them into names that are easy
+to read in the Neomutt sidebar, like starred. It’s also necessary to
+change these names back in the remote section of the config file.
 
 Lastly, the postsynhook calls notmuch to recompile it’s database,
 checking for new mail. I use notmuch with alot for searching emails
@@ -92,8 +92,8 @@ sometimes. At some point it might be nice to see if I can run alot
 directly from mutt.
 
 To get offlineimap to run every few minutes, to check if I have new
-mail, I use launchd, which is the successor to cron on macOS. I keep a
-script in ~/Library/LaunchAgents/ that looks like this:
+mail, I use launchd, which is the successor to cron on macOS. I keep
+a script in ~/Library/LaunchAgents/ that looks like this:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <plist version="1.0">
@@ -125,18 +125,19 @@ script in ~/Library/LaunchAgents/ that looks like this:
       </dict>
     </plist>
 
-It runs offlineimap in quiet mode (-q, -u basic), every 300 seconds, and
-whenever the computer wakes from sleep or is powered on (RunAtLoad), it
-also pipes error outputs to /dev/null.
+It runs offlineimap in quiet mode (-q, -u basic), every 300 seconds,
+and whenever the computer wakes from sleep or is powered on
+(RunAtLoad), it also pipes error outputs to /dev/null.
 
 
 
 PASS
 
 
-This is the python file I use to call pass to get the passwords for each
-of my email accounts. Basically it just runs pass on the appropriate
-entry, then takes the output and grabs the appropriate line:
+This is the python file I use to call pass to get the passwords for
+each of my email accounts. Basically it just runs pass on the
+appropriate entry, then takes the output and grabs the appropriate
+line:
 
     #!/usr/bin/env python2
 
@@ -295,11 +296,11 @@ Here is my Mutt config, which I keep in ~/.mutt/muttrc:
     # Ask if unsent message should be kept as postponed
     set postpone = ask-yes
 
-It’s mostly a mash up of things I found online, but these are the bits I
-think are interesting.
+It’s mostly a mash up of things I found online, but these are the
+bits I think are interesting.
 
-I use a set of sed manipulations to get the names of mailboxes in both
-my gmail and riseup directories to fill the sidebar, using:
+I use a set of sed manipulations to get the names of mailboxes in
+both my gmail and riseup directories to fill the sidebar, using:
 
     mailboxes `find ~/.mail/* -maxdepth 1 -mindepth 1 | sort | cut -d/ -f5- | sed 's/^/+/' | sed '/notmuch/d' | sed '/INBOX/d' | sed '/riseup/d' | tr '\n' ' '`
 
@@ -318,9 +319,9 @@ use. The extra configs look like this:
         "<delete-message><enter>" \
         "Delete message permanently"
 
-See that set sendmail uses msmtp to send the email, and uses the account
-called gmail. This is what my .msmtprc looks like, which defines those
-accounts:
+See that set sendmail uses msmtp to send the email, and uses the
+account called gmail. This is what my .msmtprc looks like, which
+defines those accounts:
 
     account riseup
     host mail.riseup.net

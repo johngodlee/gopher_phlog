@@ -1,21 +1,22 @@
 Visualising Survey Data with Likert Scales - [2017-09-16]
 ===========================================================
 
-Recently I was offered a small amount of consulting work. A company had
-conducted a survey over Survey Monkey to look at how satisfied and
-engaged their employees were and my job was to analyse these data to try
-and tease out any trends. Finally I had to visualise the data in a way
-that the company could put together in a little report and talk about in
-a meeting. Obviously I can’t show any of the graphs or data that I
-analysed for that job, because of confidentiality laws, so I’ve created
-an example dataset that I can use to demonstrate some of the methods I
-came up with for effectively visualising the data.
+Recently I was offered a small amount of consulting work. A company
+had conducted a survey over Survey Monkey to look at how satisfied
+and engaged their employees were and my job was to analyse these data
+to try and tease out any trends. Finally I had to visualise the data
+in a way that the company could put together in a little report and
+talk about in a meeting. Obviously I can’t show any of the graphs or
+data that I analysed for that job, because of confidentiality laws,
+so I’ve created an example dataset that I can use to demonstrate some
+of the methods I came up with for effectively visualising the data.
 
-I used R to analyse the data, purely because that is what I know, though
-I know the company does the vast majority of their stuff in Excel.
+I used R to analyse the data, purely because that is what I know,
+though I know the company does the vast majority of their stuff in
+Excel.
 
-If you want to follow along you can download the data from [here] and
-an example script from [here][1]
+If you want to follow along you can download the data from [here]
+and an example script from [here][1]
 
   [here]: https://johngodlee.github.io/files/likert/example.csv
   [1]: https://johngodlee.github.io/files/likert/example_likert.R
@@ -39,23 +40,24 @@ load the data into R:
     # Import data
     survey <- read.csv("example.csv")
 
-Then I can have a look at the data and see that Survey Monkey has given
-each respondent a row, each column indicates an answer for a given
-question, e.g. “I would work for comX again - Disagree”, “What type of
-employee are you - Admin”. This means that in any given column many of
-the cells are empty, and it violates one of the golden rules of making a
-table of data, that each column should contain unique data.
+Then I can have a look at the data and see that Survey Monkey has
+given each respondent a row, each column indicates an answer for a
+given question, e.g. “I would work for comX again - Disagree”, “What
+type of employee are you - Admin”. This means that in any given
+column many of the cells are empty, and it violates one of the golden
+rules of making a table of data, that each column should contain
+unique data.
 
 I have no idea why survey monkey thinks this is a good way to format
-their data output, but luckily it’s easy to remedy using some dplyr and
-tidyr magic
+their data output, but luckily it’s easy to remedy using some dplyr
+and tidyr magic
 
 First I need to check for any NA and replace them with blank space:
 
     survey[is.na(survey)] <- ''
 
-Then I need to get rid of the first row which contains the names of the
-answer options for each question, as it’s not useful:
+Then I need to get rid of the first row which contains the names of
+the answer options for each question, as it’s not useful:
 
     survey <- survey %>%
         slice(2:n())
@@ -91,8 +93,8 @@ contains the answers for a unique question:
                 i_am_always_busy_at_comx, my_line_manager_values_my_contributions,
                 i_think_directors_are_paid_the_right_amount)
 
-Now each column has all the answers for a question, and no two columns
-contain data relating to the same question.
+Now each column has all the answers for a question, and no two
+columns contain data relating to the same question.
 
 
 
@@ -128,8 +130,8 @@ centred on zero:
             "agree" = 1,
             "strongly agree" = 2))
 
-Then use this new data frame to create pivot tables for each question,
-showing how each employee group scored:
+Then use this new data frame to create pivot tables for each
+question, showing how each employee group scored:
 
     heirarchy <- c("Director", "Consultant", "HR", "Admin")
     col_names <- names(select(survey_cond, 2:5))
@@ -157,8 +159,8 @@ showing how each employee group scored:
         write.csv(summ_all[[i]], paste("pivot_tables/",names(summ_all[i]), ".csv", sep = ""))
     }
 
-These pivot tables can be investigated later on or used to easily create
-bar charts for each question like the one below:
+These pivot tables can be investigated later on or used to easily
+create bar charts for each question like the one below:
 
     # Read in the pivot table csv
     pivot <- read.csv("pivot_tables/i_am_always_busy_at_comx.csv")
@@ -189,9 +191,9 @@ bar charts for each question like the one below:
 OVERALL QUESTION COMPARISON
 
 
-To see which questions get the worst score overall I can plot them on a
-horizontal bar chart, ordering the bars and colouring them according to
-the score:
+To see which questions get the worst score overall I can plot them on
+a horizontal bar chart, ordering the bars and colouring them
+according to the score:
 
     survey_total_q <- survey_cond_num %>%
     select(1:5) %>%
@@ -239,8 +241,8 @@ most of the score for that question:
   {IMAGE}
 
 
-Finally, I can get a general sense of the satisfaction of each employee
-by seeing the total score given by that employee:
+Finally, I can get a general sense of the satisfaction of each
+employee by seeing the total score given by that employee:
 
     role_total <- survey_cond_num %>%
         select(1:5) %>%
@@ -271,25 +273,26 @@ partitioned in different types of household.
 
 One of the best methods we came up with for graphically representing
 correlations in responses to certain questions and the demographic
-category a person fit into was the bubble plot. I guess if you wanted to
-statistically analyse this data you would use a chi-squared test.
+category a person fit into was the bubble plot. I guess if you wanted
+to statistically analyse this data you would use a chi-squared test.
 
 The fake data for the plot below can be found [here][6] and a lookup
-table for the contents of each question column can be found [here][7].
-The data .csv shows each row as a respondent, along with how many hours
-of housework they do, their gender, the codes for checkboxes they ticked
-of different sustainable activities they did, related to waste
-management and water management, and lastly a self-evaluated measure of
-how much they consider sustainable actions in their day to day life.
+table for the contents of each question column can be found
+[here][7]. The data .csv shows each row as a respondent, along with
+how many hours of housework they do, their gender, the codes for
+checkboxes they ticked of different sustainable activities they did,
+related to waste management and water management, and lastly a
+self-evaluated measure of how much they consider sustainable actions
+in their day to day life.
 
   [6]: https://johngodlee.github.io/files/likert/sust_behaviour.csv
   [7]: https://johngodlee.github.io/files/likert/question_lookup.csv
 
-So I want to make a bubble plot of age vs. how often people think about
-sustainable activities (sustainability_daily_think):
+So I want to make a bubble plot of age vs. how often people think
+about sustainable activities (sustainability_daily_think):
 
-First, make a summary data frame which counts the number of occurrences
-of each unique x y combination:
+First, make a summary data frame which counts the number of
+occurrences of each unique x y combination:
 
     # Load data
     sust_data <- read.csv("sust_behaviour.csv")
@@ -307,9 +310,9 @@ Then make the plot:
   {IMAGE}
 
 
-Another thing I managed to crack was how to make a diverging bar chart
-in ggplot2, so it looks similar to the ones you can make with the [HH
-package].
+Another thing I managed to crack was how to make a diverging bar
+chart in ggplot2, so it looks similar to the ones you can make with
+the [HH package].
 
   [HH package]: https://cran.r-project.org/web/packages/HH/index.html
 

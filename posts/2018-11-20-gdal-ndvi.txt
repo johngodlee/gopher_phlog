@@ -3,9 +3,10 @@ Calculating NDVI from Sentinel 2 images for Bicuar National Park - [2018-11-20]
 
 I recently ventured into trying to make sense of sentinel 2 data,
 multispectral remote sensing imagery. I wanted to calculate NDVI for
-Bicuar National Park, so I could see whether it’s possible to identify
-areas of miombo woodland within the park using variation in the NDVI,
-which you would expect is higher in woodland and lower in grassland.
+Bicuar National Park, so I could see whether it’s possible to
+identify areas of miombo woodland within the park using variation in
+the NDVI, which you would expect is higher in woodland and lower in
+grassland.
 
 I got some cloud free images for the area covering Bicuar and wrote a
 Python script which calculates NDVI, from the red band and near
@@ -97,9 +98,9 @@ infra-red band:
 
       print("DONE")
 
-Then I use gdal to merge each of the resultant .tif files with an NDVI
-band into a single file, then clip that file with the outline of [Bicuar
-National Park].
+Then I use gdal to merge each of the resultant .tif files with an
+NDVI band into a single file, then clip that file with the outline of
+[Bicuar National Park].
 
   [Bicuar National Park]: https://www.protectedplanet.net/#thematic-areas
 
@@ -134,8 +135,8 @@ the park
   {IMAGE}
 
 
-I can also experiment with plotting areas of the park within a certain
-threshold of NDVI
+I can also experiment with plotting areas of the park within a
+certain threshold of NDVI
 
     ndvi_thresh <- ndvi_tif_bicuar[ndvi_tif_bicuar < 0.6] <- NA
 

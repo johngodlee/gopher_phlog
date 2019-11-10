@@ -1,33 +1,33 @@
 urlview to easily handle URLs in the terminal - [2019-10-25]
 ==============================================================
 
-I recently looked at newsboat as a way of reading RSS news feeds on my
-laptop. I use [Feeder] to read the feeds on my android phone and I
-wanted to keep up to date with the same list of feeds on my laptop.
+I recently looked at newsboat as a way of reading RSS news feeds on
+my laptop. I use [Feeder] to read the feeds on my android phone and
+I wanted to keep up to date with the same list of feeds on my laptop.
 That’s not very exciting, there were the usual UI configurations to
-change colours and so on, but then I found that it was quite clumsy to
-act on URLs that I found in posts. Many RSS entries that I read,
-particularly those from Multi-reddits have images attached alongside the
-description text. I could open the whole entry in a web browser by
-pressing o within newsboat, but that seemed like overkill. What I wanted
-to do was download and open only the links I cared about.
+change colours and so on, but then I found that it was quite clumsy
+to act on URLs that I found in posts. Many RSS entries that I read,
+particularly those from Multi-reddits have images attached alongside
+the description text. I could open the whole entry in a web browser
+by pressing o within newsboat, but that seemed like overkill. What I
+wanted to do was download and open only the links I cared about.
 
   [Feeder]: https://f-droid.org/en/packages/com.nononsenseapps.feeder/
 
 I came across [urlview] as a remedy for this problem. urlview
-basically just checks through a text file or STDOUT and finds URLs, then
-presents them to you in a selectable list. With no extra configuration
-it just prints the selected URL to STDOUT, but with a fairly simple
-shell script which defines how different types of URL should be handled,
-it turns into a very neat way of handling URLs in the terminal without
-having to copy and paste them.
+basically just checks through a text file or STDOUT and finds URLs,
+then presents them to you in a selectable list. With no extra
+configuration it just prints the selected URL to STDOUT, but with a
+fairly simple shell script which defines how different types of URL
+should be handled, it turns into a very neat way of handling URLs in
+the terminal without having to copy and paste them.
 
   [urlview]: https://github.com/sigpipe/urlview
 
 I installed urlview with brew install urlview. The configuration file
-for urlview lives in ~/.urlview and can contain instructions for what to
-do with links, in my case a shell script takes care of this, called
-linkhandler and lives in my $PATH. ~/.urlview contains:
+for urlview lives in ~/.urlview and can contain instructions for what
+to do with links, in my case a shell script takes care of this,
+called linkhandler and lives in my $PATH. ~/.urlview contains:
 
     COMMAND linkhandler
 
@@ -51,11 +51,11 @@ The linkhandler looks like this:
 It takes the URL as its first and only argument, provided by urlview
 then depending on the name of the URL it performs different actions
 using a case statement. If the URL ends in common video or audio
-extensions (*mkv, *webm ...) it uses youtube-dl to download the file in
-the URL. If it is an image it wgets it and then opens it in Preview.app,
-and if it’s a .pdf it does the same but opens it in skim. Finally, if
-none of the above tests were true, it simply opens the link in my web
-browser, qutebrowser.
+extensions (*mkv, *webm ...) it uses youtube-dl to download the file
+in the URL. If it is an image it wgets it and then opens it in
+Preview.app, and if it’s a .pdf it does the same but opens it in
+skim. Finally, if none of the above tests were true, it simply opens
+the link in my web browser, qutebrowser.
 
 To use urlview in newsboat I can set some options in
 ~/.config/newsboat/config:
@@ -76,7 +76,7 @@ I can also use it in Mutt by adding this to my muttrc:
 
     macro index,pager U "<enter-command>set pipe_decode = yes<enter><pipe-message>urlview<enter><enter-command>set pipe_decode = no<enter>""view URLs"
 
-and there is a [tmux plugin] as well! Though I haven’t looked at that
-properly yet.
+and there is a [tmux plugin] as well! Though I haven’t looked at
+that properly yet.
 
   [tmux plugin]: https://github.com/tmux-plugins/tmux-urlview

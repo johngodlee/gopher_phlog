@@ -1,13 +1,14 @@
 Analysing BibTeX files in R - [2019-09-12]
 ============================================
 
-I have a master BibTeX file called lib.bib, which contains bibliographic
-information on every paper I’ve read, which pairs with a directory of
-those papers’ .pdf files. I thought it would be fun to see if there were
-patterns in my reading which I could find by analysing lib.bib in R.
+I have a master BibTeX file called lib.bib, which contains
+bibliographic information on every paper I’ve read, which pairs with
+a directory of those papers’ .pdf files. I thought it would be fun to
+see if there were patterns in my reading which I could find by
+analysing lib.bib in R.
 
-I have a bash script which extracts bibliographic information from each
-BibTeX entry and stores it as a text file:
+I have a bash script which extracts bibliographic information from
+each BibTeX entry and stores it as a text file:
 
     #!/bin/bash
 
@@ -28,12 +29,12 @@ publication name.
 
 Extracting author names was the most difficult because names are not
 always formatted the same, especially those names which contain
-{van der} Putten for example, where the actual initial of the surname is
-not v but P in the example above. One interesting trick I found was
-using sed to extract text between the first occurrence of one character,
-and the last occurrence of another character, ignoring repeats of those
-characters. I used this to extract author names between { } despite some
-authors having {van der} in their surname:
+{van der} Putten for example, where the actual initial of the surname
+is not v but P in the example above. One interesting trick I found
+was using sed to extract text between the first occurrence of one
+character, and the last occurrence of another character, ignoring
+repeats of those characters. I used this to extract author names
+between { } despite some authors having {van der} in their surname:
 
     sed 's/.*= {\([^]]*\)},.*/\1/g'
 
@@ -113,10 +114,10 @@ authors (first and co-authors) and the most common first authors:
 
 
 The final plot is a network graph of shared authorship. This isn’t
-perfect. What I would ideally like is to draw ellipses around groups of
-authors on the same paper, to see whether groups of authors tend to
-publish together multiple times, but I couldn’t figure out how to do it
-with an igraph object:
+perfect. What I would ideally like is to draw ellipses around groups
+of authors on the same paper, to see whether groups of authors tend
+to publish together multiple times, but I couldn’t figure out how to
+do it with an igraph object:
 
     ## Create edge list
     authors_list_df <- list()

@@ -1,41 +1,42 @@
 Making a LaTeX Beamer template - [2019-11-10]
 ===============================================
 
-I have a Microsoft Powerpoint presentation template that I like to use
-as a default when making presentations for conference or seminar
+I have a Microsoft Powerpoint presentation template that I like to
+use as a default when making presentations for conference or seminar
 presentations. It takes some of the guess work out of making new
-presentations. The template has a default title page and a very simple
-content page:
+presentations. The template has a default title page and a very
+simple content page:
 
   {IMAGE}
 
 
-I had seen examples of LaTeX Beamer presentations online, though never
-knowingly in the flesh at a conference or in the classroom. Maybe I have
-seen a LaTeX Sweave presentation in an R workshop, but never pure
-Beamer.
+I had seen examples of LaTeX Beamer presentations online, though
+never knowingly in the flesh at a conference or in the classroom.
+Maybe I have seen a LaTeX Sweave presentation in an R workshop, but
+never pure Beamer.
 
-I decided to try and replicate my Powerpoint template as a custom Beamer
-theme.
+I decided to try and replicate my Powerpoint template as a custom
+Beamer theme.
 
-I learned by reading the [Beamer user manual] and from surfing around
-on the internet that Beamer themes are normally split into five files:
+I learned by reading the [Beamer user manual] and from surfing
+around on the internet that Beamer themes are normally split into
+five files:
 
   [Beamer user manual]: 
 
 -   beamercolortheme*.sty - Defines colours
 -   beamerfonttheme*.sty - Defines fonts
 -   beamerinnertheme*.sty - Defines things inside the frame (content)
--   beameroutertheme*.sty - Defines things outside the frame (titles and
-    stuff)
--   beamertheme*.sty - References the other four files and sets global
-    options
+-   beameroutertheme*.sty - Defines things outside the frame (titles
+    and stuff)
+-   beamertheme*.sty - References the other four files and sets
+    global options
 
-The asterisk in each file should be replaced by the name of the custom
-theme.
+The asterisk in each file should be replaced by the name of the
+custom theme.
 
-Each of the five files should start with \mode<presentation> and finish
-with \mode<all>.
+Each of the five files should start with \mode<presentation> and
+finish with \mode<all>.
 
 Starting with colours, this is what I set:
 
@@ -79,8 +80,8 @@ Starting with colours, this is what I set:
 Each of the \definecolor{ lines sets the value of a colour with RGB
 codes.
 
-\setbeamercolor{block title}{fg=white, bg=headerline} uses those defined
-colours to set background and foreground colours for various
+\setbeamercolor{block title}{fg=white, bg=headerline} uses those
+defined colours to set background and foreground colours for various
 beamercolorbox{ elements which have names like block title.
 
 The fonts file is fairly self explanatory
@@ -98,9 +99,9 @@ The fonts file is fairly self explanatory
 
     \mode<all>
 
-The outertheme file required a lot of work to get my custom frame title,
-which I used TiKz to create. I’m new to complex TiKz commands so this
-might not be written very concisely:
+The outertheme file required a lot of work to get my custom frame
+title, which I used TiKz to create. I’m new to complex TiKz commands
+so this might not be written very concisely:
 
     \mode<presentation>
 
@@ -142,22 +143,22 @@ might not be written very concisely:
     \mode<all>
 
 I use \defbeamertemplate*{ to first define the title of each content
-slide, with the frame title underlined with a thick green TiKz line that
-will be the same length on each slide. Then I add an extra bit of
-vertical space to separate the title from the content.
+slide, with the frame title underlined with a thick green TiKz line
+that will be the same length on each slide. Then I add an extra bit
+of vertical space to separate the title from the content.
 
-Next I define the title page, which is a TiKz picture to make the grey
-translucent box which is then filled with a minipage which includes all
-the title content like author and date. Below that, I redefine the
-\maketitle command so that it can take an argument for the background
-image I want to use on the title page and sets it to the background
-template of the slide with \usebackgroundtemplate{. I could have added
-this code to the .tex file for each presentation I make with this custom
-template, but keeping it in the template itself simplifies things in the
-long run and cuts down on code duplication.
+Next I define the title page, which is a TiKz picture to make the
+grey translucent box which is then filled with a minipage which
+includes all the title content like author and date. Below that, I
+redefine the \maketitle command so that it can take an argument for
+the background image I want to use on the title page and sets it to
+the background template of the slide with \usebackgroundtemplate{. I
+could have added this code to the .tex file for each presentation I
+make with this custom template, but keeping it in the template itself
+simplifies things in the long run and cuts down on code duplication.
 
-The inner theme file was more simple, with most items simply inheriting
-from the default Beamer theme:
+The inner theme file was more simple, with most items simply
+inheriting from the default Beamer theme:
 
     \mode<presentation>
 
@@ -217,13 +218,13 @@ from the default Beamer theme:
 \setbeamertemplate{section in toc}[square] etc. set the bullet point
 shapes for itemized lists and the table of contents. Three block
 environments are defined for normal blocks, alert blocks and example
-blocks. The code for each is the same except for the colours. Each block
-command is split into a begin and end command, with the space between
-these two commands being filled with the body of the block. It’s
-basically two beamer color boxes, one for the title of the block and
-directly below it (\nointerlineskip removes an annoying slither of white
-space that is automatically inserted between color boxes) another box
-for the content.
+blocks. The code for each is the same except for the colours. Each
+block command is split into a begin and end command, with the space
+between these two commands being filled with the body of the block.
+It’s basically two beamer color boxes, one for the title of the block
+and directly below it (\nointerlineskip removes an annoying slither
+of white space that is automatically inserted between color boxes)
+another box for the content.
 
 The master file looks like this:
 
@@ -249,10 +250,10 @@ The master file looks like this:
 
     \mode<all>
 
-I set the name of the theme and package, some packages, the other files
-which should be sources, remove the navigation symbols provided by
-Beamer on the output .pdf, set the margins, and set the space between
-paragraphs, which is too small by default.
+I set the name of the theme and package, some packages, the other
+files which should be sources, remove the navigation symbols provided
+by Beamer on the output .pdf, set the margins, and set the space
+between paragraphs, which is too small by default.
 
 Here are some examples of what the template looks like:
 
@@ -317,12 +318,12 @@ And the code used to create those example slides:
 
     \end{document}
 
-I’m fairly happy with how it’s turned out, although it’s certainly not
-going to be easy for me to now riff on the design and do things that are
-out of the ordinary. For example, I quite like to draw diagrams of the
-woodlands I work in, to illustrate variation in canopy structure under
-different environmental conditions, but I would have no idea how to
-achieve that in Beamer:
+I’m fairly happy with how it’s turned out, although it’s certainly
+not going to be easy for me to now riff on the design and do things
+that are out of the ordinary. For example, I quite like to draw
+diagrams of the woodlands I work in, to illustrate variation in
+canopy structure under different environmental conditions, but I
+would have no idea how to achieve that in Beamer:
 
   {IMAGE}
 

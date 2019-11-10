@@ -2,10 +2,10 @@ Vim fold expression for BibTeX files - [2019-07-31]
 =====================================================
 
 I wanted to be able to fold long BibTeX files to display a condensed
-list of the references so I could quickly scan the contents of the file.
-To do this, I created a function in my .vimrc which folds .bib files on
-the @ symbol which prepends each reference entry in the file. THis is
-the excerpt from my .vimrc:
+list of the references so I could quickly scan the contents of the
+file. To do this, I created a function in my .vimrc which folds .bib
+files on the @ symbol which prepends each reference entry in the
+file. THis is the excerpt from my .vimrc:
 
     " Set folding function for bibtex entries
     function! BibTeXFold()

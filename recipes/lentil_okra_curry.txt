@@ -40,8 +40,8 @@ METHOD
 3.  Add cayenne, beans, kale, fresh coriander, carrots, salt
 4.  Stir and bring to boil
 5.  Cover partially and simmer for 20 minutes
-6.  Make curry paste. Combine all ingredients except whole cumin seeds
-    in bowl, crush slightly
+6.  Make curry paste. Combine all ingredients except whole cumin
+    seeds in bowl, crush slightly
 7.  Pour paste into hot pan, add whole cumin seeds,sizzle for 10
     seconds, add paste.
 8.  Cook for ~1.5 minutes

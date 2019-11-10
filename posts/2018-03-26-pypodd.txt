@@ -7,20 +7,20 @@ I made a command line podcast grabber in Python - [2018-03-26]
 
 I’ve been working on and off since around Summer last year, making a
 simplistic command line podcast catching app. I had a go with lots of
-other podcatchers: [upodder], [greg], [podcatcher] and others that
-I can’t remember, but I found them to be just a bit overblown, and many
-had difficulty when RSS feeds were constructed with certain types of
-formatting. So while I was on trying to learn Python I set myself the
-task of writing a little app.
+other podcatchers: [upodder], [greg], [podcatcher] and others
+that I can’t remember, but I found them to be just a bit overblown,
+and many had difficulty when RSS feeds were constructed with certain
+types of formatting. So while I was on trying to learn Python I set
+myself the task of writing a little app.
 
   [upodder]: https://github.com/m3nu/upodder
   [greg]: https://github.com/manolomartinez/greg
   [podcatcher]: https://github.com/doga/podcatcher
 
-In the end, it only took 120 lines of code, which I think is quite good,
-though it doesn’t do anything fancy like let you store databases of
-played episodes, it just lists podcasts through a heirarchical menu
-system and lets you download them one at a time.
+In the end, it only took 120 lines of code, which I think is quite
+good, though it doesn’t do anything fancy like let you store
+databases of played episodes, it just lists podcasts through a
+heirarchical menu system and lets you download them one at a time.
 
 
     #!/usr/local/opt/python/libexec/bin/python
@@ -146,8 +146,8 @@ system and lets you download them one at a time.
             raw_input("Invalid choice, press Enter to try again...")
 
 So basically, it’s just a set of if statements linked to the value of
-user input variables, all wrapped in a big while loop so it continues to
-return to the first level menu unless you tell it to exit.
+user input variables, all wrapped in a big while loop so it continues
+to return to the first level menu unless you tell it to exit.
 
 The structure goes like this, where each number refers to a menu
 requiring user input:

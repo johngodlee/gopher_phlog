@@ -13,7 +13,7 @@ for i in ~/git_proj/johngodlee.github.io/_posts/*.md; do
 	name=$(basename "$i" | cut -f 1 -d '.')
 
 	# Convert post from markdown to plain text
-	pandoc --from markdown --to plain --reference-links --reference-location=block -o posts/$name.txt $i
+	pandoc --from markdown --to plain --columns=69 --reference-links --reference-location=block -o posts/$name.txt $i
     
     # Sanitize plain text
 	sed -i 's/\]\[\]/]/g' posts/$name.txt
@@ -76,7 +76,7 @@ for i in ~/git_proj/recipes/*/*.md; do
 	name=$(basename "$i" | cut -f 1 -d '.')
 
 	# Convert recipe from markdown to plain text
-	pandoc --from markdown --to plain --reference-links --reference-location=block -o recipes/$name.txt $i
+	pandoc --from markdown --to plain --columns=69 --reference-links --reference-location=block -o recipes/$name.txt $i
 done
 
 rm recipes/README.txt

@@ -3,30 +3,30 @@ Comparing forest canopy measurements with a phone lens and an expensive DSLR fis
 
 On my most recent teaching stint as a demonstrator for a 4th year
 undergraduate field course, myself and one of the other demonstrators
-experimented with estimating forest canopy structural metrics like gap
-fraction and Leaf Area Index (LAI) using two different photographic
-methods. The first was a conventional full hemipsherical fisheye lens on
-a DSLR camera, the second was a considerably cheaper fisheye lens
-converter for a smartphone.
+experimented with estimating forest canopy structural metrics like
+gap fraction and Leaf Area Index (LAI) using two different
+photographic methods. The first was a conventional full hemipsherical
+fisheye lens on a DSLR camera, the second was a considerably cheaper
+fisheye lens converter for a smartphone.
 
-We took 10 photos with the same orientation at the same height under a
-stand of Ash-Birch mixed plantation. I cropped the images so each set of
-paired images captured approximately the same area of canopy.
-
-  {IMAGE}
-
+We took 10 photos with the same orientation at the same height under
+a stand of Ash-Birch mixed plantation. I cropped the images so each
+set of paired images captured approximately the same area of canopy.
 
   {IMAGE}
 
 
-One issue was that the phone fisheye converter tended to move around on
-the body of the phone, leading to the edges of the fisheye frame being
-distorted or excluded from the phone’s frame. This meant that to
-maintain consistency between the angle of view cpatured by each photo,
-all photos had to be cropped to approximately (DEGREES) field of view.
-To see whether this excess cropping affected estimations of LAI or gap
-fraction, I compared photos from the DSLR camera, cropped to different
-proportional circular crops:
+  {IMAGE}
+
+
+One issue was that the phone fisheye converter tended to move around
+on the body of the phone, leading to the edges of the fisheye frame
+being distorted or excluded from the phone’s frame. This meant that
+to maintain consistency between the angle of view cpatured by each
+photo, all photos had to be cropped to approximately (DEGREES) field
+of view. To see whether this excess cropping affected estimations of
+LAI or gap fraction, I compared photos from the DSLR camera, cropped
+to different proportional circular crops:
 
     phone_px_rad <- 2460 / 2
     camera_px_rad <- 3925 / 2

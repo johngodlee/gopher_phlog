@@ -1,8 +1,8 @@
 Making arty renders of Belize's rivers - [2018-07-01]
 =======================================================
 
-My partner spends a lot of time in Belize for work and was looking for
-something to hang on her wall as a piece of art. I thought that a
+My partner spends a lot of time in Belize for work and was looking
+for something to hang on her wall as a piece of art. I thought that a
 stylised map of Belize could make a nice minimalist piece of art, but
 because I have no artistic skills, I decided to do it using R.
 
@@ -15,9 +15,9 @@ I got some shapefiles to start with:
   [A simple global river bankfull width and depth database]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/wrcr.20440
   [GADM Data]: https://gadm.org/download_country_v3.html
 
-I also experimented with other shapefiles of rivers in Belize, but the
-one above is the one I preferred, mainly because it has slightly angular
-lines. These are the other sources I looked at:
+I also experimented with other shapefiles of rivers in Belize, but
+the one above is the one I preferred, mainly because it has slightly
+angular lines. These are the other sources I looked at:
 
 -   [Meerman 2015]
 -   [Digital Chart of the World - Inland Water]
@@ -28,8 +28,8 @@ lines. These are the other sources I looked at:
   {IMAGE}
 
 
-Here is the R code that I used to create the map output. I saved it as
-an svg for printing and also as a png for previewing:
+Here is the R code that I used to create the map output. I saved it
+as an svg for printing and also as a png for previewing:
 
     # Packages ----
     library(rgdal)

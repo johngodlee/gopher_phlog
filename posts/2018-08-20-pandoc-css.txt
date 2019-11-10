@@ -1,18 +1,18 @@
 Pandoc CSS templates - [2018-08-20]
 =====================================
 
-This is a showcase of different CSS templates which I have adapted for
-use in Pandoc when converting from Markdown to HTML. Where credit is due
-for the original css file I’ve included it in the CSS file.
+This is a showcase of different CSS templates which I have adapted
+for use in Pandoc when converting from Markdown to HTML. Where credit
+is due for the original css file I’ve included it in the CSS file.
 
-All the CSS templates and the raw html for inspection can be downloaded
-from [here].
+All the CSS templates and the raw html for inspection can be
+downloaded from [here].
 
   [here]: https://johngodlee.github.io/files/pandoc_css/pandoc_css.zip
 
 I normally use the templates in the following way to get a truly
-standalone .html file, which I can then email if necessary, or convert
-to a pdf using wkhtmltopdf:
+standalone .html file, which I can then email if necessary, or
+convert to a pdf using wkhtmltopdf:
 
     style={style.css}
 
@@ -135,8 +135,8 @@ TYPEWRITER
 CREATING THE IMAGES
 
 
-For interest’s sake, this is the short bash script I used to loop over
-the css files to make the screenshots seen above:
+For interest’s sake, this is the short bash script I used to loop
+over the css files to make the screenshots seen above:
 
     #!/bin/bash 
 
@@ -147,10 +147,10 @@ the css files to make the screenshots seen above:
     done
 
 Note that all of the .css files are wrapped in a
-<style type="text/css"> ... </style>, which doesn’t make any difference
-to the way the stylsheet functions, but meas that I can use the -H flag
-in pandoc to add the stylesheet contents to the head of the .html file,
-making it truly standalone.
+<style type="text/css"> ... </style>, which doesn’t make any
+difference to the way the stylsheet functions, but meas that I can
+use the -H flag in pandoc to add the stylesheet contents to the head
+of the .html file, making it truly standalone.
 
 The contents of test.md:
 

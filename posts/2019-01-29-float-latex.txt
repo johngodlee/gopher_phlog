@@ -1,20 +1,21 @@
 Using the LaTeX 'float' package with Pandoc - [2019-01-29]
 ============================================================
 
-When I convert markdown documents to pdf files using LaTeX and Pandoc,
-LaTeX is very helpful at placing images optimally to minimise
+When I convert markdown documents to pdf files using LaTeX and
+Pandoc, LaTeX is very helpful at placing images optimally to minimise
 whitespace. a basic pandoc command might look like this:
 
     pandoc -f markdown -t latex  -o output.pdf input.md
 
 The issue is, when I’m using pandoc with markdown, I often don’t care
-about the placement of images. I’m normally making short documents for
-note-taking or something like that. As a result, I normally place images
-in the text in the place I want them to appear in the pdf output.
+about the placement of images. I’m normally making short documents
+for note-taking or something like that. As a result, I normally place
+images in the text in the place I want them to appear in the pdf
+output.
 
 After a bit of googling for inspiration, I found two methods of doing
-this. The first, is very simple and tells pandoc not to create figures,
-but instead just to include images inline.
+this. The first, is very simple and tells pandoc not to create
+figures, but instead just to include images inline.
 
     pandoc -f markdown-implicit_figures -t pdf -o output.pdf input.md
 
@@ -22,13 +23,13 @@ This is fine, but it removes centering on the images, and removes the
 option for me to include a caption with
 ![CAPTION HERE](img/diagram.png).
 
-A better option I think, is to allow LaTeX to use the float package in
-order to place images using attributes such as [H] to force images to
-appear where they appear in the source.
+A better option I think, is to allow LaTeX to use the float package
+in order to place images using attributes such as [H] to force images
+to appear where they appear in the source.
 
 I already have a LaTeX template that I use for pandoc, called
-simple_doc.latex. It lives in ~/.pandoc/templates/ so it can be linked
-to easily in pandoc commands.
+simple_doc.latex. It lives in ~/.pandoc/templates/ so it can be
+linked to easily in pandoc commands.
 
 The relevant piece of simple_doc.latex is:
 

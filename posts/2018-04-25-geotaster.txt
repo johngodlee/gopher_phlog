@@ -2,8 +2,8 @@ A workshop on Git for version control - [2018-04-25]
 ======================================================
 
 I have been writing a workshop for the Edinburgh University School of
-GeoSciences GeoTaster sessions, all about using Git on the command line
-for research. The workshop can be found here:
+GeoSciences GeoTaster sessions, all about using Git on the command
+line for research. The workshop can be found here:
 
 [GeoTaster Git Workshop]
 

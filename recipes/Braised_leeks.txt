@@ -19,6 +19,7 @@ Methods
 
 1.  Trim the tops and tails of the leeks, strip off outer layers
 2.  Cut down the length about 2/3 of the length, leaving the bottom
-3.  Add all ingredients to deep frying pan, season with salt and pepper
+3.  Add all ingredients to deep frying pan, season with salt and
+    pepper
 4.  Add leeks to the pan, simmer gently for ~15-20 minutes until very
     tender

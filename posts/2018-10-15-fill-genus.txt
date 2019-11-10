@@ -3,11 +3,11 @@ An R function to fill abbreviated genus names in a list of species - [2018-10-15
 
 I had a list of species names written up by a colleague, but the
 colleague had abbreviated subsequent adjacent instances of a genus in
-the list to the first letter of the genus with a dot after it, which is
-common in written prose, but is pretty daft in a dataset.
+the list to the first letter of the genus with a dot after it, which
+is common in written prose, but is pretty daft in a dataset.
 
-Instead of going through and manually writing in all the genus names, I
-wrote a function in R to do it for me:
+Instead of going through and manually writing in all the genus names,
+I wrote a function in R to do it for me:
 
     fill.genus <- function(x, abbrev = "."){
         rel_enc <- rle(as.character(x))

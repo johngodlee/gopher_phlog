@@ -1,26 +1,28 @@
 Customising plots drawn to estimate pairwise marginal means comparisons with emmeans::pwpp() - [2019-08-07]
 =============================================================================================================
 
-For a paper I’ve been writing I was running linear mixed effects models
-with categorical fixed effects to compare the amount of pine weevil
-damage present in different forest sites. To evaluate my models, I
-wanted to run pairwise comparisons between sites in the model to see
-which sites were significantly different. I decided to run a Tukey’s HSD
-(Honestly Significant Difference) test on Estimated Marginal Means of
-sites in the model. I’m doing my analysis in R, so all the code is R
-code.
+For a paper I’ve been writing I was running linear mixed effects
+models with categorical fixed effects to compare the amount of pine
+weevil damage present in different forest sites. To evaluate my
+models, I wanted to run pairwise comparisons between sites in the
+model to see which sites were significantly different. I decided to
+run a Tukey’s HSD (Honestly Significant Difference) test on Estimated
+Marginal Means of sites in the model. I’m doing my analysis in R, so
+all the code is R code.
 
-I used emmeans::emmeans() to calculate the EMMs, which returns a special
-object of class emmGrid. emmeans::pwpp() is a handy function to create
-and plot the results from a Tukey’s HSD (or other test method) pairwise
-comparison of the EMMs, with P-value along the x axis and categories
-along the y axis. Lines connect pairwise categories and are placed along
-the x axis to denote the significance of their difference.
+I used emmeans::emmeans() to calculate the EMMs, which returns a
+special object of class emmGrid. emmeans::pwpp() is a handy function
+to create and plot the results from a Tukey’s HSD (or other test
+method) pairwise comparison of the EMMs, with P-value along the x
+axis and categories along the y axis. Lines connect pairwise
+categories and are placed along the x axis to denote the significance
+of their difference.
 
-The basic plot is fine, and is certainly useful for interpretation, but
-I want to include the plots in my paper and they look a bit too much
-like the ggplot() default. The plotting method also makes it difficult
-to customise the plot. The basic code to produce the plot is below:
+The basic plot is fine, and is certainly useful for interpretation,
+but I want to include the plots in my paper and they look a bit too
+much like the ggplot() default. The plotting method also makes it
+difficult to customise the plot. The basic code to produce the plot
+is below:
 
     # Packages
     library(glmmTMB)
@@ -48,9 +50,9 @@ The plot looks like this:
   {IMAGE}
 
 
-As the object pwpp_results is a glorified ggplot() object, it’s possible
-to extract the data used to make the plot and store it in tidy
-dataframes:
+As the object pwpp_results is a glorified ggplot() object, it’s
+possible to extract the data used to make the plot and store it in
+tidy dataframes:
 
     # Extract data from plot object
     marg_vals <- data.frame(
@@ -67,8 +69,8 @@ marg_vals holds data on the marginal values for each category, which
 appear as labels down the left hand side of the plot. p_vals contains
 data for drawing the lines.
 
-I also wanted to create a colour palette for my customised plot, which I
-made [here, at Colorgorical]:
+I also wanted to create a colour palette for my customised plot,
+which I made [here, at Colorgorical]:
 
   [here, at Colorgorical]: http://vrl.cs.brown.edu/color
 
@@ -102,12 +104,13 @@ I can then create the plot:
       scale_colour_manual(values = site_pal) + 
       coord_trans(x = "log10", clip = "off")
 
-geom_segment draws the lines. Each line is actually composed of two line
-segments which meet at p_vals$midpt and are coloured according to the
-opposite point.
+geom_segment draws the lines. Each line is actually composed of two
+line segments which meet at p_vals$midpt and are coloured according
+to the opposite point.
 
-geom_label plots the marginal values, which are placed at x = 0.01 and
-are right aligned so they are unlikely to overlap a comparison line.
+geom_label plots the marginal values, which are placed at x = 0.01
+and are right aligned so they are unlikely to overlap a comparison
+line.
 
 geom_vline denotes the p = 0.05 significance line.
 
@@ -117,11 +120,11 @@ reading the graph and matching line ends with categories.
 scale_x_continuous marks breaks for a number of common significance
 thresholds.
 
-coord_trans log transforms the x axis so that lines near the low end of
-the P value scale are more spaced out, as they are more important for
-interpretation, clip = "off" ensures that the full range of P values is
-shown, so plots are interpretable across models with different
-categories.
+coord_trans log transforms the x axis so that lines near the low end
+of the P value scale are more spaced out, as they are more important
+for interpretation, clip = "off" ensures that the full range of P
+values is shown, so plots are interpretable across models with
+different categories.
 
 The final plot looks like this:
 

@@ -1,8 +1,8 @@
 Notes on diversity indices - [2019-09-05]
 ===========================================
 
-I wrote some notes on common diversity indices while I was demonstrating
-on a field course as I wanted to understand the maths behind them
-better. Those notes can be found [here].
+I wrote some notes on common diversity indices while I was
+demonstrating on a field course as I wanted to understand the maths
+behind them better. Those notes can be found [here].
 
   [here]: https://johngodlee.github.io/files/shannon/index.pdf

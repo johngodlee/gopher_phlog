@@ -1,7 +1,8 @@
 Plotting a semi-variogram fit in ggplot2 - [2019-07-12]
 =========================================================
 
-The default output of variogram() from the {gstat} package looks fine:
+The default output of variogram() from the {gstat} package looks
+fine:
 
   {IMAGE}
 
@@ -31,8 +32,8 @@ Now to grab values from semivar and semivar_fit for ggplot2:
 
     semivar_fit_fort <- variogramLine(semivar_fit, maxdist = max(semivar$dist))
 
-And then plot the relevant columns from semivar and semivar_fit_fort in
-ggplot():
+And then plot the relevant columns from semivar and semivar_fit_fort
+in ggplot():
 
     ggplot() +
       geom_point(data = semivar, aes(x = dist, y = gamma)) +

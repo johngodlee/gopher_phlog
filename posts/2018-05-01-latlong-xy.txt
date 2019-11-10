@@ -11,12 +11,12 @@ presumably these plots were done with a set of tape measures.
 
   [SEOSAW network]: https://seosaw.github.io
 
-I can’t easily compare plots with these different methods and it’s good
-to be consistent, so I set about writing a function in R that can take
-stem locations and plot corner loctions in latitude/longitude
-coordinates and convert them to rought X Y metre coordinates. The
-function can be found below, and also [here]. This is what I came up
-with:
+I can’t easily compare plots with these different methods and it’s
+good to be consistent, so I set about writing a function in R that
+can take stem locations and plot corner loctions in
+latitude/longitude coordinates and convert them to rought X Y metre
+coordinates. The function can be found below, and also [here]. This
+is what I came up with:
 
   [here]: https://johngodlee.github.io/files/latlong_xy/latlong_xy_function.R
 

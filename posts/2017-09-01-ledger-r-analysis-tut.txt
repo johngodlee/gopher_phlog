@@ -1,48 +1,50 @@
 Analysing Ledger Personal Accounting Data Using R - [2017-09-01]
 ==================================================================
 
-[Ledger] (aka Ledger-CLI) provides a great framework to keep track of
-your personal finances. Keeping your data in plain text format provides
-multiple benefits:
+[Ledger] (aka Ledger-CLI) provides a great framework to keep track
+of your personal finances. Keeping your data in plain text format
+provides multiple benefits:
 
   [Ledger]: http://ledger-cli.org
 
--   You can read the file without any fancy programs, just a text editor
--   Even if Ledger stops being maintained, you can still use the journal
-    file
--   The file can be interpreted using many other programming languages,
-    like R!
+-   You can read the file without any fancy programs, just a text
+    editor
+-   Even if Ledger stops being maintained, you can still use the
+    journal file
+-   The file can be interpreted using many other programming
+    languages, like R!
 
-To properly visualise how my finances are changing over time however, I
-find the text based reports provided by ledger-cli a bit dense and
+To properly visualise how my finances are changing over time however,
+I find the text based reports provided by ledger-cli a bit dense and
 fiddly.
 
-This post might be an exercise in reinventing the wheel. Ledger already
-has a decent [web-based reporting system] that can provide pretty
-graphs and lots of other ledger-like apps that can do similar. But my
-language of choice for making pretty graphs and manipulating data is
-‘R’, so I’m going to use that.
+This post might be an exercise in reinventing the wheel. Ledger
+already has a decent [web-based reporting system] that can provide
+pretty graphs and lots of other ledger-like apps that can do similar.
+But my language of choice for making pretty graphs and manipulating
+data is ‘R’, so I’m going to use that.
 
   [web-based reporting system]: https://github.com/ledger/ledger-web
 
-Most of the code below is actually data manipulation, which I’ve chosen
-to do with the dplyr package, creating the plots in ggplot2 isn’t too
-taxing. I’ve created an example script [here] and you can find the
-example .ledger.journal file I used [here][1]
+Most of the code below is actually data manipulation, which I’ve
+chosen to do with the dplyr package, creating the plots in ggplot2
+isn’t too taxing. I’ve created an example script [here] and you can
+find the example .ledger.journal file I used [here][1]
 
   [here]: https://johngodlee.github.io/files/ledger/ledger_journal_analysis.R
   [1]: https://johngodlee.github.io/files/ledger/example_ledger.journal
 
-Firstly, export your ledger journal file (.ledger.journal) as a .csv in
-the terminal, the name and filepath of your journal file might be
+Firstly, export your ledger journal file (.ledger.journal) as a .csv
+in the terminal, the name and filepath of your journal file might be
 different:
 
     touch ledger.csv
 
     ledger csv -f ~/.ledger.journal > ledger.csv
 
-And that’s the last thing we’ll be doing in the shell, everything else
-will be in R. So fire up an R session to start analysing the data.
+And that’s the last thing we’ll be doing in the shell, everything
+else will be in R. So fire up an R session to start analysing the
+data.
 
 Firstly set the working directory, import the csv file and load some
 packages:
@@ -94,8 +96,8 @@ found in the [ledger-cli example journal], e.g.:
      ┣Bills
      ┗Mortgage
 
-For instance if I had to pay a bill in ledger, the journal entry might
-look like this:
+For instance if I had to pay a bill in ledger, the journal entry
+might look like this:
 
     2017/12/06 Electricity bill
         Assets:Checking         $-65.51
@@ -176,9 +178,9 @@ Last 30 days income/expenses summary
 
 
 Creating this plot was fun, I had a go at using ifelse() arguments
-inside the ggplot() call in order to change the position of an error bar
-and text (which I’ve used to show deficit) depending on whether I’ve
-made a net gain or loss that month.
+inside the ggplot() call in order to change the position of an error
+bar and text (which I’ve used to show deficit) depending on whether
+I’ve made a net gain or loss that month.
 
     # Create summary dataframe
     ledger_30d_summ <- ledger_cumsum %>%
@@ -208,7 +210,7 @@ made a net gain or loss that month.
         xlab("Expense/Income") + 
         ylab("Amount ($)") 
 
-Now that I’ve defined all these plots, it shouldn’t take too much effort
-to turn them into a basic Shiny app that I can load up in my web
-browser, or run a script that saves the plots as images on my computer
-so I can look at them later.
+Now that I’ve defined all these plots, it shouldn’t take too much
+effort to turn them into a basic Shiny app that I can load up in my
+web browser, or run a script that saves the plots as images on my
+computer so I can look at them later.

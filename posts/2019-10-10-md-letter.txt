@@ -1,14 +1,15 @@
 A Pandoc template for converting markdown letters to LaTeX PDFs - [2019-10-10]
 ================================================================================
 
-On my current trend of loving LaTeX, I have been writing letters which I
-needed to print and send in the post in LaTeX. But, this seemed like
-overkill, especially since letters are almost always plain text and lots
-of aspects are reused such as the address header. Markdown is what I use
-to write plain text notes, but LaTeX formatted PDFs look pretty, so I
-came up with a template for converting Markdown formatted letters into
-PDFs, via pandoc, with LaTeX. The template lives in
-~/.pandoc/templates/letter.tex and can be used like this:
+On my current trend of loving LaTeX, I have been writing letters
+which I needed to print and send in the post in LaTeX. But, this
+seemed like overkill, especially since letters are almost always
+plain text and lots of aspects are reused such as the address header.
+Markdown is what I use to write plain text notes, but LaTeX formatted
+PDFs look pretty, so I came up with a template for converting
+Markdown formatted letters into PDFs, via pandoc, with LaTeX. The
+template lives in ~/.pandoc/templates/letter.tex and can be used like
+this:
 
     pandoc letter.md --template=letter.tex -o letter.pdf
 
@@ -82,7 +83,7 @@ like the address and the sign-off:
     This is the body of my letter it will say some stuff that hopefully will be formatted in multiple gorgeous paragraphs. I have a pen a laptop a sticky note an apple a computer screen a phone a handkerchief a desk a mouse a keyboard.
 
 $if(address)$ is an if statement that tests whether the YAML variable
-address exists. If it does, each element of address is placed inside a
-LaTeX \address{} command, separated by \\ to trigger a new line, using
-$for(address)$ and $endfor$ as the Pandoc equivalent of a for loop. The
-other $if(..)$ statements work in the same way.
+address exists. If it does, each element of address is placed inside
+a LaTeX \address{} command, separated by \\ to trigger a new line,
+using $for(address)$ and $endfor$ as the Pandoc equivalent of a for
+loop. The other $if(..)$ statements work in the same way.

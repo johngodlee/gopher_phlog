@@ -2,10 +2,10 @@ New hemispherical photography equipment - [2018-04-15]
 ========================================================
 
 Last week I took delivery of a bundle of camera equipment that we are
-going to use to take pictures of woodland canopies, in order to quantify
-canopy density and understorey light environment. I’m hoping that this
-short post can guide somewhat on what makes a good hemispherical
-photography setup for research.
+going to use to take pictures of woodland canopies, in order to
+quantify canopy density and understorey light environment. I’m hoping
+that this short post can guide somewhat on what makes a good
+hemispherical photography setup for research.
 
 
 
@@ -24,8 +24,8 @@ A LIST OF IDEAL HEMISPHERICAL PHOTOGRAPHY EQUIPMENT
 -   A sturdy tripod
     -   Can extend to a height of at least 1.5 m
     -   Has the ability to angle the camera directly upwards
--   Some sort of 3 axis spirit level that fits onto the camera, not the
-    tripod
+-   Some sort of 3 axis spirit level that fits onto the camera, not
+    the tripod
     -   e.g. one that fits into the camera body hotshoe
 -   USB SD card reader
 -   2 large SD cards

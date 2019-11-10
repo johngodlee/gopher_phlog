@@ -4,10 +4,10 @@ Task management macros in Vim - [2019-05-25]
 I’m slowly trying to emulate parts of the [Emacs Org-mode syntax].
 Particularly, when I write TODO lists, having [ ] or [*] at the
 beginning of a line to indicate whether that task is ‘pending’ or
-‘done’, respectively. I’m not ready to dive straight into a Vim Org-mode
-plugin, but I have started to write little functions to make editing the
-files slightly more efficient. One such keybinding is simply to toggle
-whether a task is marked as ‘done’ or ‘pending’:
+‘done’, respectively. I’m not ready to dive straight into a Vim
+Org-mode plugin, but I have started to write little functions to make
+editing the files slightly more efficient. One such keybinding is
+simply to toggle whether a task is marked as ‘done’ or ‘pending’:
 
   [Emacs Org-mode syntax]: https://orgmode.org/guide/
 
@@ -28,19 +28,19 @@ The keybinding applies to text and markdown files and is called by
 <Leader>d. This calls a function named ToggleTask(). The function
 searches the current cursor line to see if it contains [*] and if it
 does, replaces it with [ ], then if [*] isn’t found it does the
-opposite, searching for [ ] and changing it to [*], finally if neither
-of the abov regexes are matched, a message echom is displayed stating
-that the cursor line is not a task.
+opposite, searching for [ ] and changing it to [*], finally if
+neither of the abov regexes are matched, a message echom is displayed
+stating that the cursor line is not a task.
 
-Similarly, I have the line below which makes a line a task line simply
-by prepending it with [ ]:
+Similarly, I have the line below which makes a line a task line
+simply by prepending it with [ ]:
 
     autocmd Filetype text,markdown nnoremap <Leader>T :s/^/[ ] /g <CR>
 
-These aren’t perfect by any stretch, it would be nicer to roll the whole
-lot into a more intelligent single function that can toggle between ‘not
-a task’, ‘task to do’, ‘finished task’, that would also take into
-account common line prefixes like enumerated lists.
+These aren’t perfect by any stretch, it would be nicer to roll the
+whole lot into a more intelligent single function that can toggle
+between ‘not a task’, ‘task to do’, ‘finished task’, that would also
+take into account common line prefixes like enumerated lists.
 
 
 

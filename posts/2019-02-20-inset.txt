@@ -1,20 +1,20 @@
 Making inset maps for publication - [2019-02-20]
 ==================================================
 
-In scientific publications, often there is a map to describe the study
-location. For example in Burton et al. (2013), which is the first
-publication I found with an inset map by searching for the key word
-“inset map”.
+In scientific publications, often there is a map to describe the
+study location. For example in Burton et al. (2013), which is the
+first publication I found with an inset map by searching for the key
+word “inset map”.
 
   {IMAGE}
 
 
 I wanted to be able to make these maps directly in R, rather than
-manually exporting each map image and overlaying them in PowerPoint or
-Photoshop. The maps I make are in {ggplot2}, so the examples here all
-use ggplot2. The example involves making a map of Angola and adding some
-points of key cities, then adding an inset map showing the location of
-Angola in the world.
+manually exporting each map image and overlaying them in PowerPoint
+or Photoshop. The maps I make are in {ggplot2}, so the examples here
+all use ggplot2. The example involves making a map of Angola and
+adding some points of key cities, then adding an inset map showing
+the location of Angola in the world.
 
 First, load some packages:
 
@@ -30,8 +30,8 @@ Then create fortified polygons by grabbing country data from
     angola <- world[world@data$ADMIN == "Angola", ]
     angola_f <- fortify(angola)
 
-Then, make the inset world map, by wrapping the normal ggplot() call in
-ggplotGrob():
+Then, make the inset world map, by wrapping the normal ggplot() call
+in ggplotGrob():
 
     world_grob <- ggplotGrob(
         ggplot() + 
@@ -42,8 +42,8 @@ ggplotGrob():
         theme(panel.background = element_rect(fill = "white", colour = "black"))
     )
 
-This saves the ggplot object in a format that can be added later as an
-annotation_custom().
+This saves the ggplot object in a format that can be added later as
+an annotation_custom().
 
 Then, create some city location data:
 
@@ -63,17 +63,17 @@ locations added as geom_point():
         coord_quickmap() +
         labs(x = "Longitude", y = "Latitude")
 
-Finally, plot angola_ggplot again, using annotation_custom() to add the
-world_grob:
+Finally, plot angola_ggplot again, using annotation_custom() to add
+the world_grob:
 
     angola_ggplot +
         annotation_custom(grob = world_grob,
             xmin = 18, xmax = 26,
             ymin = -9, ymax = -4)
 
-annotation_custom() allows you to set the x and y location of the grob,
-using the coordinate system on the base plot, which in this case is
-decimal latitude and longitude.
+annotation_custom() allows you to set the x and y location of the
+grob, using the coordinate system on the base plot, which in this
+case is decimal latitude and longitude.
 
   {IMAGE}
 

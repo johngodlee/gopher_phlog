@@ -5,15 +5,15 @@ I’ve been wanting to write up my recipes into a book for a while, but
 for the longest time I couldn’t find a decent way to automate the
 process, and I wasn’t about to do it manually. Then I found out about
 [gitbooks], which are normally used for online documentation by the
-looks of it, but seemed perfect for my needs. THe following is a short
-post about how I used gitbooks and why I think they are great for
-keeping recipe books, scrapbooks, journals, etc.
+looks of it, but seemed perfect for my needs. THe following is a
+short post about how I used gitbooks and why I think they are great
+for keeping recipe books, scrapbooks, journals, etc.
 
   [gitbooks]: https://github.com/GitbookIO/gitbook
 
 I have all my recipes as markdown files nested inside folders like
-Dessert and Bread/Foccacia. A tree command of my recipes folder reveals
-something like this:
+Dessert and Bread/Foccacia. A tree command of my recipes folder
+reveals something like this:
 
     Recipes
         ├── Dessert
@@ -55,10 +55,10 @@ Each .md file looks like this:
     9. Score and dust with flour
     10. Bake at 180C for 35-40 minutes
 
-At first I tried using pandoc to compile all of the files together as a
-.html or .pdf, and that worked to a degree. I came up with this little
-bash script to compile the files when I was in the root of the Recipes
-folder:
+At first I tried using pandoc to compile all of the files together as
+a .html or .pdf, and that worked to a degree. I came up with this
+little bash script to compile the files when I was in the root of the
+Recipes folder:
 
     #!/bin/bash
 
@@ -68,40 +68,41 @@ folder:
     # Concatenate .pdf files
     pdfjoin */*.pdf
 
-This dives into each directory in turn, makes one .pdf per directory and
-gives it a title page, then joins them all together, so I end up with a
-book that has chapters named according to the folder the recipes were
-in. Not bad, but a couple of things kapt me unsatisfied. First, where a
-recipe is short, another recipe would get tacked onto the bottom,
-whereas really I would have liked a page break after each recipe.
-Second, the table of contents appears for each chapter, whereas I would
-have liked one table of contents.
+This dives into each directory in turn, makes one .pdf per directory
+and gives it a title page, then joins them all together, so I end up
+with a book that has chapters named according to the folder the
+recipes were in. Not bad, but a couple of things kapt me unsatisfied.
+First, where a recipe is short, another recipe would get tacked onto
+the bottom, whereas really I would have liked a page break after each
+recipe. Second, the table of contents appears for each chapter,
+whereas I would have liked one table of contents.
 
   {IMAGE}
 
 
 So for a long time this little project sat at the bottom of my to do
-list, waiting for a better option to come along. That’s when I found out
-about gitbook.
+list, waiting for a better option to come along. That’s when I found
+out about gitbook.
 
-I actually found out about AsciiDoc first, a friend showed me how they
-had been using AsciiDoc to make manuals for some software they had been
-writing, and was due to be distributed around their department in a few
-weeks. But I found that AsciiDoc works much better with the AsciiDoc
-markup language, whereas I already had all my recipes written in
-markdown, so I did some googling and quickly came up with gitbook, which
-seems to be built with markdown and git control in mind. It actually
-reminded me a lot of Jekyll in the way it works, which I use to make
-websites, so it was a good fit.
+I actually found out about AsciiDoc first, a friend showed me how
+they had been using AsciiDoc to make manuals for some software they
+had been writing, and was due to be distributed around their
+department in a few weeks. But I found that AsciiDoc works much
+better with the AsciiDoc markup language, whereas I already had all
+my recipes written in markdown, so I did some googling and quickly
+came up with gitbook, which seems to be built with markdown and git
+control in mind. It actually reminded me a lot of Jekyll in the way
+it works, which I use to make websites, so it was a good fit.
 
-The first thing I needed to do was install gitbook on the command line:
+The first thing I needed to do was install gitbook on the command
+line:
 
     npm install gitbook-cli -g
 
 Then because I already have all my markdown files. All I needed to do
 was make a SUMMARY.md in the root directory, then build the book. But
-building a SUMMARY.md isn’t trivial, and in fact can be very tedious.So
-I installed another npm package to help with that:
+building a SUMMARY.md isn’t trivial, and in fact can be very
+tedious.So I installed another npm package to help with that:
 
     npm install 
 
@@ -123,13 +124,13 @@ A SUMMARY.md looks like this:
         * [Baked Pumpkin With Apple](Dessert/Baked_pumpkin_with_apple.md)
         * [Chia Seed Chocolate Pudding](Dessert/Chia_Seed_Chocolate_Pudding.md)
 
-With the displayed name of the recipe (chapter) in square brackets, with
-the actual filepath next to it in curved brackets. By default, each
-chapter takes its name from the # HEADER at the top of each .md file,
-but can be changed manually by editing SUMMARY.md. The sections are
-bullet points above the chapters. README.md is the file which is
-displayed when you first navigate to the root of the compiled book, so
-can contain a description of the book, acknowledgements etc.
+With the displayed name of the recipe (chapter) in square brackets,
+with the actual filepath next to it in curved brackets. By default,
+each chapter takes its name from the # HEADER at the top of each .md
+file, but can be changed manually by editing SUMMARY.md. The sections
+are bullet points above the chapters. README.md is the file which is
+displayed when you first navigate to the root of the compiled book,
+so can contain a description of the book, acknowledgements etc.
 
 Now the book can be built:
 
@@ -139,11 +140,11 @@ You can navigate to the locally hosted root of the book by going to:
 
     http://localhost:4000
 
-[Gitbook.com] offers a fairly decent option for hosting your gitbook
-for free, and if you already have a Github account you can upload the
-gitbook as a git repo to Github, and then link that Github repo to
-Gitbook.com, for continuous deployment, with a URL that you can share
-with others. [Here is my Gitbook of recipes].
+[Gitbook.com] offers a fairly decent option for hosting your
+gitbook for free, and if you already have a Github account you can
+upload the gitbook as a git repo to Github, and then link that Github
+repo to Gitbook.com, for continuous deployment, with a URL that you
+can share with others. [Here is my Gitbook of recipes].
 
   [Gitbook.com]: http://www.gitbook.com
   [Here is my Gitbook of recipes]: https://johngodlee.gitbooks.io/recipes/content/

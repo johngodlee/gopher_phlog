@@ -1,11 +1,11 @@
 A guide about processing hemispherical photos - [2018-09-07]
 ==============================================================
 
-I wrote a guide for some undergraduate students on a field course about
-hemispherical photography and calculating forest canopy traits. This is
-it. It’s untested so far, so some parts may change depending on how well
-the field course goes. The guide may get updated, so the most up to date
-version can always be found [here, on Github].
+I wrote a guide for some undergraduate students on a field course
+about hemispherical photography and calculating forest canopy traits.
+This is it. It’s untested so far, so some parts may change depending
+on how well the field course goes. The guide may get updated, so the
+most up to date version can always be found [here, on Github].
 
   [here, on Github]: https://github.com/johngodlee/hemi_photo_guide
 
@@ -16,35 +16,36 @@ PART 1 - TAKING HEMISPHERICAL PHOTOS
 
 A list of tips for taking good hemispherical photos:
 
--   Take photos under a uniformly overcast sky, ideally before the sun
-    has risen too high in the sky, or just before sunset. I find in the
-    morning the photos are generally better and at high latitudes you
-    will have more time than in the tropics..
+-   Take photos under a uniformly overcast sky, ideally before the
+    sun has risen too high in the sky, or just before sunset. I find
+    in the morning the photos are generally better and at high
+    latitudes you will have more time than in the tropics..
 -   Ensure that the camera is level and the lens is pointing straight
     up. Use the spirit level on the camera hotshoe to do this.
 -   Adjust the tripod so that the top of the camera lens is 1 m above
     the ground, or above any understorey vegetation, whichever is
     higher.
--   Turn the camera so the top of the camera body is facing north, take
-    a compass! This ensures that the top of the captured photo is also
-    facing north, which is necessary for calculating LAI..
--   Make use of the articulated display on the camera to get a good view
-    of the photo before you take it.
+-   Turn the camera so the top of the camera body is facing north,
+    take a compass! This ensures that the top of the captured photo
+    is also facing north, which is necessary for calculating LAI..
+-   Make use of the articulated display on the camera to get a good
+    view of the photo before you take it.
 -   Set the camera:
     -   Manual shooting mode
     -   Manual focus
     -   Set the focus to infinity
     -   Exposure compensation = -0.7
     -   Capturing fine jpeg & RAW images at the same time
-    -   The camera time and date is accurate (this is purely for ease of
-        matching photos to sites)
+    -   The camera time and date is accurate (this is purely for ease
+        of matching photos to sites)
     -   Set the Aperture to 5
     -   Adjust the ISO and shutter speed so the photo is neutrally
-        exposed but the shutter speed is always over 1/60sec, otherwise
-        you will introduce camera shake when you press the button
+        exposed but the shutter speed is always over 1/60sec,
+        otherwise you will introduce camera shake when you press the
+        button
     -   Take all photos in landscape dimensions, never portait.
--   Make sure you all duck down below the camera when the image is being
-    taken!
+-   Make sure you all duck down below the camera when the image is
+    being taken!
 -   Make sure there is battery and you have the spare battery
 -   Make sure there is an SD card in the camera, and take a spare.
 -   Cover the lens with the lens cap between photos. PLEASE PLEASE
@@ -57,24 +58,26 @@ PART 2 - CREATING A BLACK AND WHITE THRESHOLDED IMAGE
 
 1.  Open ImageJ
 2.  File -> Open, then select an image
-3.  Visually inspect the image to see that there isn’t massive amounts
-    of lens flare. If you have lots of lens flare, the photo should be
-    thrown out! This is what lens flare looks like:
+3.  Visually inspect the image to see that there isn’t massive
+    amounts of lens flare. If you have lots of lens flare, the photo
+    should be thrown out! This is what lens flare looks like:
 
   {IMAGE}
 
 
 4.  Image -> Type -> 8-bit
-5.  Image -> Adjust -> Threshold, manually adjust the image so all the
-    branches are red and the sky is white, or as near as you can get it.
-6.  Save the newly thresholded image as a jpeg in a folder called img.
+5.  Image -> Adjust -> Threshold, manually adjust the image so all
+    the branches are red and the sky is white, or as near as you can
+    get it.
+6.  Save the newly thresholded image as a jpeg in a folder called
+    img.
 7.  Rinse and repeat for all images.
 
-The above process can be automated with a macro, but this assumes that
-the images are all uniformly exposed.
+The above process can be automated with a macro, but this assumes
+that the images are all uniformly exposed.
 
-This is the macro, saved as a .ijm file. This is untested so use at your
-own risk:
+This is the macro, saved as a .ijm file. This is untested so use at
+your own risk:
 
     // Automatically create a thresholded image for use in further analysis. Change the values of setThreshold to achieve different results.
 
@@ -110,11 +113,11 @@ PART 3 - CALCULATING LEAF AREA INDEX
     # Packages
     library(jpeg)
 
-5.  Add white_image.jpg to the same folder where the thresholded images
-    are found
+5.  Add white_image.jpg to the same folder where the thresholded
+    images are found
 6.  Read in all the thresholded images and create an empty data frame
-    which will later be filled with canopy trait statistics like LAI and
-    canopy openness.
+    which will later be filled with canopy trait statistics like LAI
+    and canopy openness.
 
     # List all images in the directory
     all_images <- list.files("img/", pattern = ".JPG")
@@ -134,9 +137,9 @@ PART 3 - CALCULATING LEAF AREA INDEX
     white_img <- readJPEG("img/white_image.jpg", native = F)
 
 8.  Set some parameters for the location the photos are being taken.
-    Approximate location (0.1 degrees latitude) is good enough for our
-    purposes. Note that the values below are for somewhere in Africa and
-    should be changed:
+    Approximate location (0.1 degrees latitude) is good enough for
+    our purposes. Note that the values below are for somewhere in
+    Africa and should be changed:
 
     location.latitude   = -15
     location.altitude   = 200
@@ -144,8 +147,8 @@ PART 3 - CALCULATING LEAF AREA INDEX
     location.days       = seq(15,360,30)   # roughly each mid of the 12 months
 
 9.  Set some parameters for the images, cropping them to a circle and
-    setting the threshold. These parameters are ones I have used on this
-    camera, so don’t need to be changed:
+    setting the threshold. These parameters are ones I have used on
+    this camera, so don’t need to be changed:
 
     ## Image parameters
 
@@ -161,8 +164,9 @@ PART 3 - CALCULATING LEAF AREA INDEX
 
 10. Set some atmospheric parameters. I’ve loosely estimated these for
     this location, but by no means is it scientific. I would not have
-    much confidence in the statistics generated using these parameters,
-    namely DirectAbove, DiffAbove, DirectBelow and DiffBelow.
+    much confidence in the statistics generated using these
+    parameters, namely DirectAbove, DiffAbove, DirectBelow and
+    DiffBelow.
 
     # atmospheric parameters
     ## Atmospheric transmissivity - Normally set at 0.6, but can vary between 0.4-0.6 in the tropics

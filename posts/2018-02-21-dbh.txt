@@ -3,23 +3,23 @@ How to properly roll and store DBH tape measure - [2018-02-21]
 
 I’ve just come back from fieldwork in Angola, during which I had to
 measure the diameter at breast height (DBH, 1.3 m) of the trunks of
-about 2300 trees. To estimate the diameter I used a _DBH tape_, which is
-a type of tape measure similar to that which you would find in a
+about 2300 trees. To estimate the diameter I used a _DBH tape_, which
+is a type of tape measure similar to that which you would find in a
 tailors, made of frabric or fibreglass. The difference is that a DBH
-tape has two scales, the first is a normal mm scale, but the second is a
-scale which estimates the diameter of the tree trunk by assuming the
-trunk is a perfect cylinder and converting the circumference (_C_) using
-the formula:
+tape has two scales, the first is a normal mm scale, but the second
+is a scale which estimates the diameter of the tree trunk by assuming
+the trunk is a perfect cylinder and converting the circumference
+(_C_) using the formula:
 
 DBH =
 
-There are plenty of resources on best practices for estimating DBH using
-a DBH tape, how to deal with irregular stems etc., the focus of this
-post is instead to show how to properly store a DBH tape to minimise
-tangling and to keep it compact while in a backpack.
+There are plenty of resources on best practices for estimating DBH
+using a DBH tape, how to deal with irregular stems etc., the focus of
+this post is instead to show how to properly store a DBH tape to
+minimise tangling and to keep it compact while in a backpack.
 
-The first thing to do is to roll up the DBH tape starting from the end
-with no metal hook, until you have about 20 cm of free end.
+The first thing to do is to roll up the DBH tape starting from the
+end with no metal hook, until you have about 20 cm of free end.
 
   {IMAGE}
 
@@ -39,8 +39,8 @@ fairly compact, but the tape will be twisted.
   {IMAGE}
 
 
-Remove the twist in the tape by turning the hook end and make sure all
-parts of the tape are in aligment.
+Remove the twist in the tape by turning the hook end and make sure
+all parts of the tape are in aligment.
 
   {IMAGE}
 
@@ -52,5 +52,6 @@ hook around the roll to take up the slack
 
 
 Like this, the tape should stay together in a rucksack or pocket,
-allowing it to be quickly unrolled to take a measurement, without risk
-of it tangling round whatever else is stored next to it in the bag.
+allowing it to be quickly unrolled to take a measurement, without
+risk of it tangling round whatever else is stored next to it in the
+bag.

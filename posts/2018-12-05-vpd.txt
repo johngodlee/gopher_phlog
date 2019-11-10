@@ -1,9 +1,9 @@
 Calculating Vapour Pressure Deficit and other atmospheric things - [2018-12-05]
 =================================================================================
 
-I needed to calculate Vapour Pressure Deficit for a productivity model
-that I’m running, using ECMWF spatial data timeseries as an input. I
-wrote some functions in R that I _think_ do the right thing:
+I needed to calculate Vapour Pressure Deficit for a productivity
+model that I’m running, using ECMWF spatial data timeseries as an
+input. I wrote some functions in R that I _think_ do the right thing:
 
     # Saturation vapour pressure (millibars)
     vps <- function(T_k){
