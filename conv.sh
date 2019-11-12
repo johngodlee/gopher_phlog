@@ -50,9 +50,8 @@ for i in $recent; do
 	printf "0$line\t$i\n" >> gophermap
 done
 
-# Provide a link to full post archive
-echo "
-1Archive	posts" >> gophermap
+# Add footer material to gophermap
+cat footer >> gophermap
 
 # Create map file for post archive with header content
 touch posts/gophermap 

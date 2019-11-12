@@ -8,8 +8,11 @@ i \____/ \___/|_| |_|_| |_||_____(_) \_____|\___/ \__,_|_|\___|\___|	/
                                                                                                         
 iJohn L. Godlee	/
 
-iThis is a copy of https://johngodlee.github.io, where I keep my CV,	/
+
+iThis is a copy of my personal website where I keep my CV,	/
 ia collection of recipes, and a blog/phlog.	/
+ 
+hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 
 0Contact details	contact.txt
 0CV	cv.txt
@@ -30,3 +33,8 @@ i==== Posts =======================================================	/
 0Custom .sty files in LaTeX - [2019-10-05]	posts/2019-10-05-sty-latex.txt
 
 1Archive	posts
+
+i==== Other links =================================================	/
+
+1SDF.org	/	sdf.org	70
+1The Gopher Lawn	/lawn	bitreich.org	70

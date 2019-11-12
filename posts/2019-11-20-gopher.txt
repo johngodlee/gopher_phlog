@@ -28,7 +28,11 @@ destructive mechanisms present on the World Wide Web like user
 tracking, data harvesting and advertising. Gopher sites are also
 phenomenally light on resources, providing just plain text. It’s not
 that HTTP can’t be fast as well, but there is a tendency to use all
-the features that the flexibility of HTTP can afford.
+the features that the flexibility of HTTP can afford. That being
+said, I think a lot of people are confusing the World Wide Web with
+the internet. Gopher is an internet protocol, but it satisfies a
+different set of needs to HTTP and they shouldn’t be compared so
+readily.
 
 I set up a Gopher site (aka a Gopherhole) on the [Super Dimension
 Fortress], which provides its registered and validated users with
@@ -188,15 +192,24 @@ BROWSERS
 
 To browse Gopher pages the [Lynx] browser in the terminal is the
 most common way I think. Otherwise there are plugins for some web
-browsers, like the [Overbite plugin for Firefox]. I like to use the
-[w3m browser] which I couldn’t get to load gopher pages by default,
-but I did find an [awk script on Bitbucket] which converts Gopher
-to HTML and then serves it through w3m. So far it is working pretty
-well, but I still found myself loading up Lynx when I was building my
-page initially to make sure everything was formatted correctly.
+browsers, like the [Overbite plugin for Firefox]. There are also a
+few different online Gopher to HTML proxy services where you type in
+the gopher address and the output is rendered in HTML,
+e.g. [GopherProxy], [Floodgap’s proxy], or [Gopher Commons].
 
   [Lynx]: https://lynx.invisible-island.net/
   [Overbite plugin for Firefox]: https://gopher.floodgap.com/overbite/
+  [GopherProxy]: https://gopherproxy.meulie.net/
+  [Floodgap’s proxy]: https://gopher.floodgap.com/gopher/gw
+  [Gopher Commons]: https://gopher.commons.host/
+
+I like to use the [w3m browser] which I couldn’t get to load gopher
+pages by default, but I did find an [awk script on Bitbucket] which
+converts Gopher to HTML and then serves it through w3m. So far it is
+working pretty well, but I still found myself loading up Lynx when I
+was building my page initially to make sure everything was formatted
+correctly.
+
   [w3m browser]: http://w3m.sourceforge.net/
   [awk script on Bitbucket]: https://bitbucket.org/iamleot/gopher2html/src
 
