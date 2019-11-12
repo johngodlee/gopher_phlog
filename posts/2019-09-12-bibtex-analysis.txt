@@ -110,7 +110,8 @@ authors (first and co-authors) and the most common first authors:
       theme(legend.position = "none") +
       labs(x = "Author", y = "Frequency")
 
-  {IMAGE}
+  {IMAGE} [[Top ten first authors in my
+collection]]
 
 
 The final plot is a network graph of shared authorship. This isn’t

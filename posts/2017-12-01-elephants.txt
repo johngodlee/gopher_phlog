@@ -54,6 +54,12 @@ plots. I’ll make a map, and a box plot:
     ggplot(tree_loc_diam_1_2_summ, aes(x = plot, y = dbh_cm)) +
         geom_boxplot()
 
+  {IMAGE}
+
+
+  {IMAGE}
+
+
 Now I want to create a map that shows how clustered together the
 trees are in any given plot. For this I use the handy stat_density2d
 geom from ggplot2, and fill according to ..level... Also I found I
@@ -96,6 +102,12 @@ shading polygons get clipped and look really messy.
         theme(legend.text = element_text(size = 10),
                     axis.text = element_text(size = 10)) +
         labs(fill = "Tree Density")
+
+  {IMAGE}
+
+
+  {IMAGE}
+
 
 The spatial clustering of trees in a plot with elephant activity
 (left) and without elephant activity (right). Elephants clearly have

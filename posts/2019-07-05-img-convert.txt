@@ -107,9 +107,6 @@ The -monochrome option produced a file of 2.812 MB and the
 Posterize is an interesting one to play with. Here is a comparison of
 -posterize with different numbers of colours:
 
-  {IMAGE}
-
-
   Size (MB)   Number of colours
   ----------- -------------------
   1.428       10

@@ -276,17 +276,17 @@ correlations in responses to certain questions and the demographic
 category a person fit into was the bubble plot. I guess if you wanted
 to statistically analyse this data you would use a chi-squared test.
 
-The fake data for the plot below can be found [here][6] and a lookup
+The fake data for the plot below can be found [here][2] and a lookup
 table for the contents of each question column can be found
-[here][7]. The data .csv shows each row as a respondent, along with
+[here][3]. The data .csv shows each row as a respondent, along with
 how many hours of housework they do, their gender, the codes for
 checkboxes they ticked of different sustainable activities they did,
 related to waste management and water management, and lastly a
 self-evaluated measure of how much they consider sustainable actions
 in their day to day life.
 
-  [6]: https://johngodlee.github.io/files/likert/sust_behaviour.csv
-  [7]: https://johngodlee.github.io/files/likert/question_lookup.csv
+  [2]: https://johngodlee.github.io/files/likert/sust_behaviour.csv
+  [3]: https://johngodlee.github.io/files/likert/question_lookup.csv
 
 So I want to make a bubble plot of age vs. how often people think
 about sustainable activities (sustainability_daily_think):

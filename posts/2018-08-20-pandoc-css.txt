@@ -29,7 +29,7 @@ BLUE_BIG
 
   {IMAGE}
 
-  [[[][1]]]: https://johngodlee.github.io/files/pandoc_css/test_blue_big.html
+  [[[blue_big screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_blue_big.html
 
 
 
@@ -38,7 +38,7 @@ BUTTONDOWN
 
   {IMAGE}
 
-  [[[][2]]]: https://johngodlee.github.io/files/pandoc_css/test_buttondown.html
+  [[[buttondown screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_buttondown.html
 
 
 
@@ -47,7 +47,7 @@ CHMDUQUESNE_RESUME
 
   {IMAGE}
 
-  [[[][3]]]: https://johngodlee.github.io/files/pandoc_css/test_chmduquesne_resume.html
+  [[[chmduquesne_resume screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_chmduquesne_resume.html
 
 
 
@@ -56,7 +56,7 @@ GITHUB_PAGES
 
   {IMAGE}
 
-  [[[][4]]]: https://johngodlee.github.io/files/pandoc_css/test_github_pages.html
+  [[[github_pages screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_github_pages.html
 
 
 
@@ -65,7 +65,7 @@ GITHUB
 
   {IMAGE}
 
-  [[[][5]]]: https://johngodlee.github.io/files/pandoc_css/test_github.html
+  [[[github screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_github.html
 
 
 
@@ -74,7 +74,7 @@ KILLERCUP
 
   {IMAGE}
 
-  [[[][6]]]: https://johngodlee.github.io/files/pandoc_css/test_killercup.html
+  [[[killercup screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_killercup.html
 
 
 
@@ -83,7 +83,7 @@ MODEST
 
   {IMAGE}
 
-  [[[][7]]]: https://johngodlee.github.io/files/pandoc_css/test_modest.html
+  [[[modest screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_modest.html
 
 
 
@@ -92,7 +92,7 @@ PANAM
 
   {IMAGE}
 
-  [[[][8]]]: https://johngodlee.github.io/files/pandoc_css/test_panam.html
+  [[[panam screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_panam.html
 
 
 
@@ -101,7 +101,7 @@ PANDOC_TWEAK
 
   {IMAGE}
 
-  [[[][9]]]: https://johngodlee.github.io/files/pandoc_css/test_pandoc_tweak.html
+  [[[pandoc_tweak screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_pandoc_tweak.html
 
 
 
@@ -110,7 +110,7 @@ PANDOC
 
   {IMAGE}
 
-  [[[][10]]]: https://johngodlee.github.io/files/pandoc_css/test_pandoc.html
+  [[[pandoc screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_pandoc.html
 
 
 
@@ -119,7 +119,7 @@ SPLENDOR
 
   {IMAGE}
 
-  [[[][11]]]: https://johngodlee.github.io/files/pandoc_css/test_splendor.html
+  [[[splendor screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_splendor.html
 
 
 
@@ -128,7 +128,7 @@ TYPEWRITER
 
   {IMAGE}
 
-  [[[][12]]]: https://johngodlee.github.io/files/pandoc_css/test_typewriter.html
+  [[[typewriter screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_typewriter.html
 
 
 

@@ -10,6 +10,9 @@ simple content page:
   {IMAGE}
 
 
+  {IMAGE}
+
+
 I had seen examples of LaTeX Beamer presentations online, though
 never knowingly in the flesh at a conference or in the classroom.
 Maybe I have seen a LaTeX Sweave presentation in an R workshop, but
@@ -256,6 +259,12 @@ by Beamer on the output .pdf, set the margins, and set the space
 between paragraphs, which is too small by default.
 
 Here are some examples of what the template looks like:
+
+  {IMAGE}
+
+
+  {IMAGE}
+
 
   {IMAGE}
 
