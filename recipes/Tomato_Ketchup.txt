@@ -1,7 +1,4 @@
-
-
-TOMATO KETCHUP
-
+Tomato Ketchup
 
 Ingredients
 
@@ -18,7 +15,6 @@ Ingredients
 -   0.25 tsp ground pepper
 -   0.25 large onion, diced
 -   0.5 clove garlic, minced
-
 
 Method
 

@@ -1,12 +1,15 @@
-Scraping instagram without an account - [2019-10-20]
-======================================================
+TITLE: Scraping instagram without an account
+DATE: 2019-10-20
+AUTHOR: John L. Godlee
+====================================================================
+
 
 There are lots of people I would like to follow on Instagram, mostly
 woodworkers, bicycle people, and outdoors people. It seems to be a
 really good method of delivering content. Unfortunately for
 Instagram, there is absolutely no way I would make an account with
-them. I fear it would be too much of a time sink, and I’m paranoid of
-giving too much detail of my personal interests to Facebook.
+them. I fear it would be too much of a time sink, and I’m paranoid
+of giving too much detail of my personal interests to Facebook.
 
 I found a command line tool called [InstaLooter] which you can use
 to scrape public Instagram profiles without an account and save the
@@ -52,8 +55,8 @@ multiple. -N only downloads images which don’t already exist in the
 destination directory ($HOME/Downloads/ig/), based on the filename.
 -T {username}.{date}.{id} sets the filename of each photo. {id} is
 unique for each photo on Instagram, so it uniquely identifies each
-file downloaded for use by -N. The filenames then look something like
-this:
+file downloaded for use by -N. The filenames then look something
+like this:
 
     exploringalternatives.2019-09-27.2142383070393557093.jpg
     kelsoparadiso.2019-10-09.2150831532411304437.jpg
@@ -73,20 +76,18 @@ directory based on username or date, but I don’t want that.
 I can now create a cronjob or a LaunchAgents script to automate this
 to run everyday or every week in the background.
 
+Update - 2019_10_31
 
-
-UPDATE - 2019_10_31
-
-
-I updated the insta_dl shell script so that it also grabs the caption
-of each instagram post downloaded and stores it in a text file.
-InstaLooter can download post metadata as a JSON file by adding the
--d flag (--dump-json). Then I use jq to parse the JSON file for each
-post to extract the full name of the account (.owner.full_name), the
-@username of the account (.owner.username) and the content of the
-caption of the post (.edge_media_to_caption[][].text). Then I use
-sed to put a blank line between each caption to make it easier to
-read and delete the original JSON files:
+I updated the insta_dl shell script so that it also grabs the
+caption of each instagram post downloaded and stores it in a text
+file. InstaLooter can download post metadata as a JSON file by
+adding the -d flag (--dump-json). Then I use jq to parse the JSON
+file for each post to extract the full name of the account
+(.owner.full_name), the @username of the account (.owner.username)
+and the content of the caption of the post
+(.edge_media_to_caption[][].text). Then I use sed to put a blank
+line between each caption to make it easier to read and delete the
+original JSON files:
 
     #!/bin/bash
 

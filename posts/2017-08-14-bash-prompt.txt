@@ -1,5 +1,8 @@
-Constructing a Useful Bash Prompt - [2017-08-14]
-==================================================
+TITLE: Constructing a Useful Bash Prompt
+DATE: 2017-08-14
+AUTHOR: John L. Godlee
+====================================================================
+
 
 This is what my bash prompt looks like at the moment:
 
@@ -16,14 +19,13 @@ prompt.
 
   [And here is a link to a .bashrc,]: https://github.com/johngodlee/bash_prompt_tut/tree/master/files
 
-
 What is a bash prompt?
 
 The bash prompt is a piece of text placed at start of a command line
-interface using the bash shell. The primary function of the prompt is
-to let the user know that the computer is ready for the next command,
-the secondary function is to provide the user with some information
-about the status of the current session.
+interface using the bash shell. The primary function of the prompt
+is to let the user know that the computer is ready for the next
+command, the secondary function is to provide the user with some
+information about the status of the current session.
 
 The default bash prompt looks like this:
 
@@ -35,7 +37,6 @@ looks similar. The default prompt shows the currently logged in
 username, the hostname (i.e. the name of th computer), the current
 directory path relative to ~ and finally a $, which marks the end of
 the prompt and the start of the area that you can type commands.
-
 
 Customising the bash prompt
 
@@ -94,8 +95,8 @@ Start by adding the time to our simple $ prompt:
   {IMAGE}
 
 
-Note the space between \T and \$. Adding spaces between variables can
-help everything to look neater.
+Note the space between \T and \$. Adding spaces between variables
+can help everything to look neater.
 
 Read through the list of available variables and add a few to your
 own prompt.
@@ -122,38 +123,41 @@ codes.
   [this wikipedia page on ANSI colour codes]: http://en.wikipedia.org/wiki/ANSI_escape_code#colors
   [this blog post on jafrog.com]: http://www.jafrog.com/2013/11/23/colors-in-terminal
 
-A more elaborate example which makes the current directory light-cyan
-coloured, with bold font:
+A more elaborate example which makes the current directory
+light-cyan coloured, with bold font:
 
     PS1='\[\e[96;1m\]\w\[\e[m\] \T \$'
 
   {IMAGE}
 
 
-The ;1 is the part which makes the text bold. Note how [\e[m\] always
-needs to be placed at the end of the coloured part of the bash
-prompt, to return the colours to normal.
+The ;1 is the part which makes the text bold. Note how [\e[m\]
+always needs to be placed at the end of the coloured part of the
+bash prompt, to return the colours to normal.
 
 Try colouring the time (\T) so it is underlined and magenta.
 
 Unicode characters
 
-Another way escape sequences can be used is to add unicode characters
-to the prompt, whether this is a cool lightning bolt, a tick or a
-cross, or any of the other 136,000 characters available in Unicode
-10.0.
+Another way escape sequences can be used is to add unicode
+characters to the prompt, whether this is a cool lightning bolt, a
+tick or a cross, or any of the other 136,000 characters available in
+Unicode 10.0.
 
 [Wikipedia has an excellent resource for browsing unicode
 characters].
 
-  [Wikipedia has an excellent resource for browsing unicode
-  characters]: http://en.wikipedia.org/wiki/List_of_Unicode_characters
+  [Wikipedia has an excellent resource for browsing unicode characters]:
+    http://en.wikipedia.org/wiki/List_of_Unicode_characters
 
 Browse through the wikipedia page and pick your chosen character,
-then note down its code, e.g. u2602 for th umbrella symol. The syntax
-for adding this to your bash prompt is as follows:
+then note down its code, e.g. u2602 for the umbrella symol. The
+syntax for adding this to your bash prompt is as follows:
 
     PS1=$'\u2602'
+
+Note that inserting unicode can also by accomplished just by copying
+and pasting the unicode character itself into the .bashrc.
 
   {IMAGE}
 
@@ -164,9 +168,9 @@ see the $ in our prompt
 Formatting
 
 Brackets, spaces, hyphens, colons can all be used to great effect in
-your bash prompt to help separate the different parts. As an example,
-try setting this in your .bashrc and source ~/.bashrc to see the
-results:
+your bash prompt to help separate the different parts. As an
+example, try setting this in your .bashrc and source ~/.bashrc to
+see the results:
 
     PS1='[\T] {\u:\h} -- \w'
 
@@ -175,9 +179,9 @@ results:
 
 Building PS1 incrementally
 
-After a while, if your bash prompt becomes long and complicated, your
-PS1 code may start to look busy and hard to read, but it’s easy to
-restructure the PS1 code to increase readability. In the example
+After a while, if your bash prompt becomes long and complicated,
+your PS1 code may start to look busy and hard to read, but it’s easy
+to restructure the PS1 code to increase readability. In the example
 below, a long and complicated prompt is rewritten so each part is on
 a separate line and spaces are given their own lines to make them
 easier to see. Additionally, this allows each part to have its own
@@ -203,27 +207,31 @@ comment, further increasing readability:
 
 Conditional statements and functions
 
-FROM HERE ONWARDS I AM WRITING ABOUT STUFF I DON’T FULLY UNDERSTAND
-AND HAVE JUST GATHERED FROM OTHER WEBSITES AND TUTORIALS.
+From here onwards I am writing about stuff I don’t fully understand
+and have just gathered from other websites and tutorials.
 
 If you want to expand the number of variables you can use in your
 bash prompt you can take create functions in your .bashrc, which you
 then source in your PS1 code. The example below ([which I adapted
-from here]) shows how to present a green unicode tick if the
-previous command was successful, and a red unicode cross if it was
-unsuccessful, add the following to your .bashrc:
+from here]) shows how to present a unicode tick if the previous
+command was successful, and a unicode cross if it was unsuccessful,
+add the following to your .bashrc:
 
   [which I adapted from here]: https://www.reddit.com/r/linux/comments/2uf5uu/this_is_my_bash_prompt_which_is_your_favorite/co7ygus/?utm_content=permalink&utm_medium=front&utm_source=reddit&utm_name=linux
 
-    function __stat() { 
-        if [ $? -eq 0 ]; then 
-            echo -en "\e[32m[\u2714]\e[m " 
-        else 
-            echo -en "\e[31m[\u2718]\e[m " 
-        fi 
+    SUCCESS='[✓]'
+    FAIL='[✗]'
+
+    error_test () {
+        if [ $? == 0 ]; then
+            echo -e $SUCCESS
+        else
+            echo -e $FAIL
+        fi
     }
 
-    PS1='$(__stat)'
+    ## Bash prompt
+    PS1="\$(error_test)"
 
   {IMAGE}
 
@@ -237,7 +245,8 @@ Sourcing external scripts
 I use the [git-prompt.sh shell script], which is part of the
 contributed materials in the git github repo, to get the current git
 branch displayed in my bash prompt. Download and save the script in
-the link as ~/.git-prompt.sh. Then add the following to your .bashrc:
+the link as ~/.git-prompt.sh. Then add the following to your
+.bashrc:
 
   [git-prompt.sh shell script]: http://www.github.com/git/git/tree/master/contrib/completion/git-prompt.sh
 
@@ -252,8 +261,8 @@ git-prompt.sh also has some variables which can be set from within
 .bashrc. Details can be found by reading the preamble of the script
 in a text editor.
 
-NOW THAT YOU’VE READ THROUGH THE TUTORIAL, TRY TO CONSTRUCT YOUR OWN
-BASH PROMPT, ADDING THE BITS THAT YOU FIND USEFUL. REFER BACK TO THE
-[LINKED .BASHRC] FOR SOME INSPIRATION.
+Now that you’ve read through the tutorial, try to construct your own
+bash prompt, adding the bits that you find useful. Refer back to the
+[linked .bashrc] for some inspiration.
 
-  [LINKED .BASHRC]: https://github.com/johngodlee/bash_prompt_tut/tree/master/files
+  [linked .bashrc]: https://github.com/johngodlee/bash_prompt_tut/tree/master/files

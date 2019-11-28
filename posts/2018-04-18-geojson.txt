@@ -1,5 +1,8 @@
-Making a geoJSON powered Leaflet map - [2018-04-18]
-=====================================================
+TITLE: Making a geoJSON powered Leaflet map
+DATE: 2018-04-18
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I made a website for my labgroup using Jekyll and Github-pages. It
 can be seen here at [seosaw.github.io]. The bit I want to show off
@@ -89,9 +92,9 @@ The polygon data comes from White’s 1983 vegetation map of Africa,
 which remains the best approximation of the biomes of Africa, even
 though it was constructed in a very non-systematic fashion.
 
-Next I have to convert these geoJSON files to .js files and name them
-as variables by adding a variable designation at the top of the files
-like this:
+Next I have to convert these geoJSON files to .js files and name
+them as variables by adding a variable designation at the top of the
+files like this:
 
     var miombo = [
         {"type": "FeatureCollection",
@@ -107,8 +110,8 @@ like this:
     ...
 
 Then, I need to construct the javascript file which makes the map,
-which calls the map tiles (L.tileLayer), and gives the plot locations
-and polygons various aesthetic attributes:
+which calls the map tiles (L.tileLayer), and gives the plot
+locations and polygons various aesthetic attributes:
 
     var mymap = L.map('leaf-map').setView([-16.5, 24.7], 4);
 

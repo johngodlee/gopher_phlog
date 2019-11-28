@@ -1,5 +1,8 @@
-Making Logos for Coding Club - [2017-09-10]
-=============================================
+TITLE: Making Logos for Coding Club
+DATE: 2017-09-10
+AUTHOR: John L. Godlee
+====================================================================
+
 
 Over the Summer while the students are away, instead of making more
 tutorials, I’ve been going back through the content on

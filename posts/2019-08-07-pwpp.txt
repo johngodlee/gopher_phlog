@@ -1,22 +1,25 @@
-Customising plots drawn to estimate pairwise marginal means comparisons with emmeans::pwpp() - [2019-08-07]
-=============================================================================================================
+TITLE: Customising plots drawn to estimate pairwise marginal means comparisons with emmeans::pwpp()
+DATE: 2019-08-07
+AUTHOR: John L. Godlee
+====================================================================
+
 
 For a paper I’ve been writing I was running linear mixed effects
 models with categorical fixed effects to compare the amount of pine
 weevil damage present in different forest sites. To evaluate my
 models, I wanted to run pairwise comparisons between sites in the
 model to see which sites were significantly different. I decided to
-run a Tukey’s HSD (Honestly Significant Difference) test on Estimated
-Marginal Means of sites in the model. I’m doing my analysis in R, so
-all the code is R code.
+run a Tukey’s HSD (Honestly Significant Difference) test on
+Estimated Marginal Means of sites in the model. I’m doing my
+analysis in R, so all the code is R code.
 
 I used emmeans::emmeans() to calculate the EMMs, which returns a
 special object of class emmGrid. emmeans::pwpp() is a handy function
 to create and plot the results from a Tukey’s HSD (or other test
 method) pairwise comparison of the EMMs, with P-value along the x
 axis and categories along the y axis. Lines connect pairwise
-categories and are placed along the x axis to denote the significance
-of their difference.
+categories and are placed along the x axis to denote the
+significance of their difference.
 
 The basic plot is fine, and is certainly useful for interpretation,
 but I want to include the plots in my paper and they look a bit too
@@ -66,8 +69,8 @@ tidy dataframes:
       midpt = pwpp_results$data$midpt)
 
 marg_vals holds data on the marginal values for each category, which
-appear as labels down the left hand side of the plot. p_vals contains
-data for drawing the lines.
+appear as labels down the left hand side of the plot. p_vals
+contains data for drawing the lines.
 
 I also wanted to create a colour palette for my customised plot,
 which I made [here, at Colorgorical]:

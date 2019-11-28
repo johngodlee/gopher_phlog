@@ -1,18 +1,21 @@
-Rebuilding a bike - [2018-07-25]
-==================================
+TITLE: Rebuilding a bike
+DATE: 2018-07-25
+AUTHOR: John L. Godlee
+====================================================================
+
 
 The bike that I normally use around town is in storage for the
 summer, and I was missing having a bike. I’ve also been wanting to
-refurbish an old bike for a long time, to learn skills and understand
-the mechanics and compatibility issues with building bikes. I found
-this BSA Tour De France on Gumtree for £30 and it immediately got my
-attention:
+refurbish an old bike for a long time, to learn skills and
+understand the mechanics and compatibility issues with building
+bikes. I found this BSA Tour De France on Gumtree for £30 and it
+immediately got my attention:
 
   {IMAGE}
 
 
-I decided to make the bike into a single speed, as I’ve already got a
-decent geared bike, so I set about stripping it down, removing the
+I decided to make the bike into a single speed, as I’ve already got
+a decent geared bike, so I set about stripping it down, removing the
 rear derailleur and the down-tube friction shifter.
 
   {IMAGE}
@@ -26,17 +29,17 @@ cassette. Basically, cassettes come apart and you can slide off and
 rearrange the cogs or replace them with spacers, while freewheels
 have a group of cogs all connected together that screw onto the hub.
 A lot of older bikes with their original wheels have freewheels, as
-mine did, meaning that a single speed conversion kit won’t work. Some
-people recommend just screwing on a [single speed freewheel], like
-the sort you would put onto a BMX, but this would mess up the chain
-line as the wheel on a multispeed bike will be dished to allow space
-on the driveside to fit a multispeed freewheel, and a single speed
-freewheel is much smaller. You can redish the wheel, but this was
-beyond my expertise, so I just kept the 5 speed freewheel that was
-already on the wheel. Maybe later I’ll learn about re-dishing the
-wheel, as single speed freewheels aren’t that expensive. Having all
-the cogs also made it super easy to pick the cog which had the best
-chainline to the front cog.
+mine did, meaning that a single speed conversion kit won’t work.
+Some people recommend just screwing on a [single speed freewheel],
+like the sort you would put onto a BMX, but this would mess up the
+chain line as the wheel on a multispeed bike will be dished to allow
+space on the driveside to fit a multispeed freewheel, and a single
+speed freewheel is much smaller. You can redish the wheel, but this
+was beyond my expertise, so I just kept the 5 speed freewheel that
+was already on the wheel. Maybe later I’ll learn about re-dishing
+the wheel, as single speed freewheels aren’t that expensive. Having
+all the cogs also made it super easy to pick the cog which had the
+best chainline to the front cog.
 
   [single speed conversion kit]: https://www.planetx.co.uk/i/q/SKOOSSKK/on-one-singlespeed-converter-kit
   [Sheldon Brown]: http://www.sheldonbrown.com/free-k7.html
@@ -46,10 +49,10 @@ To keep tension on the chain and to ensure that the chain stays on
 the correct rear cog, I bought a chain tensioner. This is a bit like
 a stripped down rear derailleur. THe type I bought is spring loaded
 and screws into the rear mech hanger. Specifically I bought the [4
-Jeri SS Chain Tensioner]. I could have removed the rear mech hanger
-completely and used the horizontal dropouts on the frame to set the
-frame tension, but I find using a chain tensioner much easier and
-reduces maintenance.
+Jeri SS Chain Tensioner]. I could have removed the rear mech
+hanger completely and used the horizontal dropouts on the frame to
+set the frame tension, but I find using a chain tensioner much
+easier and reduces maintenance.
 
   [4 Jeri SS Chain Tensioner]: https://www.bikeparts.com/BPC148137/4-jeri-ss-chain-tensioner-black
 
@@ -64,8 +67,8 @@ came with a clamp, but I was trying to save on materials as much as
 possible.
 
 The last thing I did was replace the bar tape, as it had become all
-worn down. I watched a [tutorial from Park Tool] on how to properly
-wrap the tape:
+worn down. I watched a [tutorial from Park Tool] on how to
+properly wrap the tape:
 
   [tutorial from Park Tool]: https://www.youtube.com/watch?v=5MzIiv7pewE
 
@@ -78,10 +81,7 @@ wrap the tape:
   {IMAGE}
 
 
-
-
-UPDATE - 2018_09_09
-
+Update - 2018_09_09
 
 I finally got this bike out of storage after the summer break. I
 counted the gear ratio, it’s got 46 on the front and 16 on the rear,

@@ -1,5 +1,8 @@
-Notes on diversity indices - [2019-09-05]
-===========================================
+TITLE: Notes on diversity indices
+DATE: 2019-09-05
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I wrote some notes on common diversity indices while I was
 demonstrating on a field course as I wanted to understand the maths

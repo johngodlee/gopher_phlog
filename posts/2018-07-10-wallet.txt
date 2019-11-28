@@ -1,5 +1,8 @@
-Making a minimal wallet - [2018-07-10]
-========================================
+TITLE: Making a minimal wallet
+DATE: 2018-07-10
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I have been looking for a long long time for a better alternative to
 the bulky leather or canvas wallets that are mostly available for
@@ -10,8 +13,8 @@ buy one, because it’s frivolous.
   [N-Wallet by Elephant Wallet]: https://elephantwallet.com/collections/n-wallet/products/n-wallet-aluminium
 
 Finally I spent enough time at my Mum and Dad’s house to have access
-to lots of scrap materials and a pretty good workshop, so I set about
-trying to make my own version.
+to lots of scrap materials and a pretty good workshop, so I set
+about trying to make my own version.
 
 The template I drew can be downloaded here as a [.dxf], a
 [.layout], a [.skp], and printed as an [A4 .pdf], which should
@@ -28,9 +31,9 @@ piece should be 90 mm (W) x 58 mm (H).
 
 I used a piece of corrugated steel that had previously been used for
 a barn roof. I used a hacksaw to cut the pieces to approximate size,
-usign the template as a guide, then used a bench grinder to shape the
-fine detail. To smooth everything off I used a file and then finally
-sandpaper.
+usign the template as a guide, then used a bench grinder to shape
+the fine detail. To smooth everything off I used a file and then
+finally sandpaper.
 
 For the elastic band I used a piece of trouser elastic from the
 sewing box, which I superglued together. But eventually I might

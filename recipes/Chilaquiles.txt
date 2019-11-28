@@ -1,7 +1,4 @@
-
-
-CHILAQUILES
-
+Chilaquiles
 
 Ingredients
 
@@ -13,7 +10,6 @@ Ingredients
 -   1 lime
 -   3 sprigs cilantro
 -   1 tablespoon olive oil
-
 
 Method
 

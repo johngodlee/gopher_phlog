@@ -1,13 +1,16 @@
-Making cider, bottling update - [2018-11-06]
-==============================================
+TITLE: Making cider, bottling update
+DATE: 2018-11-06
+AUTHOR: John L. Godlee
+====================================================================
+
 
 We bottled our cider, after sitting in the demijohns for 42 days.
 
   {IMAGE}
 
 
-Here is a breakdown of the volumes we got, in total I estimated it at
-44.5 litres:
+Here is a breakdown of the volumes we got, in total I estimated it
+at 44.5 litres:
 
 Fruit:
 
@@ -43,9 +46,9 @@ Yeast:
   100% P                           M       5 bottles
   25% BM, 25% GE, 35% GD, 15% LS   D       6 bottles
 
-By siphoning them, I got to try most of the demijohns. They certainly
-had different flavours, some were more flavourful than others, but
-hopefully they will mature into interesting ciders.
+By siphoning them, I got to try most of the demijohns. They
+certainly had different flavours, some were more flavourful than
+others, but hopefully they will mature into interesting ciders.
 
 Sterilising the bottles took the majority of the time. We took the
 approach of rinsing with hot water, shaking some sterilising fluid
@@ -56,8 +59,8 @@ rinsing with cold water.
 
 
 I think we should leave the bottles for another couple of months
-before we start drinking in earnest, as with previous experience I’ve
-found that they get better over time.
+before we start drinking in earnest, as with previous experience
+I’ve found that they get better over time.
 
   {IMAGE}
 

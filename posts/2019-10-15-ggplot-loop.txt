@@ -1,31 +1,35 @@
-Writing ggplot2 grobs in a loop to maintain data values - [2019-10-15]
-========================================================================
+TITLE: Writing ggplot2 grobs in a loop to maintain data values
+DATE: 2019-10-15
+AUTHOR: John L. Godlee
+====================================================================
+
 
 Sometimes I encounter the need to make multiple plots in a loop and
 then arrange them in a grid.arrange() panel. A recent example was
 when I had a bunch of ANCOVA linear models in a list, each with a
-different predictor variable, and I wanted to create ggplot() objects
-for each linear model in a for loop, showing the distribution of
-points for the predictor and response variable and slopes for a
-categorical grouping variable, then I wanted to put each plot into a
-single grid image and export it, like the image below:
+different predictor variable, and I wanted to create ggplot()
+objects for each linear model in a for loop, showing the
+distribution of points for the predictor and response variable and
+slopes for a categorical grouping variable, then I wanted to put
+each plot into a single grid image and export it, like the image
+below:
 
   {IMAGE}
 
 
 The code to generate this involves creating a list for the plot
-objects, then filling the list with each ggplot() called within a for
-loop, where each iteration of the loop is a different linear model
-with a different predictor variable, then calling the list of plots
-with do.call("grid.arrange", c(plot_list)) to build the grid image
-ready to be exported. To access the data needed for the x axis of the
-plot, which changes with each plot/linear model, I took the variable
-name from the linear model it is based on with:
+objects, then filling the list with each ggplot() called within a
+for loop, where each iteration of the loop is a different linear
+model with a different predictor variable, then calling the list of
+plots with do.call("grid.arrange", c(plot_list)) to build the grid
+image ready to be exported. To access the data needed for the x axis
+of the plot, which changes with each plot/linear model, I took the
+variable name from the linear model it is based on with:
 
     x_var <- rownames(summary(model_list[[i]])$coefficients)[2]
 
-This means the ggplot() for the scatter plots can then be called like
-this:
+This means the ggplot() for the scatter plots can then be called
+like this:
 
     ggplot() + 
         geom_point(aes(x = df[,x_var], y = df[,bchave_log])

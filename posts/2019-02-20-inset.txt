@@ -1,5 +1,8 @@
-Making inset maps for publication - [2019-02-20]
-==================================================
+TITLE: Making inset maps for publication
+DATE: 2019-02-20
+AUTHOR: John L. Godlee
+====================================================================
+
 
 In scientific publications, often there is a map to describe the
 study location. For example in Burton et al. (2013), which is the
@@ -51,8 +54,8 @@ Then, create some city location data:
         long = c(13.267, 13.500), 
         lat = c(-8.845, -14.918))
 
-Then create a ggplot() object of the country of Angola, with the city
-locations added as geom_point():
+Then create a ggplot() object of the country of Angola, with the
+city locations added as geom_point():
 
     angola_ggplot <- ggplot() +
         geom_polygon(data = angola_f, aes(x = long, y = lat),

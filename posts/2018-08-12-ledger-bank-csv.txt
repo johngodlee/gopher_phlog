@@ -1,11 +1,14 @@
-Converting a bank .csv statement to ledger - [2018-08-12]
-===========================================================
+TITLE: Converting a bank .csv statement to ledger
+DATE: 2018-08-12
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I use [ledger] to keep track of my expenses and for a long time I
 had to manually copy in all my expenses manually from the csv output
 that my bank provides of my transactions. Then recently I read about
-ledger convert which can take a csv file and convert it to the ledger
-journal format.
+ledger convert which can take a csv file and convert it to the
+ledger journal format.
 
   [ledger]: https://www.ledger-cli.org/
 
@@ -31,26 +34,26 @@ macOS version of sed rather than gnused:
 
     sed -i "" '1s/.*/date,,payee,amount,,,/' $1
 
-The first command removed any lines that are blank or contain spaces,
-which gets rid of the empty header lines. The second line removes
-some useless filler text in the notes column of the csv file, so for
-instance, ,"'1062 09AUG18 C , TESCO STORES ", gets contracted to
-,"TESCO STORES ",. Finally, the header row is replaced with headers
-which ledger convert recognises.
+The first command removed any lines that are blank or contain
+spaces, which gets rid of the empty header lines. The second line
+removes some useless filler text in the notes column of the csv
+file, so for instance, ,"'1062 09AUG18 C , TESCO STORES ", gets
+contracted to ,"TESCO STORES ",. Finally, the header row is replaced
+with headers which ledger convert recognises.
 
 ledger convert needs some inputs:
 
--   --input-date-format "%d/%m/%Y" tells ledger convert the format of
-    the date column in the csv file.
+-   --input-date-format "%d/%m/%Y" tells ledger convert the format
+    of the date column in the csv file.
 -   --account assets:bank:student_acc denotes the bank account the
     csv file is for.
 -   --rich-data extracts unnamed columns from the csv and adds them
     as notes to each ledger entry.
 -   -f ~/.ledger.journal denotes the path to the ledger journal file
     to use for reference.
--   --invert inverts the sign of the transactions, which I have to do
-    for this style of csv to stop ledger thinking that expenses are
-    incomes and vice versa.
+-   --invert inverts the sign of the transactions, which I have to
+    do for this style of csv to stop ledger thinking that expenses
+    are incomes and vice versa.
 
 Then I can wrap all of this into a neat shell script which takes
 inputs of the input csv and output ledger journal:
@@ -76,17 +79,14 @@ of expense in the ledger journal, but I really don’t see any way
 around that as my expenses don’t come from a finite list of sources,
 so categorising all of them would be impossible.
 
-
-
-UPDATE 2019_08_26
-
+Update 2019_08_26
 
 I had some problems with CSV files from one of my accounts. It turns
 out they were being stupid with the CSV formatting and had open
 double quotes which weren’t closed in a description field, meaning
 that any commas in that field were interpreted as column delimiters.
-I took it as an excuse to improve the ledger convert bash scripts I’d
-set up previously. I wanted to clean them up and use some shell
+I took it as an excuse to improve the ledger convert bash scripts
+I’d set up previously. I wanted to clean them up and use some shell
 scripting techniques I’ve learned since last year when I wrote the
 original script.
 
@@ -125,8 +125,8 @@ original script.
     # Remove temp
     rm ${temp}
 
-I combined the scripts I had for my two banks into one, hinging on an
-if-else statement acting on the account name given as an argument to
-the script. It first cleans up the csv files and saves them to a
+I combined the scripts I had for my two banks into one, hinging on
+an if-else statement acting on the account name given as an argument
+to the script. It first cleans up the csv files and saves them to a
 $temp file, then runs ledger convert with certain options and sends
 output to STDOUT.

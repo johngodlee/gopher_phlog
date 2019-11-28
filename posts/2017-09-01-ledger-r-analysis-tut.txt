@@ -1,5 +1,8 @@
-Analysing Ledger Personal Accounting Data Using R - [2017-09-01]
-==================================================================
+TITLE: Analysing Ledger Personal Accounting Data Using R
+DATE: 2017-09-01
+AUTHOR: John L. Godlee
+====================================================================
+
 
 [Ledger] (aka Ledger-CLI) provides a great framework to keep track
 of your personal finances. Keeping your data in plain text format
@@ -14,22 +17,22 @@ provides multiple benefits:
 -   The file can be interpreted using many other programming
     languages, like R!
 
-To properly visualise how my finances are changing over time however,
-I find the text based reports provided by ledger-cli a bit dense and
-fiddly.
+To properly visualise how my finances are changing over time
+however, I find the text based reports provided by ledger-cli a bit
+dense and fiddly.
 
 This post might be an exercise in reinventing the wheel. Ledger
 already has a decent [web-based reporting system] that can provide
-pretty graphs and lots of other ledger-like apps that can do similar.
-But my language of choice for making pretty graphs and manipulating
-data is ‘R’, so I’m going to use that.
+pretty graphs and lots of other ledger-like apps that can do
+similar. But my language of choice for making pretty graphs and
+manipulating data is ‘R’, so I’m going to use that.
 
   [web-based reporting system]: https://github.com/ledger/ledger-web
 
 Most of the code below is actually data manipulation, which I’ve
 chosen to do with the dplyr package, creating the plots in ggplot2
-isn’t too taxing. I’ve created an example script [here] and you can
-find the example .ledger.journal file I used [here][1]
+isn’t too taxing. I’ve created an example script [here] and you
+can find the example .ledger.journal file I used [here][1]
 
   [here]: https://johngodlee.github.io/files/ledger/ledger_journal_analysis.R
   [1]: https://johngodlee.github.io/files/ledger/example_ledger.journal
@@ -106,7 +109,6 @@ might look like this:
 But it should be trivial to change the code to match your journal
 structure.
 
-
 Assets over time
 
   {IMAGE}
@@ -125,7 +127,6 @@ Then make the plot:
         geom_point(aes(colour = Source), size = 2) +
         scale_x_date(date_breaks = "1 week", date_labels = "%W/%y")
 
-
 Viewing a particular asset in detail over time
 
   {IMAGE}
@@ -142,7 +143,6 @@ Viewing a particular asset in detail over time
         scale_x_date(date_breaks = "2 days", date_labels = "%W/%y") + 
         xlab("Date WW-YY") + 
         ylab("Balance ($)")
-
 
 Bar plots with breakdown of expenses
 
@@ -170,7 +170,6 @@ Bar plots with breakdown of expenses
     ggplot(expenses_sum, aes(x = NA, y = Percentage, fill = Source)) + 
         geom_bar(stat = "identity") + 
         geom_text(aes(label = paste(round(Percentage, digits = 2), "% - ", Source, sep="")), position=position_stack(vjust=0.5))
-
 
 Last 30 days income/expenses summary
 

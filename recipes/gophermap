@@ -35,6 +35,7 @@ iMISCELLANEOUS	/
 0Lip Balm	Lip_balm.txt
 0Tomato Ketchup 	Tomato_Ketchup.txt
 0Wood Sealant	Wood_sealant.txt
+0Hairy bittercress pesto	bittercress_pesto.txt
 
 iMAIN DISHES	/
 
@@ -116,7 +117,3 @@ iPIZZA	/
 0Pizza Margherita	Pizza_Margherita.txt
 0Spinach Pizzetta	Spinach_Pizzetta.txt
 0Vegan Lahmajun	vegan_lahmajun.txt
-
-iFORAGED FOOD	/
-
-0Hairy bittercress pesto	bittercress_pesto.txt

@@ -1,7 +1,4 @@
-
-
-FLAPJACKS
-
+Flapjacks
 
 Ingredients
 
@@ -9,7 +6,6 @@ Ingredients
 -   250 g golden syrup
 -   500 g rolled oats
 -   Pinch of salt
-
 
 Method
 

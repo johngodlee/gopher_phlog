@@ -1,14 +1,18 @@
-Elephants affect the spatial distribution of savannah trees - [2017-12-01]
-============================================================================
+TITLE: Elephants affect the spatial distribution of savannah trees
+DATE: 2017-12-01
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I have been attempting to write some scripts that will hopefully
-serve me well as I progress through writing my PhD. As I’m looking at
-the spatial distribution of trees and their canopy properties in dry
-tropical woodlands/savannahs, I thought it would be good to learn how
-to effectively plot tree distributions in plots. So I got hold of
-some data which contains the lat-long coordinates of trees in two 25
-ha permanent savannah plots, one of which is known to be home to
-elephants, and one which isn’t. As always, the code I used is in R.
+serve me well as I progress through writing my PhD. As I’m looking
+at the spatial distribution of trees and their canopy properties in
+dry tropical woodlands/savannahs, I thought it would be good to
+learn how to effectively plot tree distributions in plots. So I got
+hold of some data which contains the lat-long coordinates of trees
+in two 25 ha permanent savannah plots, one of which is known to be
+home to elephants, and one which isn’t. As always, the code I used
+is in R.
 
 The data and an example script which I used can be found [here].
 

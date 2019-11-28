@@ -1,5 +1,8 @@
-Using vifm to attach files to emails in Mutt - [2019-02-15]
-=============================================================
+TITLE: Using vifm to attach files to emails in Mutt
+DATE: 2019-02-15
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I’ve found that the default file attachment browser in mutt is very
 lacking, it requires lots of manually traversing directories to find

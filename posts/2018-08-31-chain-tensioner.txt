@@ -1,5 +1,8 @@
-Ideas for a DIY bike chain tensioner - [2018-08-31]
-=====================================================
+TITLE: Ideas for a DIY bike chain tensioner
+DATE: 2018-08-31
+AUTHOR: John L. Godlee
+====================================================================
+
 
 This is a set of notes I made on images I gathered from around the
 internet, mostly on mountain bike forums, about making a DIY chain
@@ -18,16 +21,13 @@ fall off the jockey wheel.
 
 This tensioner I feel is at the other extreme. It would require so
 much effort to make I might as well just buy a chain tensioner. It
-has a spring and I presume one of the pieces of metal attaches to the
-bottom hanger of the frame like a normal derailleur.
+has a spring and I presume one of the pieces of metal attaches to
+the bottom hanger of the frame like a normal derailleur.
 
   {IMAGE}
 
 
-
-
-ADAPTED DERAILLEURS
-
+Adapted derailleurs
 
 Usring an old rear derailleur seems like a great idea, as all the
 parts are available and they should fit onto the bike with few
@@ -51,8 +51,8 @@ certain bits can be removed?
 This frankenstein is pretty interesting. It’s made out of a spring
 loaded brake arm from a mountain bike, with a jockey wheel screwed
 onto the end. I reckon this would be a really good option IF you
-already had the parts, otherwise gathering them all together would be
-a pain.
+already had the parts, otherwise gathering them all together would
+be a pain.
 
   {IMAGE}
 
@@ -60,10 +60,7 @@ a pain.
   {IMAGE}
 
 
-
-
-FRAME ATTACHED CHAIN TENSIONERS.
-
+Frame attached chain tensioners.
 
 These chain tensioners don’t attach to the rear mech hanger of the
 bike, instead they attach to the chain stay on the frame.
@@ -72,15 +69,16 @@ increases the amount of chain wrap.
 
 This one is made from a front derailleur with a jockey wheel screwed
 through the end. This one is easy to attach to the chain stay as
-front derailleurs often have adjustable p-clips to attach them to the
-seat tube on. Again there is no spring mechanism in this one so
+front derailleurs often have adjustable p-clips to attach them to
+the seat tube on. Again there is no spring mechanism in this one so
 although it looks very simple, I would rather use something else.
 
   {IMAGE}
 
 
-This one is still a bit of a mystery to me. I think it’s a skateboard
-wheel, but it looks like the attachment is brazed onto the frame.
+This one is still a bit of a mystery to me. I think it’s a
+skateboard wheel, but it looks like the attachment is brazed onto
+the frame.
 
   {IMAGE}
 
@@ -94,9 +92,9 @@ however.
 
 
 This one seems like a really great idea. All the parts should be
-sources and it has a pretty robust looking spring mechanism. Although
-this one is on a weird tandem setup, it could easily be attached
-upside down to a chain stay on a normal bike. It needs:
+sources and it has a pretty robust looking spring mechanism.
+Although this one is on a weird tandem setup, it could easily be
+attached upside down to a chain stay on a normal bike. It needs:
 
 -   2 extension springs
 -   1 p-clip

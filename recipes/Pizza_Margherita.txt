@@ -1,7 +1,4 @@
-
-
-PIZZA MARGHERITA
-
+Pizza Margherita
 
 Ingredients
 
@@ -16,7 +13,6 @@ Ingredients
 -   handful shaved parmesan
 -   handful cherry tomatoes, halved
 -   200 ml water
-
 
 Method
 

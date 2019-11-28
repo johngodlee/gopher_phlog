@@ -1,5 +1,8 @@
-Converting Alpine addressbook to Mutt aliases - [2018-12-23]
-==============================================================
+TITLE: Converting Alpine addressbook to Mutt aliases
+DATE: 2018-12-23
+AUTHOR: John L. Godlee
+====================================================================
+
 
 Having switched to a finally usable Mutt setup, I wanted to be able
 to use my addressbook from Alpine in Mutt. I’m also trying to learn

@@ -1,7 +1,4 @@
-
-
-SAVOURY SCONES
-
+Savoury Scones
 
 Ingredients
 
@@ -17,7 +14,6 @@ Ingredients
 -   1 egg
 -   240 ml milk
 -   Optional - Shredded red leicester
-
 
 Method
 

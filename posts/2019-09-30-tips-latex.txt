@@ -1,21 +1,21 @@
-Miscellaneous LaTeX snippets - [2019-09-30]
-=============================================
+TITLE: Miscellaneous LaTeX snippets
+DATE: 2019-09-30
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I spent Sunday afternoon researching a short list of things I wanted
 to fix in LaTeX to streamline my experience.
 
-
-
-DEFINE MACROS FOR FORMATTED BLOCKS
-
+Define macros for formatted blocks
 
 Sometimes I have to write a document like a CV or a set of handout
 notes which require reuse of a complex formatted block of text. For
 example, below, where I want to create a timeline of events with the
 date of the event on the left of the page, with a description of the
 event on the right. I can define a macro for this instead of writing
-the same boilerplate code every time. I stole this from a [Luke Smith
-youtube video].
+the same boilerplate code every time. I stole this from a [Luke
+Smith youtube video].
 
   [Luke Smith youtube video]: https://www.youtube.com/watch?v=rvgP7IMeUn8
 
@@ -36,8 +36,8 @@ youtube video].
 
 This macro has four insertion points for user input, defined in the
 square brackets and called with #n arguments. The macro places a
-small area to the left of the vertical line, then a larger one to the
-right.
+small area to the left of the vertical line, then a larger one to
+the right.
 
 To call the macro and give the user input:
 
@@ -46,10 +46,7 @@ To call the macro and give the user input:
   {IMAGE}
 
 
-
-
-GLOBALLY SET IMAGE SIZE
-
+Globally set image size
 
     \documentclass{article}
     \usepackage{graphicx}
@@ -63,10 +60,7 @@ GLOBALLY SET IMAGE SIZE
 
     \end{document}
 
-
-
-GLOBALLY CENTER IMAGES
-
+Globally center images
 
     \documentclass{article}
     \usepackage{graphicx}
@@ -81,14 +75,11 @@ GLOBALLY CENTER IMAGES
     \includegraphics{test.png}
     \end{figure}
 
-
-
-FIGURES IN WRAPPED TEXT
-
+Figures in wrapped text
 
 This uses the wrapfig package to make a right-aligned figure. The
-figure itself is 5 cm width and the image inside the figure is also 5
-cm.
+figure itself is 5 cm width and the image inside the figure is also
+5 cm.
 
     \documentclass{article}
     \usepackage{graphicx}
@@ -110,10 +101,7 @@ cm.
 
     \end{document}
 
-
-
-CUSTOM DIRECTORY FOR .BST FILES
-
+Custom directory for .bst files
 
 .bst files are used to hold custom BibTeX reference styles. I have
 one that is based on the agsm style, but I’ve set it to not include
@@ -137,8 +125,8 @@ document I can use this style file with:
 Previously I had kept agsmnourl.bst in the same directory as the
 project, but my laptop was quickly filling up with duplicates of the
 style file. I found out that latexmk which I use to compile LaTeX
-documents, can take a ~/latexmkrc file where certain variables can be
-defined. I can define a custom directory which holds these custom
+documents, can take a ~/latexmkrc file where certain variables can
+be defined. I can define a custom directory which holds these custom
 .bst files:
 
     $ENV{'TEXINPUTS'}='~/.texmf//:' . $ENV{'TEXINPUTS'};

@@ -1,9 +1,13 @@
-Pandoc CSS templates - [2018-08-20]
-=====================================
+TITLE: Pandoc CSS templates
+DATE: 2018-08-20
+AUTHOR: John L. Godlee
+====================================================================
+
 
 This is a showcase of different CSS templates which I have adapted
-for use in Pandoc when converting from Markdown to HTML. Where credit
-is due for the original css file I’ve included it in the CSS file.
+for use in Pandoc when converting from Markdown to HTML. Where
+credit is due for the original css file I’ve included it in the CSS
+file.
 
 All the CSS templates and the raw html for inspection can be
 downloaded from [here].
@@ -22,118 +26,79 @@ convert to a pdf using wkhtmltopdf:
 
 On to the templates:
 
-
-
-BLUE_BIG
-
+blue_big
 
   {IMAGE}
 
   [[[blue_big screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_blue_big.html
 
-
-
-BUTTONDOWN
-
+buttondown
 
   {IMAGE}
 
   [[[buttondown screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_buttondown.html
 
-
-
-CHMDUQUESNE_RESUME
-
+chmduquesne_resume
 
   {IMAGE}
 
   [[[chmduquesne_resume screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_chmduquesne_resume.html
 
-
-
-GITHUB_PAGES
-
+github_pages
 
   {IMAGE}
 
   [[[github_pages screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_github_pages.html
 
-
-
-GITHUB
-
+github
 
   {IMAGE}
 
   [[[github screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_github.html
 
-
-
-KILLERCUP
-
+killercup
 
   {IMAGE}
 
   [[[killercup screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_killercup.html
 
-
-
-MODEST
-
+modest
 
   {IMAGE}
 
   [[[modest screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_modest.html
 
-
-
-PANAM
-
+panam
 
   {IMAGE}
 
   [[[panam screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_panam.html
 
-
-
-PANDOC_TWEAK
-
+pandoc_tweak
 
   {IMAGE}
 
   [[[pandoc_tweak screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_pandoc_tweak.html
 
-
-
-PANDOC
-
+pandoc
 
   {IMAGE}
 
   [[[pandoc screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_pandoc.html
 
-
-
-SPLENDOR
-
+splendor
 
   {IMAGE}
 
   [[[splendor screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_splendor.html
 
-
-
-TYPEWRITER
-
+typewriter
 
   {IMAGE}
 
   [[[typewriter screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_typewriter.html
 
-
-
-CREATING THE IMAGES
-
+Creating the images
 
 For interest’s sake, this is the short bash script I used to loop
 over the css files to make the screenshots seen above:

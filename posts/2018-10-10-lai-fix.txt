@@ -1,14 +1,17 @@
-I made a mistake with cropping fisheye photos to a field of view - [2018-10-10]
-=================================================================================
+TITLE: I made a mistake with cropping fisheye photos to a field of view
+DATE: 2018-10-10
+AUTHOR: John L. Godlee
+====================================================================
+
 
 In a previous post I created an R function to estimate the radius in
 pixels of a circle with a view angle of given degrees, for a fisheye
 lens with an equisolid project. I realised afterwards, after doing
 some testing that this function didn’t work. It was close, but some
-things didn’t work quite right. For instance when I changed the focal
-length of the lens, nothing in the output of the function changed.
-Here is the new function, which uses the PIXEL PITCH of the camera
-sensor:
+things didn’t work quite right. For instance when I changed the
+focal length of the lens, nothing in the output of the function
+changed. Here is the new function, which uses the pixel pitch of the
+camera sensor:
 
     fov.px <- function(deg_theta, focal_length_mm, pixel_pitch_um){
         require(NISTunits)

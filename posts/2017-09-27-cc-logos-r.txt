@@ -1,5 +1,8 @@
-Making Coding Club logos in R - [2017-09-27]
-==============================================
+TITLE: Making Coding Club logos in R
+DATE: 2017-09-27
+AUTHOR: John L. Godlee
+====================================================================
+
 
 A previous post showcased the new Coding Club logos that I made for
 our website. Seeing as the website is all about programming in R I
@@ -14,9 +17,9 @@ proportions always went way off and I don’t have time to fiddle with
 the dimension options and all their interactions with the options in
 ggplot2.
 
-First do the usual, setwd, packages, import data etc.. If you want to
-try and follow along, sample_image.png can be found [here] and the
-script file I used is [here][1]:
+First do the usual, setwd, packages, import data etc.. If you want
+to try and follow along, sample_image.png can be found [here] and
+the script file I used is [here][1]:
 
   [here]: https://johngodlee.github.io/files/cc_logos_r/sample_image.png
   [1]: https://johngodlee.github.io/files/cc_logos_r/hexagons.R
@@ -34,8 +37,8 @@ script file I used is [here][1]:
     g <- rasterGrob(img, interpolate=TRUE, width = 0.5)
     ggplot() + annotation_custom(g)
 
-Then I can start to construct the hexagon logo shape using vectors of
-point locations on a grid:
+Then I can start to construct the hexagon logo shape using vectors
+of point locations on a grid:
 
     # Hexagon
     ord_hex <- c(1, 2, 3, 4, 5, 6, 7, 8)

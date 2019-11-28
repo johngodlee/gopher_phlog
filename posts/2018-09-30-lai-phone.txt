@@ -1,13 +1,16 @@
-Comparing forest canopy measurements with a phone lens and an expensive DSLR fisheye - [2018-09-30]
-=====================================================================================================
+TITLE: Comparing forest canopy measurements with a phone lens and an expensive DSLR fisheye
+DATE: 2018-09-30
+AUTHOR: John L. Godlee
+====================================================================
+
 
 On my most recent teaching stint as a demonstrator for a 4th year
-undergraduate field course, myself and one of the other demonstrators
-experimented with estimating forest canopy structural metrics like
-gap fraction and Leaf Area Index (LAI) using two different
-photographic methods. The first was a conventional full hemipsherical
-fisheye lens on a DSLR camera, the second was a considerably cheaper
-fisheye lens converter for a smartphone.
+undergraduate field course, myself and one of the other
+demonstrators experimented with estimating forest canopy structural
+metrics like gap fraction and Leaf Area Index (LAI) using two
+different photographic methods. The first was a conventional full
+hemipsherical fisheye lens on a DSLR camera, the second was a
+considerably cheaper fisheye lens converter for a smartphone.
 
 We took 10 photos with the same orientation at the same height under
 a stand of Ash-Birch mixed plantation. I cropped the images so each

@@ -1,19 +1,24 @@
-A better system for referencing - [2018-11-25]
-================================================
+TITLE: A better system for referencing
+DATE: 2018-11-25
+AUTHOR: John L. Godlee
+====================================================================
+
 
 For a long time I was using Mendeley as a way of managing papers and
-references. However, the last few months I’ve found that Mendeley has
-been getting more and more clunky on my laptop, even with regular
-updating, and once or twice even doing an entirely fresh install. I
-also didn’t like the idea of things not being in my control. After a
-recent report that I wrote, I got pulled up for dodgy referencing,
-this being because Mendeley is fairly inconsistent with how it labels
-things like author names, issue numbers etc.
+references. However, the last few months I’ve found that Mendeley
+has been getting more and more clunky on my laptop, even with
+regular updating, and once or twice even doing an entirely fresh
+install. I also didn’t like the idea of things not being in my
+control. After a recent report that I wrote, I got pulled up for
+dodgy referencing, this being because Mendeley is fairly
+inconsistent with how it labels things like author names, issue
+numbers etc.
 
-I write all of my important work in LaTeX, so I generally exported my
-Mendeley reference lists to BibTeX files, so I figured I would cut
-out Mendeley completely and try to just hold my references in simple
-flat .bib files. Here is a sample of my master BibTeX file, lib.bib:
+I write all of my important work in LaTeX, so I generally exported
+my Mendeley reference lists to BibTeX files, so I figured I would
+cut out Mendeley completely and try to just hold my references in
+simple flat .bib files. Here is a sample of my master BibTeX file,
+lib.bib:
 
     @article{brusa2014,
       author = {Brusa, A. and Bunker, D. E.},
@@ -51,23 +56,23 @@ flat .bib files. Here is a sample of my master BibTeX file, lib.bib:
       DOI = { http://dx.doi.org/10.1155/2016/9379203 }
     }
 
-Whenever I read an article of interest, or want to save any reference
-for that matter, it goes in lib.bib. I normally keep notes for the
-articles I’ve read in a separate set of files related to whatever
-project I’m working on, so I search those to find references that I
-can’t quite remember the details of. Papers are all stored in a
-papers/ directory which gets backed up regularly, it’s just a flat
-directory. I suppose I could make it into a heirarchy based on theme,
-but I feel that would get complicated too fast, for example, if a
-paper should be included in two themes, or papers should be
-retro-actively added to emerging themes.
+Whenever I read an article of interest, or want to save any
+reference for that matter, it goes in lib.bib. I normally keep notes
+for the articles I’ve read in a separate set of files related to
+whatever project I’m working on, so I search those to find
+references that I can’t quite remember the details of. Papers are
+all stored in a papers/ directory which gets backed up regularly,
+it’s just a flat directory. I suppose I could make it into a
+heirarchy based on theme, but I feel that would get complicated too
+fast, for example, if a paper should be included in two themes, or
+papers should be retro-actively added to emerging themes.
 
-Typing all the BibTeX markup by hand is very laborious. I use Vim for
-text editing and I felt it was time to learn about snippets, which
-are just small chunks of customisable text that can be entered into
-documents by typing a keyword and hitting tab. I use the
-‘SirVer/ultisnips’ plugin, which you can find [here]. An example of
-a .bib snippet that I use to generate an article template:
+Typing all the BibTeX markup by hand is very laborious. I use Vim
+for text editing and I felt it was time to learn about snippets,
+which are just small chunks of customisable text that can be entered
+into documents by typing a keyword and hitting tab. I use the
+‘SirVer/ultisnips’ plugin, which you can find [here]. An example
+of a .bib snippet that I use to generate an article template:
 
   [here]: https://github.com/SirVer/ultisnips
 

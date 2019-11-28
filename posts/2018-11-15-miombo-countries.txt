@@ -1,11 +1,14 @@
-How much miombo is in each country - [2018-11-15]
-===================================================
+TITLE: How much miombo is in each country
+DATE: 2018-11-15
+AUTHOR: John L. Godlee
+====================================================================
 
-For some quick and dirty statistics to quote in the introduction to a
-report, I wanted to know how much of the miombo biome (as defined by
-White’s vegetation map) was in Angola. Afterwards, I decided to try
-and apply the same methods to all the countries in southern Africa. I
-used R to do the analyses.
+
+For some quick and dirty statistics to quote in the introduction to
+a report, I wanted to know how much of the miombo biome (as defined
+by White’s vegetation map) was in Angola. Afterwards, I decided to
+try and apply the same methods to all the countries in southern
+Africa. I used R to do the analyses.
 
 First, load some packages:
 
@@ -44,7 +47,7 @@ used in [Ryan et al. (2016)].
         (white_veg$DESCRIPTIO == "Sedge and reed swamp")),]
 
 Then, I only want to keep countries that contain miombo, which I can
-do using gIntersects() from _rgeos_.
+do using gIntersects() from rgeos.
 
     country_list <- split(countries, countries$COUNTRY)
 
@@ -56,9 +59,9 @@ do using gIntersects() from _rgeos_.
 
 Then, I define a function to find UTM zones, because countries vary
 in their UTM zone, so I can’t just use a flat value. Converting from
-lat-long to UTM is necessary so I can get km^2 area estimates, rather
-than square degrees. The function takes any spatial object and uses
-the bounding box to estimate the UTM zone.
+lat-long to UTM is necessary so I can get km^2 area estimates,
+rather than square degrees. The function takes any spatial object
+and uses the bounding box to estimate the UTM zone.
 
     # Define a function to find the UTM zone
     utm.zone <- function(x){
@@ -122,9 +125,9 @@ And finally there is a bit of cleaning up to get a tidy data frame.
     # Add country as column
     country_miombo_stats$country <- rownames(country_miombo_stats)
 
-I could probably spend more time to just have the function and lapply
-call give me the tidy dataframe straight off, but I don’t have the
-inclination.
+I could probably spend more time to just have the function and
+lapply call give me the tidy dataframe straight off, but I don’t
+have the inclination.
 
 I think the most useful thing to come out of this little exercise is
 actually the UTM zone function, I think it’s pretty neat.

@@ -13,7 +13,7 @@ for i in ~/git_proj/johngodlee.github.io/_posts/*.md; do
 	name=$(basename "$i" | cut -f 1 -d '.')
 
 	# Convert post from markdown to plain text
-	pandoc --from markdown --to plain --columns=69 --reference-links --reference-location=block -o posts/$name.txt $i
+	pandoc --from markdown --to plain --columns=68 --reference-links --reference-location=block -o posts/$name.txt $i
     
     # Sanitize plain text
 	sed -i 's/\]\[\]/]/g' posts/$name.txt
@@ -24,9 +24,9 @@ for i in ~/git_proj/johngodlee.github.io/_posts/*.md; do
 	# Insert title in post
 	title=$(awk 'NR==3' $i | sed 's/"//g' | sed 's/title:\s*//g')
 	date=$(awk 'NR==4' $i | sed 's/date:\s*//g')
-	title_full=$(echo "$title - \[$date\]")
-	title_lo=$(echo "$title_full" | sed 's/./=/g')
-	sed -i "1i$title_full\n$title_lo\n" "posts/$name.txt"
+	title_lo=$(printf '=%.0s' {1..68})
+	author="John L. Godlee"
+	sed -i "1iTITLE: $title\nDATE: $date\nAUTHOR: $author\n$title_lo\n\n" "posts/$name.txt"
 done
 
 # Create root gophermap and fill with header content 

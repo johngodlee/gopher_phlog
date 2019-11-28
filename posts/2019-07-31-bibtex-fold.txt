@@ -1,5 +1,8 @@
-Vim fold expression for BibTeX files - [2019-07-31]
-=====================================================
+TITLE: Vim fold expression for BibTeX files
+DATE: 2019-07-31
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I wanted to be able to fold long BibTeX files to display a condensed
 list of the references so I could quickly scan the contents of the

@@ -1,10 +1,13 @@
-Analysing BibTeX files in R - [2019-09-12]
-============================================
+TITLE: Analysing BibTeX files in R
+DATE: 2019-09-12
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I have a master BibTeX file called lib.bib, which contains
 bibliographic information on every paper I’ve read, which pairs with
-a directory of those papers’ .pdf files. I thought it would be fun to
-see if there were patterns in my reading which I could find by
+a directory of those papers’ .pdf files. I thought it would be fun
+to see if there were patterns in my reading which I could find by
 analysing lib.bib in R.
 
 I have a bash script which extracts bibliographic information from
@@ -29,12 +32,13 @@ publication name.
 
 Extracting author names was the most difficult because names are not
 always formatted the same, especially those names which contain
-{van der} Putten for example, where the actual initial of the surname
-is not v but P in the example above. One interesting trick I found
-was using sed to extract text between the first occurrence of one
-character, and the last occurrence of another character, ignoring
-repeats of those characters. I used this to extract author names
-between { } despite some authors having {van der} in their surname:
+{van der} Putten for example, where the actual initial of the
+surname is not v but P in the example above. One interesting trick I
+found was using sed to extract text between the first occurrence of
+one character, and the last occurrence of another character,
+ignoring repeats of those characters. I used this to extract author
+names between { } despite some authors having {van der} in their
+surname:
 
     sed 's/.*= {\([^]]*\)},.*/\1/g'
 
@@ -60,8 +64,8 @@ Then the bash script calls an R script:
 
     papers$num_authors <- sapply(authors_list, length)
 
-papers$authors actually contains a list where each row is a vector of
-author names for a paper
+papers$authors actually contains a list where each row is a vector
+of author names for a paper
 
 The first plot draws a correlation between year of publication and
 number of authors:
@@ -76,8 +80,9 @@ number of authors:
   {IMAGE}
 
 
-The next two plots are bar graphs of the frequency of the most common
-authors (first and co-authors) and the most common first authors:
+The next two plots are bar graphs of the frequency of the most
+common authors (first and co-authors) and the most common first
+authors:
 
     ## Get list of most common authors
     author_all <- unlist(papers$authors)

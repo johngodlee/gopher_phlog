@@ -1,5 +1,8 @@
-Python conda virtual environment in bash prompt - [2019-02-28]
-================================================================
+TITLE: Python conda virtual environment in bash prompt
+DATE: 2019-02-28
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I was forced to use the python package manager conda for some work,
 as it proved to be the easiest way to install a certain python
@@ -36,8 +39,8 @@ to stop conda putting the env name at the start of the prompt. Edit
 
     changeps1: false
 
-Then in ~/.bash_profile (or ~/.bashrc if on Linux), add the following
-function above the PS1= lines:
+Then in ~/.bash_profile (or ~/.bashrc if on Linux), add the
+following function above the PS1= lines:
 
     get_conda_env ()
     {

@@ -1,7 +1,4 @@
-
-
-DROP BISCUITS
-
+Drop biscuits
 
 Ingredients
 
@@ -11,7 +8,6 @@ Ingredients
 -   1 tsp granulated sugar
 -   141 g cold unsalted butter, cut into cubes
 -   0.75 cups whole milk, plus 1 to 2 tablespoons if needed
-
 
 Method
 

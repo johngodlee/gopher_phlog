@@ -1,10 +1,13 @@
-Making Cider - [2018-09-29]
-=============================
+TITLE: Making Cider
+DATE: 2018-09-29
+AUTHOR: John L. Godlee
+====================================================================
 
-Last weekend I went down to my parents’ house to make some cider. Our
-neighbour has a cider press and a load of demijohns. We got enough
-apples for about 100 litres of cider and plenty of bottles of apple
-juice.
+
+Last weekend I went down to my parents’ house to make some cider.
+Our neighbour has a cider press and a load of demijohns. We got
+enough apples for about 100 litres of cider and plenty of bottles of
+apple juice.
 
 We got apples from three different gardens in the village, so we had
 plenty of variety. There were a few unknown varieties but the

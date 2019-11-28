@@ -1,11 +1,14 @@
-Generating a static site using pandoc - [2018-08-02]
-======================================================
+TITLE: Generating a static site using pandoc
+DATE: 2018-08-02
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I use [Jekyll] to generate my blog and that probably won’t change
 any time soon. There’s lots of other options for generating a static
-site from a folder of files, like [Hugo] or [Pelican], but Jekyll
-benefits massively from having a lot of support online and a big
-userbase, so it’s always easy to fix any problems I’m having.
+site from a folder of files, like [Hugo] or [Pelican], but
+Jekyll benefits massively from having a lot of support online and a
+big userbase, so it’s always easy to fix any problems I’m having.
 
   [Jekyll]: https://jekyllrb.com/
   [Hugo]: https://gohugo.io/
@@ -20,8 +23,8 @@ but I am starting to get familiar with shell scripting, if only in a
 simplistic way.
 
 So I have a folder full of markdown files in _posts/, each one of
-which is a blog post. In the YAML metadata at the top I have the type
-of page, the title, and the date:
+which is a blog post. In the YAML metadata at the top I have the
+type of page, the title, and the date:
 
     ---
     layout: post
@@ -30,8 +33,8 @@ of page, the title, and the date:
     ---
 
 I can use pandoc to convert these markdown files to HTML with a css
-file to style the HTML. The CSS file can be seen [here]. To convert
-a single markdown file I can do this:
+file to style the HTML. The CSS file can be seen [here]. To
+convert a single markdown file I can do this:
 
   [here]: https://johngodlee.github.io/files/site_gen/site_gen.css
 
@@ -59,7 +62,8 @@ variables and put it in a for loop:
 
 Note that in this version I’ve chosen to add the contents of
 header.html to the top of the main body of each generated HTML file
-using the --include-before-body command. header.html looks like this:
+using the --include-before-body command. header.html looks like
+this:
 
     <a class='header' href="../index.html">HOME</a>
 

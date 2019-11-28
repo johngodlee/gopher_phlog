@@ -1,5 +1,8 @@
-Using R to locate spatial data points inside map polygons  - [2017-09-27]
-===========================================================================
+TITLE: Using R to locate spatial data points inside map polygons 
+DATE: 2017-09-27
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I was looking into a paper called “Determinants of woody cover in
 African savannas” by Sankaran et al. (2005). The paper looks at the
@@ -12,7 +15,7 @@ got me interested was this one:
 
 I haven’t fully worked out the implications of this figure yet, but
 what stands out to me the most is that many plots in high rainfall
-areas with low woody cover are classed as ‘_arid_ fertile savanna’ by
+areas with low woody cover are classed as ‘arid fertile savanna’ by
 White’s veg. classification. Secondly moist infertile savanna seems
 to straddle the saturation point of the MAP limited woody cover.
 
@@ -113,18 +116,18 @@ SpatialPoints object so I can use it in future analyses.
     # Convert to SpatialPoints object   
     cover_spoints <- SpatialPoints(cover_coords,proj4string=CRS(proj4string(white_veg)))
 
-The bit of this project that took me some time to work out was how to
-compute whether a data point from Sankaran et al. fell into a polygon
-of a certain type in White’s map. I ended up using over() from the sp
-package. Then I can add that data back into the original Sankaran
-dataset
+The bit of this project that took me some time to work out was how
+to compute whether a data point from Sankaran et al. fell into a
+polygon of a certain type in White’s map. I ended up using over()
+from the sp package. Then I can add that data back into the original
+Sankaran dataset
 
     # Add vegetation class column by referencing White map
     cover_veg_class <- cover %>%
         mutate(veg_class = over(cover_spoints, white_veg)$DESCRIPTIO)
 
-Finally, I can use cover_veg_class to create a ggplot of MAP vs woody
-cover, with the points coloured according to which of White’s
+Finally, I can use cover_veg_class to create a ggplot of MAP vs
+woody cover, with the points coloured according to which of White’s
 vegetation classes the point is in:
 
     # Plot with vegetation classification from White et al. 1983 ----

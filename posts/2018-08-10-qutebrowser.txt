@@ -1,22 +1,23 @@
-Qutebrowser setup - [2018-08-10]
-==================================
+TITLE: Qutebrowser setup
+DATE: 2018-08-10
+AUTHOR: John L. Godlee
+====================================================================
+
 
 Firefox was becoming annoying and bloated, and so I decided to go
 back to using [Qutebrowser], a project I’d been following for a
-while. It’s a minimalistic web browser, which is massively extensible
-and keyboard driven, with default vim-like keybindings. This is about
-how I’ve set it up. Qutebrowser is configured using a python file
-called config.py which is normally found in ~/.qutebrowser/config.py.
+while. It’s a minimalistic web browser, which is massively
+extensible and keyboard driven, with default vim-like keybindings.
+This is about how I’ve set it up. Qutebrowser is configured using a
+python file called config.py which is normally found in
+~/.qutebrowser/config.py.
 
   [Qutebrowser]: https://www.qutebrowser.org/index.html
 
   {IMAGE}
 
 
-
-
-THE TAB BAR
-
+The tab bar
 
 By default, the tab bar looks like this:
 
@@ -102,33 +103,30 @@ The relevant lines of the config.py are:
 Tabs are always at the top of the screen. Tabs are all lightgrey
 unless they are selected, then they become darkgrey, regardless of
 whether they are odd or even numbered. The foreground text is black
-and the tab indicator is black. I didn’t like the gradient that shows
-on the tab indicator when a tab is loading, so it just stays black
-(c.colors.tabs.indicator.start, c.colors.tabs.indicator.stop). The
-text in the tabs is centred and a bit bigger than the default and
-each tab lists the number of the tab ({index}), the name of the
+and the tab indicator is black. I didn’t like the gradient that
+shows on the tab indicator when a tab is loading, so it just stays
+black (c.colors.tabs.indicator.start, c.colors.tabs.indicator.stop).
+The text in the tabs is centred and a bit bigger than the default
+and each tab lists the number of the tab ({index}), the name of the
 webpage ({title}) and the top level domain ({host}).
 
 c.tabs.indicator.padding = {'bottom': 0, 'left': 0, 'right': 5, 'top': 0}
-means that the tab indicator is positioned a minimum of 5 pixels left
-of any text in the tab.
+means that the tab indicator is positioned a minimum of 5 pixels
+left of any text in the tab.
 
   {IMAGE}
 
 
-
-
-STATUS BAR
-
+Status bar
 
   {IMAGE}
 
 
-The default status bar and completion bar are super ugly, with a dark
-gradient background style which doesn’t really fit with the colour
-scheme of the default tab bar. I want it to have a similar colour
-style to my custom tab bar. These are the relevant lines from the
-config.py:
+The default status bar and completion bar are super ugly, with a
+dark gradient background style which doesn’t really fit with the
+colour scheme of the default tab bar. I want it to have a similar
+colour style to my custom tab bar. These are the relevant lines from
+the config.py:
 
     # Height (in pixels or as percentage of the window) of the completion.
     c.completion.height = '30%'
@@ -220,13 +218,14 @@ config.py:
 The completion widget needs different colours for odd and even rows,
 otherwise it’s difficult to discriminate between rows. So they
 alternate between a very light grey for odd rows
-(c.colors.completion.odd.bg = '#F2F2F2') and lightgrey for even rows.
-The text is always black in the completion bar and the status bar.
-Warnings on the status bar take their default colours of amber and
-red. The completion bar headers are also light grey and the selected
-completion item comes up as dark grey with a black border on the top
-and bottom. As text is matched it becomes red. The scrollbar is
-visible and follows the same colour pattern as the rest of the setup.
+(c.colors.completion.odd.bg = '#F2F2F2') and lightgrey for even
+rows. The text is always black in the completion bar and the status
+bar. Warnings on the status bar take their default colours of amber
+and red. The completion bar headers are also light grey and the
+selected completion item comes up as dark grey with a black border
+on the top and bottom. As text is matched it becomes red. The
+scrollbar is visible and follows the same colour pattern as the rest
+of the setup.
 
 When open, the completion box takes up 30% of the screen.
 
@@ -240,10 +239,7 @@ when a page is loading, the progress bar (progress).
   {IMAGE}
 
 
-
-
-FONTS
-
+Fonts
 
 The fonts are very simple, basically everything is either
 monospace 8pt or monospace 9pt, e.g.
@@ -251,10 +247,7 @@ monospace 8pt or monospace 9pt, e.g.
     # Font used in the completion widget.
     c.fonts.completion.entry = '8pt monospace'
 
-
-
-HINTS
-
+Hints
 
 Qutebrowser has this really nice hinting system, you press f and the
 screen is filled with all the links you could click, you then type
@@ -284,10 +277,7 @@ green.
   {IMAGE}
 
 
-
-
-KEY-BINDINGS
-
+Key-bindings
 
 I have a few keybindings that are different to the default setup,
 mainly to make it feel more vim-like:
@@ -302,8 +292,8 @@ mainly to make it feel more vim-like:
     config.bind('l', 'forward')
     config.bind('h', 'back')
 
-Unbinding q is necessary so it doesn’t match anything when I’m typing
-qq to quit.
+Unbinding q is necessary so it doesn’t match anything when I’m
+typing qq to quit.
 
 The reload bind is because Cmd-r is so engrained in me for reloading
 a page, from other web browsers, though I’m using it less and less

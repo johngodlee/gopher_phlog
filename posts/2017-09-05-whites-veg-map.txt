@@ -1,5 +1,8 @@
-Mapping The Vegetation and Climate of Africa in R - [2017-09-05]
-==================================================================
+TITLE: Mapping The Vegetation and Climate of Africa in R
+DATE: 2017-09-05
+AUTHOR: John L. Godlee
+====================================================================
+
 
 As I’ll soon be embarking on my PhD research into biodiversity and
 woodland productivity in Southern Africa, I thought I should get a
@@ -114,5 +117,5 @@ R:
 [I also wrote a tutorial for the Coding Club group I’m involved with
 on using R as a GIS]
 
-  [I also wrote a tutorial for the Coding Club group I’m involved
-  with on using R as a GIS]: https://ourcodingclub.github.io/2016/12/11/maps_tutorial.html
+  [I also wrote a tutorial for the Coding Club group I’m involved with on using R as a GIS]:
+    https://ourcodingclub.github.io/2016/12/11/maps_tutorial.html

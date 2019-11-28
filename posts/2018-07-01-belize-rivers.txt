@@ -1,15 +1,18 @@
-Making arty renders of Belize's rivers - [2018-07-01]
-=======================================================
+TITLE: Making arty renders of Belize's rivers
+DATE: 2018-07-01
+AUTHOR: John L. Godlee
+====================================================================
+
 
 My partner spends a lot of time in Belize for work and was looking
-for something to hang on her wall as a piece of art. I thought that a
-stylised map of Belize could make a nice minimalist piece of art, but
-because I have no artistic skills, I decided to do it using R.
+for something to hang on her wall as a piece of art. I thought that
+a stylised map of Belize could make a nice minimalist piece of art,
+but because I have no artistic skills, I decided to do it using R.
 
 I got some shapefiles to start with:
 
--   [A simple global river bankfull width and depth database] - For
-    the rivers
+-   [A simple global river bankfull width and depth database] -
+    For the rivers
 -   [GADM Data] - Outline of Belize
 
   [A simple global river bankfull width and depth database]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/wrcr.20440
@@ -111,8 +114,8 @@ as an svg for printing and also as a png for previewing:
     plot(belize, add = TRUE)
     dev.off()
 
-I’m printing off the big file next week, then I want to frame it in a
-thin black edge frame with glossy glass.
+I’m printing off the big file next week, then I want to frame it in
+a thin black edge frame with glossy glass.
 
   {IMAGE}
 

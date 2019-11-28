@@ -1,130 +1,186 @@
 Curriculum Vitae
 ================
 
+A .pdf version of this CV can be downloaded here.
 
-
-EDUCATION
-
+Education
 
 Sep 2017 - Present
 
 PhD: Atmospheric and Environmental Sciences
 
+The University of Edinburgh
+
 Biodiversity - Ecosystem Function Relationships in Southern African
 Woodlands
 
-_The University of Edinburgh_
+I am investigating patterns of tree species diversity and their
+relationship with ecosystem structure and function in southern African
+woodlands. I use large datasets from the SEOSAW project extensively to
+answer macro-ecological questions. I also utilise the SEOSAW plot
+network infrastructure to conduct my own measurements of woodland canopy
+structure using Terrestrial LiDAR technology. Most recently I have
+conducted a regional scale study of the interacting functional
+mechanisms which relate tree species diversity to woody biomass across
+multiple environmental gradients, using measurements from the SEOSAW
+plot network.
 
 Sep 2012 - Jun 2016
 
 BSc Hons: Ecological and Environmental Sciences - 1st Class
 
-_The University of Edinburgh_
+The University of Edinburgh
 
 Sep 2009 - Jul 2011
 
 A-Levels: Geology (A*), Geography (A), Biology (A)
 
-_Queen Elizabeth Sixth Form College, Darlington, County Durham_
+Queen Elizabeth Sixth Form College, Darlington, County Durham
 
+Research & Outreach Grants
 
+-   Feb 2019 - Davis Expedition Fund - £4000 - Tanzania research
+    expedition funding
+-   Jun 2018 - NERC bursary - £980 - Applied Plant Taxonomy and Field
+    Survey Skills course at Kew Gardens
+-   May 2018 - Principals Go Abroad Fund - £350 - Mozambique SEOSAW
+    Network Meeting funding
+-   Feb 2018 - School of GeoSciences Facilities Committee - Research
+    Equipment Grant - £2810 - Camera equipment for hemispherical tree
+    canopy photography
+-   Nov 2017 - James Rennie Bequest - £170 - Costs for British
+    Ecological Society Coding Club Workshop
+-   Nov 2017 - Centenary Agroforestry 89 Fund - £984 - Angola research
+    expedition funding
+-   Nov 2017 - British Ecological Society - Small Grant - £1500 -
+    Funding to run Scottish Tropical Ecology and Biology Student Meeting
+-   Nov 2017 - Institute for Academic Development - Action Fund Small
+    Grant - £470 - Funding to run Scottish Tropical Ecology and Biology
+    Student Meeting
+-   Mar 2016 - Royal Society of Biology - Travel Grant - £500 - Canadian
+    Arctic research expedition funding
+-   Dec 2015 - Friends of Roslin Glen - Outreach Fund - £900 - Landscape
+    history panel funding
+-   Nov 2015 - Lothian Conservation Volunteers - Outreach Fund - £500 -
+    Landscape history panel funding
+-   May 2015 - Principal’s Go Abroad Fund - £350 - Peruvian Andes
+    research expedition funding
+-   Apr 2015 - British Travel Association Fund - £1000 - Peruvian Andes
+    research expedition funding
 
-RESEARCH & OUTREACH GRANTS
+Awards
 
-
--   Royal Society of Biology Travel Grant - Mar 2016 - Canadian Arctic
-    research expedition - £500
--   Principal’s Go Abroad Fund - May 2015 - Peruvian Andes research
-    expedition - £350
--   British Travel Association Fund - Apr 2015 - Peruvian Andes research
-    expedition - £1000
--   Lothian Conservation Volunteers Outreach Fund - Nov 2015 - Landscape
-    History Panel Funding - £500
--   Friends of Roslin Glen Outreach Fund - Dec 2015 - Landscape History
-    Panel Funding - £900
--   Institute for Academic Development - Nov 2017 - Costs for Scottish
-    Tropical Ecology and Biology Student Meeting - £470
--   Centenary Agroforestry 89 Fund - Nov 2017 - Angola research
-    expedition - £984
--   James Rennie Bequest - Nov 2017 - Travel costs for British
-    Ecological Society Annual Meeting, Coding Club Workshop - £170
--   School of GeoSciences Facilities Commitee Research Equipment Grant -
-    Feb 2018 - Camera equipment for hemispherical tree canopy
-    photography - £2810
--   Principal’s Go Abroad Fund - May 2018 - Mozambique SEOSAW Network
-    Meeting - £350
--   NERC bursary for Applied Plant Taxonomy and Field Survey Skills
-    course at Kew Gardens - Jun 2018 - £980
--   Davis Expedition Fund - Feb 2019 - Tanzania research expedition -
-    £4000
-
-
-
-AWARDS
-
-
--   SEECC Conference - Best Long Presentation - 2017
-    -   Won best 15 minute talk from a group of 24 at the Scottish
-        Ecology, Environment and Conservation Conference, hosted by the
+-   2019 - Edinburgh Teaching award
+    -   Completed a programme aiming to improve teaching skills for
+        higher education. Worked with a mentor over the course of an
+        academic year to produce a series of reflective essays, drawing
+        on pedagogical literature and teaching experiences. As part of
+        the award I was inducted as an Associate Fellow of the Higher
+        Education Academy.
+-   2017 - SEECC Conference - Best Long Presentation
+    -   Best 15 minute talk from a group of 24 at the Scottish Ecology,
+        Environment and Conservation Conference, hosted by the
         University of Aberdeen. The talk presented research on forest
         structure and climate induced range shifts.
--   STEB Conference - Best Long Presentation - 2017
-    -   Won best 15 minute talk from a group of 13 at the Scottish
-        Tropical Ecology and Biology Student Meeting, hosted by the
-        University of Stirling. The talk presented research on specific
+-   2017 - STEB Conference - Best Presentation
+    -   Best 15 minute talk from a group of 13 at the Scottish Tropical
+        Ecology and Biology Student Meeting, hosted by the University of
+        Stirling. The talk presented research on tree species
         competition interactions and climate induced range shifts.
--   Edinburgh Award - 2015
-    -   Professional development award at the University of Edinburgh.
+-   2015 - Edinburgh Award
+    -   Professional development course at the University of Edinburgh.
         Attended seminars on professional skills: public speaking,
         academic writing and leadership. Conducted self-evaluation over
         the course of one year.
--   Edinburgh Teaching Award - 2019
-    -   Completed a programme aiming to improve teaching skills for
-        higher education. Worked with a mentor to produce a series of
-        reflective essays, drawing on pedagogical literature and
-        teaching experiences. As part of the award I was inducted as an
-        Associate Fellow of the Higher Education Academy.
 
+Manuscripts and Published Work
 
-
-MANUSCRIPTS AND PUBLISHED WORK
-
-
--   Daskalova G., Godlee J. L., Myers-Smith I. H. - Rarity and
-    conservation status do not predict vertebrate population trends -
-    Submitted for peer review
+-   Godlee J. L., … - Tree diversity and woodland structure in Bicuar
+    National Park, Angola.
+    -   In preparation - Diversity - January 2020
+    -   Invited contribution to special issue: Biodiversity of
+        Vegetation and Flora in Tropical Africa
 -   Godlee J. L., … - Variation in forest canopy structure along an
     Andean elevation gradient causes species-specific stress responses
-    in tree seedlings - In prep. Plant Biology - Sep 2019
--   Rowland L., … Godlee J. L., - Drought stress and tree size determine
-    stem CO2 efflux in a tropical forest - New Phytologist - Jan 2018
+    in tree seedlings
+    -   In preparation - Plant Biology - April 2020
+-   Godlee J. L., … - Geographically and genetically distinct
+    populations of scots pine (Pinus sylvestris) differ in resistance to
+    damage by the large pine weevil (Hylobius abietis): a common garden
+    translocation study
+    -   In preparation - Forest Ecology and Management - April 2020
+-   Rowland, L. … Godlee J. L. - Drought stress and tree size determine
+    stem CO₂ efflux in a tropical forest
+    -   New Phytologist - 2018
+-   Daskalova, G. N. … Godlee J. L. - All is not decline across global
+    vertebrate populations
+    -   bioRxiv - 2018
 
+Research vision
 
+As I progressed through my undergraduate degree in Ecological and
+Environmental Sciences I developed a keen interest in whole ecosystem
+responses to environmental gradients, with a particular focus on tree
+competition and physiognomy as mechanisms which determine ecosystem
+function. I pursued this interest through my undergraduate dissertation
+for which I conducted a 56 day field campaign, studying competition
+interactions and eco-physiological traits in tree seedlings in the
+Peruvian Andes. This field work, along with four other notable periods
+of employment as a research assistant in the Brazilian Amazon, the
+Canadian Arctic, The Republic of Congo and the Scottish lowlands made me
+proficient in undertaking logistically challenging field-based science.
 
-ACADEMIC & RESEARCH EXPERIENCE
+During these short research contracts I have formed ideas about the
+development of novel methodologies in community ecology. Particularly, I
+am interested in using emerging technologies to answer ecological
+questions that have in the past relied on subjective and highly
+uncertain data. I have pursued many of my interests through my current
+PhD programme, in which I am using terrestrial LiDAR and the large
+SEOSAW plot network dataset to answer questions about the relationship
+between tree species diversity and ecosystem structure in southern
+African woodlands. I continue to conduct ambitious field campaigns
+combined with powerful statistical techniques to distill complex
+ecological data down to its basic mechanisms.
 
+I support the development of effective teaching in higher education. In
+2019 I completed the Edinburgh Teaching Award, a programme encouraging
+self-evaluation and consideration of pedagogical technique. Since
+October 2016 I have worked with a colleague to develop “Coding Club” a
+supportive peer network for learning statistical programming at the
+University of Edinburgh. In the future I hope to forge an academic
+career in a university as I enjoy researching alongside other academics,
+sharing knowledge for the greater good, and writing robust
+inter-disciplinary science.
 
--   Fieldwork co-ordinator - University of Edinburgh - May-Jun 2017 -
+Academic & Research Experience
+
+-   May-Jun 2017 - Fieldwork co-ordinator - University of Edinburgh -
     Dr. Edward Mitchard
-    -   Managed the fieldwork of a US Forest Service long term
-        experiment in the remote and logistically challenging Bateke
-        Plateau region of the Republic of Congo. I supervised the work
-        of three students from Marien Ngouabi University, Brazzaville
-        for three weeks. I also co-ordinated the work of 8-10
-        maintenance workers responsible for creating firebreaks around
-        field sites. Fieldwork involved full growth and mortality tree
-        censuses in 25 ha plots, followed by controlled burning of the
-        plots.
--   Research assistant - University of Exeter - Sep-Dec 2016 - Dr. Lucy
+    -   Managed the fieldwork season of a long term experiment in
+        collaboration with the US Forest Service, the Wildlife
+        Conservation Society and Paula Nieto-Quintano, a PhD student at
+        the University of Edinburgh. Fieldwork was conducted in the
+        remote and logistically challenging Bateke Plateau region of The
+        Republic of Congo. I supervised the work of three students from
+        Marien Ngouabi University, Brazzaville for three weeks. I also
+        co-ordinated the work of 8-10 maintenance workers responsible
+        for creating firebreaks around field sites. Fieldwork involved
+        full growth and mortality tree censuses in 25 ha plots, followed
+        by controlled burning of the plots.
+-   Sep-Dec 2016 - Research assistant - University of Exeter - Dr. Lucy
     Rowland
     -   Part of an 8 person research team with 6 weeks fieldwork at the
-        Caxiuana Esecaflor drought experiment. Extensive work with
+        Caxiuanã Esecaflor drought experiment. Extensive work with
         Li-COR 6400XT Portable Photosynthesis System, collection and
         subsequent analysis of leaf traits. Lab-work at the University
         of Exeter included use of CAN-EYE Leaf Area Index analysis
         software and developing a method for the analysis of foliar
-        fungal infections.
--   Field assistant - University of Edinburgh - Mar-Aug 2016 - Dr. Isla
+        fungal infections from scanned leaf images. In Exeter I also
+        worked with a large time series dataset of leaf traits collected
+        a 10 year period to analyse the effects of experimentally
+        induced drought on canopy tree growth and photosynthetic
+        capacity.
+-   Mar-Aug 2016 - Field assistant - University of Edinburgh - Dr. Isla
     Myers-Smith
     -   Part of a 4 person field team with 2 months fieldwork at Kluane
         Lake Research Station and Herschel Island (Qikiqtaruk) in the
@@ -134,38 +190,46 @@ ACADEMIC & RESEARCH EXPERIENCE
         included the collection of a multitude of plant traits,
         ecological monitoring of vegetation cover, and investigating
         soil decomposition rates following the protocol of the
-        International Tea Bag Index.
--   Field and lab assistant - University of Edinburgh - Jul-Sep 2015 -
-    Jan-Mar 2017 - Dr. Pippa Stone
-    -   Part of a 5 person field team for 2 months in Manu National
+        International Tea Bag Index (www.decolab.org/tbi).
+-   Jul-Sep 2015 - Field and lab assistant - University of Edinburgh -
+    Dr. Pippa Stone
+    -   Part of a 5 person field team for 2 months in Manú National
         Park, Peru. Work included physiological and morphological
         measurements of seedling and adult tree species both in the
         field and in rudimentary field laboratories, as well as
         competition measurements for which I designed and executed the
         methodology. Experience using a MINIPAM-II portable chlorophyll
-        fluorescence meter. In 2017 I conducted soil analysis for
-        organic carbon, nitrogen content.
--   Field assistant and data analyst - Centre for Ecology & Hydrology -
-    May-Dec 2015 - Dr. Stephen Cavers
-    -   Designed and executed a methodology to estimate relative damage
-        of the Pine Weevil (_Hylobius abietis_) in Scottish Scots Pine
-        (_Pinus sylvestris_) populations. The data complements a larger
-        reciprocal transplant experiment.
+        fluorescence meter.
+-   May-Dec 2015 - Research assistant and data analyst - Centre for
+    Ecology & Hydrology - Dr. Stephen Cavers
+    -   Research assistant and data analyst for a common garden
+        experiment investigating differentiation in Scots Pine seed
+        stock in terms of growth, phenology and environmental
+        resistance. I designed and conducted a study which investigated
+        the resistance of tree seedlings to damage by pine weevils, an
+        economically important pest of Scot’s pine in Scotland. In 2019
+        I prepared a manuscript to be submitted in 2020 for peer-review
+        related to the findings of the experiment.
 
+Teaching & Outreach Experience
 
-
-TEACHING & OUTREACH EXPERIENCE
-
-
--   Web developer for SEOSAW - Oct 2017-Present
+-   Sep 2018, 2019 - Field demonstrator for Ecological and Environmental
+    Sciences field course
+    -   I taught groups of 4th year undergraduate students on a week
+        long field course in near Oban, Scotland. I designed a group
+        research project and mentored a small group of 5 students in
+        their experimental design, data collection and analysis. I also
+        ran optional clinics on the operation of hemispherical
+        photography equipment for measuring tree canopy structure.
+-   Oct 2017-Present - Web developer for SEOSAW
     -   I designed and currently maintain the website for the SEOSAW
         network (Socio-ecological Observatory for Southern African
         Woodlands), using Jekyll, Bitbucket Pipelines, and Github-Pages.
         Notably, I implemented an interactive Javascript leaflet map of
         study sites, using geoJSON data compiled from the SEOSAW dataset
         using R. (seosaw.github.io).
--   Copywriter for _Agricology_ sustainable farming magazine - Jan
-    2017-May 2019
+-   Jan 2017-May 2019 - Copywriter for Agricology sustainable farming
+    magazine
     -   Part of a team of seven, writing summaries of online resources
         on the Agricology website. I write approximately two articles
         per month when requested, with a particular focus on soil
@@ -175,9 +239,8 @@ TEACHING & OUTREACH EXPERIENCE
         Additionally, I have gained experience in working remotely,
         taking advantage of version control software for effective
         editing. (agricology.co.uk).
--   Co-founder, tutorial designer, tutor for coding proficiency
-    initiative (Coding Club) - University of Edinburgh - Oct
-    2016-Present
+-   Oct 2016-Dec 2018 - Co-founder, tutorial designer, tutor for coding
+    proficiency initiative (Coding Club) - University of Edinburgh
     -   Founding member of team which set up a peer-to-peer learning
         environment for students and staff to overcome statistics
         anxiety and provide training in useful programming skills for
@@ -190,8 +253,8 @@ TEACHING & OUTREACH EXPERIENCE
         big data, attended by ~25 people. In December 2017, Coding Club
         delivered a workshop at the British Ecology Society Annual
         Meeting in Ghent. (ourcodingclub.github.io).
--   Interpretation resources designer - Midlothian Ranger Service - Sep
-    2015-Apr 2016
+-   Sep 2015-Apr 2016 - Interpretation resources designer - Midlothian
+    Ranger Service
     -   I designed an interpretation panel to be installed in Roslin
         Glen, a Midlothian Country Park. The panel demonstrates the
         historical land use of the glen and the resulting landscape
@@ -201,13 +264,10 @@ TEACHING & OUTREACH EXPERIENCE
         Friends of Roslin Glen to secure £1400 to manufacture the
         product and procure licenses.
 
+Academic Service Positions
 
-
-ACADEMIC SERVICE POSITIONS
-
-
--   Organiser of the Scottish Tropical Ecology and Biology Student
-    Meeting - Mar 2018
+-   Mar 2018 - Organiser of the Scottish Tropical Ecology and Biology
+    Student Meeting
     -   Along with two others, I led organisation of this small 1 day
         conference hosted by the Royal Botanic Gardens Edinburgh and the
         University of Edinburgh. The conference was attended by ~50
@@ -216,12 +276,12 @@ ACADEMIC SERVICE POSITIONS
         excess of £1500 of funding from the British Ecological Society,
         the University of Edinburgh Institute for Academic Development
         and the Royal Botanic Gardens Edinburgh.
--   Ecological and Environmental Sciences Student Representative - Sep
-    2013-Jul 2016
+-   Sep 2013-Jul 2016 - Ecological and Environmental Sciences Student
+    Representative
     -   Year wide representative for degree programme. Acted as a
         liaison for student issues with staff, course content,
         deadlines, pastoral care.
--   School of GeoSciences Convener - Sep 2015-Jul 2016
+-   Sep 2015-Jul 2016 - School of GeoSciences Convener
     -   Elected student association position at Edinburgh University
         Student’s Association, representing the School of GeoSciences at
         Student Council and various other committees including the
@@ -229,7 +289,8 @@ ACADEMIC SERVICE POSITIONS
         faculty building. Skills developed in project planning,
         effective representation, creative problem solving, committee
         chairing.
--   Project Co-ordinator, Edinburgh University Conservation Volunteers
+-   2013-2016 - Project Co-ordinator, Edinburgh University Conservation
+    Volunteers
     -   Liaison with Park Rangers and shared responsibilities with one
         other society co-ordinator to organise and direct group
         excursions for between 10 and 40 students, weekly during the
@@ -239,10 +300,7 @@ ACADEMIC SERVICE POSITIONS
         residential excursions including cooking, transport and
         accommodation for up to 30 people.
 
-
-
-QUANTITATIVE AND PROGRAMMING SKILLS
-
+Quantitative and Programming Skills
 
 -   R - Generalised linear mixed effects models using lme4/nlme and
     model selection using MuMIn. Structural Equation Modelling with
@@ -252,24 +310,29 @@ QUANTITATIVE AND PROGRAMMING SKILLS
     analysis using the spatstat package. Data presentation and analysis
     using the ggplot2 package. Experience using R Markdown to produce
     reproducible scripts and knowledge of creating Shiny HTML5 web-apps.
+-   QGIS - Experience creating maps for publication and using GDAL both
+    within QGIS and directly on the command line to manipulate and
+    transform spatial data files. Integration of QGIS with online
+    spatial databases such as SentinelHub and OpenLayers.
 -   LaTeX - Experience constructing short and long documents with
     tabular and graphical elements for myself and others. Integration of
     citation management software, custom BibTeX .bib files and
-    templating.
+    templating with custom .sty files. Creating custom Beamer
+    presentation templates.
 -   Git - Experience managing ourcodingclub.github.io and teaching
     resources using Git version control, branch management with multiple
-    collaborators, closing issues, troubleshooting with git diff.
+    collaborators, closing issues, troubleshooting with git diff. In
+    2018 I ran two workshops at the University of Edinburgh on using Git
+    on the command line.
 -   Markdown - Tutorials written and delivered using Markdown syntax,
     integration of R, LaTeX, HTML and CSS languages in Markdown
     documents.
 -   ImageJ - Advanced knowledge of area and colour threshold analysis
     using the ImageJ Macro Language.
 
-
-
-PROFESSIONAL ASSOCIATIONS
-
+Professional Associations
 
 -   Botanical Society of Scotland (Student Member)
 -   Royal Society of Biology (Affiliate Member)
 -   British Ecological Society (Student Member)
+-   Royal Scottish Geographical Society

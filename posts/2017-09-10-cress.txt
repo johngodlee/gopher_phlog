@@ -1,5 +1,8 @@
-Growing micro-greens on cotton wool - [2017-09-10]
-====================================================
+TITLE: Growing micro-greens on cotton wool
+DATE: 2017-09-10
+AUTHOR: John L. Godlee
+====================================================================
+
 
 Last year I bought a packet of micro-greens at the Botanic Gardens
 and tried to grow them on tissue paper in a dish but found that the
@@ -9,8 +12,8 @@ cress in an egg shell stuffed with cotton wool so I thought I would
 try that, hoping that it would be more absorbent.
 
 I made a bed of cotton wool in a dish about 5 cm deep, then watered
-it until the wool was saturated but not so there were pools of water.
-Then sprinkled on the seeds:
+it until the wool was saturated but not so there were pools of
+water. Then sprinkled on the seeds:
 
   {IMAGE}
 

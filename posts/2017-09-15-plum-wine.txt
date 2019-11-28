@@ -1,5 +1,8 @@
-Brewing Plum Wine - [2017-09-15]
-==================================
+TITLE: Brewing Plum Wine
+DATE: 2017-09-15
+AUTHOR: John L. Godlee
+====================================================================
+
 
 This year we had lots of plums, so many that a couple of branches
 snapped off the tree, so I decided to make plum wine to use some up.
@@ -37,13 +40,13 @@ The recipe I used:
 
 In lieu of a fermenting bin I could have used any bucket with a lid,
 like the ones that horse feed or cat litter come in. Unfortunately I
-don’t see an easy way to make a homemade airlock, they’re quite cheap
-though.
+don’t see an easy way to make a homemade airlock, they’re quite
+cheap though.
 
   {IMAGE}
 
 
 The wine is now sitting in a demijohn waiting until it stops
-bubbling, then I’ll seal it and wait a bit longer before drinking it.
-It still looks really hazy now, but I might strain it again later to
-make it look nicer.
+bubbling, then I’ll seal it and wait a bit longer before drinking
+it. It still looks really hazy now, but I might strain it again
+later to make it look nicer.

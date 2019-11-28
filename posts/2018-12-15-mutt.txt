@@ -1,19 +1,19 @@
-Updated Mutt config, multiple accounts - [2018-12-15]
-=======================================================
+TITLE: Updated Mutt config, multiple accounts
+DATE: 2018-12-15
+AUTHOR: John L. Godlee
+====================================================================
+
 
 In a long transition away from Google, I made another email account,
 on an email system that values privacy and doesn’t sell information
 to advertisers. That means that for the moment, I now have two email
-accounts. Simultaneously, I thought I would give (Neo)Mutt another go
-as my email client, along with Offlineimap (grabbing mail),
+accounts. Simultaneously, I thought I would give (Neo)Mutt another
+go as my email client, along with Offlineimap (grabbing mail),
 notmuch/alot (indexing mail), msmtp (sending email), pass (managing
 passwords), vim (writing mail), launchd (scheduling mail sync), and
 w3m (parsing HTML email).
 
-
-
-OFFLINEIMAP
-
+Offlineimap
 
 This is my current .offlineimaprc:
 
@@ -76,9 +76,10 @@ This is my current .offlineimaprc:
 
 accounts = riseup, gmail tells offlineimap that I have two accounts.
 
-The password for each account, defined by remotepasseval is mapped to
-two python functions, found in pythonfile = ~/.offlineimap_pass.py.
-See below in the PASS section for what the pythonfile contains.
+The password for each account, defined by remotepasseval is mapped
+to two python functions, found in
+pythonfile = ~/.offlineimap_pass.py. See below in the pass section
+for what the pythonfile contains.
 
 The rest I think is self explanatory, except for the name
 translations. This takes the IMAP name for certain default gmail,
@@ -129,10 +130,7 @@ It runs offlineimap in quiet mode (-q, -u basic), every 300 seconds,
 and whenever the computer wakes from sleep or is powered on
 (RunAtLoad), it also pipes error outputs to /dev/null.
 
-
-
-PASS
-
+pass
 
 This is the python file I use to call pass to get the passwords for
 each of my email accounts. Basically it just runs pass on the
@@ -149,10 +147,7 @@ line:
     def GetPassRiseup():
         return check_output("/usr/local/bin/pass email/riseup", shell=True).splitlines()[1]
 
-
-
-MUTT
-
+Mutt
 
 Here is my Mutt config, which I keep in ~/.mutt/muttrc:
 

@@ -1,11 +1,14 @@
-Mapping GPX tracks from AAT for Android, in R - [2018-04-28]
-==============================================================
+TITLE: Mapping GPX tracks from AAT for Android, in R
+DATE: 2018-04-28
+AUTHOR: John L. Godlee
+====================================================================
 
-I stopped using Strava to track my cycle rides, because I didn’t feel
-comfortable giving away all that GPS data to a third party. I know
-lots of other things I do give away my location, but this is a small
-step in the right direction. It also prompted me to play with new GPS
-tracking apps.
+
+I stopped using Strava to track my cycle rides, because I didn’t
+feel comfortable giving away all that GPS data to a third party. I
+know lots of other things I do give away my location, but this is a
+small step in the right direction. It also prompted me to play with
+new GPS tracking apps.
 
 The one I have settled on is called [AAT], which is a lovely
 brutalist piece of open source software that is designed around
@@ -84,8 +87,8 @@ mirror is often way behind.
         xlab("Longitude") + 
         ylab("Latitude"))
 
-The script outputs an elevation plot and a map which shows the track,
-coloured by elevation.
+The script outputs an elevation plot and a map which shows the
+track, coloured by elevation.
 
   {IMAGE}
 

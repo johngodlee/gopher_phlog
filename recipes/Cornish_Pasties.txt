@@ -1,7 +1,4 @@
-
-
-CORNISH PASTIES
-
+Cornish Pasties
 
 Ingredients
 
@@ -34,7 +31,6 @@ Ingredients
     -   Veg haggis
     -   Veg chilli
     -   Cheese and onion savoury
-
 
 Method
 

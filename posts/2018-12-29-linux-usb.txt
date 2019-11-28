@@ -1,10 +1,14 @@
-Putting a Linux distro on a USB, from a Mac - [2018-12-29]
-============================================================
+TITLE: Putting a Linux distro on a USB, from a Mac
+DATE: 2018-12-29
+AUTHOR: John L. Godlee
+====================================================================
 
-Previously I used [unetbootin] and macOS’ built-in Disk-Utility.app
-to format USB drives to use for installing Linux distributions on
-other computers. However, most recently, I found that I couldn’t get
-any of the installers to work, so I was looking for an alternative.
+
+Previously I used [unetbootin] and macOS’ built-in
+Disk-Utility.app to format USB drives to use for installing Linux
+distributions on other computers. However, most recently, I found
+that I couldn’t get any of the installers to work, so I was looking
+for an alternative.
 
   [unetbootin]: https://unetbootin.github.io
 
@@ -27,9 +31,9 @@ drives such as the USB.
 
 It’s normally trivial to identify the USB stick from the list by its
 size. It will be named something like /dev/disk2 and may contain
-multiple partitions, like /dev/disk2s1. When you are sure that you’ve
-identified the USB stick you want to install the linux distro on,
-enter:
+multiple partitions, like /dev/disk2s1. When you are sure that
+you’ve identified the USB stick you want to install the linux distro
+on, enter:
 
     diskutil eraseDisk FAT32 UNTITLED MBRformat /dev/disk2
 

@@ -1,10 +1,13 @@
-Cycling from Bridge of Allan to Blackford - [2017-09-15]
-==========================================================
+TITLE: Cycling from Bridge of Allan to Blackford
+DATE: 2017-09-15
+AUTHOR: John L. Godlee
+====================================================================
 
-At the weekend I took the train from Edinburgh to Bridge of Allan and
-went for a cycle with a friend. We went from Bridge of Allan along
-the Sheriffmuir Road to Blackford, a small village along the A9. Here
-is an elevation profile and the R code I used to make it:
+
+At the weekend I took the train from Edinburgh to Bridge of Allan
+and went for a cycle with a friend. We went from Bridge of Allan
+along the Sheriffmuir Road to Blackford, a small village along the
+A9. Here is an elevation profile and the R code I used to make it:
 
     # Plotting elevation profile Bridge of Allan to Blackford
     # Data from https://www.doogal.co.uk/RouteElevation.php
@@ -33,8 +36,8 @@ We got a load of geocaches along the way, about 14 I think in total,
 including one in the park in Bridge of Allan.
 
 It was really interesting seeing the old larch trees up on the tops,
-which I guess are remenant of when there was a lot more forest on the
-hills, before grazing pressure increased, now there isn’t much
+which I guess are remenant of when there was a lot more forest on
+the hills, before grazing pressure increased, now there isn’t much
 regrowth and it looks like in about 50 years there might not be any
 trees at all on the tops, except for some areas where there is
 plantation forestry.

@@ -1,7 +1,4 @@
-
-
-EGGS BENEDICT
-
+Eggs Benedict
 
 Ingredients
 
@@ -19,7 +16,6 @@ Ingredients
 -   1 tomato, thinly sliced
 -   0.5 cups sharp cheddar, shredded
 -   Spring onions, chopped
-
 
 Method
 

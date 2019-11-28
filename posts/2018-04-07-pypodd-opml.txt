@@ -1,5 +1,8 @@
-Updating pypodd to run .opml files - [2018-04-07]
-===================================================
+TITLE: Updating pypodd to run .opml files
+DATE: 2018-04-07
+AUTHOR: John L. Godlee
+====================================================================
+
 
 [Pypodd]
 
@@ -60,7 +63,8 @@ import method. The code looks like this:
       raw_input("Subscriptions list is not `.csv` or OPML `.xml`, exiting ...")
       sys.exit(0)
 
-Also note the “quit” if the designated file doesn’t include either of
-the two specified extensions. Maybe to be super bulletproof I should
-do a check to see if the .xml file includes <opml version="">, as I
-suppose there are lots of different .xml formats.
+Also note the “quit” if the designated file doesn’t include either
+of the two specified extensions. Maybe to be super bulletproof I
+should do a check to see if the .xml file includes
+<opml version="">, as I suppose there are lots of different .xml
+formats.

@@ -1,19 +1,19 @@
-Edinburgh Teaching Award - [2019-05-10]
-=========================================
+TITLE: Edinburgh Teaching Award
+DATE: 2019-05-10
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I’ve just finished a personal development training programme at the
 University of Edinburgh called the Edinburgh Teaching Award, which
 aims to encourage teachers to develop their skills in teaching and
-generally pay attention to how they teach, rather than seeing it as a
-chore that they HAVE to do. I received my certificate from the Higher
-Education Academy today which says that I’m now an Associate Fellow.
-Following that, I figured I would post here the reflective short
-articles that formed my submissions for the Teaching Award.
+generally pay attention to how they teach, rather than seeing it as
+a chore that they HAVE to do. I received my certificate from the
+Higher Education Academy today which says that I’m now an Associate
+Fellow. Following that, I figured I would post here the reflective
+short articles that formed my submissions for the Teaching Award.
 
-
-
-DISCUSSING STUDY DESIGN
-
+Discussing study design
 
 When facilitating discussion groups for the purpose of designing
 student group projects, I find that initially they begin very
@@ -22,30 +22,31 @@ considered that this grew from students not knowing what to expect
 from this particular discussion, they didn’t know what to talk about
 as this was their first time meeting together. Gibbs (2014) suggests
 that a teacher should aim to set student expectations early and make
-students aware of their place in the classroom heirarchy (A5, K2). To
-remedy this fear of the unknown and to help set students’
+students aware of their place in the classroom heirarchy (A5, K2).
+To remedy this fear of the unknown and to help set students’
 expectations for the tone of the discussion, I avoided overly
 open-ended questions like “What hypothesis do you want to test?”,
 early on in the discussion. From earlier teaching experience I have
 found that these kinds of questions favour a particular kind of
-student who is quick and confident in their response, and can lead to
-the rest of the discussion being dominated in this way; most students
-want time to contemplate their choices before vocalising. Instead I
-asked more tangible, directed questions on a narrow topic, though
-related to the larger subject. Questions such as “Who can tell me one
-environmental factor they think affects forest canopy cover”. This
-helped to build confidence and get the students to think about the
-topic in approachable, testable terms, rather than being overwhelmed
-by the seemingly infinite possibilities of designing a study. During
-a 4th year discussion I asked one of the students to take note of the
-answers to these ‘brainstorming’ questions, which we then used as a
-jumping-off point for part of the discussion, which turned into a
-lively debate. In the 4th year discussions, I felt confident
-relinquishing my role as leader at this point, as students already
-knew the different steps of developing a research question and were
-more confident in their approach to group discussion. In these cases
-I remained present in the discussion group, acting as a peer within
-the group rather than a leader.
+student who is quick and confident in their response, and can lead
+to the rest of the discussion being dominated in this way; most
+students want time to contemplate their choices before vocalising.
+Instead I asked more tangible, directed questions on a narrow topic,
+though related to the larger subject. Questions such as “Who can
+tell me one environmental factor they think affects forest canopy
+cover”. This helped to build confidence and get the students to
+think about the topic in approachable, testable terms, rather than
+being overwhelmed by the seemingly infinite possibilities of
+designing a study. During a 4th year discussion I asked one of the
+students to take note of the answers to these ‘brainstorming’
+questions, which we then used as a jumping-off point for part of the
+discussion, which turned into a lively debate. In the 4th year
+discussions, I felt confident relinquishing my role as leader at
+this point, as students already knew the different steps of
+developing a research question and were more confident in their
+approach to group discussion. In these cases I remained present in
+the discussion group, acting as a peer within the group rather than
+a leader.
 
 In my 2nd year group I found that there was a large disparity in how
 interested individual students were in the discussion process, and
@@ -74,57 +75,51 @@ Staff and Educational Development (SEDA) Online blog. Available at:
 https://www.seda.ac.uk/53-powerful-ideas/. Last accessed: 19th Sep
 2018
 
-Rogers, C. R., & View, L. A. (1969). Freedom to Learn: A View of What
-Education Might Become. Columbus, OH: Merrill Pub. Co. 
+Rogers, C. R., & View, L. A. (1969). Freedom to Learn: A View of
+What Education Might Become. Columbus, OH: Merrill Pub. Co. 
 
+Remaining visible throughout data collection
 
+Harland (2012) suggests that “The chance corridor conversation can
+be as critical to a student’s learning as the structured tutorial”
+(V3). I considered this during my teaching on a field course.
+Although the 4th year students were largely left to their own
+devices deliberately, and demonstrators were told they didn’t have
+to follow their groups around, I made sure that I was available and
+visible throughout the day, so my students could easily come and ask
+me questions when they needed to. I positioned myself in public
+areas and aimed to check in with my groups at least once every 2.5
+hours during the working day. I also met with my students in the
+evening to discuss how the day had gone in an informal manner. While
+these periods of “checking-in” appeared to the students to be just
+that, I attempted to use the time to stimulate discussion and prompt
+self-evaluation of the work so far, with some formative feedback
+from me when appropriate (A3). I also tried to prompt students to
+think about the details of the methods they had been using and
+taught them finer details (K1). One such example being the use of
+hemispherical photography of forest canopies, a complex technique
+which requires some knowledge of optics to truly understand. I found
+that during these post hoc discussions the students were much more
+engaged than when I attempted to teach them before they had used the
+photography equipment, presumably because it was easier to link this
+abstract knowledge to something more tangible (Boud et al. 1985).
 
-REMAINING VISIBLE THROUGHOUT DATA COLLECTION
-
-
-Harland (2012) suggests that “The chance corridor conversation can be
-as critical to a student’s learning as the structured tutorial” (V3).
-I considered this during my teaching on a field course. Although the
-4th year students were largely left to their own devices
-deliberately, and demonstrators were told they didn’t have to follow
-their groups around, I made sure that I was available and visible
-throughout the day, so my students could easily come and ask me
-questions when they needed to. I positioned myself in public areas
-and aimed to check in with my groups at least once every 2.5 hours
-during the working day. I also met with my students in the evening to
-discuss how the day had gone in an informal manner. While these
-periods of “checking-in” appeared to the students to be just that, I
-attempted to use the time to stimulate discussion and prompt
-self-evaluation of the work so far, with some formative feedback from
-me when appropriate (A3). I also tried to prompt students to think
-about the details of the methods they had been using and taught them
-finer details (K1). One such example being the use of hemispherical
-photography of forest canopies, a complex technique which requires
-some knowledge of optics to truly understand. I found that during
-these _post hoc_ discussions the students were much more engaged than
-when I attempted to teach them before they had used the photography
-equipment, presumably because it was easier to link this abstract
-knowledge to something more tangible (Boud et al. 1985).
-
-There is often a temptation to get things done as quickly as possible
-during fieldwork, with students preferring to stick with a bad
-methodology rather than change to a new one due to a perceived waste
-of time if they switch. In contrast, critically evaluating
-methodology and potentially switching to a new or adapted method is a
-valuable learning experience which mirrors real research, and should
-therefore be encouraged (V4).
+There is often a temptation to get things done as quickly as
+possible during fieldwork, with students preferring to stick with a
+bad methodology rather than change to a new one due to a perceived
+waste of time if they switch. In contrast, critically evaluating
+methodology and potentially switching to a new or adapted method is
+a valuable learning experience which mirrors real research, and
+should therefore be encouraged (V4).
 
 References
 
 Boud, D., Keogh, R., & Walker, D. (1985). Reflection: turning
-experience into learning. _Learning_.
+experience into learning. Learning.
 
 Harland, T. (2012). University Teaching. London: Routledge.
 
-
-
-QUANTITATIVE SKILLS IN ECOLOGY
-
+Quantitative Skills in Ecology
 
 The difficulties of effectively teaching quantitative skills in my
 field (ecology) are well known (Barraquand et al. 2014). For many
@@ -144,7 +139,8 @@ speak of having a ‘fear’ of statistics. Probing deeper, this fear is
 actually a composite of a fear of mathematics and of computer
 programming (V2). For many, this fear has developed through repeated
 exposure to traditional statistics classes which merely reinforce
-that this is an arcane, impenetrable, and fundamentally boring field.
+that this is an arcane, impenetrable, and fundamentally boring
+field.
 
 In 2016, along with a fellow undergraduate, we set up Coding Club
 (https://ourcodingclub.github.io), a learning network with an online
@@ -162,24 +158,25 @@ failed when the group moved on before they had fully understood what
 they had coded (V2). It’s not that quantitative skills are
 necessarily hard or easy by their nature, it’s rather that they take
 time, and that this time varies between students. This is why a
-non-conventional learning environment like Coding Club works so well.
-We decided to avoid the model of another popular quantitative skills
-program called Data Carpentry (https://datacarpentry.org), which
-focusses a lot on “live coding” by a demonstrator. In practice, while
-this method can convey a lot of information in a short period of
-time, it is debatable whether that learning is ‘deep’, does the
-student know why they typed the code (V3)? When a student has a
-problem during a Coding Club workshop, whether that is to do with the
-prescribed theme or something that they have brought in from outside,
-we encourage small groups to form in an _ad hoc_ manner so multiple
-people can talk about the issue, which is often resolved much quicker
-than a single student staring at code on a screen and with benefits
-for both the _impromptu_ teacher and the student. Conversation helps
-to rationalise issues which are initially abstract and difficult to
-solve (V1). Unfortunately, current provision of teaching hours and
-the teacher:student ratio in many undergraduate quantitative skills
-classes precludes teaching in this manner, hence why we felt it was
-necessary to act outside of the prescribed timetable.
+non-conventional learning environment like Coding Club works so
+well. We decided to avoid the model of another popular quantitative
+skills program called Data Carpentry (https://datacarpentry.org),
+which focusses a lot on “live coding” by a demonstrator. In
+practice, while this method can convey a lot of information in a
+short period of time, it is debatable whether that learning is
+‘deep’, does the student know why they typed the code (V3)? When a
+student has a problem during a Coding Club workshop, whether that is
+to do with the prescribed theme or something that they have brought
+in from outside, we encourage small groups to form in an ad hoc
+manner so multiple people can talk about the issue, which is often
+resolved much quicker than a single student staring at code on a
+screen and with benefits for both the impromptu teacher and the
+student. Conversation helps to rationalise issues which are
+initially abstract and difficult to solve (V1). Unfortunately,
+current provision of teaching hours and the teacher:student ratio in
+many undergraduate quantitative skills classes precludes teaching in
+this manner, hence why we felt it was necessary to act outside of
+the prescribed timetable.
 
 References
 

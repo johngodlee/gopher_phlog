@@ -1,7 +1,4 @@
-
-
-KHACHAPURI - GEORGIAN CHEESE BREAD
-
+Khachapuri - Georgian Cheese Bread
 
 Ingredients
 
@@ -19,7 +16,6 @@ Filling
 -   1.5 cups shredded mozarella
 -   1.5 cups feta cheese
 -   5 eggs
-
 
 Method
 

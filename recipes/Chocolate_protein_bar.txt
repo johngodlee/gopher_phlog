@@ -1,7 +1,4 @@
-
-
-CHOCOLATE PROTEIN BAR
-
+Chocolate protein bar
 
 Ingredients
 
@@ -17,7 +14,6 @@ Optional extras
 -   Almonds
 -   Oats
 -   Berries
-
 
 Method
 

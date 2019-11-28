@@ -1,5 +1,8 @@
-Grievances with email clients and the state of email usage - [2018-03-02]
-===========================================================================
+TITLE: Grievances with email clients and the state of email usage
+DATE: 2018-03-02
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I’ve been getting interested about email and how it works, from both
 a practical and conceptual point of view. I’ve been learning about
@@ -13,8 +16,8 @@ over the last 10 years, and how this has impacted what features and
 standards which are expected from an email client in 2017.
 
 For about a year I used Alpine as my email client, linked to the
-Gmail account which I am still unable to shed. During this year I was
-not working in an office, I travelled a lot and rarely had to
+Gmail account which I am still unable to shed. During this year I
+was not working in an office, I travelled a lot and rarely had to
 exchange attachments. My emails were simple and ultimately I didn’t
 receive nearly as many of them as I do now, being back in an office
 where I regularly share documents, get feedback on ideas, book
@@ -31,8 +34,8 @@ sad. I had three main reasons for doing this:
     archive of previous conversations that I can refer back to for
     important information, and I found the search function of Alpine
     difficult to use.
--   I never found a good solution to connect multiple email addresses
-    to Alpine.
+-   I never found a good solution to connect multiple email
+    addresses to Alpine.
 
 Mail.app operates really nicely in some respects. It has flags so I
 can organise my emails by type, it has reasonable search functions
@@ -42,30 +45,31 @@ accounts, but other things are infuriating:
 -   It requires lots of mouse clicks to accomplish simple tasks
 -   It can be very slow, sometimes to the point of freezing and
     requiring me to kill the application and start over
--   Its integration with Apple Contacts.app is pretty appalling, with
-    a very inconsistent method of storign contacts.
+-   Its integration with Apple Contacts.app is pretty appalling,
+    with a very inconsistent method of storign contacts.
 -   The contacts storing issue appears to extend into searching for
     emails from a particular sender, often missing emails seemingly
     at random.
 
 Basically, it’s a big and clunky application for a task that I don’t
-believe should be particularly complicated. But then, I think that in
-general email the email system has become big and clunky, with many
-people using it for things I don’t think it was ever designed for,
-meaning that these things are often executed badly.
+believe should be particularly complicated. But then, I think that
+in general email the email system has become big and clunky, with
+many people using it for things I don’t think it was ever designed
+for, meaning that these things are often executed badly.
 
-I always try to write my emails in plain text, but more and more I am
-receiving emails in HTML or some other sort of rich text. At first
-these were just from companies advertising things, but more recently
-it’s extended to emails within my department, advertising a seminar
-or a conference. Now luckily these emails often come with a plain
-text alternative, but not always. Really my gripe is that it seems
-unnecessary to write a simple text based email with html styling.
+I always try to write my emails in plain text, but more and more I
+am receiving emails in HTML or some other sort of rich text. At
+first these were just from companies advertising things, but more
+recently it’s extended to emails within my department, advertising a
+seminar or a conference. Now luckily these emails often come with a
+plain text alternative, but not always. Really my gripe is that it
+seems unnecessary to write a simple text based email with html
+styling.
 
 I often receive email attachments for online calendar services
 (another topic with opinions) that Mail.app tries to integrate
-directly into my calendar application, which rarely works as planned,
-and given that people use so many different calendar and email
-clients I think it’s unlikely to work for all of them. I would much
-rather add my own calendar events, based off an email which contains
-words.
+directly into my calendar application, which rarely works as
+planned, and given that people use so many different calendar and
+email clients I think it’s unlikely to work for all of them. I would
+much rather add my own calendar events, based off an email which
+contains words.

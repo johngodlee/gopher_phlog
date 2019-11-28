@@ -1,5 +1,8 @@
-Exporting a list of R packages to install on a new machine - [2019-03-15]
-===========================================================================
+TITLE: Exporting a list of R packages to install on a new machine
+DATE: 2019-03-15
+AUTHOR: John L. Godlee
+====================================================================
+
 
 In preparation for fieldwork I wanted to replicate my R environment
 as best I could on a laptop I had borrowed from the University. Part

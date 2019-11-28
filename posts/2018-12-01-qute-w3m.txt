@@ -1,5 +1,8 @@
-Converting Qutebrowser bookmarks to w3m bookmarks - [2018-12-01]
-==================================================================
+TITLE: Converting Qutebrowser bookmarks to w3m bookmarks
+DATE: 2018-12-01
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I use [Qutebrowser] as my primary web browser, but I also really
 like using [w3m] for super fast text-based browsing when I’m
@@ -50,9 +53,9 @@ Firstly it creates a new bookmark.html, then echos some preamble
 HTML, then loops through each line of quickmarks then urls, cutting
 the line into the URL and the description of that URL, and forwards
 it to bookmark.html, then it puts in the footer HTML material.
-Importantly, it doesn’t include any bookmarks with the string qute in
-them, which all refer to Qutebrowser only special URIs, it does this
-with an if statement if [[ $line != *"qute"* ]]; then.
+Importantly, it doesn’t include any bookmarks with the string qute
+in them, which all refer to Qutebrowser only special URIs, it does
+this with an if statement if [[ $line != *"qute"* ]]; then.
 
 In w3m, I can then open bookmark.html with Esc-b.
 

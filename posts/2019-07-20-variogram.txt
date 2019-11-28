@@ -1,5 +1,8 @@
-Plotting a semi-variogram fit in ggplot2 - [2019-07-12]
-=========================================================
+TITLE: Plotting a semi-variogram fit in ggplot2
+DATE: 2019-07-12
+AUTHOR: John L. Godlee
+====================================================================
+
 
 The default output of variogram() from the {gstat} package looks
 fine:

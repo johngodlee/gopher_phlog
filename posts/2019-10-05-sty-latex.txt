@@ -1,5 +1,8 @@
-Custom .sty files in LaTeX - [2019-10-05]
-===========================================
+TITLE: Custom .sty files in LaTeX
+DATE: 2019-10-05
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I’ve been slowly developing a nice looking generic LaTeX template
 which I can use for notes and short reports. Up to now I’ve been
@@ -101,9 +104,9 @@ Some potentially non-obvious bits of the code:
     means that words with special characters are properly copyable
     from the PDF output. I learned it on [this SO question]
 -   \g@addto@macro\@floatboxreset\centering globally centres images
--   \bibliographystyle{agsmnourl} uses a custom bibliography template
-    which I made. agsmnourl.bst resides in the same directory as
-    mynotes.sty
+-   \bibliographystyle{agsmnourl} uses a custom bibliography
+    template which I made. agsmnourl.bst resides in the same
+    directory as mynotes.sty
 -   \newcommand{\textapprox}{\raisebox{0.5ex}{\texttildelow}}
     provides a sensible tilde in text.
 -   The code in \lstdefinestyle{... defines the colour scheme for

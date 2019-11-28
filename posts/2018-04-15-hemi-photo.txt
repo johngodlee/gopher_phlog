@@ -1,22 +1,22 @@
-New hemispherical photography equipment - [2018-04-15]
-========================================================
+TITLE: New hemispherical photography equipment
+DATE: 2018-04-15
+AUTHOR: John L. Godlee
+====================================================================
 
-Last week I took delivery of a bundle of camera equipment that we are
-going to use to take pictures of woodland canopies, in order to
-quantify canopy density and understorey light environment. I’m hoping
-that this short post can guide somewhat on what makes a good
+
+Last week I took delivery of a bundle of camera equipment that we
+are going to use to take pictures of woodland canopies, in order to
+quantify canopy density and understorey light environment. I’m
+hoping that this short post can guide somewhat on what makes a good
 hemispherical photography setup for research.
 
-
-
-A LIST OF IDEAL HEMISPHERICAL PHOTOGRAPHY EQUIPMENT
-
+A list of ideal hemispherical photography equipment
 
 -   DSLR camera
     -   Full frame to not crop the fisheye image
     -   With a big sensor that can capture contrast
-    -   Ideally with an articulated screen so the image can be viewed
-        easily when pointing straight up
+    -   Ideally with an articulated screen so the image can be
+        viewed easily when pointing straight up
     -   e.g. Nikon D750
 -   A 180 degree fisheye lens, with detachable hood and suitable for
     full frame bodies

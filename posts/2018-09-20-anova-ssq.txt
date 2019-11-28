@@ -1,5 +1,8 @@
-Figuring out Sums of Squares in ANOVA - [2018-09-20]
-======================================================
+TITLE: Figuring out Sums of Squares in ANOVA
+DATE: 2018-09-20
+AUTHOR: John L. Godlee
+====================================================================
+
 
 I was teaching on a field course and when the students started
 analysing their data in R, one of them noticed that if they switched
@@ -12,8 +15,8 @@ The report can be found [here] and is also pasted below
 
   [here]: https://johngodlee.github.io/files/anova_ssq/anova_ssq.zip
 
-Issues with lm(), aov(), anova(), Anova() in R, methods of estimating
-sums of squares
+Issues with lm(), aov(), anova(), Anova() in R, methods of
+estimating sums of squares
 John Godlee
 13/09/2018
 
@@ -24,12 +27,13 @@ car::Anova()). This results in different test statistic values and
 corresponding P-values.
 Methods of estimating Sums of Squares (SSQ)
 Type I (Sequential)
-Steps for partitioning variance among multiple independent variables:
+Steps for partitioning variance among multiple independent
+variables:
 SS(A) - Main effect of independent variable A.
 SS(B | A) - Main effect of B after the main effect of A.
 SS(AB | B, A) - Interaction A*B after all main effects.
-Because the main factors are tested in a particular order (defined in
-the model specification), if the factors are unbalanced
+Because the main factors are tested in a particular order (defined
+in the model specification), if the factors are unbalanced
 (i.e. different numbers of observations for each level of the
 factors) the order of factors in the specification matters.
 Often there is a degree of multicollinearity among independent
@@ -40,7 +44,8 @@ variance that could be attributable to both independent variables is
 given to the one entered into the model specification first.
 
 Type II (Partial with separate interactions)
-Steps for partitioning variance among multiple independent variables:
+Steps for partitioning variance among multiple independent
+variables:
 SS(A | B)
 SS(B | A)
 SS(A*B | A,B)
@@ -51,7 +56,8 @@ interaction term is calculated. Unlike Type III, this method doesn’t
 adjust SSQ(A) and SSQ(B) in response to the interaction term.
 
 Type III (Partial with combined interactions)
-Steps for partitioning variance among multiple independent variables:
+Steps for partitioning variance among multiple independent
+variables:
 SS(A | B, A*B)
 SS(B | A, A*B)
 SS(A*B | A,B)
@@ -62,8 +68,8 @@ partitioning. Then, like Type II it calculates the variance
 attributed to the interaction term with respect to both A and B.
 This method disregards any potentially multi-attributable variance
 completely, meaning that SSQ(A) + SSQ(B) != SSQ(total). For this
-reason, many statisticians think this method is pretty rubbish except
-in very specific hypothesis testing circumstances.
+reason, many statisticians think this method is pretty rubbish
+except in very specific hypothesis testing circumstances.
 
 Testing methods in R
 All the code tested in this section is done so using data adapted
@@ -72,14 +78,14 @@ First, getting set up, loading packages, data and some new grouping
 variables::
 
 Basic linear model - testing reporting methods
-Lets see what happens when I run a basic linear model and then create
-summary tables using different methods:
+Lets see what happens when I run a basic linear model and then
+create summary tables using different methods:
 All of these methods give the same P-values for the effect of hp on
-wt. The only difference being that summary() gives the standard error
-and model fit coefficients for the independent variable while anova()
-and Anova() give the Sums of Squares. Basically, summary() gives a
-linear regression test output, while anova() and Anova() give
-analysis of variance test outputs, no surprise there.
+wt. The only difference being that summary() gives the standard
+error and model fit coefficients for the independent variable while
+anova() and Anova() give the Sums of Squares. Basically, summary()
+gives a linear regression test output, while anova() and Anova()
+give analysis of variance test outputs, no surprise there.
 
 Multivariate models - testing ordering of variables using
 summary(lm())
@@ -87,8 +93,9 @@ First, create a bunch of models:
 Then test the output of summary() on all these models:
 In all the above cases, summary(lm()) gives the same outputs,
 regardless of the order or type of variables. Because summary(lm())
-isn’t necessarily fitting an ANOVA, it doesn’t use sequential sums of
-squares (Type I), instead it uses Type III partial sums of squares.
+isn’t necessarily fitting an ANOVA, it doesn’t use sequential sums
+of squares (Type I), instead it uses Type III partial sums of
+squares.
 And just to prove that the cell sizes (i.e. number of data points in
 each level of each factor) are different between group and group2:
 
@@ -118,7 +125,8 @@ of factors is changed.
 
 Comparing Type III and Type II SSQ methods from Anova()
 Anova() from the {car} package allows specification of the Sums of
-squares estimation method, so let’s test how they change the results.
+squares estimation method, so let’s test how they change the
+results.
 Create models:
 All the above methods give identical results. Phew.
 

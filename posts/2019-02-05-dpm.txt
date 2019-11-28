@@ -1,5 +1,8 @@
-DIY disc pasture meter - [2019-02-05]
-=======================================
+TITLE: DIY disc pasture meter
+DATE: 2019-02-05
+AUTHOR: John L. Godlee
+====================================================================
+
 
 Disc pasture meters are used as a method of rapidly assessing grass
 biomass in grasslands. They’re used a lot in rangeland ecology and
@@ -17,22 +20,22 @@ The basic design looks like this:
 
 I want to use a disc pasture meter in Angola when I go on fieldwork
 next month, but I don’t want to have to take loads of bits of pipe
-and a big disc in my luggage, which is already ridiculously bulky. So
-instead, I am trying to design a meter that sources as much of the
-instrument as possible from easy to find materials in Angola. I have
-spent a lot of time surfing around on hardware websites and measuring
-bits of pipe. The most dificult aspect of the design is attaching the
-free-moving sleeve pipe to the plywood disc. I’ve come up with a
-couple of designs.
+and a big disc in my luggage, which is already ridiculously bulky.
+So instead, I am trying to design a meter that sources as much of
+the instrument as possible from easy to find materials in Angola. I
+have spent a lot of time surfing around on hardware websites and
+measuring bits of pipe. The most dificult aspect of the design is
+attaching the free-moving sleeve pipe to the plywood disc. I’ve come
+up with a couple of designs.
 
 The first design uses a section of flat aliuminium in an inverted-T
 shape which are bolted onto the top of the plywood sheet, then the
 sleeve is attached to the T section with a grounding clamp used for
-pipes and electrical wires. This design is good because it reinforces
-the potentially quite flimsy plywood sheet. I would take the bolts,
-metal t-section, grounding clamp and the outer sleeve pipe to Angola,
-and buy the rest of the piping and the plywood sheet while I was
-there.
+pipes and electrical wires. This design is good because it
+reinforces the potentially quite flimsy plywood sheet. I would take
+the bolts, metal t-section, grounding clamp and the outer sleeve
+pipe to Angola, and buy the rest of the piping and the plywood sheet
+while I was there.
 
   {IMAGE}
 
@@ -75,8 +78,8 @@ Society of Southern Africa, 2:1, 35-38, DOI:
 
 N Zambatis, PJK Zacharias, CD Morris & JF Derry (2006) Re-evaluation
 of the disc pasture meter calibration for the Kruger National Park,
-South Africa, African Journal of Range & Forage Science, 23:2, 85-97,
-DOI: 10.2989/10220110609485891
+South Africa, African Journal of Range & Forage Science, 23:2,
+85-97, DOI: 10.2989/10220110609485891
 
 Most of these papers used Bransby and Tainton’s (1977) design, which
 suggested the following dimensions:

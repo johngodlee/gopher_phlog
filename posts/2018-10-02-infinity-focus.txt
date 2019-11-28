@@ -1,5 +1,8 @@
-Hemispherical photography - should the focus be set to infinity? - [2018-10-02]
-=================================================================================
+TITLE: Hemispherical photography - should the focus be set to infinity?
+DATE: 2018-10-02
+AUTHOR: John L. Godlee
+====================================================================
+
 
 My assumption has always been that when taking hemispherical photos
 of forest canopies, the focus of the lens should always be set to
@@ -13,33 +16,34 @@ regarding the issue.
 This first paper only says that non-DSLR cameras should have the
 focus set to infinity, either that or it’s confusingly written.
 
-  All camera internalsoftware filters (e.g. sharpen the picture) need
-  to be turned off. For non-DSLR cameras the “Fish-Eye setting” means
-  that the zoom is fixed at the widest angle and FOCUS IS SET TO
-  INFINITY.
+  All camera internalsoftware filters (e.g. sharpen the picture)
+  need to be turned off. For non-DSLR cameras the “Fish-Eye setting”
+  means that the zoom is fixed at the widest angle and focus is set
+  to infinity.
 
   – Melrose et al. 2012
 
-These next few simply say that they did set it to infinity, but don’t
-say why..
+These next few simply say that they did set it to infinity, but
+don’t say why..
 
   We used a Nikon MF-16 camera and a Nikkor 8-mm fish-eye lens with
   TriX ASA 400 film, a red filter to increase sharpness of leaf
-  edges, and the FOCUS SET TO INFINITY.
+  edges, and the focus set to infinity.
 
   – Englund et al. 2000
 
-  The lens was set to a small aperture and FOCUSED ON INFINITY
+  The lens was set to a small aperture and focused on infinity
   (Frazer et al. 2001; Zhu et al. 2003)
 
   – Hu et al. 2009
 
-  Exposure settings were selected to obtain the best contrast between
-  foliage and sky and making the last one appear white (cloudy sky
-  offers the best condition in this context). The camera was used in
-  automatic mode using the parameters fixed in FISHEYE1 lens mode
-  (FOCUS SET TO INFINITY, widest zoom, metering center-weighted), and
-  the shutter speed was varied automatically by the camera.
+  Exposure settings were selected to obtain the best contrast
+  between foliage and sky and making the last one appear white
+  (cloudy sky offers the best condition in this context). The camera
+  was used in automatic mode using the parameters fixed in FISHEYE1
+  lens mode (focus set to infinity, widest zoom, metering
+  center-weighted), and the shutter speed was varied automatically
+  by the camera.
 
   – Paletto & Tosi 2009
 
@@ -48,8 +52,8 @@ describing proper protocol for taking hemispherical photos:
 
   Unlike the Nikon F, the digital camera did not allow full manual
   control of both the shutter speed and lens aperture. We therefore
-  SET THE AUTOFOCUS, EXPOSURE MODE, AND F-STOP OF THE DIGITAL CAMERA
-  TO INFINITY, aperture priority (shutter speed is set automatically
+  set the autofocus, exposure mode, and f-stop of the digital camera
+  to infinity, aperture priority (shutter speed is set automatically
   by the camera), and f/2.6, respectively.
 
   – Frazer et al. 2001
@@ -57,22 +61,19 @@ describing proper protocol for taking hemispherical photos:
 This one references a really dodgy looking old downloadable tutorial
 series on taking good digital photos, called 123di. Most of it is
 behind a paywall though, so I can’t read the applicable bit. But at
-least it sort of says why they set the focus to infinity, because the
-depth of field is practically infinite under these conditions.
+least it sort of says why they set the focus to infinity, because
+the depth of field is practically infinite under these conditions.
 
   Photographic images were recorded using a Sigma 8 mm f/4 ‘fisheye’
   lens (Sigma Corporation, Tokyo, Japan) at the highest possible
-  resolution (3040 × 2008 pixels) with highest ISO setting (ISO 200).
-  Moreover, THE FOCUS RING WAS SET TO INFINITY WHEN USING THE FISHEYE
-  LENS, AS DEPTH OF FIELD IS PRACTICALLY INFINITE AND FOCUSING WAS
-  NOT REQUIRED (BOCKAERT, 2004).
+  resolution (3040 × 2008 pixels) with highest ISO setting (ISO
+  200). Moreover, the focus ring was set to infinity when using the
+  fisheye lens, as depth of field is practically infinite and
+  focusing was not required (Bockaert, 2004).
 
   – Jonckheere et al. 2005
 
-
-
-REFERENCES
-
+References
 
 Melrose et al. 2012 - Manual on methods and criteria for harmonized
 sampling, assessment, monitoring and analysis of the effects of air
