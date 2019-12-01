@@ -19,9 +19,11 @@ hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 0CV	cv.txt
 
 1Recipes	recipes
+0Library	books.txt
 
 i==== Posts =======================================================	/
 
+0TITLE: Creating a personal library catalogue	posts/2019-11-25-library.txt
 0TITLE: Making a Gopherhole	posts/2019-11-20-gopher.txt
 0TITLE: Making better ggiNEXT plots	posts/2019-11-15-gginext.txt
 0TITLE: Making a LaTeX Beamer template	posts/2019-11-10-beamer.txt
@@ -31,7 +33,6 @@ i==== Posts =======================================================	/
 0TITLE: Scraping instagram without an account	posts/2019-10-20-ig-dl.txt
 0TITLE: Writing ggplot2 grobs in a loop to maintain data values	posts/2019-10-15-ggplot-loop.txt
 0TITLE: A Pandoc template for converting markdown letters to LaTeX PDFs	posts/2019-10-10-md-letter.txt
-0TITLE: Custom .sty files in LaTeX	posts/2019-10-05-sty-latex.txt
 
 1Archive	posts
 
