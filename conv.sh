@@ -121,7 +121,7 @@ find recipes/ -type f -print0 | xargs -0 chmod 644
 find . -name 'gophermap' -print0 | xargs -0 chmod 644
 find . -type d -print0 | xargs -0 chmod 755
 
-scp gophermap contact.txt cv.txt johngodlee@tty.sdf.org:/udd/j/johngodlee/gopher
+scp gophermap contact.txt cv.txt books.txt johngodlee@tty.sdf.org:/udd/j/johngodlee/gopher
 scp posts/* johngodlee@tty.sdf.org:/udd/j/johngodlee/gopher/posts
 scp recipes/* johngodlee@tty.sdf.org:/udd/j/johngodlee/gopher/recipes
 
