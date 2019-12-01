@@ -112,6 +112,9 @@ cv_lo=$(echo "$cv" | sed 's/./=/g')
 
 sed -i -e "1i$cv\n$cv_lo\n" cv.txt
 
+# Copy book library to directory
+cp ~/google_drive/bib/library/books.txt books.txt
+
 # Set file permissions, world read, nonexecutable
 find posts/ -type f -print0 | xargs -0 chmod 644
 find recipes/ -type f -print0 | xargs -0 chmod 644
