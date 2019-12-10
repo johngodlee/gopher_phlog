@@ -23,6 +23,7 @@ hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 
 i==== Posts =======================================================	/
 
+0TITLE: Constructing diversity profiles with Hill numbers	posts/2019-12-05-hill.txt
 0TITLE: Creating a personal library catalogue	posts/2019-11-25-library.txt
 0TITLE: Making a Gopherhole	posts/2019-11-20-gopher.txt
 0TITLE: Making better ggiNEXT plots	posts/2019-11-15-gginext.txt
@@ -32,7 +33,6 @@ i==== Posts =======================================================	/
 0TITLE: urlview to easily handle URLs in the terminal	posts/2019-10-25-urlview.txt
 0TITLE: Scraping instagram without an account	posts/2019-10-20-ig-dl.txt
 0TITLE: Writing ggplot2 grobs in a loop to maintain data values	posts/2019-10-15-ggplot-loop.txt
-0TITLE: A Pandoc template for converting markdown letters to LaTeX PDFs	posts/2019-10-10-md-letter.txt
 
 1Archive	posts
 
