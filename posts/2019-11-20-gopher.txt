@@ -274,3 +274,11 @@ using sed in a for loop, with something like this:
 
 Those were just simplified examples, it’s easy to add header
 material from another file or format the link text differently.
+
+Update 2019_12_25
+
+Note that my gopher hole is now hosted on [tilde.club/], at
+gopher://tilde.club/1/~johngodlee because scp was being problematic
+on SDF. I’ve since shut down my SDF gopherhole.
+
+  [tilde.club/]: http://tilde.club/

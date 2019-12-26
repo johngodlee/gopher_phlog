@@ -115,13 +115,16 @@ sed -i -e "1i$cv\n$cv_lo\n" cv.txt
 # Copy book library to directory
 cp ~/google_drive/bib/library/books.txt books.txt
 
+# Copy GPG public key
+gpg --armor --export johngodlee@gmail.com > johngodlee.asc
+
 # Set file permissions, world read, nonexecutable
 find posts/ -type f -print0 | xargs -0 chmod 644
 find recipes/ -type f -print0 | xargs -0 chmod 644
 find . -name 'gophermap' -print0 | xargs -0 chmod 644
 find . -type d -print0 | xargs -0 chmod 755
 
-scp gophermap contact.txt cv.txt books.txt johngodlee@tilde.club:/home/johngodlee/public_gopher 
+scp gophermap contact.txt cv.txt books.txt johngodlee.asc johngodlee@tilde.club:/home/johngodlee/public_gopher 
 scp posts/* johngodlee@tilde.club:/home/johngodlee/public_gopher/posts
 scp recipes/* johngodlee@tilde.club:/home/johngodlee/public_gopher/recipes
 
