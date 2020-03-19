@@ -505,33 +505,35 @@ Ordnance Survey. (1991c). Worcester, The Malverns & surrounding
 area: Landranger 150 (1:50,000). London, UK: Ordnance Survey.
 
 Ordnance Survey. (2006). Peebles & Innerleitehn: Eddleston,
-Ettrickbridge, Traquair & Yarrow. London, UK: Ordnance Survey.
-
-Ordnance Survey. (2007). Ben Lawers & Glen Lyon: Loch Tay, Killin &
-Kenmore. London, UK: Ordnance Survey.
-
-Ordnance Survey. (2011). Cairn Gorm & Aviemore: Loch Morlich.
-London, UK: Ordnance Survey.
-
-Ordnance Survey. (2015a). Brecon Beacons National Park / Parc
-Cenedlaethol Bannau Brycheiniog: Eastern area/Ardal ddwyreiniol.
-London, UK: Ordnance Survey.
-
-Ordnance Survey. (2015b). Dartmoor. London, UK: Ordnance Survey.
-
-Ordnance Survey. (2015c). Exmoor Barnstaple, Lynton, Minehead &
-Dulverton. London, UK: Ordnance Survey.
-
-Ordnance Survey. (2015d). The Peak District Dark Peak Area: Kinder
-Scout, Bleaklow, Black Hill & Ladybower Reservoir. London, UK:
+Ettrickbridge, Traquair & Yarrow: Explorer (1:25,000). London, UK:
 Ordnance Survey.
 
-Ordnance Survey. (2016a). Brecon Beacons National Park Parc
-Cenedlaethol Bannau Brycheiniog: Western area/Ardal gorllewinol.
-London, UK: Ordnance Survey.
+Ordnance Survey. (2007). Ben Lawers & Glen Lyon: Loch Tay, Killin &
+Kenmore: Explorer (1:25,000). London, UK: Ordnance Survey.
 
-Ordnance Survey. (2016b). Exeter and Sidmouth: Exmouth & Teignmouth.
-London, UK: Ordnance Survey.
+Ordnance Survey. (2011). Cairn Gorm & Aviemore: Loch Morlich:
+Explorer (1:25,000). London, UK: Ordnance Survey.
+
+Ordnance Survey. (2015a). Brecon Beacons National Park / Parc
+Cenedlaethol Bannau Brycheiniog: Eastern area/Ardal ddwyreiniol:
+Explorer (1:25,000). London, UK: Ordnance Survey.
+
+Ordnance Survey. (2015b). Dartmoor: Explorer (1:25,000). London, UK:
+Ordnance Survey.
+
+Ordnance Survey. (2015c). Exmoor Barnstaple, Lynton, Minehead &
+Dulverton: Explorer (1:25,000). London, UK: Ordnance Survey.
+
+Ordnance Survey. (2015d). The Peak District Dark Peak Area: Kinder
+Scout, Bleaklow, Black Hill & Ladybower Reservoir: Explorer
+(1:25,000). London, UK: Ordnance Survey.
+
+Ordnance Survey. (2016a). Brecon Beacons National Park Parc
+Cenedlaethol Bannau Brycheiniog: Western area/Ardal gorllewinol:
+Explorer (1:25,000). London, UK: Ordnance Survey.
+
+Ordnance Survey. (2016b). Exeter and Sidmouth: Exmouth & Teignmouth:
+Explorer (1:25,000). London, UK: Ordnance Survey.
 
 Ordnance Survey Ireland. (2014). Discovery series: Galway. Dublin,
 Ireland: Ordnance Survey Ireland.
