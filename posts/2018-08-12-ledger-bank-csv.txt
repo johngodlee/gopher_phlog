@@ -12,7 +12,7 @@ ledger journal format.
 
   [ledger]: https://www.ledger-cli.org/
 
-My bank’s csv format looks like this:
+y bank’s csv format looks like this:
 
 
     Date, Type, Description, Value, Balance, Account Name, Account Number

@@ -33,6 +33,9 @@ done
 touch gophermap
 cat head > gophermap
 
+# Remove bad line endings
+sed -i "s///g" posts/*.txt
+
 # Create array of all posts
 all=(posts/*.txt)
 

@@ -335,7 +335,7 @@ Get set up, import data etc.:
     # Remove NAs 
     sust_data <- sust_data[!is.na(sust_data$sustainability_daily_think),]
 
-Manipulate the data so it’s ready for plotting:
+anipulate the data so it’s ready for plotting:
 
     # Create a summary dataframe of likert responses to a single question
     sust_think_summ <- sust_data %>%

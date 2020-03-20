@@ -47,7 +47,7 @@ from most to least preferred.
 
 Using open
 
-Most Linux applications can simply be opened by typing their name
+ost Linux applications can simply be opened by typing their name
 into the terminal, optionally followed by a file to open and various
 rules, e.g. zathura example.pdf. In macOS however, typing the
 equivalent preview example.pdf just returns an error that preview
@@ -96,10 +96,10 @@ often refer to [this website]:
 
 MIME types
 
-MIME types are a good last resort for catching any files with
-unusual extensions, I normally put them at the bottom of a list of
-preferred applications, to open with a program I know will be
-installed, for example:
+IME types are a good last resort for catching any files with unusual
+extensions, I normally put them at the bottom of a list of preferred
+applications, to open with a program I know will be installed, for
+example:
 
     ext xml|json|py|pl|rb|js|sh|php|m[ark]d[own]|txt = vim "$@" 
     ext tex = open -a texworks "$@"

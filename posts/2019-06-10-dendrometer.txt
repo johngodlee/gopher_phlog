@@ -4,10 +4,10 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-My PhD supervisor was looking through old cupboards in our
-department and found, among other things, a wooden box with some
-sort of apparatus in it. They haven’t had time to figure out what it
-was used for so I took it away and did some research.
+y PhD supervisor was looking through old cupboards in our department
+and found, among other things, a wooden box with some sort of
+apparatus in it. They haven’t had time to figure out what it was
+used for so I took it away and did some research.
 
 The box had a label stating that it was a “Dendrometer”. All this
 means in reality, without any more information, is that it was used

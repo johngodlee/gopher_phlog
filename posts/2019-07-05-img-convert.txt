@@ -30,7 +30,7 @@ the same image.
 I have an [example image here] which is currently 6.8 MB.
 
 
-My first pass at the image is simply to reduce the -quality of the
+y first pass at the image is simply to reduce the -quality of the
 image, which takes a percentage value that pertains to the
 compression level.
 

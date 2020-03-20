@@ -68,7 +68,7 @@ library:
       lc = {QH195.R53 W54}
     }
 
-Most of this is self-explanatory. There are optional fields for the
+ost of this is self-explanatory. There are optional fields for the
 book entry:
 
 -   volume or number
@@ -166,6 +166,6 @@ And in .html they look like this:
     <p>Beaujean, A. A. (2014). <em>Latent variable modeling using r</em>. New York NY, USA: Routledge.</p>
     </div>
 
-My personal library can now be found [here, on my website].
+y personal library can now be found [here, on my website].
 
   [here, on my website]: https://johngodlee.github.io/library/

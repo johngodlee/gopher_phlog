@@ -1,4 +1,4 @@
-TITLE: Attaching threaded bar to re-bar
+TITLE: Attaching threaded bar to rebar
 DATE: 2020-02-16
 AUTHOR: John L. Godlee
 ====================================================================

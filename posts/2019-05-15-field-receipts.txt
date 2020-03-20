@@ -4,7 +4,7 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-Most of the time when I’m doing scientific fieldwork, I have to keep
+ost of the time when I’m doing scientific fieldwork, I have to keep
 track of receipts in order to get reimbursed by my funding at a
 later date. Keeping track of all these bits of paper over the course
 of a long expedition can be really annoying and I have to have some

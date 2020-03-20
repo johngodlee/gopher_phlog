@@ -4,7 +4,7 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-My assumption has always been that when taking hemispherical photos
+y assumption has always been that when taking hemispherical photos
 of forest canopies, the focus of the lens should always be set to
 infinity. However, I’m not sure where I got this assumption from, or
 whether it’s even true, I’ve just always believed it. So to set my
@@ -75,7 +75,7 @@ the depth of field is practically infinite under these conditions.
 
 References
 
-Melrose et al. 2012 - Manual on methods and criteria for harmonized
+elrose et al. 2012 - Manual on methods and criteria for harmonized
 sampling, assessment, monitoring and analysis of the effects of air
 pollution on forests - Part XVII Leaf Area Measurements
 

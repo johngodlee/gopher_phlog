@@ -71,7 +71,7 @@ above‐ground standing biomass in Mixed Bushveld, South Africa.
 African Journal of Ecology, 40: 100-102.
 doi:10.1046/j.0141-6707.2001.00338.x
 
-M.B. Hardy & M.T. Mentis (1985) The relative efficiency of three
+.B. Hardy & M.T. Mentis (1985) The relative efficiency of three
 methods of estimating herbage mass in veld, Journal of the Grassland
 Society of Southern Africa, 2:1, 35-38, DOI:
 10.1080/02566702.1985.9647996
@@ -81,7 +81,7 @@ of the disc pasture meter calibration for the Kruger National Park,
 South Africa, African Journal of Range & Forage Science, 23:2,
 85-97, DOI: 10.2989/10220110609485891
 
-Most of these papers used Bransby and Tainton’s (1977) design, which
+ost of these papers used Bransby and Tainton’s (1977) design, which
 suggested the following dimensions:
 
 -   Long rod length: 180 cm

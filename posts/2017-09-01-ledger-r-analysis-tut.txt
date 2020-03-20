@@ -29,7 +29,7 @@ manipulating data is ‘R’, so I’m going to use that.
 
   [web-based reporting system]: https://github.com/ledger/ledger-web
 
-Most of the code below is actually data manipulation, which I’ve
+ost of the code below is actually data manipulation, which I’ve
 chosen to do with the dplyr package, creating the plots in ggplot2
 isn’t too taxing. I’ve created an example script [here] and you
 can find the example .ledger.journal file I used [here][1]

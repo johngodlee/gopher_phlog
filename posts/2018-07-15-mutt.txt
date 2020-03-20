@@ -14,7 +14,7 @@ fork. It’s an amalgamation of lots of different guides and snippets
 that I’ve found scattered around on the internet. I’ve referenced
 the important ones at the end.
 
-My setup is fairly particular to me and my needs. I use macOS rather
+y setup is fairly particular to me and my needs. I use macOS rather
 than Linux which produces some interesting idiosyncrasies, and I
 wanted to integrate my existing command line programs where
 possible, notably vim (text editor) and pass (GPG enabled password
@@ -532,7 +532,7 @@ guides that I learnt from and used to write this setup:
 -   https://pbrisbin.com/posts/mutt_gmail_offlineimap/
 -   https://baptiste-wicht.com/posts/2014/07/a-mutt-journey-my-mutt-configuration.html
 
-My full setup can be explored in my [dotfiles]
+y full setup can be explored in my [dotfiles]
 
   [dotfiles]: https://github.com/johngodlee/dotfiles
 

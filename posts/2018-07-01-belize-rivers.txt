@@ -4,7 +4,7 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-My partner spends a lot of time in Belize for work and was looking
+y partner spends a lot of time in Belize for work and was looking
 for something to hang on her wall as a piece of art. I thought that
 a stylised map of Belize could make a nice minimalist piece of art,
 but because I have no artistic skills, I decided to do it using R.

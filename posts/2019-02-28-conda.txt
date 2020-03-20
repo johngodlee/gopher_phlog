@@ -56,7 +56,7 @@ by get_conda_env():
 
     PS1='$(check_conda_env)'
 
-My bash prompt definition currently looks like this:
+y bash prompt definition currently looks like this:
 
     PS1='┏' # Elbow
     PS1+='[\T]' # Time

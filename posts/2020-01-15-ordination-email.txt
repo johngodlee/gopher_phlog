@@ -33,7 +33,7 @@ They also sent a document with their overall research goal:
   (Richness index Shannon index and Simpson index ) of vegetation in
   province.
 
-My email response was:
+y email response was:
 
   My preference for an ordination technique to analyse variation in
   species composition is NMDS. This is for two main reasons. The

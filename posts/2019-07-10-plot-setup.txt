@@ -68,7 +68,7 @@ your location in long grass to somebody trying to run a string out
 to your location. Much better than yelling “Agui, aqui, um pouco a
 esquerda”.
 
-Measuring compass orientations for the corners to get 90 degrees
+easuring compass orientations for the corners to get 90 degrees
 helps to keep things square. Do it with a real compass rather than
 the shitey compass on a GPS unit.
 

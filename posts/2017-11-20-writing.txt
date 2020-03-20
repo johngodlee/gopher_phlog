@@ -58,7 +58,7 @@ to learn commands, whether that’s using git log, git merge, git diff
 etc. to control versions, or using underscores for italics, and
 hashes for headers etc..
 
-Maybe the answer is some sort of GUI that incorporates markdown
+aybe the answer is some sort of GUI that incorporates markdown
 syntax highlighting, git version control, a markdown previewer and
 pandoc suite, so that the user doesn’t even know what is going on in
 the background, unless they want to, then the program should be wide

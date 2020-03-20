@@ -37,7 +37,7 @@ sad. I had three main reasons for doing this:
 -   I never found a good solution to connect multiple email
     addresses to Alpine.
 
-Mail.app operates really nicely in some respects. It has flags so I
+ail.app operates really nicely in some respects. It has flags so I
 can organise my emails by type, it has reasonable search functions
 for finding keywords in email text, and it can manage multiple email
 accounts, but other things are infuriating:
