@@ -282,3 +282,13 @@ gopher://tilde.club/1/~johngodlee because scp was being problematic
 on SDF. I’ve since shut down my SDF gopherhole.
 
   [tilde.club/]: http://tilde.club/
+
+Update 2020-03-28
+
+Note that my gopher hole is now hosted on
+[republic.circumlunar.space/], at
+gopher://republic.circumlunar.space/1/~johngodlee because tilde.club
+kept being unavailable. I’ll be shutting down my tilde.club
+gopherhole soon.
+
+  [republic.circumlunar.space/]: https://republic.circumlunar.space/
