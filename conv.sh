@@ -116,7 +116,7 @@ cv_lo=$(echo "$cv" | sed 's/./=/g')
 sed -i -e "1i$cv\n$cv_lo\n" cv.txt
 
 # Copy book library to directory
-cp ~/Google\ Drive/bib/library/books.txt books.txt
+cp ~/google_drive/bib/library/books.txt books.txt
 
 # Copy GPG public key
 gpg --armor --export johngodlee@gmail.com > johngodlee.asc
@@ -127,8 +127,8 @@ find recipes/ -type f -print0 | xargs -0 chmod 644
 find . -name 'gophermap' -print0 | xargs -0 chmod 644
 find . -type d -print0 | xargs -0 chmod 755
 
-scp gophermap contact.txt cv.txt books.txt johngodlee.asc johngodlee@tilde.club:/home/johngodlee/public_gopher 
-scp posts/* johngodlee@tilde.club:/home/johngodlee/public_gopher/posts
-scp recipes/* johngodlee@tilde.club:/home/johngodlee/public_gopher/recipes
+scp gophermap contact.txt cv.txt books.txt johngodlee.asc johngodlee@r.circumlunar.space:/usr/home/johngodlee/gopher
+scp posts/* johngodlee@r.circumlunar.space:/usr/home/johngodlee/gopher/posts
+scp recipes/* johngodlee@r.circumlunar.space:/usr/home/johngodlee/gopher/recipes
 
 
