@@ -61,7 +61,7 @@ touch posts/gophermap
 cat posts_head > posts/gophermap 
 
 # Add posts to posts/gophermap
-rev_all_base=$(basename ${rev_all[@]})
+rev_all_base=$(basename -a ${rev_all[@]})
 
 for i in $rev_all_base; do
 	line=$(head -n 1 posts/$i)

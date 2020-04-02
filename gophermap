@@ -24,7 +24,9 @@ hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 
 i==== Posts =======================================================	/
 
+0TITLE: Compiling a single master.tex from a modular document	posts/2020-04-25-latex-main.txt
 0TITLE: Waiting for permits	posts/2020-04-20-waiting.txt
+0TITLE: Kit list for tropical fieldwork	posts/2020-04-10-kit.txt
 0TITLE: Comparison of F-droid notetaking apps on Android	posts/2020-04-05-note-app.txt
 0TITLE: Too many software options for group working	posts/2020-03-30-online-groups.txt
 0TITLE: Shell script for internet radio	posts/2020-03-25-radio.txt
@@ -32,8 +34,6 @@ i==== Posts =======================================================	/
 0TITLE: My vimdiff setup	posts/2020-03-10-vimdiff.txt
 0TITLE: Track changes in LaTeX for reviewer comments	posts/2020-03-05-latex_track.txt
 0TITLE: Charging the laser scanner off a generator	posts/2020-02-25-generator.txt
-0TITLE: Attaching threaded bar to rebar	posts/2020-02-16-rebar.txt
-0TITLE: Automate CSV typesetting for plot data sheets	posts/2020-01-20-latex-csv.txt
 
 1Archive	posts
 
