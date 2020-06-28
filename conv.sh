@@ -49,8 +49,11 @@ recent="${rev_all[@]:0:10}"
 
 # Add recent post links to gophermap
 for i in $recent; do
-	line=$(head -n 1 $i)
-	printf "0$line\t$i\n" >> gophermap
+	title=$(head -n 1 $i | sed 's/^TITLE:\s\+//g')
+	date=$(head -n 2 $i | sed -n 2p | sed 's/^DATE:\s\+//g')
+	line="${date} - ${title}"
+	linecut=$(echo ${line} | cut -c 1-68)
+	printf "0$linecut\t$i\n" >> gophermap
 done
 
 # Add footer material to gophermap
@@ -64,8 +67,11 @@ cat posts_head > posts/gophermap
 rev_all_base=$(basename -a ${rev_all[@]})
 
 for i in $rev_all_base; do
-	line=$(head -n 1 posts/$i)
-	printf "0$line\t$i\n" >> posts/gophermap
+	title=$(head -n 1 posts/$i | sed 's/^TITLE:\s\+//g')
+	date=$(head -n 2 posts/$i | sed -n 2p | sed 's/^DATE:\s\+//g')
+	line="${date} - ${title}"
+	linecut=$(echo ${line} | cut -c 1-68)
+	printf "0$linecut\t$i\n" >> posts/gophermap
 done
 
 # Create gophermap for recipes with header content
