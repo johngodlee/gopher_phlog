@@ -24,6 +24,7 @@ hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 
 i==== Posts =======================================================	/
 
+02020-07-05 - Pretty correlation matrices with ggplot	posts/2020-07-05-corrplot.txt
 02020-06-30 - Vim HTML img tag to markdown	posts/2020-06-30-vim-html-md.txt
 02020-06-25 - Questions about operational IT for research	posts/2020-06-25-it.txt
 02020-06-15 - FZF script for searching a lookup table	posts/2020-06-15-fzf_csv.txt
@@ -33,7 +34,6 @@ i==== Posts =======================================================	/
 02020-05-25 - An email which tries to make sense of the RMarkdown eco	posts/2020-05-25-rmarkdown-email.txt
 02020-05-20 - Adventures in tweaking RMarkdown	posts/2020-05-20-rmarkdown.txt
 02020-05-15 - Rendering list structure in R	posts/2020-05-15-list-render.txt
-02020-05-10 - Snippets to tweak macOS Finder.app	posts/2020-05-10-finder.txt
 
 1Archive	posts
 
