@@ -24,6 +24,8 @@ hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 
 i==== Posts =======================================================	/
 
+02020-07-15 - How I cast Youtube videos to the TV	posts/2020-07-15-youtube.txt
+02020-07-10 - A weekend of consultations on woodland planting	posts/2020-07-10-consultation.txt
 02020-07-05 - Pretty correlation matrices with ggplot	posts/2020-07-05-corrplot.txt
 02020-06-30 - Vim HTML img tag to markdown	posts/2020-06-30-vim-html-md.txt
 02020-06-25 - Questions about operational IT for research	posts/2020-06-25-it.txt
@@ -32,8 +34,6 @@ i==== Posts =======================================================	/
 02020-06-05 - An R function to split species names	posts/2020-06-05-split_species.txt
 02020-05-30 - Writing R package documentation	posts/2020-05-30-package-manual.txt
 02020-05-25 - An email which tries to make sense of the RMarkdown eco	posts/2020-05-25-rmarkdown-email.txt
-02020-05-20 - Adventures in tweaking RMarkdown	posts/2020-05-20-rmarkdown.txt
-02020-05-15 - Rendering list structure in R	posts/2020-05-15-list-render.txt
 
 1Archive	posts
 
