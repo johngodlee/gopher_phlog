@@ -24,6 +24,8 @@ hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 
 i==== Posts =======================================================	/
 
+02020-08-08 - Curl-able contact card	posts/2020-08-08-card.txt
+02020-07-22 - Exporting draw.io images to LaTeX	posts/2020-07-22-drawio_latex.txt
 02020-07-15 - How I cast Youtube videos to the TV	posts/2020-07-15-youtube.txt
 02020-07-10 - A weekend of consultations on woodland planting	posts/2020-07-10-consultation.txt
 02020-07-05 - Pretty correlation matrices with ggplot	posts/2020-07-05-corrplot.txt
@@ -32,8 +34,6 @@ i==== Posts =======================================================	/
 02020-06-15 - FZF script for searching a lookup table	posts/2020-06-15-fzf_csv.txt
 02020-06-10 - Flow diagram for data cleaning process	posts/2020-06-10-package_diagram.txt
 02020-06-05 - An R function to split species names	posts/2020-06-05-split_species.txt
-02020-05-30 - Writing R package documentation	posts/2020-05-30-package-manual.txt
-02020-05-25 - An email which tries to make sense of the RMarkdown eco	posts/2020-05-25-rmarkdown-email.txt
 
 1Archive	posts
 

@@ -112,8 +112,8 @@ Manuscripts and Published Work
 -   Rowland, L. … Godlee J. L. - Drought stress and tree size determine
     stem CO₂ efflux in a tropical forest
     -   New Phytologist - 2018
--   Daskalova, G. N. … Godlee J. L. - All is not decline across global
-    vertebrate populations
+-   Daskalova, G. N. … Godlee J. L. - Rare and common vertebrates span a
+    wide spectrum of population trends
     -   bioRxiv - 2019
 
 Research vision
@@ -336,3 +336,9 @@ Professional Associations
 -   Royal Society of Biology (Affiliate Member)
 -   British Ecological Society (Student Member)
 -   Royal Scottish Geographical Society
+
+------------------------------------------------------------------------
+
+curl my contact card:
+
+    curl -sL https://johngodlee.github.io/files/card

@@ -28,75 +28,75 @@ On to the templates:
 
 blue_big
 
-  {IMAGE}
+  {IMAGE}[1]
 
-  [[[blue_big screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_blue_big.html
+  [1]: https://johngodlee.github.io/files/pandoc_css/test_blue_big.html
 
 buttondown
 
-  {IMAGE}
+  {IMAGE}[2]
 
-  [[[buttondown screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_buttondown.html
+  [2]: https://johngodlee.github.io/files/pandoc_css/test_buttondown.html
 
 chmduquesne_resume
 
-  {IMAGE}
+  {IMAGE}[3]
 
-  [[[chmduquesne_resume screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_chmduquesne_resume.html
+  [3]: https://johngodlee.github.io/files/pandoc_css/test_chmduquesne_resume.html
 
 github_pages
 
-  {IMAGE}
+  {IMAGE}[4]
 
-  [[[github_pages screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_github_pages.html
+  [4]: https://johngodlee.github.io/files/pandoc_css/test_github_pages.html
 
 github
 
-  {IMAGE}
+  {IMAGE}[5]
 
-  [[[github screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_github.html
+  [5]: https://johngodlee.github.io/files/pandoc_css/test_github.html
 
 killercup
 
-  {IMAGE}
+  {IMAGE}[6]
 
-  [[[killercup screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_killercup.html
+  [6]: https://johngodlee.github.io/files/pandoc_css/test_killercup.html
 
 modest
 
-  {IMAGE}
+  {IMAGE}[7]
 
-  [[[modest screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_modest.html
+  [7]: https://johngodlee.github.io/files/pandoc_css/test_modest.html
 
 panam
 
-  {IMAGE}
+  {IMAGE}[8]
 
-  [[[panam screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_panam.html
+  [8]: https://johngodlee.github.io/files/pandoc_css/test_panam.html
 
 pandoc_tweak
 
-  {IMAGE}
+  {IMAGE}[9]
 
-  [[[pandoc_tweak screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_pandoc_tweak.html
+  [9]: https://johngodlee.github.io/files/pandoc_css/test_pandoc_tweak.html
 
 pandoc
 
-  {IMAGE}
+  {IMAGE}[10]
 
-  [[[pandoc screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_pandoc.html
+  [10]: https://johngodlee.github.io/files/pandoc_css/test_pandoc.html
 
 splendor
 
-  {IMAGE}
+  {IMAGE}[11]
 
-  [[[splendor screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_splendor.html
+  [11]: https://johngodlee.github.io/files/pandoc_css/test_splendor.html
 
 typewriter
 
-  {IMAGE}
+  {IMAGE}[12]
 
-  [[[typewriter screenshot]]]: https://johngodlee.github.io/files/pandoc_css/test_typewriter.html
+  [12]: https://johngodlee.github.io/files/pandoc_css/test_typewriter.html
 
 Creating the images
 
