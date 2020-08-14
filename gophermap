@@ -24,6 +24,7 @@ hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 
 i==== Posts =======================================================	/
 
+02020-08-14 - Email about estimating competition with basal area	posts/2020-08-14-competition_email.txt
 02020-08-08 - Curl-able contact card	posts/2020-08-08-card.txt
 02020-07-22 - Exporting draw.io images to LaTeX	posts/2020-07-22-drawio_latex.txt
 02020-07-15 - How I cast Youtube videos to the TV	posts/2020-07-15-youtube.txt
@@ -33,7 +34,6 @@ i==== Posts =======================================================	/
 02020-06-25 - Questions about operational IT for research	posts/2020-06-25-it.txt
 02020-06-15 - FZF script for searching a lookup table	posts/2020-06-15-fzf_csv.txt
 02020-06-10 - Flow diagram for data cleaning process	posts/2020-06-10-package_diagram.txt
-02020-06-05 - An R function to split species names	posts/2020-06-05-split_species.txt
 
 1Archive	posts
 
