@@ -122,7 +122,7 @@ cv_lo=$(echo "$cv" | sed 's/./=/g')
 sed -i -e "1i$cv\n$cv_lo\n" cv.txt
 
 # Copy book library to directory
-cp ~/google_drive/bib/library/books.txt books.txt
+cp ~/git_proj/library/books.txt books.txt
 
 # Copy GPG public key
 gpg --armor --export johngodlee@gmail.com > johngodlee.asc

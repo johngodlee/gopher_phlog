@@ -24,6 +24,8 @@ hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 
 i==== Posts =======================================================	/
 
+02020-09-05 - Display line segments with given slope in ggplot2	posts/2020-09-05-ggplot_segment.txt
+02020-08-24 - Sort and filter .bib files	posts/2020-08-24-bib_sort.txt
 02020-08-14 - Email about estimating competition with basal area	posts/2020-08-14-competition_email.txt
 02020-08-08 - Curl-able contact card	posts/2020-08-08-card.txt
 02020-07-22 - Exporting draw.io images to LaTeX	posts/2020-07-22-drawio_latex.txt
@@ -32,8 +34,6 @@ i==== Posts =======================================================	/
 02020-07-05 - Pretty correlation matrices with ggplot	posts/2020-07-05-corrplot.txt
 02020-06-30 - Vim HTML img tag to markdown	posts/2020-06-30-vim-html-md.txt
 02020-06-25 - Questions about operational IT for research	posts/2020-06-25-it.txt
-02020-06-15 - FZF script for searching a lookup table	posts/2020-06-15-fzf_csv.txt
-02020-06-10 - Flow diagram for data cleaning process	posts/2020-06-10-package_diagram.txt
 
 1Archive	posts
 
