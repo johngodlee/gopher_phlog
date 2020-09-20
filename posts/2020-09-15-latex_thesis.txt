@@ -1,0 +1,128 @@
+TITLE: Making a LaTeX thesis template
+DATE: 2020-09-15
+AUTHOR: John L. Godlee
+====================================================================
+
+
+Terrifyingly, it’s not too long before I have to start writing my
+PhD thesis. To save myself some headaches down the line I put
+together a LaTeX thesis template system for myself. The template
+itself can be found [here].
+
+  [here]: %7B%7B%20site.baseurl%7D%7D/files/latex_thesis/template.zip
+
+The template hinges on compile.sh, which contains a shell script
+which can compile the thesis, each chapter separately, and
+optionally clean up auxilliary TeX files after using the -c flag.
+
+The directory structure is paramount to make sure all the parts work
+together, and as a result the template isn’t that flexible, but it
+works for my needs.
+
+Below is a copy of the README.md found in the template, which
+details how it works:
+
+Directory structure
+
+main.tex contains the top-level .tex skeleton file which calls all
+other files.
+
+frontmatter/ contains various .tex files used in the main thesis:
+title page (ttl.tex), acknowledgements (ack.tex), etc.
+
+img/ contains all images used in the thesis.
+
+appendices contains subdirectories each referring to a thesis-level
+appendix, similar to a chapter.
+
+chapters contains subdirectories each referring to a thesis chapter.
+Each chapter should have a defin.tex which defines LaTeX variables
+for the chapter name and the chapter directory (e.g. chapter_1).
+
+preamble.tex contains all the preamble material used for the thesis.
+It is also called by chapter.tex.
+
+chapter.tex contains a skeleton file to create individually
+formatted chapters.
+
+definitions.tex contains thesis-level LaTeX variables: thesis title,
+author name, thesis date, etc.
+
+compile.sh contains a shell script which can compile the thesis,
+each chapter, and optionally clean up auxilliary TeX files after
+using the -c flag.
+
+out contains all compiled .pdf files.
+
+Packages
+
+Various packages are used to create this template:
+
+inputenc, babel and csquotes set English language rules.
+
+geometry sets page margins.
+
+pdflscape allows landscape pages with \begin{landscape}.
+
+setspace sets line spacing to 1.5.
+
+fancyhdr sets page headers for chapters with the following settings:
+
+    \pagestyle{fancy}
+    \lhead[\leftmark]{}
+    \rhead[]{\leftmark}
+
+framed allows for framed text boxes with
+\begin{minipage}{\linewidth}\begin{framed}.
+
+float and subfig allow for compound figures:
+
+    \begin{figure}[H]
+        \subfloat[]{{\includegraphics[width=0.3\textwidth]{img_file_a}}
+        \label{img_label_a}}%
+        \qquad
+        \subfloat[]{{\includegraphics[width=0.4\textwidth]{img_file_b}}
+        \label{img_label_b}}%
+        \caption{Caption text}
+        \label{img_label_all}
+    \end{figure}
+
+multirow and longtable allow for more flexible table formatting
+
+biblatex handles referencing.
+
+textcomp, siunitx, and amsmath provide many symbols and extended
+text characters.
+
+appendix handles appendices better than the basic \appendix{}
+
+hyperref provides hyperlinks between sections, to references, to
+DOIs and URLs.
+
+Usage
+
+main.tex can be altered to include new chapters, or to change the
+order of chapters.
+
+Each chapter should reside in its own directory within chapters.
+Each chapter .tex file should be accompanied by a defin.tex which
+defines two key LaTeX variables: \chaptertitle and chapterdir which
+define the title of the chapter and the directory the chapter
+resides in, respectively.
+
+Chapter .tex files should be wrapped in
+\begin{refsection} ... \end{refsection} to ensure that references
+come at the end of the chapter, rather than the end of the thesis.
+
+Notable mentions
+
+Inspiration for this template came from other projects:
+
+-   [uoe-gits / EdThesis LaTeX template · GitLab] - Created by
+    Magnus Hagdorn back in 2003.
+-   [Writing a PhD Thesis in LaTeX Johannes Miocic] - A more
+    recent attempt, from 2015, the blog has links to other useful
+    PhD thesis LaTeX projects.
+
+  [uoe-gits / EdThesis LaTeX template · GitLab]: https://git.ecdf.ed.ac.uk/uoe-gits/edthesis
+  [Writing a PhD Thesis in LaTeX Johannes Miocic]: https://jojomio.wordpress.com/2014/02/14/writing-a-phd-thesis-in-latex/
