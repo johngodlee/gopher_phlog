@@ -9,7 +9,7 @@ PhD thesis. To save myself some headaches down the line I put
 together a LaTeX thesis template system for myself. The template
 itself can be found [here].
 
-  [here]: %7B%7B%20site.baseurl%7D%7D/files/latex_thesis/template.zip
+  [here]: https://johngodlee.github.io/files/latex_thesis/template.zip
 
 The template hinges on compile.sh, which contains a shell script
 which can compile the thesis, each chapter separately, and
