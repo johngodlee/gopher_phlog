@@ -18,7 +18,7 @@ have my Macbook Pro 13" mid-2014 model which I keep in a felt case
 with a pad of A4 lined paper and a charger. I have a basic D-lock
 with cable and a helmet for my bike.
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 Then the small stuff. I have a length of cord where I keep my house
@@ -39,5 +39,5 @@ there for a few years.
   [JVC Adjustable Ear Clip earphones]: https://www.amazon.co.uk/dp/B003CQE2M6/ref=pe_3187911_189395841_TE_dp_1
   [King Alfreds’ Cake]: https://en.wikipedia.org/wiki/Daldinia_concentrica
 
-  {IMAGE}
+  {IMAGE}[2]
 

@@ -40,10 +40,10 @@ This is the equipment that I used when I was in Peru.
 Here are a few diagram and photos to show how I constructed the
 hammock setup.
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 The hammock
@@ -71,7 +71,7 @@ video on how Prusik knots work].
 
   [Here is a good video on how Prusik knots work]: https://www.youtube.com/watch?v=CP7iAF_YU7A
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
 To create the elastic/guyline composite guyropes I used a knot
@@ -83,7 +83,7 @@ the knot], and below a rough diagram:
 
   [good example of how to create the knot]: https://www.youtube.com/watch?v=Gs9WyrzNjJs
 
-  {IMAGE}
+  {IMAGE}[4]
 
 
 It’s important to make the guyropes for the tarp elastic so that if
@@ -92,7 +92,7 @@ tension is used up in the elastic section of the guyropes. They also
 mean that as the tarp heats up and cools down it remains tight and
 doesn’t sag.
 
-  {IMAGE}
+  {IMAGE}[5]
 
 
 To adjust guylines for the tarp I used a taut-line hitch, which
@@ -102,7 +102,7 @@ example] :
 
   [here is a site with an animated example]: https://www.netknots.com/rope_knots/tautline-hitch
 
-  {IMAGE}
+  {IMAGE}[6]
 
 
 In an attempt to save weight, I spent a lot of time learning how to

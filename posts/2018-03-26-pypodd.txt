@@ -169,5 +169,5 @@ requiring user input:
           │
           └─Download the specific episode
 
-  {IMAGE}
+  {IMAGE}[1]
 

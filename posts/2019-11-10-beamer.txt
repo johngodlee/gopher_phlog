@@ -10,10 +10,10 @@ presentations. It takes some of the guess work out of making new
 presentations. The template has a default title page and a very
 simple content page:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 I had seen examples of LaTeX Beamer presentations online, though
@@ -265,16 +265,16 @@ space between paragraphs, which is too small by default.
 
 Here are some examples of what the template looks like:
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
-  {IMAGE}
+  {IMAGE}[4]
 
 
-  {IMAGE}
+  {IMAGE}[5]
 
 
-  {IMAGE}
+  {IMAGE}[6]
 
 
 And the code used to create those example slides:
@@ -339,5 +339,5 @@ diagrams of the woodlands I work in, to illustrate variation in
 canopy structure under different environmental conditions, but I
 would have no idea how to achieve that in Beamer:
 
-  {IMAGE}
+  {IMAGE}[7]
 

@@ -9,7 +9,7 @@ study location. For example in Burton et al. (2013), which is the
 first publication I found with an inset map by searching for the key
 word “inset map”.
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 I wanted to be able to make these maps directly in R, rather than
@@ -78,5 +78,5 @@ annotation_custom() allows you to set the x and y location of the
 grob, using the coordinate system on the base plot, which in this
 case is decimal latitude and longitude.
 
-  {IMAGE}
+  {IMAGE}[2]
 

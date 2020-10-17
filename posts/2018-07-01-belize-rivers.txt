@@ -28,7 +28,7 @@ angular lines. These are the other sources I looked at:
   [Meerman 2015]: http://www.biodiversity.bz/
   [Digital Chart of the World - Inland Water]: http://www.diva-gis.org/gdata
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 Here is the R code that I used to create the map output. I saved it
@@ -117,5 +117,5 @@ as an svg for printing and also as a png for previewing:
 I’m printing off the big file next week, then I want to frame it in
 a thin black edge frame with glossy glass.
 
-  {IMAGE}
+  {IMAGE}[2]
 

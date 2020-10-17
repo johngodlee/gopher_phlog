@@ -15,7 +15,7 @@ an allometric equation.
 
 The basic design looks like this:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 I want to use a disc pasture meter in Angola when I go on fieldwork
@@ -37,7 +37,7 @@ the bolts, metal t-section, grounding clamp and the outer sleeve
 pipe to Angola, and buy the rest of the piping and the plywood sheet
 while I was there.
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 This second design doesn’t distribute the weight as well, but
@@ -46,7 +46,7 @@ metal to take in luggage. It uses a base flange normally used to
 attach a water pipe to a tank. Again, I would buy the flange, the
 bolts and the outer sleeve in the UK, then get the rest in Angola.
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
 The flange design could potentially be made more sturdy by

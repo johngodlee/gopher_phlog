@@ -91,7 +91,7 @@ to render a .pdf for each of the .csv files:
 
 The .pdf files created at the end look like this:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 A .pdf version can be [downloaded here].

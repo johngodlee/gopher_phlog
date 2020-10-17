@@ -13,7 +13,7 @@ The box had a label stating that it was a “Dendrometer”. All this
 means in reality, without any more information, is that it was used
 to measure trees. Not very helpful.
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 Inside the box there were a few handwritten labels. The first said:
@@ -22,7 +22,7 @@ Inside the box there were a few handwritten labels. The first said:
   scales, spirit level, telescope and sights etc. For full
   description see other label.
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 The second label is really hard to read. This is the best I could
@@ -43,19 +43,19 @@ make of it:
   hand or to slide on to the end of any suitable stand, all in
   fitted mahogany shaped case.
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
 This label was printed and obviously written later, presumable
 sometime after 1968. I doubt it’s been used as a piece of scientific
 apparatus since then:
 
-  {IMAGE}
+  {IMAGE}[4]
 
 
 The equipment inside the mahogany box looks like this:
 
-  {IMAGE}
+  {IMAGE}[5]
 
 
 It’s basically a series of rulers with a spirit level attached to
@@ -81,7 +81,7 @@ used similarly to a clinometer, using trigonometry to solve an
 equation for the height of the tree as one side of the triangle. I
 set the equipment up in the way I think it might work:
 
-  {IMAGE}
+  {IMAGE}[6]
 
 
 Here is a diagram that I hope explains how I think it should be
@@ -100,7 +100,7 @@ like to know the length of, or distance between.
 
   [“Principle of Similar Triangles”]: https://www.mathopenref.com/similartriangles.html
 
-  {IMAGE}
+  {IMAGE}[7]
 
 
 I still don’t know what the extra ruler is for. Maybe it attaches to
@@ -120,5 +120,5 @@ height.
 
   [Nikon Forestry Pro Rangefinder]: https://www.youtube.com/watch?v=SAUL76gEIUo
 
-  {IMAGE}
+  {IMAGE}[8]
 

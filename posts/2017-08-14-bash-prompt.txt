@@ -6,12 +6,12 @@ AUTHOR: John L. Godlee
 
 This is what my bash prompt looks like at the moment:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 Here is what the various parts refer to:
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 [And here is a link to a .bashrc,] which has the code to make this
@@ -29,7 +29,7 @@ information about the status of the current session.
 
 The default bash prompt looks like this:
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
 so fire up your terminal of choice and see that your bash prompt
@@ -60,7 +60,7 @@ Super basic
 To start with, let’s replace the default bash prompt with something
 really simple like this:
 
-  {IMAGE}
+  {IMAGE}[4]
 
 
 To achieve this, type the following into your .bashrc:
@@ -92,7 +92,7 @@ Start by adding the time to our simple $ prompt:
 
     PS1='\T \$'
 
-  {IMAGE}
+  {IMAGE}[5]
 
 
 Note the space between \T and \$. Adding spaces between variables
@@ -108,7 +108,7 @@ ANSI escape sequences, like so:
 
     PS1='\[\e[31m\]\w\[\e[m\] \T \$'
 
-  {IMAGE}
+  {IMAGE}[6]
 
 
 This makes the directory path appear in red text. 31m is the section
@@ -128,7 +128,7 @@ light-cyan coloured, with bold font:
 
     PS1='\[\e[96;1m\]\w\[\e[m\] \T \$'
 
-  {IMAGE}
+  {IMAGE}[7]
 
 
 The ;1 is the part which makes the text bold. Note how [\e[m\]
@@ -159,7 +159,7 @@ syntax for adding this to your bash prompt is as follows:
 Note that inserting unicode can also by accomplished just by copying
 and pasting the unicode character itself into the .bashrc.
 
-  {IMAGE}
+  {IMAGE}[8]
 
 
 Note how the $ isn’t escaped this time, as we don’t actually want to
@@ -174,7 +174,7 @@ see the results:
 
     PS1='[\T] {\u:\h} -- \w'
 
-  {IMAGE}
+  {IMAGE}[9]
 
 
 Building PS1 incrementally
@@ -202,7 +202,7 @@ comment, further increasing readability:
     PS1+='\$'   # $
     PS1+=' '    # Space
 
-  {IMAGE}
+  {IMAGE}[10]
 
 
 Conditional statements and functions
@@ -233,7 +233,7 @@ add the following to your .bashrc:
     ## Bash prompt
     PS1="\$(error_test)"
 
-  {IMAGE}
+  {IMAGE}[11]
 
 
 Note the __stat. As far as I know the __ aren’t necessary, the
@@ -254,7 +254,7 @@ the link as ~/.git-prompt.sh. Then add the following to your
 
     PS1='$(__git_ps1 "[%s]")'
 
-  {IMAGE}
+  {IMAGE}[12]
 
 
 git-prompt.sh also has some variables which can be set from within

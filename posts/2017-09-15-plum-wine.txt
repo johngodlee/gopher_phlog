@@ -12,7 +12,7 @@ store to get all the consumables I needed like wine yeast, yeast
 nutrient, pectinase etc. so I decided to try and make wine using
 things we already had in the store cupboard.
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 The recipe I used:
@@ -43,7 +43,7 @@ like the ones that horse feed or cat litter come in. Unfortunately I
 don’t see an easy way to make a homemade airlock, they’re quite
 cheap though.
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 The wine is now sitting in a demijohn waiting until it stops

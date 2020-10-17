@@ -67,12 +67,12 @@ and returns a ggplot2 object.
 
     corrplot(iris[,1:4])
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 Here is the actual plot I made for the publication, which
 additionally colours the axis text to group variables into latent
 constructs:
 
-  {IMAGE}
+  {IMAGE}[2]
 

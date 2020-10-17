@@ -33,16 +33,16 @@ Terrestrial Carbon Measurement Manual].
 
 Here are some of the diagrams I made:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
-  {IMAGE}
+  {IMAGE}[4]
 
 
 [Here is a pdf of all the diagrams with explanations].

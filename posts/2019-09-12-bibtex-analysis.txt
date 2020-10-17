@@ -77,7 +77,7 @@ number of authors:
       labs(x = "Year", y = "authors (n)") +
       scale_y_continuous(trans = 'log', breaks = c(0,1,2,3,4,6,8,10,20,40,60,80,100,140,180))
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 The next two plots are bar graphs of the frequency of the most
@@ -115,8 +115,8 @@ authors:
       theme(legend.position = "none") +
       labs(x = "Author", y = "Frequency")
 
-  {IMAGE} [[Top ten first authors in my
-collection]]
+  {IMAGE}[2] [[[Top ten first authors
+in my collection]]][3]
 
 
 The final plot is a network graph of shared authorship. This isn’t
@@ -153,5 +153,5 @@ do it with an igraph object:
       geom_point(aes(x = x, y = y), colour = "black", fill = "grey", shape = 21) +
       theme_void()
 
-  {IMAGE}
+  {IMAGE}[4]
 

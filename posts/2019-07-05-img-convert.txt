@@ -43,7 +43,7 @@ reduced. and a table of file sizes. Note that 100% compression on
 the original image actually made the original image of 6.8 MB
 larger, to 7.8 MB.
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
   Compression (%)   Size (MB)
@@ -135,7 +135,7 @@ with -ordered-dither:
 
 Here is a comparison of these methods:
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
   Code     Description                 Size (MB)
@@ -188,7 +188,7 @@ gaussian blur.
 One thing I did find was that the computation time increased with
 the radius of the blur.
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
   Blur   Size (MB)

@@ -58,10 +58,10 @@ plots. I’ll make a map, and a box plot:
     ggplot(tree_loc_diam_1_2_summ, aes(x = plot, y = dbh_cm)) +
         geom_boxplot()
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 Now I want to create a map that shows how clustered together the
@@ -107,10 +107,10 @@ shading polygons get clipped and look really messy.
                     axis.text = element_text(size = 10)) +
         labs(fill = "Tree Density")
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
-  {IMAGE}
+  {IMAGE}[4]
 
 
 The spatial clustering of trees in a plot with elephant activity

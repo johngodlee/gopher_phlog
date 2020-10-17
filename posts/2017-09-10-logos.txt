@@ -30,15 +30,15 @@ logo, related to the content of that tutorial.
 
 An Rstudio sticker:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 The new logos look like this:
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 The template file for future logos to be created quickly:
 
-  {IMAGE}
+  {IMAGE}[3]
 

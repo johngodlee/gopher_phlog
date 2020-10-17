@@ -50,7 +50,7 @@ is below:
 
 The plot looks like this:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 As the object pwpp_results is a glorified ggplot() object, it’s
@@ -131,5 +131,5 @@ different categories.
 
 The final plot looks like this:
 
-  {IMAGE}
+  {IMAGE}[2]
 

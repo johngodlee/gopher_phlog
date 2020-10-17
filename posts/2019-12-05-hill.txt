@@ -87,5 +87,5 @@ profile with a line for each site.
         ggplot(., aes(x = qrange, y = value)) +
             geom_line(aes(group = id))
 
-  {IMAGE}
+  {IMAGE}[1]
 

@@ -43,5 +43,5 @@ of the planetary orbits, for example:
 -   Orbital eccentricity
 -   Longitude of ascending node
 
-  {IMAGE}
+  {IMAGE}[1]
 

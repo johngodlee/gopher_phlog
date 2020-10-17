@@ -162,5 +162,5 @@ called in the right order in the HTML file:
     </script> <!leaflet script>
     <script src="{{ site.baseurl }}/scripts/leaf-map.js"></script> <!map construction script>
 
-  {IMAGE}
+  {IMAGE}[1]
 

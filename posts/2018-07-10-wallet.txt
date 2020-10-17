@@ -26,7 +26,7 @@ piece should be 90 mm (W) x 58 mm (H).
   [.skp]: https://johngodlee.github.io/files/wallet/wallet_template.skp
   [A4 .pdf]: https://johngodlee.github.io/files/wallet/wallet_template.pdf
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 I used a piece of corrugated steel that had previously been used for
@@ -45,5 +45,5 @@ of dollars and look pretty nice.
 
 This is the finished product:
 
-  {IMAGE}
+  {IMAGE}[2]
 

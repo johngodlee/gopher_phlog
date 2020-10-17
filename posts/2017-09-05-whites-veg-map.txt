@@ -50,7 +50,7 @@ consultation with local experts.
 
   [shapefile version of White’s 1983 Vegetation Map]: http://omap.africanmarineatlas.org/BIOSPHERE/pages/3_terrestrial%20vegetation.htm
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 To create the map above I used the ggplot2 and rgdal packages:

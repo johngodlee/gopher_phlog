@@ -536,5 +536,5 @@ y full setup can be explored in my [dotfiles]
 
   [dotfiles]: https://github.com/johngodlee/dotfiles
 
-  {IMAGE}
+  {IMAGE}[1]
 

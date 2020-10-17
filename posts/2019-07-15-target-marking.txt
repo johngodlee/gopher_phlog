@@ -30,7 +30,7 @@ with the box for the scanner always places at Target 1, with all the
 other targets numbered incrementally in a clockwise direction, like
 this:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 This works fine probably about 90% of the time. However, sometimes
@@ -44,7 +44,7 @@ these 10%, about 2% I can’t fix without a major headache. It’s
 difficult to understand 3D data on a computer screen and the point
 cloud renders on Cyclone aren’t the most beautiful to look at.
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 As I’m planning to take the scanner out again to a different region

@@ -103,5 +103,5 @@ is the R code:
         labs(x = "Latitude",
                  y = "Longitude")
 
-  {IMAGE}
+  {IMAGE}[1]
 

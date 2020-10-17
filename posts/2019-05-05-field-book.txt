@@ -32,7 +32,7 @@ are collecting and they had opted to take notes directly onto their
 Android smartphone using a combination of Locus Maps and ODK (Open
 Data Kit).
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 [Here is a link to an ODK .xml and .xlsx] I created to hold

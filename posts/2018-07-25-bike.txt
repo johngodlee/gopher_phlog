@@ -11,14 +11,14 @@ understand the mechanics and compatibility issues with building
 bikes. I found this BSA Tour De France on Gumtree for £30 and it
 immediately got my attention:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 I decided to make the bike into a single speed, as I’ve already got
 a decent geared bike, so I set about stripping it down, removing the
 rear derailleur and the down-tube friction shifter.
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 Lots of people suggest using a [single speed conversion kit] to
@@ -56,7 +56,7 @@ easier and reduces maintenance.
 
   [4 Jeri SS Chain Tensioner]: https://www.bikeparts.com/BPC148137/4-jeri-ss-chain-tensioner-black
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
 I replaced the seatpost with longer one, making sure to check the
@@ -72,13 +72,13 @@ properly wrap the tape:
 
   [tutorial from Park Tool]: https://www.youtube.com/watch?v=5MzIiv7pewE
 
-  {IMAGE}
+  {IMAGE}[4]
 
 
-  {IMAGE}
+  {IMAGE}[5]
 
 
-  {IMAGE}
+  {IMAGE}[6]
 
 
 Update - 2018_09_09

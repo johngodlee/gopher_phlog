@@ -26,5 +26,5 @@ most of which are documented [here].
 
   [here]: https://wiki.videolan.org/Documentation:Advanced_Use_of_VLC/
 
-  {IMAGE}
+  {IMAGE}[1]
 

@@ -16,11 +16,11 @@ think I’ll fry the rest of it to be made into breakfast sandwiches,
 with lettuce, tomatoes and mayonnaise. It really does taste like
 chicken, very lemony sweet chicken, very tasty.
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
-  {IMAGE}
+  {IMAGE}[3]
 

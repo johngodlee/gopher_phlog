@@ -43,7 +43,7 @@ To call the macro and give the user input:
 
     \entry{2014--2016}{Web dev}{More text}{This is a description}
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 Globally set image size

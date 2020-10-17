@@ -49,5 +49,5 @@ the colours used show differences between files, so only the
 background colours are changed. This way the colours are never too
 loud even with different colour schemes.
 
-  {IMAGE}
+  {IMAGE}[1]
 

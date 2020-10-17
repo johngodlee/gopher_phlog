@@ -20,10 +20,11 @@ tracks. Then as we descended towards the A1 and over the other side
 Dean, which is a nice bit of woodland and pine plantation where we
 spent the night.
 
-  {IMAGE}
+  {IMAGE}({{ site.baseurl }}/img/suw/gorse.png)][1]
 
 
-  {IMAGE}
+  {IMAGE}({{ site.baseurl
+}}/img/suw/pease.png)][2]
 
 
 We both took bivvy bags and I set up a tarp over the top of us, to
@@ -33,10 +34,10 @@ leftover bacon grease, then in the morning we had some coffee using
 the kettle. Leftover film canisters are my new preferred method of
 taking small pots of grease, spices, coffee, etc. out on hikes.
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
-  {IMAGE}
+  {IMAGE}[4]
 
 
 The next day we walked to Cockburnspath in the morning and stocked
@@ -51,10 +52,10 @@ perimeter of the site and that is where the rout directs you. It’s
 pretty brutalist in its appearance and it’s fun to get so close to
 the power station, which I see from the train a lot.
 
-  {IMAGE}
+  {IMAGE}[5]
 
 
-  {IMAGE}
+  {IMAGE}[6]
 
 
 Trekking the last bit of the route is a bit boring. The golf course

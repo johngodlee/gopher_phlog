@@ -61,7 +61,7 @@ Part 2 - Creating a black and white thresholded image
     amounts of lens flare. If you have lots of lens flare, the photo
     should be thrown out! This is what lens flare looks like:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 4.  Image -> Type -> 8-bit

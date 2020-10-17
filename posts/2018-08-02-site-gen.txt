@@ -42,7 +42,7 @@ convert a single markdown file I can do this:
 
 The output markup looks like this:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 To do this on a folder of markdown files I have to name some

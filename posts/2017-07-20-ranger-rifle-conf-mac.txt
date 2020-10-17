@@ -11,7 +11,7 @@ weren’t text editor compatible was difficult, pressing on the
 highlighted files merely returned an open with: prompt, and nothing
 I typed seemed to work.
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 I found out that rifle.conf is the config file which controls how

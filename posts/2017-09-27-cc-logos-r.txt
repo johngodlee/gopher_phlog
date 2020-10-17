@@ -126,5 +126,5 @@ image. Be warned, RAM usage!:
                     panel.background = element_blank(),
                     legend.position = "none")
 
-  {IMAGE}
+  {IMAGE}[2]
 

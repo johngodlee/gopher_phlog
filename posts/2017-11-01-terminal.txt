@@ -191,5 +191,5 @@ that is hooked up to the University network, just in case I need to
 use some piece of Windows software. For example, when I’m testing
 workshops for undergraduate students.
 
-  {IMAGE}
+  {IMAGE}[1]
 

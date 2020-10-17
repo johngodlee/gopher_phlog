@@ -33,7 +33,7 @@ The default visualisation provided by iNEXT looks like this:
 
     ggiNEXT(inext_out)
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 It’s pretty ugly and I think it makes some bad design choices. It
@@ -75,7 +75,7 @@ output of iNEXT():
 
     ggiNEXT_fix(inext_out)
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 Of course, the default ggiNEXT() function is a lot more flexible

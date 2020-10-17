@@ -139,5 +139,5 @@ it uses bash arithmetic, but this could probably be ported to use bc
 or something. Also not that some of the escape sequences might not
 have rendered properly on the web, like ^[.
 
-  {IMAGE}
+  {IMAGE}[1]
 

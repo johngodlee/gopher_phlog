@@ -90,8 +90,8 @@ mirror is often way behind.
 The script outputs an elevation plot and a map which shows the
 track, coloured by elevation.
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
-  {IMAGE}
+  {IMAGE}[3]
 

@@ -117,7 +117,7 @@ of [Bicuar National Park].
 
     gdalwarp -cutline  'bicuar_shp/WDPA_Mar2018_protected_area_350-shapefile-polygons.shp' -crop_to_cutline -dstalpha ndvi_merge_0_longlat.tif ndvi_merge_0_longlat_bicuar.tif
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 Then I can use an R script to look at the distribution of NDVI
@@ -135,7 +135,7 @@ across the park
 
     hist(ndvi_vec, breaks = 100)
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 I can also experiment with plotting areas of the park within a
@@ -145,5 +145,5 @@ certain threshold of NDVI
 
     plot(ndvi_thresh)
 
-  {IMAGE}
+  {IMAGE}[4]
 

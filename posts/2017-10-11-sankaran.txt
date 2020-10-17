@@ -10,7 +10,7 @@ large scale environmental factors that affect percentage woodland
 cover in African savanna landscapes. One figure in particular that
 got me interested was this one:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 I haven’t fully worked out the implications of this figure yet, but
@@ -139,5 +139,6 @@ vegetation classes the point is in:
         xlab("MAP (mm)") +
         ylab("Woody Cover (%)")
 
-  {IMAGE}
+[[[MAP vs. woody cover with coloured points by vegetation
+type]]][2]
 

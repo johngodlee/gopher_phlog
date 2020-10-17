@@ -7,7 +7,7 @@ AUTHOR: John L. Godlee
 The default output of variogram() from the {gstat} package looks
 fine:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 But I wanted more control over how it looked for a manuscript I’m
@@ -45,5 +45,5 @@ in ggplot():
       theme_classic() +
       labs(x = "Distance (m)", y = "Semivariance (\u03B3)")
 
-  {IMAGE}
+  {IMAGE}[2]
 

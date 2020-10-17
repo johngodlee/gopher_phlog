@@ -12,7 +12,7 @@ terminal for those rare occassions when I need a full file manager,
 so I thought I would try to integrate that into my mutt, vim
 workflow.
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 I couldn’t figure out how to change the file browser that appears
@@ -51,7 +51,7 @@ the header Attach: and all of them will be read by Mutt. I can also
 leverage all the normal functionality of vifm, like jumping to
 directories, regex, sorting etc.
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 Next, I might try to improve the shell script so that I can select

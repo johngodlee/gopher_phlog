@@ -7,7 +7,7 @@ AUTHOR: John L. Godlee
 A question popped up online, where the user wanted to create a plot
 identical to this one, in R:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 The plot puts GDP per capita against mean life satisfaction, with an
@@ -52,5 +52,5 @@ $$(x \pm \frac{D}{\sqrt{1 + m^2}}, y \pm m \frac{D}{\sqrt{1 + m^2}})$$
 
 This produces a plot like this:
 
-  {IMAGE}
+  {IMAGE}[2]
 

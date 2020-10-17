@@ -13,12 +13,12 @@ plywood or plastic disc.
 
 Here is a schematic diagram of the build:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 And here is the finished article:
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 The specific parts I used were:
@@ -69,7 +69,7 @@ The method:
     so wrapping that around the pipe also works well as a 5 cm
     interval.
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
 While some of the items were bought in the UK ahead of time, these
@@ -83,7 +83,7 @@ on the disc. I found that over the course of a few weeks, the disc
 warped slightly, only a few mm, but this may affect measurements in
 a trivial way.
 
-  {IMAGE}
+  {IMAGE}[4]
 
 
 The cost of all the parts was:

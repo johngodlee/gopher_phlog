@@ -80,7 +80,7 @@ get tacked onto the bottom, whereas really I would have liked a page
 break after each recipe. Second, the table of contents appears for
 each chapter, whereas I would have liked one table of contents.
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 So for a long time this little project sat at the bottom of my to do
@@ -153,5 +153,5 @@ that you can share with others. [Here is my Gitbook of recipes].
   [Gitbook.com]: http://www.gitbook.com
   [Here is my Gitbook of recipes]: https://johngodlee.gitbooks.io/recipes/content/
 
-  {IMAGE}
+  {IMAGE}[2]
 

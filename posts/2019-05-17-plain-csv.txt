@@ -68,12 +68,12 @@ this works:
 
 Un-arranged columns
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 Arranged columns with ArrangeColumn
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 There are a tonne of other features in csv.vim but most of the

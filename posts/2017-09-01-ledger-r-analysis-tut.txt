@@ -111,7 +111,7 @@ structure.
 
 Assets over time
 
-  {IMAGE}
+  {IMAGE}[2]
 
 
 Create a data frame only containing assets:
@@ -129,7 +129,7 @@ Then make the plot:
 
 Viewing a particular asset in detail over time
 
-  {IMAGE}
+  {IMAGE}[3]
 
 
     # Create data frame
@@ -146,10 +146,10 @@ Viewing a particular asset in detail over time
 
 Bar plots with breakdown of expenses
 
-  {IMAGE}
+  {IMAGE}[4]
 
 
-  {IMAGE}
+  {IMAGE}[5]
 
 
     # Create summary dataframe of expenses
@@ -173,7 +173,7 @@ Bar plots with breakdown of expenses
 
 Last 30 days income/expenses summary
 
-  {IMAGE}
+  {IMAGE}[6]
 
 
 Creating this plot was fun, I had a go at using ifelse() arguments

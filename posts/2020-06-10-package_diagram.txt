@@ -32,5 +32,5 @@ quick reference when cleaning their own data, either for inclusion
 into the SEOSAW database, or for comparing their own data with the
 SEOSAW repository.
 
-  {IMAGE}
+  {IMAGE}[2]
 

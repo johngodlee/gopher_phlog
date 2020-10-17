@@ -56,7 +56,7 @@ Here is a diagram which roughly describes the various values used in
 the function, though the focal length is normally just taken from
 the given focal length of the lens:
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 Then, it’s easy enough to take the value given by fov_px and plug it

@@ -23,7 +23,7 @@ receive nearly as many of them as I do now, being back in an office
 where I regularly share documents, get feedback on ideas, book
 meetings, conduct group conservations over email etc..
 
-  {IMAGE}
+  {IMAGE}[1]
 
 
 Recently I switched back to using Apple’s Mail.app, which is very
