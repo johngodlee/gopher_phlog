@@ -1,4 +1,4 @@
-TITLE: Scripting Qutebrowser to grab papers with scidownl
+TITLE: Scripting qutebrowser to grab papers with scidownl
 DATE: 2020-10-17
 AUTHOR: John L. Godlee
 ====================================================================
@@ -17,7 +17,7 @@ the paper:
     scidownl -D "10.2307/3236848"
 
 To further streamline the process, I wrote a little keybinding for
-[qutebrowser], my web broweser, which allows me to highlight a DOI
+[qutebrowser], my web browser, which allows me to highlight a DOI
 on the webpage, hit the keybinding (,d), and download the paper to
 my ~/Downloads directory in the background for reading later:
 
@@ -34,6 +34,6 @@ right location:
 
 Note that I had to include the full path to the scidownl executable
 in the shell script. This is because [qutebrowser uses a different
-$PATH to the rest of the OS]).
+$PATH to the rest of the OS].
 
   [qutebrowser uses a different $PATH to the rest of the OS]: https://github.com/qutebrowser/qutebrowser/issues/4273
