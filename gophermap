@@ -24,6 +24,7 @@ hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 
 i==== Phlog =======================================================	/
 
+02020-10-31 - Making abundance matrices	posts/2020-10-31-abundance_matrix.txt
 02020-10-25 - Random effects plots	posts/2020-10-25-sjplot.txt
 02020-10-17 - Scripting qutebrowser to grab papers with scidownl	posts/2020-10-17-scidownl.txt
 02020-10-10 - Propagating basil	posts/2020-10-10-basil.txt
@@ -33,7 +34,6 @@ i==== Phlog =======================================================	/
 02020-09-05 - Display line segments with given slope in ggplot2	posts/2020-09-05-ggplot_segment.txt
 02020-08-24 - Sort and filter .bib files	posts/2020-08-24-bib_sort.txt
 02020-08-14 - Email about estimating competition with basal area	posts/2020-08-14-competition_email.txt
-02020-08-08 - Curl-able contact card	posts/2020-08-08-card.txt
 
 1Archive	posts
 
