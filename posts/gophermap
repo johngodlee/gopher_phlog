@@ -2,6 +2,8 @@ i==== Phlog archive ================================================	/
 
 1Back to home	/~johngodlee	republic.circumlunar.space	70
 
+02021-01-05 - Pandoc LaTeX shopping list template	2021-01-05-shopping_list.txt
+02020-11-08 - Querying the SoilGrids REST API	2020-11-08-soil_query.txt
 02020-10-31 - Making abundance matrices	2020-10-31-abundance_matrix.txt
 02020-10-25 - Random effects plots	2020-10-25-sjplot.txt
 02020-10-17 - Scripting qutebrowser to grab papers with scidownl	2020-10-17-scidownl.txt
