@@ -4,17 +4,17 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-[Pypodd]
+Pypodd
 
   [Pypodd]: https://github.com/johngodlee/pypodd
 
 I’ve been working on and off since around Summer last year, making a
 simplistic command line podcast catching app. I had a go with lots
-of other podcatchers: [upodder], [greg], [podcatcher] and
-others that I can’t remember, but I found them to be just a bit
-overblown, and many had difficulty when RSS feeds were constructed
-with certain types of formatting. So while I was on trying to learn
-Python I set myself the task of writing a little app.
+of other podcatchers: upodder, greg, podcatcher and others that I
+can’t remember, but I found them to be just a bit overblown, and
+many had difficulty when RSS feeds were constructed with certain
+types of formatting. So while I was on trying to learn Python I set
+myself the task of writing a little app.
 
   [upodder]: https://github.com/m3nu/upodder
   [greg]: https://github.com/manolomartinez/greg
@@ -169,5 +169,5 @@ requiring user input:
           │
           └─Download the specific episode
 
-  {IMAGE}[1]
+[Pypodd screenshot]
 

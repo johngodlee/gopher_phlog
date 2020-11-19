@@ -4,8 +4,8 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-[Ledger] (aka Ledger-CLI) provides a great framework to keep track
-of your personal finances. Keeping your data in plain text format
+Ledger (aka Ledger-CLI) provides a great framework to keep track of
+your personal finances. Keeping your data in plain text format
 provides multiple benefits:
 
   [Ledger]: http://ledger-cli.org
@@ -22,7 +22,7 @@ however, I find the text based reports provided by ledger-cli a bit
 dense and fiddly.
 
 This post might be an exercise in reinventing the wheel. Ledger
-already has a decent [web-based reporting system] that can provide
+already has a decent web-based reporting system that can provide
 pretty graphs and lots of other ledger-like apps that can do
 similar. But my language of choice for making pretty graphs and
 manipulating data is ‘R’, so I’m going to use that.
@@ -31,8 +31,8 @@ manipulating data is ‘R’, so I’m going to use that.
 
 ost of the code below is actually data manipulation, which I’ve
 chosen to do with the dplyr package, creating the plots in ggplot2
-isn’t too taxing. I’ve created an example script [here] and you
-can find the example .ledger.journal file I used [here][1]
+isn’t too taxing. I’ve created an example script here and you can
+find the example .ledger.journal file I used here
 
   [here]: https://johngodlee.github.io/files/ledger/ledger_journal_analysis.R
   [1]: https://johngodlee.github.io/files/ledger/example_ledger.journal
@@ -82,7 +82,7 @@ Now to make the ledger dataframe easier to use:
 The rest involves creating a few graphs that I find useful. For all
 these plots to work in their current form however, your Source or
 “Account” structure must be the similar to the recommended structure
-found in the [ledger-cli example journal], e.g.:
+found in the ledger-cli example journal, e.g.:
 
   [ledger-cli example journal]: http://ledger-cli.org/3.0/doc/ledger3.html#Example-Journal-File
 
@@ -111,7 +111,7 @@ structure.
 
 Assets over time
 
-  {IMAGE}[2]
+[ggplot of assets over time]
 
 
 Create a data frame only containing assets:
@@ -129,7 +129,7 @@ Then make the plot:
 
 Viewing a particular asset in detail over time
 
-  {IMAGE}[3]
+[Detailed view of asset with transactions]
 
 
     # Create data frame
@@ -146,10 +146,10 @@ Viewing a particular asset in detail over time
 
 Bar plots with breakdown of expenses
 
-  {IMAGE}[4]
+[Bar plot of expenses]
 
 
-  {IMAGE}[5]
+[Stacked bar plot of expenses]
 
 
     # Create summary dataframe of expenses
@@ -173,7 +173,7 @@ Bar plots with breakdown of expenses
 
 Last 30 days income/expenses summary
 
-  {IMAGE}[6]
+[30 days income vs. expenses]
 
 
 Creating this plot was fun, I had a go at using ifelse() arguments

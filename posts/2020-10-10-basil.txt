@@ -8,12 +8,12 @@ We have a basil plant in the kitchen, bought from a supermarket.
 They always die, but we use a lot of basil in our cooking and I
 dislike having to buy a new plant every few weeks. Over time these
 store-bought basil plants tend to get leggy and thin out. I looked
-around and found a [good video on Youtube] which demonstrates how
-to take cuttings from basil.
+around and found a good video on Youtube which demonstrates how to
+take cuttings from basil.
 
   [good video on Youtube]: https://www.youtube.com/watch?v=byoEBdVoVpM
 
-  {IMAGE}[1]
+[Original basil plant after pruning]
 
 
 The key is to cut just below a stem node, to take advantage of the
@@ -26,10 +26,10 @@ root growth on most of the cuttings, ~2-4 cm. Out of 10 cuttings,
 two died, mainly because they weren’t suspended properly in the
 water and drowned.
 
-  {IMAGE}[2]
+[Cuttings growing in water]
 
 
-  {IMAGE}[3]
+[Root growth of cutting after two weeks in water]
 
 
 Each cutting was planted in its own tin can, with holes punched in
@@ -38,5 +38,5 @@ plants is that they group multiple plants together in the same pot
 to give the illusion of a lush, full plant. But this overcrowding
 promotes the leggy growth and eventual death.
 
-  {IMAGE}[4]
+[New cutting in tin can]
 

@@ -4,32 +4,32 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-This week I have been working on the [SEOSAW database], which
-holds tree measurement data from around 7000 survey plots in
-southern Africa. The database is always difficult to deal with,
-mostly because the component datasets were all collected with
-different initial purposes, meaning there is a significant amount of
-data bashing to get each one into the SEOSAW format. I chose to use
-an R package to hold functions and workflows for cleaning the
-datasets and compiling the main database. In previous versions of
-the package I had a number of reduced size spatial data layers held
-as data objects in the package, which I could then query for
-information at each plot such as estimated herbivore biomass,
-elevation, and administrative region. I’ve since removed all of
-these functions, because they were too temperamental and the
-trade-off in spatial resolution that came from storing reduced size
-versions of each data layer in the package was too great. Now the
-data layers are queried at full resolution in a separate process
-right at the end of dataset compilation.
+This week I have been working on the SEOSAW database, which holds
+tree measurement data from around 7000 survey plots in southern
+Africa. The database is always difficult to deal with, mostly
+because the component datasets were all collected with different
+initial purposes, meaning there is a significant amount of data
+bashing to get each one into the SEOSAW format. I chose to use an R
+package to hold functions and workflows for cleaning the datasets
+and compiling the main database. In previous versions of the package
+I had a number of reduced size spatial data layers held as data
+objects in the package, which I could then query for information at
+each plot such as estimated herbivore biomass, elevation, and
+administrative region. I’ve since removed all of these functions,
+because they were too temperamental and the trade-off in spatial
+resolution that came from storing reduced size versions of each data
+layer in the package was too great. Now the data layers are queried
+at full resolution in a separate process right at the end of dataset
+compilation.
 
   [SEOSAW database]:
 
 One of the functions which I was actually quite proud of was one
-that queried the [SoilGrids] [REST API] to get soil information.
-The function also provided functionality for averaging over soil
-depths. The SoilGrids REST API is still experimental, and since I
-first wrote the function they upgraded to v2.0. This broke the
-function and so it didn’t work for a long time.
+that queried the SoilGrids REST API to get soil information. The
+function also provided functionality for averaging over soil depths.
+The SoilGrids REST API is still experimental, and since I first
+wrote the function they upgraded to v2.0. This broke the function
+and so it didn’t work for a long time.
 
   [SoilGrids]: https://www.isric.org/
   [REST API]: https://rest.soilgrids.org/soilgrids/v2.0/docs

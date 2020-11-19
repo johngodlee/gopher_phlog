@@ -241,18 +241,17 @@ to decant into personal bottles, rather than buying a whole load of
 2 l bottles wrapped in additional plastic.
 
 Water purification is also a very good way of getting enough water.
-For chemical purification I would recommend [chlorine based
-tablets] rather than the liquid. Liquid is messy, causing a
-massive mess of anything metal if the bottle leaks in your bag as it
-causes rust. It also often requires pre-mixing two bottles of
-liquid, which is time consuming and awkward. With a tablet you can
-just drop it in the bottle and by the time you want your first drink
-of the day it will likely have dissolved. Mechanical purification
-using a Sawyer life straw or a similar brand is another really good
-way of purifying water. If using either of these methods, I
-recommend buying a plastic jerry can or other big liquid container
-to haul the water from wherever you are collecting it from, back to
-camp.
+For chemical purification I would recommend chlorine based tablets
+rather than the liquid. Liquid is messy, causing a massive mess of
+anything metal if the bottle leaks in your bag as it causes rust. It
+also often requires pre-mixing two bottles of liquid, which is time
+consuming and awkward. With a tablet you can just drop it in the
+bottle and by the time you want your first drink of the day it will
+likely have dissolved. Mechanical purification using a Sawyer life
+straw or a similar brand is another really good way of purifying
+water. If using either of these methods, I recommend buying a
+plastic jerry can or other big liquid container to haul the water
+from wherever you are collecting it from, back to camp.
 
   [chlorine based tablets]: https://www.amazon.co.uk/dp/B00LJTGIW0/ref=pe_3187911_189395841_TE_3p_dp_1
 
@@ -268,7 +267,7 @@ that are good for making infusions from, members of the Lamiaceae
 are a good place to start. It’s normally best to observe what locals
 are doing though.
 
-  {IMAGE}[1]
+[Rhododendron groenlandicum]
 
 
 Resupplies

@@ -5,8 +5,8 @@ AUTHOR: John L. Godlee
 
 
 This is a carbon copy of a blog post that I wrote for
-[dirties.wordpress.com]. It’s the write up of a Kitchen Table Talk
-we did at Bridgend Farmhouse.
+dirties.wordpress.com. It’s the write up of a Kitchen Table Talk we
+did at Bridgend Farmhouse.
 
   [dirties.wordpress.com]: https://dirties.wordpress.com
 
@@ -21,20 +21,20 @@ been working for the past 3 years.
 
 As part of the event, Laura Goble, our person from the RSPB made the
 most of us being inside for once, and organised for us to have a
-“Kitchen Table Talk”. This is an initiative started by [Nourish
-Scotland] to find out what really matters to the people of
-Scotland when it comes to food. The Kitchen Table Talks aim to
-gather together ideas on this subject in preparation for the
-Scottish Government’s “Good Food Nation Bill”, which will be
-discussed in parliament later this year.
+“Kitchen Table Talk”. This is an initiative started by Nourish
+Scotland to find out what really matters to the people of Scotland
+when it comes to food. The Kitchen Table Talks aim to gather
+together ideas on this subject in preparation for the Scottish
+Government’s “Good Food Nation Bill”, which will be discussed in
+parliament later this year.
 
   [Nourish Scotland]: http://www.nourishscotland.org/campaigns/good-food-nation-bill/kitchen-table-talks/
 
 This post mainly describes what we talked about, with the hope that
 it will inspire others to think about the food system in Scotland
 and how it can be changed for the better. If you want to have your
-own Kitchen Table Talk, [head to the Nourish Scotland website to
-download some guidance materials].
+own Kitchen Table Talk, head to the Nourish Scotland website to
+download some guidance materials.
 
   [head to the Nourish Scotland website to download some guidance materials]:
     http://www.nourishscotland.org/campaigns/good-food-nation-bill/kitchen-table-talks/
@@ -100,10 +100,10 @@ locally, meaning that supply can be more easily adjusted to meet
 demand. This links in nicely to our previous idea about
 decentralising food production and getting more people involved in
 the food system. A few of us talked about food sharing initiatives
-that already exist in Edinburgh such as [Food Sharing Edinburgh]
-and [Disco Soup] and how great they are. We also talked about
-dumpster diving, which some of us do, but I think we acknowledged
-that ideally, the slightly shady practice dumpster diving should
+that already exist in Edinburgh such as Food Sharing Edinburgh and
+Disco Soup and how great they are. We also talked about dumpster
+diving, which some of us do, but I think we acknowledged that
+ideally, the slightly shady practice dumpster diving should
 eventually be replaced by more structured waste food sharing
 initiatives, that make this produce available to more people. I feel
 like in Edinburgh at least, most of the people that go dumpster
@@ -215,12 +215,12 @@ The top 5 things the government can do:
     -   Forest gardens
     -   Mob grazing of small herds of cattle/sheep/goats
 
-  {IMAGE}[1]
+[Annotated discussion prompt sheet]
 
 
-Our kitchen table talk featured on the [Nourish Scotland map]!
+Our kitchen table talk featured on the Nourish Scotland map!
 
   [Nourish Scotland map]: https://www.google.com/maps/d/viewer?mid=1zNq4BV_qbV9_LxkMCf_8HPg4gl9jBN0W&usp=sharing
 
-  {IMAGE}[2]
+[Map of kitchen table talks]
 

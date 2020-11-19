@@ -69,6 +69,6 @@ It also allows for multiple comma separated email addresses
 I also found a way to use omnicompletion to let me search my Mutt
 aliases within vim when called from Mutt, so I can add them to the
 To: and CC: fields. The script is courtesy of
-[https://www.vim.org/scripts/script.php?script_id=2533].
+https://www.vim.org/scripts/script.php?script_id=2533.
 
   [https://www.vim.org/scripts/script.php?script_id=2533]: Karsten%20B

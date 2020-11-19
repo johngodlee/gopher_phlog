@@ -10,10 +10,10 @@ presentations. It takes some of the guess work out of making new
 presentations. The template has a default title page and a very
 simple content page:
 
-  {IMAGE}[1]
+[Powerpoint template title slide]
 
 
-  {IMAGE}[2]
+[Powerpoint template content slide]
 
 
 I had seen examples of LaTeX Beamer presentations online, though
@@ -24,9 +24,9 @@ never pure Beamer.
 I decided to try and replicate my Powerpoint template as a custom
 Beamer theme.
 
-I learned by reading the [Beamer user manual] and from surfing
-around on the internet that Beamer themes are normally split into
-five files:
+I learned by reading the Beamer user manual and from surfing around
+on the internet that Beamer themes are normally split into five
+files:
 
   [Beamer user manual]:
 
@@ -265,16 +265,16 @@ space between paragraphs, which is too small by default.
 
 Here are some examples of what the template looks like:
 
-  {IMAGE}[3]
+[Beamer template title slide]
 
 
-  {IMAGE}[4]
+[Beamer template content slide]
 
 
-  {IMAGE}[5]
+[Beamer template blocks slide]
 
 
-  {IMAGE}[6]
+[Beamer template text slide]
 
 
 And the code used to create those example slides:
@@ -339,5 +339,5 @@ diagrams of the woodlands I work in, to illustrate variation in
 canopy structure under different environmental conditions, but I
 would have no idea how to achieve that in Beamer:
 
-  {IMAGE}[7]
+[Complex diagram slide]
 

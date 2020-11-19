@@ -14,8 +14,8 @@ notes which require reuse of a complex formatted block of text. For
 example, below, where I want to create a timeline of events with the
 date of the event on the left of the page, with a description of the
 event on the right. I can define a macro for this instead of writing
-the same boilerplate code every time. I stole this from a [Luke
-Smith youtube video].
+the same boilerplate code every time. I stole this from a Luke Smith
+youtube video.
 
   [Luke Smith youtube video]: https://www.youtube.com/watch?v=rvgP7IMeUn8
 
@@ -43,7 +43,7 @@ To call the macro and give the user input:
 
     \entry{2014--2016}{Web dev}{More text}{This is a description}
 
-  {IMAGE}[1]
+[Formatted block for CV]
 
 
 Globally set image size

@@ -4,9 +4,9 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-I have heard people on youtube, mostly [DistroTube] and [Hex
-DSL], talking about [Gopher]. I also saw it being discussed on
-[Hacker News] once.
+I have heard people on youtube, mostly DistroTube and Hex DSL,
+talking about Gopher. I also saw it being discussed on Hacker News
+once.
 
   [DistroTube]: https://www.youtube.com/watch?v=lUBhOgK5zQI
   [Hex DSL]: https://www.youtube.com/watch?v=ORgk-AwD7SQ
@@ -37,16 +37,16 @@ the World Wide Web with the internet. Gopher is an internet
 protocol, but it satisfies a different set of needs to HTTP and they
 shouldn’t be compared so readily.
 
-I set up a Gopher site (aka a Gopherhole) on the [Super Dimension
-Fortress], which provides its registered and validated users with
-gopherspace running on the [gophernicus server software] for free.
-It also provides lots of other services run through a shell account
+I set up a Gopher site (aka a Gopherhole) on the Super Dimension
+Fortress, which provides its registered and validated users with
+gopherspace running on the gophernicus server software for free. It
+also provides lots of other services run through a shell account
 that you can SSH into, such as POP3/IMAP mail, and IRC. They are a
 good community of hobbyists which provides a valuable if
 computationally limiting service. There are lots of other places to
 host a Gopherhole and it’s also possible to self-host, and there are
 a few Gopher server softwares out there, the most popular right now
-being [pygopherd], I think.
+being pygopherd, I think.
 
   [Super Dimension Fortress]: https://sdf.org/
   [gophernicus server software]: http://www.gophernicus.org/
@@ -204,12 +204,12 @@ technical reason why this would be the case:
 
 Browsers
 
-To browse Gopher pages the [Lynx] browser in the terminal is the
-most common way I think. Otherwise there are plugins for some web
-browsers, like the [Overbite plugin for Firefox]. There are also a
-few different online Gopher to HTML proxy services where you type in
-the gopher address and the output is rendered in HTML,
-e.g. [GopherProxy], [Floodgap’s proxy], or [Gopher Commons].
+To browse Gopher pages the Lynx browser in the terminal is the most
+common way I think. Otherwise there are plugins for some web
+browsers, like the Overbite plugin for Firefox. There are also a few
+different online Gopher to HTML proxy services where you type in the
+gopher address and the output is rendered in HTML, e.g. GopherProxy,
+Floodgap’s proxy, or Gopher Commons.
 
   [Lynx]: https://lynx.invisible-island.net/
   [Overbite plugin for Firefox]: https://gopher.floodgap.com/overbite/
@@ -217,12 +217,12 @@ e.g. [GopherProxy], [Floodgap’s proxy], or [Gopher Commons].
   [Floodgap’s proxy]: https://gopher.floodgap.com/gopher/gw
   [Gopher Commons]: https://gopher.commons.host/
 
-I like to use the [w3m browser] which I couldn’t get to load
-gopher pages by default, but I did find an [awk script on
-Bitbucket] which converts Gopher to HTML and then serves it
-through w3m. So far it is working pretty well, but I still found
-myself loading up Lynx when I was building my page initially to make
-sure everything was formatted correctly.
+I like to use the w3m browser which I couldn’t get to load gopher
+pages by default, but I did find an awk script on Bitbucket which
+converts Gopher to HTML and then serves it through w3m. So far it is
+working pretty well, but I still found myself loading up Lynx when I
+was building my page initially to make sure everything was formatted
+correctly.
 
   [w3m browser]: http://w3m.sourceforge.net/
   [awk script on Bitbucket]: https://bitbucket.org/iamleot/gopher2html/src
@@ -277,7 +277,7 @@ material from another file or format the link text differently.
 
 Update 2019_12_25
 
-Note that my gopher hole is now hosted on [tilde.club/], at
+Note that my gopher hole is now hosted on tilde.club/, at
 gopher://tilde.club/1/~johngodlee because scp was being problematic
 on SDF. I’ve since shut down my SDF gopherhole.
 
@@ -286,7 +286,7 @@ on SDF. I’ve since shut down my SDF gopherhole.
 Update 2020-03-28
 
 Note that my gopher hole is now hosted on
-[republic.circumlunar.space/], at
+republic.circumlunar.space/, at
 gopher://republic.circumlunar.space/1/~johngodlee because tilde.club
 kept being unavailable. I’ll be shutting down my tilde.club
 gopherhole soon.

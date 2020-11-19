@@ -10,8 +10,8 @@ analyses mostly in R with some small bits of data cleaning on the
 command line with gdal or text manipulation utilities like sed, grep
 and awk. I write the paper with LaTeX.
 
-I was inspired by [this British Ecological Society guide] which
-came out a couple of years ago.
+I was inspired by this British Ecological Society guide which came
+out a couple of years ago.
 
   [this British Ecological Society guide]: https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf
 
@@ -158,11 +158,10 @@ document to a word document with something like pandoc, but this has
 problems. The question has been asked many times and there are loads
 of options, it’s messy:
 
--   [Workflow for converting LaTeX into Open Office / MS Word
-    Format]
--   [conversion - From .tex to .doc format. Is it possible?]
--   [compiling - Is possible to compile a .tex document in .doc or
-    .docx? - TeX - LaTeX Stack Exchange]
+-   Workflow for converting LaTeX into Open Office / MS Word Format
+-   conversion - From .tex to .doc format. Is it possible?
+-   compiling - Is possible to compile a .tex document in .doc or
+    .docx? - TeX - LaTeX Stack Exchange
 
   [Workflow for converting LaTeX into Open Office / MS Word Format]:
     https://tex.stackexchange.com/questions/4145/workflow-for-converting-latex-into-open-office-ms-word-format

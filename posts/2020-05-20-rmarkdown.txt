@@ -103,7 +103,7 @@ geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm".
 At this point when I compiled to PDF I kept getting an error during
 LaTeX compilation, something about \includegraphics being
 unrecognised, which is obviously silly because it’s a base function
-in LaTeX. After some [searching around], I found that adding
+in LaTeX. After some searching around, I found that adding
 graphics: yes to the YAML header solved the problem. Seems very
 hacky and unsatisfying.
 
@@ -145,10 +145,10 @@ Only after all this strife did my document look anything like
 professional. I guess most of this stuff is for PDF, the HTML
 version was much easier to get looking nice.
 
-The PDF version is [here]
+The PDF version is here
 
   [here]: https://johngodlee.github.io/files/rmarkdown/rmd_tlut_jlg.pdf
 
-The HTML verion is [here][1]
+The HTML verion is here
 
   [1]: https://johngodlee.github.io/files/rmarkdown/rmd_tlut_jlg.html

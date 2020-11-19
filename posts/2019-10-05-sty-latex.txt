@@ -102,7 +102,7 @@ Some potentially non-obvious bits of the code:
 -   \usepackage[T1]{fontenc} is a little tip I learned while looking
     up LaTeX typefaces. It forces the use of an 8-bit font which
     means that words with special characters are properly copyable
-    from the PDF output. I learned it on [this SO question]
+    from the PDF output. I learned it on this SO question
 -   \g@addto@macro\@floatboxreset\centering globally centres images
 -   \bibliographystyle{agsmnourl} uses a custom bibliography
     template which I made. agsmnourl.bst resides in the same
@@ -123,6 +123,6 @@ this case ~/.texmf/:
 
     ensure_path( 'TEXINPUTS', '~/.texmf//' );
 
-An example document made with mynotes.sty can be found [here]
+An example document made with mynotes.sty can be found here
 
   [here]: https://johngodlee.github.io/files/sty_latex/example.zip

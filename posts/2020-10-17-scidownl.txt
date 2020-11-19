@@ -4,10 +4,10 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-I have been using [scidownl] to download scientific papers using
-that I find on the web. It’s quicker than using the journals’ own
-pdf download interface, which often requires multiple button clicks
-and validating through my university.
+I have been using scidownl to download scientific papers using that
+I find on the web. It’s quicker than using the journals’ own pdf
+download interface, which often requires multiple button clicks and
+validating through my university.
 
   [scidownl]: https://github.com/Tishacy/SciDownl
 
@@ -17,9 +17,9 @@ the paper:
     scidownl -D "10.2307/3236848"
 
 To further streamline the process, I wrote a little keybinding for
-[qutebrowser], my web browser, which allows me to highlight a DOI
-on the webpage, hit the keybinding (,d), and download the paper to
-my ~/Downloads directory in the background for reading later:
+qutebrowser, my web browser, which allows me to highlight a DOI on
+the webpage, hit the keybinding (,d), and download the paper to my
+~/Downloads directory in the background for reading later:
 
   [qutebrowser]: https://qutebrowser.org/
 
@@ -33,7 +33,7 @@ right location:
     /usr/local/bin/./scidownl -D "$1" -o /Users/johngodlee/Downloads
 
 Note that I had to include the full path to the scidownl executable
-in the shell script. This is because [qutebrowser uses a different
-$PATH to the rest of the OS].
+in the shell script. This is because qutebrowser uses a different
+$PATH to the rest of the OS.
 
   [qutebrowser uses a different $PATH to the rest of the OS]: https://github.com/qutebrowser/qutebrowser/issues/4273

@@ -14,7 +14,7 @@ in two 25 ha permanent savannah plots, one of which is known to be
 home to elephants, and one which isn’t. As always, the code I used
 is in R.
 
-The data and an example script which I used can be found [here].
+The data and an example script which I used can be found here.
 
   [here]: https://johngodlee.github.io/files/elephants/elephant_data.zip
 
@@ -58,10 +58,10 @@ plots. I’ll make a map, and a box plot:
     ggplot(tree_loc_diam_1_2_summ, aes(x = plot, y = dbh_cm)) +
         geom_boxplot()
 
-  {IMAGE}[1]
+[Bubble plot of trees]
 
 
-  {IMAGE}[2]
+[Boxplot of tree diameters]
 
 
 Now I want to create a map that shows how clustered together the
@@ -107,10 +107,10 @@ shading polygons get clipped and look really messy.
                     axis.text = element_text(size = 10)) +
         labs(fill = "Tree Density")
 
-  {IMAGE}[3]
+[Heatmap of trees with elephants]
 
 
-  {IMAGE}[4]
+[Heatmap of trees without elephants]
 
 
 The spatial clustering of trees in a plot with elephant activity

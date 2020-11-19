@@ -4,11 +4,10 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-Previously I used [unetbootin] and macOS’ built-in
-Disk-Utility.app to format USB drives to use for installing Linux
-distributions on other computers. However, most recently, I found
-that I couldn’t get any of the installers to work, so I was looking
-for an alternative.
+Previously I used unetbootin and macOS’ built-in Disk-Utility.app to
+format USB drives to use for installing Linux distributions on other
+computers. However, most recently, I found that I couldn’t get any
+of the installers to work, so I was looking for an alternative.
 
   [unetbootin]: https://unetbootin.github.io
 
@@ -16,7 +15,7 @@ I found that I could accomplish the same thing on the command line.
 Here is the process I used.
 
 First, download a .iso image for a chosen linux distribution, for
-example, this [Linux Server i386 image] that I wanted to use as a
+example, this Linux Server i386 image that I wanted to use as a
 minimal installation on a netbook.
 
   [Linux Server i386 image]: http://releases.ubuntu.com/16.04/

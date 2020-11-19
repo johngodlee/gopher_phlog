@@ -19,10 +19,10 @@ the Makefile is set up properly to recognise dependencies.
 Unfortunately a lot of the online tutorials for using make rely on
 examples using C code, which isn’t something I’m familiar with, and
 besides, my use case is slightly different. I did find a couple of
-useful resources, namely [This blog post by Rob J Hyndman] and a
-more philosophical blog post by [Zachary M. Jones]. Also [this
-blog post] which offered some inspiration on compiling large
-documents like a whole PhD thesis.
+useful resources, namely This blog post by Rob J Hyndman and a more
+philosophical blog post by Zachary M. Jones. Also this blog post
+which offered some inspiration on compiling large documents like a
+whole PhD thesis.
 
   [This blog post by Rob J Hyndman]: https://robjhyndman.com/hyndsight/makefiles/
   [Zachary M. Jones]: http://zmjones.com/make/

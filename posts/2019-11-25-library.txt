@@ -15,13 +15,13 @@ academic papers.
 
 Other options I explored briefly before returning to BibTeX were:
 
--   [Calibre] - primarily an e-book manager software, but which
-    allows you to create records with no e-book attached which can
-    be used for physical books.
+-   Calibre - primarily an e-book manager software, but which allows
+    you to create records with no e-book attached which can be used
+    for physical books.
 -   An SQL database.
--   [Libib] - A web-app for managing a personal library, with paid
+-   Libib - A web-app for managing a personal library, with paid
     options and options to export .csv.
--   [Goodreads] - A free website to manage books read, similar to
+-   Goodreads - A free website to manage books read, similar to
     Libib from what I can tell, but very popular.
 
   [Calibre]: https://calibre-ebook.com/
@@ -39,7 +39,7 @@ are many optional fields and different ways of formatting the
 contents of each field, and this can cause things to break with
 certain bibliography styles and with different bibliography
 managers, which almost always format things incorrectly. I recently
-came across [this article] which I think sums up many issues with
+came across this article which I think sums up many issues with
 BibTeX and attempts to impose some order.
 
   [this article]: https://serialmentor.com/blog/2015/10/2/Bibtex
@@ -49,8 +49,8 @@ introduced in 1970 originally as a 10 digit code, which was later
 expanded to a 13 digit code gradually between 2005 and 2007. This
 means that for most books in my library, I can easily check their
 bibliographic information by running the ISBN through an online
-service such as [this tool by Robert Eisele] which generates a
-BibTeX entry from an ISBN.
+service such as this tool by Robert Eisele which generates a BibTeX
+entry from an ISBN.
 
   [this tool by Robert Eisele]: https://www.xarg.org/tools/isbn-to-bibtex/
 
@@ -121,8 +121,8 @@ the text.
 
 The shell script then uses pandoc and pandoc-cireproc to create
 books.html, using a custom .csl file which formats the references in
-generic APA style. I downloaded apa.csl from [this Github repo]. I
-had to use a markdown template (books.md) to get the references to
+generic APA style. I downloaded apa.csl from this Github repo. I had
+to use a markdown template (books.md) to get the references to
 display properly:
 
   [this Github repo]: https://github.com/citation-style-language/styles
@@ -166,6 +166,6 @@ And in .html they look like this:
     <p>Beaujean, A. A. (2014). <em>Latent variable modeling using r</em>. New York NY, USA: Routledge.</p>
     </div>
 
-y personal library can now be found [here, on my website].
+y personal library can now be found here, on my website.
 
   [here, on my website]: https://johngodlee.github.io/library/

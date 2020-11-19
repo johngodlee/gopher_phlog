@@ -6,22 +6,22 @@ AUTHOR: John L. Godlee
 
 Over the Summer while the students are away, instead of making more
 tutorials, I’ve been going back through the content on
-[ourcodingclub.github.io], trying to make it look more
-professional, easy to read, and to fix any factual errors. One thing
-on my list was to create some more logos for our [tutorials page].
-While doing this I made a template file so that future logos can be
-created easily and all to the same standard.
+ourcodingclub.github.io, trying to make it look more professional,
+easy to read, and to fix any factual errors. One thing on my list
+was to create some more logos for our tutorials page. While doing
+this I made a template file so that future logos can be created
+easily and all to the same standard.
 
   [ourcodingclub.github.io]: ourcodingclub.github.io
   [tutorials page]: ourcodingclub.github.io/tutorials
 
-I started by opening [Inkscape], which is an open source vector
+I started by opening Inkscape, which is an open source vector
 drawing program available on macOS, Linux and Windows.
 
   [Inkscape]: https://inkscape.org/
 
-All our logos are loosely inspired by some stickers that [RStudio
-published] so I started by tracing the hexagon shape using the
+All our logos are loosely inspired by some stickers that RStudio
+published so I started by tracing the hexagon shape using the
 polygon tool to get the size right, adjusted the canvas size, etc..
 Then after some brainstorming I added some text and images to the
 logo, related to the content of that tutorial.
@@ -30,15 +30,15 @@ logo, related to the content of that tutorial.
 
 An Rstudio sticker:
 
-  {IMAGE}[1]
+[RStudio Hexagon sticker - readr]
 
 
 The new logos look like this:
 
-  {IMAGE}[2]
+[New logos]
 
 
 The template file for future logos to be created quickly:
 
-  {IMAGE}[3]
+[Template logo]
 

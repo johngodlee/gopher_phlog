@@ -19,8 +19,8 @@ I used R to analyse the data, purely because that is what I know,
 though I know the company does the vast majority of their stuff in
 Excel.
 
-If you want to follow along you can download the data from [here]
-and an example script from [here][1]
+If you want to follow along you can download the data from here and
+an example script from here
 
   [here]: https://johngodlee.github.io/files/likert/example.csv
   [1]: https://johngodlee.github.io/files/likert/example_likert.R
@@ -181,7 +181,7 @@ create bar charts for each question like the one below:
         theme(legend.title = element_blank()) + 
         ggtitle("I am always busy at comX")
 
-  {IMAGE}[2]
+[Bar chart of 5 point likert responses]
 
 
 Overall question comparison
@@ -205,7 +205,7 @@ according to the score:
         theme(legend.position="none") +
         ylab("`Mean Likert Score")
 
-  {IMAGE}[3]
+[Mean likert score]
 
 
 I can also break those bars down by which employee groups contribute
@@ -233,7 +233,7 @@ most of the score for that question:
         guides(fill=guide_legend(title="Role")) +
         xlab("Total Likert Score")
 
-  {IMAGE}[4]
+[Stacked likert scores]
 
 
 Finally, I can get a general sense of the satisfaction of each
@@ -253,7 +253,7 @@ employee by seeing the total score given by that employee:
         guides(fill=guide_legend(title="Role")) +
         scale_fill_brewer(palette = "Dark2")
 
-  {IMAGE}[5]
+[Total Likert score per employee type]
 
 
 Update 27th Oct. 2017
@@ -269,14 +269,14 @@ category a person fit into was the bubble plot. I guess if you
 wanted to statistically analyse this data you would use a
 chi-squared test.
 
-The fake data for the plot below can be found [here][6] and a lookup
-table for the contents of each question column can be found
-[here][7]. The data .csv shows each row as a respondent, along with
-how many hours of housework they do, their gender, the codes for
-checkboxes they ticked of different sustainable activities they did,
-related to waste management and water management, and lastly a
-self-evaluated measure of how much they consider sustainable actions
-in their day to day life.
+The fake data for the plot below can be found here and a lookup
+table for the contents of each question column can be found here.
+The data .csv shows each row as a respondent, along with how many
+hours of housework they do, their gender, the codes for checkboxes
+they ticked of different sustainable activities they did, related to
+waste management and water management, and lastly a self-evaluated
+measure of how much they consider sustainable actions in their day
+to day life.
 
   [6]: https://johngodlee.github.io/files/likert/sust_behaviour.csv
   [7]: https://johngodlee.github.io/files/likert/question_lookup.csv
@@ -300,12 +300,12 @@ Then make the plot:
     ggplot(sust_bubble, aes(x = age, y = sustainability_daily_think)) +
         geom_point(aes(size = n))
 
-  {IMAGE}[8]
+[Bubble map]
 
 
 Another thing I managed to crack was how to make a diverging bar
 chart in ggplot2, so it looks similar to the ones you can make with
-the [HH package].
+the HH package.
 
   [HH package]: https://cran.r-project.org/web/packages/HH/index.html
 
@@ -384,5 +384,5 @@ Construct the plot:
         ggtitle(question_lookup$survey_question[question_lookup$column_title == "sustainability_daily_think"]) +
         theme_classic() 
 
-  {IMAGE}[9]
+[Diverging likert responses]
 

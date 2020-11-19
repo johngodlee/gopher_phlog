@@ -11,7 +11,7 @@ results with different methods of computing analysis of variance
 tables. I wanted to investigate it more, and this is the resulting R
 Markdown report that I wrote:
 
-The report can be found [here] and is also pasted below
+The report can be found here and is also pasted below
 
   [here]: https://johngodlee.github.io/files/anova_ssq/anova_ssq.zip
 

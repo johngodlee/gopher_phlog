@@ -15,14 +15,14 @@ equipment I use and how I use it.
 
 This is the equipment that I used when I was in Peru.
 
--   [Alpkit Rig 7 tarp]
--   [Grand Trunk Single Hammock]
--   [Ticket to the Moon 360’ Mosquito net]
--   [2x ENO Atlas tree straps]
--   [Adjustable whoopie ridgeline]
--   [2x whoopie slings]
--   [2x fixed loop tarp fasteners]
--   [2x 2" aluminium toggles]
+-   Alpkit Rig 7 tarp
+-   Grand Trunk Single Hammock
+-   Ticket to the Moon 360’ Mosquito net
+-   2x ENO Atlas tree straps
+-   Adjustable whoopie ridgeline
+-   2x whoopie slings
+-   2x fixed loop tarp fasteners
+-   2x 2" aluminium toggles
 -   Generic thin foam roll mat
 -   6-8 tent pegs
 -   ~ 5 m elastic cord
@@ -40,10 +40,10 @@ This is the equipment that I used when I was in Peru.
 Here are a few diagram and photos to show how I constructed the
 hammock setup.
 
-  {IMAGE}[1]
+[Hammock diagram]
 
 
-  {IMAGE}[2]
+[Hammock photo]
 
 
 The hammock
@@ -66,24 +66,24 @@ caribiner on the final eyelet of the tarp which slide along the
 ridgeline that the tarp hangs off. The fixed loops are tied into
 Prusik knots, which are a type of friction knot. The Prusik knot
 means that the loop won’t move unless it is pushed, and the knot
-becomes tighter the more strain is put on the loop. [Here is a good
-video on how Prusik knots work].
+becomes tighter the more strain is put on the loop. Here is a good
+video on how Prusik knots work.
 
   [Here is a good video on how Prusik knots work]: https://www.youtube.com/watch?v=CP7iAF_YU7A
 
-  {IMAGE}[3]
+[Detailed diagram of tarp end]
 
 
 To create the elastic/guyline composite guyropes I used a knot
 called a clove hitch. Basically you make two loops on the guyline,
 back to back, then thread the elastic through both loops and pull
 tigh. It’s a slippy knot, so it’s easy to get out if you release the
-tension from the elastic. Here is a [good example of how to create
-the knot], and below a rough diagram:
+tension from the elastic. Here is a good example of how to create
+the knot, and below a rough diagram:
 
   [good example of how to create the knot]: https://www.youtube.com/watch?v=Gs9WyrzNjJs
 
-  {IMAGE}[4]
+[Guyline loop knot]
 
 
 It’s important to make the guyropes for the tarp elastic so that if
@@ -92,17 +92,17 @@ tension is used up in the elastic section of the guyropes. They also
 mean that as the tarp heats up and cools down it remains tight and
 doesn’t sag.
 
-  {IMAGE}[5]
+[Detailed diagram of tarp guyline]
 
 
 To adjust guylines for the tarp I used a taut-line hitch, which
 locks until it is moved, below is a diagram that I drew to help me
-remember how to tie the knot, and [here is a site with an animated
-example] :
+remember how to tie the knot, and here is a site with an animated
+example :
 
   [here is a site with an animated example]: https://www.netknots.com/rope_knots/tautline-hitch
 
-  {IMAGE}[6]
+[Taut hitch]
 
 
 In an attempt to save weight, I spent a lot of time learning how to
@@ -113,8 +113,8 @@ damage to the tree by spreading the weight over a larger area.
 
 The most useful knot was the Marlin Spike Hitch, which I used to fit
 the aluminium toggles along the tree straps, through which I could
-hang the end of the hammock. [Here is a good webpage with an
-animated example of how to tie one].
+hang the end of the hammock. Here is a good webpage with an animated
+example of how to tie one.
 
   [Here is a good webpage with an animated example of how to tie one]:
     http://www.animatedknots.com/marlinspike/
@@ -122,7 +122,7 @@ animated example of how to tie one].
 In order to get the paracord ridgeline for the tarp as tight as
 possible I used a knot that is often used for tying down loads on
 the back of trucks, and is called the Truckers Hitch, or the Lorry
-Driver’s Flitch. [Here is another link to an example of how to tie
-one].
+Driver’s Flitch. Here is another link to an example of how to tie
+one.
 
   [Here is another link to an example of how to tie one]: https://www.netknots.com/rope_knots/truckers-hitch

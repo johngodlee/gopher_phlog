@@ -5,33 +5,31 @@ AUTHOR: John L. Godlee
 
 
 There’s already a tonne of stuff on how to write R packages, see
-[here], [here], [here] and [here]. Part of the reason for
-the breadth of articles is that there are many different workflows
-for how to write them. Here I’m only going to share my thoughts on
-writing package documentation, because that’s the area where I
-didn’t find one complete resource that answered all of my questions
-and provided a workflow I liked, when I was writing my first serious
-package.
+here, here, here and here. Part of the reason for the breadth of
+articles is that there are many different workflows for how to write
+them. Here I’m only going to share my thoughts on writing package
+documentation, because that’s the area where I didn’t find one
+complete resource that answered all of my questions and provided a
+workflow I liked, when I was writing my first serious package.
 
   [here]:
 
-To briefly explain the basic structure of my package, I took [advice
-from Hadley] and kept functions in my package inside thematic
-files, like biomass.R and taxonomy.R, with each of these files
-holding multiple functions. It’s somewhere between keeping all
-functions in one file and keeping each function in its own file. I
-think both of these extremes ignore the natural sorting which can
-come from keeping a tidy directory structure. I found it more
-intuitive to find a particular function based on its theme when I
-used these thematic files.
+To briefly explain the basic structure of my package, I took advice
+from Hadley and kept functions in my package inside thematic files,
+like biomass.R and taxonomy.R, with each of these files holding
+multiple functions. It’s somewhere between keeping all functions in
+one file and keeping each function in its own file. I think both of
+these extremes ignore the natural sorting which can come from
+keeping a tidy directory structure. I found it more intuitive to
+find a particular function based on its theme when I used these
+thematic files.
 
   [advice from Hadley]:
 
-I used [roxygen2] to store the documentation for each package
-function alongside the code for that function in my R/*.R files. For
-example, my convenience function for concatenating genus and species
-names to one string (picked as an example purely because it’s
-short):
+I used roxygen2 to store the documentation for each package function
+alongside the code for that function in my R/*.R files. For example,
+my convenience function for concatenating genus and species names to
+one string (picked as an example purely because it’s short):
 
   [roxygen2]: https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html
 

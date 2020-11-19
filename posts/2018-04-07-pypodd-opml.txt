@@ -4,16 +4,16 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-[Pypodd]
+Pypodd
 
   [Pypodd]: https://github.com/johngodlee/pypodd
 
 OPML (Outline Processor Markup Language) is a type of .xml which is
 often used to hold information for RSS feeds. Lots of podcast
 aggregators use the OPML format to allow exporting of your list of
-podcasts, including the one that I use on my phone, [PocketCasts].
-So I wanted to extend the functionality of my pypodd program so that
-it would be able to use an OPML list of subscriptions instead of the
+podcasts, including the one that I use on my phone, PocketCasts. So
+I wanted to extend the functionality of my pypodd program so that it
+would be able to use an OPML list of subscriptions instead of the
 .csv that I put together in a quite ad hoc manner when I was writing
 the program.
 
@@ -37,7 +37,7 @@ Here is a sample of what an OPML file looks like:
     </opml>
 
 I found that actually, thanks to a package that has already been
-written called [listparser], adding this feature was REALLY REALLY
+written called listparser, adding this feature was REALLY REALLY
 EASY!
 
   [listparser]: https://pythonhosted.org/listparser/

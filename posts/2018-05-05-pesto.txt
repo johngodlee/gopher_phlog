@@ -34,38 +34,38 @@ April). I used the following recipe:
 
 Few flowered leek:
 
-  {IMAGE}[1]
+[Few flowered-leek]
 
 
-  {IMAGE}[2]
+[Few flowered-leek 2]
 
 
 Garlic mustard:
 
-  {IMAGE}[3]
+[Garlic mustard]
 
 
-  {IMAGE}[4]
+[Garlic mustard growing tip]
 
 
-  {IMAGE}[5]
+[Garlic mustard plant]
 
 
 Ramsons:
 
-  {IMAGE}[6]
+[Ramsons leaves]
 
 
-  {IMAGE}[7]
+[Ramsons plant]
 
 
 The finished pesto:
 
-  {IMAGE}[8]
+[Pesto]
 
   [8]: https://johngodlee.github.io/jpg/pesto/pesto.jpg
 
 Bonus flower, a Grape Hyacinth (Muscari sp.):
 
-  {IMAGE}[9]
+[Grape hyacinth flower]
 

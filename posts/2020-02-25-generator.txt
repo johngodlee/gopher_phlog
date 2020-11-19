@@ -63,7 +63,7 @@ fuse somewhere along the circuit, so I will always have to run the
 generator off my multi-socket, which has 4 thermal fuses inside it,
 one for each socket.
 
-  {IMAGE}[1]
+[Making an adaptor]
 
 
 I tested out the hacked together setup and amazingly it worked. I
@@ -72,5 +72,5 @@ also learned how to top up the oil and got some 4-stroke oil from a
 performance in the rain. I will try to keep it under cover while
 using it.
 
-  {IMAGE}[2]
+[The generator in action]
 

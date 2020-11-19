@@ -5,9 +5,9 @@ AUTHOR: John L. Godlee
 
 
 I was forwarded a question about how to customise
-[sjPlot::plot_model()]. The colleague wanted to plot slopes of
-fixed effects at different levels of a random effect, in a random
-slope linear mixed effects model.
+sjPlot::plot_model(). The colleague wanted to plot slopes of fixed
+effects at different levels of a random effect, in a random slope
+linear mixed effects model.
 
   [sjPlot::plot_model()]: https://cran.r-project.org/web/packages/sjPlot/index.html
 
@@ -36,7 +36,7 @@ The random effects are plotted like this:
 This produces a pretty ugly plot, which compresses the x axis and
 makes it difficult to compare slopes.
 
-  {IMAGE}[1]
+[Random effects plotted using plot_model()]
 
 
 Specifically, they wanted to plot the random effects for gear only,
@@ -115,5 +115,5 @@ Create plot:
       scale_colour_manual(values = c("red", "blue")) + 
       facet_wrap(~facet)
 
-  {IMAGE}[2]
+[New plot]
 

@@ -71,8 +71,8 @@ Typing all the BibTeX markup by hand is very laborious. I use Vim
 for text editing and I felt it was time to learn about snippets,
 which are just small chunks of customisable text that can be entered
 into documents by typing a keyword and hitting tab. I use the
-‘SirVer/ultisnips’ plugin, which you can find [here]. An example
-of a .bib snippet that I use to generate an article template:
+‘SirVer/ultisnips’ plugin, which you can find here. An example of a
+.bib snippet that I use to generate an article template:
 
   [here]: https://github.com/SirVer/ultisnips
 

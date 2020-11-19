@@ -6,8 +6,8 @@ AUTHOR: John L. Godlee
 
 Yesterday I decided, in an effort to remove plugin dependencies in
 my .vimrc and to learn a bit more about how VIM works, to get rid of
-[lightline.vim] and replace it with a statusline and tabline of my
-own design.
+lightline.vim and replace it with a statusline and tabline of my own
+design.
 
   [lightline.vim]: https://github.com/itchyny/lightline.vim
 
@@ -20,17 +20,17 @@ the file name, the cursor position in the file, the file type, and
 importantly, it changes colour depending on what mode you are in,
 insert, visual, normal, etc..
 
-  {IMAGE}[1]
+[Lightline]
 
 
-  {IMAGE}[2]
+[Lightline insert mode]
 
 
 But, just having lightline do everything for me isn’t particularly
 exciting. So first thing was to see what the default statusline
 looks like:
 
-  {IMAGE}[3]
+[Default status line]
 
 
 Very boring, all you can see is the file name.
@@ -70,7 +70,7 @@ To test it’s actually worked, try adding some other codes:
 
 which produces this:
 
-  {IMAGE}[4]
+[Status line with content]
 
 
 which is very ugly, and not particularly easy to read, either in the
@@ -110,7 +110,7 @@ could add a : by adding set statusline+=::
     set statusline+=:   " colon separator
     set statusline+=%c  " column number
 
-  {IMAGE}[5]
+[Status line with spacing between content]
 
 
 Now. I don’t really want the information about my position in the
@@ -134,7 +134,7 @@ side:
     set statusline+=:   " colon separator
     set statusline+=%c  " column number
 
-  {IMAGE}[6]
+[Status line split left and right]
 
 
 So that’s the basics of a statusline covered I think. Now onto
@@ -253,7 +253,7 @@ the current mode function we did earlier.
     set statusline+=:   " colon separator
     set statusline+=%c  " column number
 
-  {IMAGE}[7]
+[Status line with git repository]
 
 
 Conditional colour changing
@@ -294,7 +294,7 @@ mode. To add it to the statusline:
     set statusline+=:   " colon separator
     set statusline+=%c  " column number
 
-  {IMAGE}[8]
+[Status line with colour]
 
 
 Obviously you can change the colours to whatever you desire, using
@@ -378,10 +378,10 @@ my real statusline I tweaked things a little bit more:
     set statusline+=%8.(%4.l:%-3.c%)    " Line and column number in group
     set statusline+=\       " Space
 
-  {IMAGE}[9]
+[My status line]
 
 
-  {IMAGE}[10]
+[My status line - insert mode]
 
 
 The tabline
@@ -390,7 +390,7 @@ Less important, but still something that lightline used to do which
 now I do myself is the tabline. With lightline the tabline looks
 like this:
 
-  {IMAGE}[11]
+[Lightline tab line]
 
 
 Setting the tabline manually isn’t as easy as the statusline.
@@ -398,11 +398,11 @@ Technically you can set the tabline using the same code as the
 statusline (e.g. set tabline=%t), but this will result in the
 following, regardless of how many tabs are actually open:
 
-  {IMAGE}[12]
+[Default tab line]
 
 
 I don’t entirely understand how the tabline works at the moment, so
-I borrowed this tabline function from [this website]:
+I borrowed this tabline function from this website:
 
   [this website]: http://dhruvasagar.com/2014/04/06/vim-custom-tabline
 
@@ -435,5 +435,5 @@ Then to run it:
 
     set tabline=%!MyTabLine()
 
-  {IMAGE}[13]
+[My tabline]
 

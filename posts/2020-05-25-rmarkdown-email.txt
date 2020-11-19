@@ -11,14 +11,14 @@ well as the resources, I tried to shed some light on the confusing
 terminology behind the RMarkdown ecosystem.
 
   Hi all, I was asked to send out some links to resources on
-  RMarkdown and Markdown. In addition to the [Coding Club
-  tutorial] which I sent a link to last week during lab meeting,
-  here are some other links I’ve come across in the past:
+  RMarkdown and Markdown. In addition to the Coding Club tutorial
+  which I sent a link to last week during lab meeting, here are some
+  other links I’ve come across in the past:
 
-  -   [A comprehensive Markdown syntax cheatsheet]
-  -   [RStudio’s introduction to RMarkdown]
-  -   [The definitive RMarkdown Guide, by Yihui Xie, the lead dev on
-      RMarkdown]
+  -   A comprehensive Markdown syntax cheatsheet
+  -   RStudio’s introduction to RMarkdown
+  -   The definitive RMarkdown Guide, by Yihui Xie, the lead dev on
+      RMarkdown
 
   Here are some definitions of the various jargon terms:
 
@@ -48,8 +48,8 @@ terminology behind the RMarkdown ecosystem.
       formats.
 
   Finally, another article for those who are interested on the
-  limitations of RMarkdown, by Yihui Xie: [Markdown or LaTeX? -
-  Yihui Xie]
+  limitations of RMarkdown, by Yihui Xie: Markdown or LaTeX? - Yihui
+  Xie
 
   This email is written in markdown syntax.
 

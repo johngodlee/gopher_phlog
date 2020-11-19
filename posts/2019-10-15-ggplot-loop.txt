@@ -14,7 +14,7 @@ slopes for a categorical grouping variable, then I wanted to put
 each plot into a single grid image and export it, like the image
 below:
 
-  {IMAGE}[1]
+[Plots of biomass across different vegetation clusters]
 
 
 The code to generate this involves creating a list for the plot

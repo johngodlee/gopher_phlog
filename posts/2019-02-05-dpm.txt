@@ -15,7 +15,7 @@ an allometric equation.
 
 The basic design looks like this:
 
-  {IMAGE}[1]
+[DPM basic]
 
 
 I want to use a disc pasture meter in Angola when I go on fieldwork
@@ -37,7 +37,7 @@ the bolts, metal t-section, grounding clamp and the outer sleeve
 pipe to Angola, and buy the rest of the piping and the plywood sheet
 while I was there.
 
-  {IMAGE}[2]
+[DPM bracket design]
 
 
 This second design doesn’t distribute the weight as well, but
@@ -46,7 +46,7 @@ metal to take in luggage. It uses a base flange normally used to
 attach a water pipe to a tank. Again, I would buy the flange, the
 bolts and the outer sleeve in the UK, then get the rest in Angola.
 
-  {IMAGE}[3]
+[DPM flange design]
 
 
 The flange design could potentially be made more sturdy by
@@ -56,7 +56,7 @@ plywood disc.
 
 I looked at a number of research papers which used disc pasture
 meters to see what dimensions and materials they used. I came across
-[this brilliant website] which gave me the inspiration for the
+this brilliant website which gave me the inspiration for the
 T-section design. The papers I looked at were:
 
   [this brilliant website]: http://phytosphere.com/gear/fallingplatemeter.html

@@ -20,11 +20,10 @@ which utilises local materials where possible. My chosen method
 might sound like its very simple but it took me a long time thinking
 about this to achieve the optimal setup.
 
-[[[The tripod which would normally hold one reflective
-target]]][1]
+[The tripod which would normally hold one reflective target]
 
 
-  {IMAGE}[2]
+[A reflective target with a screw base]
 
 
 While shopping around I had noticed that it was possible to buy
@@ -35,7 +34,7 @@ for each target and then find some way of attaching them to a pole,
 which I could buy in Tanzania, rather than taking the entire pole on
 the plane.
 
-  {IMAGE}[3]
+[A length of threaded bar in use as a target mount]
 
 
 The local material I decided to use for the pole was steel
@@ -48,8 +47,7 @@ re-bar to mark plot corners, which can be partially buried at the
 end of the plot census and recovered with a metal detector at a
 later date.
 
-[[[Cutting lengths of re-bar to 1.5 m and 2 m length in
-Tanzania]]][4]
+[Cutting lengths of re-bar to 1.5 m and 2 m length in Tanzania]
 
 
 Now I had to figure out how to attach my short lengths of threaded
@@ -74,7 +72,7 @@ of re-bar but the standard sizes differ a lot between countries. I
 could have used bits of wire as shims to pad out the coupler, but
 this would likely have introduced wiggle.
 
-  {IMAGE}[5]
+[A UniTec mechanically bolted coupler]
 
 
 I looked briefly at manufacturing a set of metal backing plates
@@ -83,7 +81,7 @@ mechanically bolted coupler, but it would have taken a lot of work
 to get the metal backing plates manufactured to the correct
 specification and I was running out of time at that point.
 
-  {IMAGE}[6]
+[Wire rope grips]
 
 
 I looked also at buying boss head clamp stands like they have in
@@ -93,7 +91,7 @@ might also have been difficult to get them tight enough. An
 advantage to this method however is that the clamps are easily
 removable and adjustable.
 
-  {IMAGE}[7]
+[A boss head clamp stand]
 
 
 One option which I probably didn’t give enough thought to was
@@ -118,7 +116,7 @@ case the thread gets messed up. To solve this problem I bought a
 spare short length of re-bar about 8" long that can be used with the
 hammer to transfer all the force to the re-bar as it is hammered.
 
-  {IMAGE}[8]
+[A test of the hose clamps with re-bar and threaded bar]
 
 
 There are a couple of advantages to the hose clamp method over the
@@ -133,5 +131,5 @@ calibrating the scan rotation, and also allowing me to place the
 targets well above the thick long grass, allowing them to be more
 easily identified by the software in the scan alignment stage.
 
-  {IMAGE}[9]
+[The hose clamp method in action]
 

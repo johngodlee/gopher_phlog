@@ -5,14 +5,14 @@ AUTHOR: John L. Godlee
 
 
 I made a website for my labgroup using Jekyll and Github-pages. It
-can be seen here at [seosaw.github.io]. The bit I want to show off
+can be seen here at seosaw.github.io. The bit I want to show off
 about is the interactive map I made for the page on data and sites,
-which can be seen [here].
+which can be seen here.
 
   [seosaw.github.io]: https://seosaw.github.io
   [here]: https://seosaw.github.io/data.html
 
-The map is powered using [leaflet], which is a Javascript library
+The map is powered using leaflet, which is a Javascript library
 specifically for making maps.
 
   [leaflet]: http://leafletjs.com
@@ -162,5 +162,5 @@ called in the right order in the HTML file:
     </script> <!leaflet script>
     <script src="{{ site.baseurl }}/scripts/leaf-map.js"></script> <!map construction script>
 
-  {IMAGE}[1]
+[Leaflet map]
 

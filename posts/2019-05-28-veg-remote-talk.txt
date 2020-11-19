@@ -7,8 +7,8 @@ AUTHOR: John L. Godlee
 I was asked to give a small round up of the research I’ve been doing
 in Angola with a terrestrial laser scanner to try and quantify
 relationships between tree species diversity and woodland canopy
-architecture. [Here is a link to the pdf of the slides], and below
-is the script for the talk.
+architecture. Here is a link to the pdf of the slides, and below is
+the script for the talk.
 
   [Here is a link to the pdf of the slides]: https://johngodlee.github.io/files/veg_remote_talk/presentation.pdf
 
@@ -22,7 +22,7 @@ woodlands. For this particular study, I’ve been investigating how
 woodland tree foliage cover and spatial distribution is affected by
 tree species composition, and how this affects woody biomass.
 
-  {IMAGE}[1]
+[Remote sensing 1]
 
 
 2- Miombo woodlands, where I am focussing my work, are woody
@@ -33,7 +33,7 @@ structured by seasonal fires which occassionally track up into the
 tree canopy, leading to an abundance of multistemmed small trees
 from repeated regrowth after fire.
 
-  {IMAGE}[2]
+[Remote sensing 2]
 
 
 3- I’m approaching my PhD from the standpoint of the
@@ -53,7 +53,7 @@ according to the ecosystem functions being studied, and according to
 other environmental drivers which affect resource availability and
 the degree of disturbance in an ecosystem.
 
-  {IMAGE}[3]
+[Remote sensing 3]
 
 
 4- For this study, I wanted to look at how species composition of
@@ -79,7 +79,7 @@ inaccurate so I decided to employ the use of a terrestrial laser
 scanner to help me automate that data collection, which I’ll get
 onto in a little bit.
 
-  {IMAGE}[Remote sensing 4]
+[Remote sensing 4]
 
 
 5- I conducted my fieldwork inside Bicuar National Park in southwest
@@ -91,7 +91,7 @@ Lubango about 120 km away from the park, we created 15 1 Ha square
 survey plots within which I conducted measurements to answer this
 question.
 
-  {IMAGE}[4]
+[Remote sensing 5]
 
 
 6- I further subdivided these 1 Ha plots into a grid of nine 10 m
@@ -109,7 +109,7 @@ with the GNSS equipment to allow me to stitch the images together
 later. The point clouds can then be used to quantify the spatial
 structure of the tree canopy foliage in the different subplots.
 
-  {IMAGE}[5]
+[Remote sensing 6]
 
 
 7- This is the laser scanner, a Leica HDS6100, which sits on a
@@ -117,7 +117,7 @@ tripod and records a nearly spherical point cloud in 360 degrees.
 These are the reflective targets screwed onto threaded bar which was
 then hammered into the ground.
 
-  {IMAGE}[6]
+[Remote sensing 7]
 
 
 8- So now that I have all the scans and the fieldwork is mostly
@@ -151,7 +151,7 @@ GNSS locations aren’t accurate enough, so I’m thankful I built
 plenty of replication into the study design, having nine subplots
 per 1 Ha plot.
 
-  {IMAGE}[7]
+[Remote sensing 8]
 
 
 9- I should say that the NERC Geophysical Equipment Facility
@@ -159,5 +159,5 @@ provided all the laser scanning and GPS equipment that I used and
 they were super helpful in all sorts of ways while I had the
 equipment on loan.
 
-  {IMAGE}[8]
+[Remote sensing 9]
 

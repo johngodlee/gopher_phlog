@@ -24,16 +24,16 @@ profile. Instead of having a deep belly, it’s been ground almost
 flat, which I find much better for carving wood. I’ve also added a
 more distinct point to the end of the blade by grinding off some of
 the top of the tip, this makes it more effective for etching designs
-and [kolrossing]. The profile of the blade has also changed, going
+and kolrossing. The profile of the blade has also changed, going
 from a normal compound bevel to a flat scandi edge, which is better
 for carving and much easier to keep sharp.
 
   [kolrossing]: https://pinewoodforge.com/basics-of-kolrosing/
 
-  {IMAGE}[1]
+[Comparison of knife]
 
 
-  {IMAGE}[2]
+[Comparison of blades]
 
 
 A couple of years back, while in Brazil, the glue on one of the
@@ -47,11 +47,11 @@ wood glue. I later engraved it using a friend’s soldering iron with
 a herringbone pattern and my initials. It’s much more comfortable to
 carve with now.
 
-  {IMAGE}[3]
+[Scale blank]
 
 
-  {IMAGE}[4]
+[Scale polished]
 
 
-  {IMAGE}[5]
+[Scale engraved]
 

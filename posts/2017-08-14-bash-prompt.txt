@@ -6,15 +6,15 @@ AUTHOR: John L. Godlee
 
 This is what my bash prompt looks like at the moment:
 
-  {IMAGE}[1]
+[Current bash prompt]
 
 
 Here is what the various parts refer to:
 
-  {IMAGE}[2]
+[Annotated bash prompt]
 
 
-[And here is a link to a .bashrc,] which has the code to make this
+And here is a link to a .bashrc, which has the code to make this
 prompt.
 
   [And here is a link to a .bashrc,]: https://github.com/johngodlee/bash_prompt_tut/tree/master/files
@@ -29,7 +29,7 @@ information about the status of the current session.
 
 The default bash prompt looks like this:
 
-  {IMAGE}[3]
+[Default bash prompt]
 
 
 so fire up your terminal of choice and see that your bash prompt
@@ -60,7 +60,7 @@ Super basic
 To start with, let’s replace the default bash prompt with something
 really simple like this:
 
-  {IMAGE}[4]
+[Dollar sign minimal prompt]
 
 
 To achieve this, type the following into your .bashrc:
@@ -74,8 +74,8 @@ which forces bash to reload .bashrc:
 
 PS1 refers to only one of five bash prompts, with PS1 being the
 default prompt that is shown most of the time; PS2,PS3,PS4 and
-PROMPT_COMMAND are used under special conditions. [This article]
-has a good description of what they’re used for.
+PROMPT_COMMAND are used under special conditions. This article has a
+good description of what they’re used for.
 
   [This article]: http://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/
 
@@ -83,8 +83,8 @@ Incorporating variables
 
 The simplest way to add a variable (i.e. something which changes
 depending on environment conditions, like the current working
-directory) is to use one that bash understands by default, [a full
-list of which can be found here].
+directory) is to use one that bash understands by default, a full
+list of which can be found here.
 
   [a full list of which can be found here]: http://www.gnu.org/software/bash/manual/bashref.html#Controlling-the-Prompt
 
@@ -92,7 +92,7 @@ Start by adding the time to our simple $ prompt:
 
     PS1='\T \$'
 
-  {IMAGE}[5]
+[Bash prompt with time]
 
 
 Note the space between \T and \$. Adding spaces between variables
@@ -108,7 +108,7 @@ ANSI escape sequences, like so:
 
     PS1='\[\e[31m\]\w\[\e[m\] \T \$'
 
-  {IMAGE}[6]
+[bash prompt with colours]
 
 
 This makes the directory path appear in red text. 31m is the section
@@ -116,9 +116,8 @@ of that sequence that actually defines the colour red.
 
 ANSI escape sequences can also be used to change the background
 colour of the text, add underlines, make the text bold, or high
-contrast. I often refer to both [this wikipedia page on ANSI colour
-codes] and [this blog post on jafrog.com] when choosing colour
-codes.
+contrast. I often refer to both this wikipedia page on ANSI colour
+codes and this blog post on jafrog.com when choosing colour codes.
 
   [this wikipedia page on ANSI colour codes]: http://en.wikipedia.org/wiki/ANSI_escape_code#colors
   [this blog post on jafrog.com]: http://www.jafrog.com/2013/11/23/colors-in-terminal
@@ -128,7 +127,7 @@ light-cyan coloured, with bold font:
 
     PS1='\[\e[96;1m\]\w\[\e[m\] \T \$'
 
-  {IMAGE}[7]
+[Bash prompt with complex colours]
 
 
 The ;1 is the part which makes the text bold. Note how [\e[m\]
@@ -144,8 +143,7 @@ characters to the prompt, whether this is a cool lightning bolt, a
 tick or a cross, or any of the other 136,000 characters available in
 Unicode 10.0.
 
-[Wikipedia has an excellent resource for browsing unicode
-characters].
+Wikipedia has an excellent resource for browsing unicode characters.
 
   [Wikipedia has an excellent resource for browsing unicode characters]:
     http://en.wikipedia.org/wiki/List_of_Unicode_characters
@@ -159,7 +157,7 @@ syntax for adding this to your bash prompt is as follows:
 Note that inserting unicode can also by accomplished just by copying
 and pasting the unicode character itself into the .bashrc.
 
-  {IMAGE}[8]
+[Bash prompt with unicode]
 
 
 Note how the $ isn’t escaped this time, as we don’t actually want to
@@ -174,7 +172,7 @@ see the results:
 
     PS1='[\T] {\u:\h} -- \w'
 
-  {IMAGE}[9]
+[Bash prompt with brackets for formatting]
 
 
 Building PS1 incrementally
@@ -202,7 +200,7 @@ comment, further increasing readability:
     PS1+='\$'   # $
     PS1+=' '    # Space
 
-  {IMAGE}[10]
+[Multi-line bash prompt]
 
 
 Conditional statements and functions
@@ -212,8 +210,8 @@ and have just gathered from other websites and tutorials.
 
 If you want to expand the number of variables you can use in your
 bash prompt you can take create functions in your .bashrc, which you
-then source in your PS1 code. The example below ([which I adapted
-from here]) shows how to present a unicode tick if the previous
+then source in your PS1 code. The example below (which I adapted
+from here) shows how to present a unicode tick if the previous
 command was successful, and a unicode cross if it was unsuccessful,
 add the following to your .bashrc:
 
@@ -233,7 +231,7 @@ add the following to your .bashrc:
     ## Bash prompt
     PS1="\$(error_test)"
 
-  {IMAGE}[11]
+[Bash prompt with conditional status]
 
 
 Note the __stat. As far as I know the __ aren’t necessary, the
@@ -242,7 +240,7 @@ convention in bash prompt functions.
 
 Sourcing external scripts
 
-I use the [git-prompt.sh shell script], which is part of the
+I use the git-prompt.sh shell script, which is part of the
 contributed materials in the git github repo, to get the current git
 branch displayed in my bash prompt. Download and save the script in
 the link as ~/.git-prompt.sh. Then add the following to your
@@ -254,7 +252,7 @@ the link as ~/.git-prompt.sh. Then add the following to your
 
     PS1='$(__git_ps1 "[%s]")'
 
-  {IMAGE}[12]
+[Bash prompt with git repository]
 
 
 git-prompt.sh also has some variables which can be set from within
@@ -263,6 +261,6 @@ in a text editor.
 
 Now that you’ve read through the tutorial, try to construct your own
 bash prompt, adding the bits that you find useful. Refer back to the
-[linked .bashrc] for some inspiration.
+linked .bashrc for some inspiration.
 
   [linked .bashrc]: https://github.com/johngodlee/bash_prompt_tut/tree/master/files

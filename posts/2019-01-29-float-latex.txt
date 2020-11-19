@@ -62,7 +62,6 @@ The relevant piece of simple_doc.latex is:
 
     $endif$
 
-I got the inspiration for this from this [Stack Overflow
-question].
+I got the inspiration for this from this Stack Overflow question.
 
   [Stack Overflow question]: https://tex.stackexchange.com/questions/101725/latex-figures-appear-before-text-in-pandoc-markdown

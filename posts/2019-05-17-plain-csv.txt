@@ -38,8 +38,8 @@ right click, click “Format Cells…”, then change the category to
 exporting from Excel.
 
 Another option is to use a more simple CSV editor rather than Excel,
-something that doesn’t try to be helpful. [Table Tool] seems like
-an alright option, but I’m not a huge fan of the way this program
+something that doesn’t try to be helpful. Table Tool seems like an
+alright option, but I’m not a huge fan of the way this program
 manages data entry, there’s a lot of mouse clicking needed to
 activate a cell for editing and you have to manually click to add or
 delete rows.
@@ -52,8 +52,8 @@ files without anything extra, as they’re just plain text, but this
 gets cumbersome when you have rows of different width, blank cells
 etc., as the columns become offset. This makes moving between the
 rows in the same column difficult. Luckily there is a plugin called
-[csv.vim] which has some really nice features which make editing
-CSV files in Vim quite easy. Firstly, the plugin detects the column
+csv.vim which has some really nice features which make editing CSV
+files in Vim quite easy. Firstly, the plugin detects the column
 delimiter and replaces it with a |, which makes distinguishing
 column boundaries a lot easier. Also, columns are highlighted in
 different colours, which also improves the ability to scan the CSV
@@ -68,12 +68,12 @@ this works:
 
 Un-arranged columns
 
-  {IMAGE}[1]
+[Unarranged CSV columns in vim]
 
 
 Arranged columns with ArrangeColumn
 
-  {IMAGE}[2]
+[Justified CSV columns in vim]
 
 
 There are a tonne of other features in csv.vim but most of the
@@ -81,7 +81,7 @@ features related to analysis I’d much rather do in R later on.
 Deleting, hiding and sorting columns could come in really useful
 however, so I’ll spend some time trying to figure out the commands
 for that. I’ve actually had a different CSV plugin for a while
-already, called [rainbow_csv], which helpfully colours the text in
+already, called rainbow_csv, which helpfully colours the text in
 different CSV columns to help to distinguish one column for another.
 I’ve since removed this plugin however, as csv.vim does the same
 thing but adds lots of other features.

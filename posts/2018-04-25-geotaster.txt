@@ -8,6 +8,6 @@ I have been writing a workshop for the Edinburgh University School
 of GeoSciences GeoTaster sessions, all about using Git on the
 command line for research. The workshop can be found here:
 
-[GeoTaster Git Workshop]
+GeoTaster Git Workshop
 
   [GeoTaster Git Workshop]: https://johngodlee.github.io/geotaster_git_workshop/

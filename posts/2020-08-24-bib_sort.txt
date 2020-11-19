@@ -10,7 +10,7 @@ which papers I’ve read and it means it’s easier to reuse references
 for new manuscripts. When I submit a manuscript to a journal
 however, I want to include a standalone .bib file which only
 contains the references for the current manuscript. I wrote a little
-shell script which leverages [ripgrep (rg)] to create a sorted and
+shell script which leverages ripgrep (rg) to create a sorted and
 filtered .bib file:
 
   [ripgrep (rg)]: https://github.com/BurntSushi/ripgrep

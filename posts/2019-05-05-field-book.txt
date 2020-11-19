@@ -32,10 +32,10 @@ are collecting and they had opted to take notes directly onto their
 Android smartphone using a combination of Locus Maps and ODK (Open
 Data Kit).
 
-  {IMAGE}[1]
+[ODK screenshot]
 
 
-[Here is a link to an ODK .xml and .xlsx] I created to hold
+Here is a link to an ODK .xml and .xlsx I created to hold
 measurements on tree stems in our permanent plots, allowing the user
 to record the trunk diameter, height, mortality information, GPS
 location, and information on the base stem of the tree. The form

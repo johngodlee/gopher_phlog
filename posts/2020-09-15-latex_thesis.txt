@@ -7,7 +7,7 @@ AUTHOR: John L. Godlee
 Terrifyingly, it’s not too long before I have to start writing my
 PhD thesis. To save myself some headaches down the line I put
 together a LaTeX thesis template system for myself. The template
-itself can be found [here].
+itself can be found here.
 
   [here]: https://johngodlee.github.io/files/latex_thesis/template.zip
 
@@ -118,11 +118,11 @@ Notable mentions
 
 Inspiration for this template came from other projects:
 
--   [uoe-gits / EdThesis LaTeX template · GitLab] - Created by
-    Magnus Hagdorn back in 2003.
--   [Writing a PhD Thesis in LaTeX Johannes Miocic] - A more
-    recent attempt, from 2015, the blog has links to other useful
-    PhD thesis LaTeX projects.
+-   uoe-gits / EdThesis LaTeX template · GitLab - Created by Magnus
+    Hagdorn back in 2003.
+-   Writing a PhD Thesis in LaTeX Johannes Miocic - A more recent
+    attempt, from 2015, the blog has links to other useful PhD
+    thesis LaTeX projects.
 
   [uoe-gits / EdThesis LaTeX template · GitLab]: https://git.ecdf.ed.ac.uk/uoe-gits/edthesis
   [Writing a PhD Thesis in LaTeX Johannes Miocic]: https://jojomio.wordpress.com/2014/02/14/writing-a-phd-thesis-in-latex/

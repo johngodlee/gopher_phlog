@@ -18,9 +18,9 @@ However, I wasn’t looking forward to the prospect of measuring the
 leaf area of that many leaves so I looked into using the macro
 language for imageJ to automate the process.
 
-You can find the macro I used saved as a .ijm file [here], and I
-have another macro that also counts the number of leaf objects in
-each image [here][1]
+You can find the macro I used saved as a .ijm file here, and I have
+another macro that also counts the number of leaf objects in each
+image here
 
   [here]: https://johngodlee.github.io/files/imagej/LeafArea.ijm
   [1]: https://johngodlee.github.io/files/imagej/LeafArea_Count.ijm

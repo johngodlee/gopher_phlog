@@ -5,19 +5,19 @@ AUTHOR: John L. Godlee
 
 
 I’ve been processing laser scanner point cloud data I collected with
-a [Leica HDS6100 phase-shift Terrestrial Laser Scanner (TLS)].
-I’ve been scanning patches of woodland in southwest Angola and
-wanted to generate shadowless 3D models of the woodland canopy. To
-generate these models I had to record multiple scans per woodland
-patch to eliminate shadows cast by tree trunks. Now I am aligning
-and stitching those multiple scans back together again to form a
-single 3D model in [Leica’s Cyclone] software. To align the scans
-I placed black and white reflective targets ([Leica GZT21]) in the
-woodland at the time of scanning so that multiple targets could be
-seen in all scans. These targets are highly reflective and can be
-easily recognised in the resulting scan point cloud in the software.
-The targets are given names and used to tie the scans together, as
-the position of a target won’t change between scans.
+a Leica HDS6100 phase-shift Terrestrial Laser Scanner (TLS). I’ve
+been scanning patches of woodland in southwest Angola and wanted to
+generate shadowless 3D models of the woodland canopy. To generate
+these models I had to record multiple scans per woodland patch to
+eliminate shadows cast by tree trunks. Now I am aligning and
+stitching those multiple scans back together again to form a single
+3D model in Leica’s Cyclone software. To align the scans I placed
+black and white reflective targets (Leica GZT21) in the woodland at
+the time of scanning so that multiple targets could be seen in all
+scans. These targets are highly reflective and can be easily
+recognised in the resulting scan point cloud in the software. The
+targets are given names and used to tie the scans together, as the
+position of a target won’t change between scans.
 
   [Leica HDS6100 phase-shift Terrestrial Laser Scanner (TLS)]: https://gef.nerc.ac.uk/equipment/tls/hds6100/hds6100_overview.php
   [Leica’s Cyclone]: https://leica-geosystems.com/en-gb/products/laser-scanners/software/leica-cyclone
@@ -30,7 +30,7 @@ with the box for the scanner always places at Target 1, with all the
 other targets numbered incrementally in a clockwise direction, like
 this:
 
-  {IMAGE}[1]
+[Diagram of subplot layout with targets]
 
 
 This works fine probably about 90% of the time. However, sometimes
@@ -44,7 +44,7 @@ these 10%, about 2% I can’t fix without a major headache. It’s
 difficult to understand 3D data on a computer screen and the point
 cloud renders on Cyclone aren’t the most beautiful to look at.
 
-  {IMAGE}[2]
+[Reflective target]
 
 
 As I’m planning to take the scanner out again to a different region

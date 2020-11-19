@@ -18,8 +18,8 @@ the dimension options and all their interactions with the options in
 ggplot2.
 
 First do the usual, setwd, packages, import data etc.. If you want
-to try and follow along, sample_image.png can be found [here] and
-the script file I used is [here][1]:
+to try and follow along, sample_image.png can be found here and the
+script file I used is here:
 
   [here]: https://johngodlee.github.io/files/cc_logos_r/sample_image.png
   [1]: https://johngodlee.github.io/files/cc_logos_r/hexagons.R
@@ -126,5 +126,5 @@ image. Be warned, RAM usage!:
                     panel.background = element_blank(),
                     legend.position = "none")
 
-  {IMAGE}[2]
+[R hexagon logo from R primitive graphics]
 

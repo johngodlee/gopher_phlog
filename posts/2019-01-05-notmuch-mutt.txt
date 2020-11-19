@@ -15,8 +15,8 @@ I made sure I had notmuch on my computer:
     brew install notmuch
 
 NeoMutt is meant to come with notmuch support out of the box, so I
-didn’t need to apply the [notmuch-mutt] patch. I did use [this
-mutt-notmuch-py script] though, which I included in my $PATH by
+didn’t need to apply the notmuch-mutt patch. I did use this
+mutt-notmuch-py script though, which I included in my $PATH by
 adding it to ~/bin.
 
   [notmuch-mutt]: https://notmuchmail.org/notmuch-mutt/

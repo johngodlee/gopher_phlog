@@ -91,9 +91,9 @@ to render a .pdf for each of the .csv files:
 
 The .pdf files created at the end look like this:
 
-  {IMAGE}[1]
+[Plot data sheet .pdf output]
 
 
-A .pdf version can be [downloaded here].
+A .pdf version can be downloaded here.
 
   [downloaded here]: https://johngodlee.github.io/files/latex_csv/render.pdf

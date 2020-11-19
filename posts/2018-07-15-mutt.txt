@@ -29,7 +29,7 @@ yet anyway and much of the config won’t make sense until we’ve set
 up the back end stuff. The first thing to set up is the syncing of
 emails with Gmail’s IMAP system.
 
-neomutt can handle IMAP email, but grabbing from a remote server to read an email requires that there be an internet connection everytime you open neomutt. To keep an offline database of my Gmail account, so I can search it when travelling, I use offlineimap, which can also be installed using [Homebrew]:
+neomutt can handle IMAP email, but grabbing from a remote server to read an email requires that there be an internet connection everytime you open neomutt. To keep an offline database of my Gmail account, so I can search it when travelling, I use offlineimap, which can also be installed using Homebrew:
 
     
 
@@ -37,10 +37,10 @@ neomutt can handle IMAP email, but grabbing from a remote server to read an emai
 
     brew install offlineimap
 
-[Steve Losh] says that offlineimap tends to include script
-breaking changes between updates, and they recommend installing an
-earlier version, but I used v7.2.1, which is current as of 27th Mar
-2018 and it worked fine.
+Steve Losh says that offlineimap tends to include script breaking
+changes between updates, and they recommend installing an earlier
+version, but I used v7.2.1, which is current as of 27th Mar 2018 and
+it worked fine.
 
   [Steve Losh]: http://stevelosh.com/blog/2012/10/the-homely-mutt/
 
@@ -532,9 +532,9 @@ guides that I learnt from and used to write this setup:
 -   https://pbrisbin.com/posts/mutt_gmail_offlineimap/
 -   https://baptiste-wicht.com/posts/2014/07/a-mutt-journey-my-mutt-configuration.html
 
-y full setup can be explored in my [dotfiles]
+y full setup can be explored in my dotfiles
 
   [dotfiles]: https://github.com/johngodlee/dotfiles
 
-  {IMAGE}[1]
+[Mutt screenshot]
 

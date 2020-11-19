@@ -10,16 +10,16 @@ know lots of other things I do give away my location, but this is a
 small step in the right direction. It also prompted me to play with
 new GPS tracking apps.
 
-The one I have settled on is called [AAT], which is a lovely
-brutalist piece of open source software that is designed around
-tracking cycling.
+The one I have settled on is called AAT, which is a lovely brutalist
+piece of open source software that is designed around tracking
+cycling.
 
   [AAT]: https://f-droid.org/en/packages/ch.bailu.aat/
 
 It stores tracks as GPX files, which can then be manipulated and
 plotted in other softwares. In this case, I wanted to use R. The
-script is below and [here] and an example GPX file from AAT can be
-found [here][1].
+script is below and here and an example GPX file from AAT can be
+found here.
 
   [here]: https://johngodlee.github.io/files/gpx/import_gpx_tracks.R
   [1]: https://johngodlee.github.io/files/gpx/2018_04_19_0.gpx
@@ -27,9 +27,6 @@ found [here][1].
 Note that you may have to install ggmap from the github repository
 like this: devtools::install_github("dkahle/ggmap"), as the CRAN
 mirror is often way behind.
-
-    # Remove old crap
-    rm(list=ls())
 
     # Packages ----
     library(rgdal)  # readOGR(), ogrListLayers()
@@ -90,8 +87,8 @@ mirror is often way behind.
 The script outputs an elevation plot and a map which shows the
 track, coloured by elevation.
 
-  {IMAGE}[2]
+[Elevation profile]
 
 
-  {IMAGE}[3]
+[Route map]
 

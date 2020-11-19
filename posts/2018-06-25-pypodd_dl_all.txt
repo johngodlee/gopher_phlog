@@ -4,7 +4,7 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-[Pypodd]
+Pypodd
 
   [Pypodd]: https://github.com/johngodlee/pypodd
 

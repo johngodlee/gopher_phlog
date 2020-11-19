@@ -7,10 +7,10 @@ AUTHOR: John L. Godlee
 I’ve been wanting to write up my recipes into a book for a while,
 but for the longest time I couldn’t find a decent way to automate
 the process, and I wasn’t about to do it manually. Then I found out
-about [gitbooks], which are normally used for online documentation
-by the looks of it, but seemed perfect for my needs. THe following
-is a short post about how I used gitbooks and why I think they are
-great for keeping recipe books, scrapbooks, journals, etc.
+about gitbooks, which are normally used for online documentation by
+the looks of it, but seemed perfect for my needs. THe following is a
+short post about how I used gitbooks and why I think they are great
+for keeping recipe books, scrapbooks, journals, etc.
 
   [gitbooks]: https://github.com/GitbookIO/gitbook
 
@@ -80,7 +80,7 @@ get tacked onto the bottom, whereas really I would have liked a page
 break after each recipe. Second, the table of contents appears for
 each chapter, whereas I would have liked one table of contents.
 
-  {IMAGE}[1]
+[Pandoc output pdf recipe]
 
 
 So for a long time this little project sat at the bottom of my to do
@@ -144,14 +144,14 @@ You can navigate to the locally hosted root of the book by going to:
 
     http://localhost:4000
 
-[Gitbook.com] offers a fairly decent option for hosting your
-gitbook for free, and if you already have a Github account you can
-upload the gitbook as a git repo to Github, and then link that
-Github repo to Gitbook.com, for continuous deployment, with a URL
-that you can share with others. [Here is my Gitbook of recipes].
+Gitbook.com offers a fairly decent option for hosting your gitbook
+for free, and if you already have a Github account you can upload
+the gitbook as a git repo to Github, and then link that Github repo
+to Gitbook.com, for continuous deployment, with a URL that you can
+share with others. Here is my Gitbook of recipes.
 
   [Gitbook.com]: http://www.gitbook.com
   [Here is my Gitbook of recipes]: https://johngodlee.gitbooks.io/recipes/content/
 
-  {IMAGE}[2]
+[Gitbook recipe book]
 

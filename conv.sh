@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Create output directories
 mkdir -p posts
@@ -7,8 +7,21 @@ mkdir -p recipes
 rm posts/*
 rm recipes/*
 
+# Create list of file paths
+allfiles=(~/git_proj/johngodlee.github.io/_posts/*.md)
+
+# Only include files which aren't in the future
+files=()
+for i in "${allfiles[@]}"; do
+	ts=$(basename "$i" | cut -d'-' -f1-3 | date -f - +%s)
+	today=$(date +%s)
+	if [ "$ts" -le "$today" ]; then
+    	files+=("$i")
+	fi
+done
+
 # Convert blog posts to plain text
-for i in ~/git_proj/johngodlee.github.io/_posts/*.md; do
+for i in ${files[@]}; do
 	# Get file name of post, without extension
 	name=$(basename "$i" | cut -f 1 -d '.')
 

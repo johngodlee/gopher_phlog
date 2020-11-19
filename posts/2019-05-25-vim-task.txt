@@ -4,7 +4,7 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-I’m slowly trying to emulate parts of the [Emacs Org-mode syntax].
+I’m slowly trying to emulate parts of the Emacs Org-mode syntax.
 Particularly, when I write TODO lists, having [ ] or [*] at the
 beginning of a line to indicate whether that task is ‘pending’ or
 ‘done’, respectively. I’m not ready to dive straight into a Vim

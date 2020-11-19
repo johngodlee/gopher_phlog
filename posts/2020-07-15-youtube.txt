@@ -10,8 +10,8 @@ instead I wanted to use my laptop. It turns out this is pretty
 difficult without using Google Chrome. I have since come up with a
 system which works reasonably well.
 
-I use [Qutebrowser] as my web browser. I configured qutebrowser to
-pipe videos to [VLC] using this keybinding in my
+I use Qutebrowser as my web browser. I configured qutebrowser to
+pipe videos to VLC using this keybinding in my
 ~/.qutebrowser/config.py:
 
   [Qutebrowser]: https://qutebrowser.org/
@@ -27,7 +27,7 @@ To pipe the video to my Chromecast I can use the menu bar in VLC to
 select “Playback” -> “Renderer”, then my Chromecast, which is listed
 as an option if both are on the same local network.
 
-To adjust the volume on the chromecast I use [go-cast] from the
+To adjust the volume on the chromecast I use go-cast from the
 terminal:
 
   [go-cast]: https://github.com/barnybug/go-cast

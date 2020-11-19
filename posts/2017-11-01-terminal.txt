@@ -6,8 +6,7 @@ AUTHOR: John L. Godlee
 
 I thought I should do the sort of post that everyone seems to do and
 show off my workflow, with all the horrendously try-hard command
-line utilities, and DIY config files. You can find my dotfiles
-[here].
+line utilities, and DIY config files. You can find my dotfiles here.
 
   [here]: https://github.com/johngodlee/dotfiles
 
@@ -191,5 +190,5 @@ that is hooked up to the University network, just in case I need to
 use some piece of Windows software. For example, when I’m testing
 workshops for undergraduate students.
 
-  {IMAGE}[1]
+[Desk]
 

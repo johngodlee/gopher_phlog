@@ -8,8 +8,8 @@ I wrote a guide for some undergraduate students on a field course
 about hemispherical photography and calculating forest canopy
 traits. This is it. It’s untested so far, so some parts may change
 depending on how well the field course goes. The guide may get
-updated, so the most up to date version can always be found [here,
-on Github].
+updated, so the most up to date version can always be found here, on
+Github.
 
   [here, on Github]: https://github.com/johngodlee/hemi_photo_guide
 
@@ -61,7 +61,7 @@ Part 2 - Creating a black and white thresholded image
     amounts of lens flare. If you have lots of lens flare, the photo
     should be thrown out! This is what lens flare looks like:
 
-  {IMAGE}[1]
+[Lens flare example]
 
 
 4.  Image -> Type -> 8-bit
@@ -211,6 +211,6 @@ Part 3 - Calculating Leaf Area Index
 
     all_data
 
-The hemiphot.R source file comes from [here].
+The hemiphot.R source file comes from here.
 
   [here]: https://github.com/naturalis/Hemiphot

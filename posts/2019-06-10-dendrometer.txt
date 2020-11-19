@@ -13,7 +13,7 @@ The box had a label stating that it was a “Dendrometer”. All this
 means in reality, without any more information, is that it was used
 to measure trees. Not very helpful.
 
-  {IMAGE}[1]
+[Dendrometer box]
 
 
 Inside the box there were a few handwritten labels. The first said:
@@ -22,7 +22,7 @@ Inside the box there were a few handwritten labels. The first said:
   scales, spirit level, telescope and sights etc. For full
   description see other label.
 
-  {IMAGE}[2]
+[Label 1]
 
 
 The second label is really hard to read. This is the best I could
@@ -43,19 +43,19 @@ make of it:
   hand or to slide on to the end of any suitable stand, all in
   fitted mahogany shaped case.
 
-  {IMAGE}[3]
+[Label 2]
 
 
 This label was printed and obviously written later, presumable
 sometime after 1968. I doubt it’s been used as a piece of scientific
 apparatus since then:
 
-  {IMAGE}[4]
+[Label 3]
 
 
 The equipment inside the mahogany box looks like this:
 
-  {IMAGE}[5]
+[Dendrometer]
 
 
 It’s basically a series of rulers with a spirit level attached to
@@ -65,7 +65,7 @@ rulers has a set of wire sights, and one of the rulers has a
 a wire sight at the other.
 
 I looked around online and the only helpful result I found was on
-the [Bonham’s Auctioneers website]. In 2009 they sold one of these
+the Bonham’s Auctioneers website. In 2009 they sold one of these
 items for £360. They described it as:
 
   [Bonham’s Auctioneers website]: https://www.bonhams.com/auctions/17616/lot/377/?category=list
@@ -81,11 +81,11 @@ used similarly to a clinometer, using trigonometry to solve an
 equation for the height of the tree as one side of the triangle. I
 set the equipment up in the way I think it might work:
 
-  {IMAGE}[6]
+[Dendrometer assembled]
 
 
 Here is a diagram that I hope explains how I think it should be
-used. It draws on the [“Principle of Similar Triangles”], where
+used. It draws on the “Principle of Similar Triangles”, where
 triangles can be described as ‘similar’ regardless of their size if
 the angles are kept the same. You can enlarge a triangle while
 maintaining its angles, so if you know the length of all sides in
@@ -100,25 +100,24 @@ like to know the length of, or distance between.
 
   [“Principle of Similar Triangles”]: https://www.mathopenref.com/similartriangles.html
 
-  {IMAGE}[7]
+[Diagram demonstrating use of dendrometer]
 
 
 I still don’t know what the extra ruler is for. Maybe it attaches to
 the main dendrometer somehow to extend its use, but I’m not sure.
 
-In my work, I use a [Nikon Forestry Pro Rangefinder] to measure
-the heights of trees. It uses very similar calculations to the
-Mackenzie Dendrometer, except that the Rangefinder also has a
-clinometer, eliminating the need to measure the vertical length y in
-the smaller triangle, substituting it for an angle. It also
-eliminates the need for measuring the height C between the ground
-and the eye level of the researcher by taking three measurements, at
-the top, horizontal middle, and base of the tree, effectively
-constructing two triangles, one above and one below the horizontal
-line, and adding together their opposite sides to get the total tree
-height.
+In my work, I use a Nikon Forestry Pro Rangefinder to measure the
+heights of trees. It uses very similar calculations to the Mackenzie
+Dendrometer, except that the Rangefinder also has a clinometer,
+eliminating the need to measure the vertical length y in the smaller
+triangle, substituting it for an angle. It also eliminates the need
+for measuring the height C between the ground and the eye level of
+the researcher by taking three measurements, at the top, horizontal
+middle, and base of the tree, effectively constructing two
+triangles, one above and one below the horizontal line, and adding
+together their opposite sides to get the total tree height.
 
   [Nikon Forestry Pro Rangefinder]: https://www.youtube.com/watch?v=SAUL76gEIUo
 
-  {IMAGE}[8]
+[Laser rangefinder]
 

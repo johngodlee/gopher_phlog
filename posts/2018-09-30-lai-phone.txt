@@ -16,10 +16,10 @@ We took 10 photos with the same orientation at the same height under
 a stand of Ash-Birch mixed plantation. I cropped the images so each
 set of paired images captured approximately the same area of canopy.
 
-  {IMAGE}[1]
+[Thesholded photo]
 
 
-  {IMAGE}[2]
+[Original photo]
 
 
 One issue was that the phone fisheye converter tended to move around
@@ -52,12 +52,11 @@ to different proportional circular crops:
         labs(x = "Proportional crop by diameter of original image", 
             y = "Pixel diameter of resultant image")
 
-  {IMAGE}[3]
+[Plot of field of view by diameter crop]
 
 
-  {IMAGE}[4]
+[Plot of percentage crop by mean gap fraction]
 
 
-[[[Spaghetti plot of comparison between photos by camera or
-phone]]][5]
+[Spaghetti plot of comparison between photos by camera or phone]
 

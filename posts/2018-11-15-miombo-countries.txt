@@ -15,7 +15,7 @@ First, load some packages:
     library(rgdal)
     library(rgeos)
 
-Next, import data on [White’s veg map] and [African countries].
+Next, import data on White’s veg map and African countries.
 
   [White’s veg map]: http://omap.africanmarineatlas.org/BIOSPHERE/pages/3_terrestrial%20vegetation.htm
   [African countries]: http://maplibrary.org/library/stacks/Africa/index.htm
@@ -33,7 +33,7 @@ be WGS84 long-lat, so let’s add that.
 
 I’m not interested in the other biomes defined in White’s veg. map,
 only those that make up the “miombo”. I use the miombo definition
-used in [Ryan et al. (2016)].
+used in Ryan et al. (2016).
 
   [Ryan et al. (2016)]: http://rstb.royalsocietypublishing.org/content/royptb/371/1703/20150312.full.pdf
 

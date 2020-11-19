@@ -22,19 +22,19 @@ now looking for a way to do “track changes” in LaTeX.
 
 I have found a few notable options while searching the internet:
 
--   [latexdiff] - A Perl program which automatically diffs and
+-   latexdiff - A Perl program which automatically diffs and
     highlights changes between 2 .tex files, conveniently includes
     --flatten if document is divided into separate files using
-    \input or \include statements. See also [texdiff], a less
-    complex option.
--   [changes] - A TeX package which allows manual markup with
-    changes as comments in the gutter. Conveniently supplies the
-    final option to the package declaration, which clears markup.
--   [changebar] - Adds simple highlighted bars where text has been
+    \input or \include statements. See also texdiff, a less complex
+    option.
+-   changes - A TeX package which allows manual markup with changes
+    as comments in the gutter. Conveniently supplies the final
+    option to the package declaration, which clears markup.
+-   changebar - Adds simple highlighted bars where text has been
     changed.
--   [revdiff] - A LaTeX package which is built specifically with
-    the goal of making the work of reviewers of papers easier by
-    marking changes in the text, adding tags and comments.
+-   revdiff - A LaTeX package which is built specifically with the
+    goal of making the work of reviewers of papers easier by marking
+    changes in the text, adding tags and comments.
 -   Manually declare highlight options with \newcommand,
     e.g. \newcommand{\added}[1]{\color{added}{}#1}
 
@@ -55,10 +55,10 @@ paragraphs start moving around, a manual commenting system is still
 required, understandably.
 
 I had some small issues getting this to run on the Windows machine I
-am using while working away from home, but I found [this Stack
-Overflow page very helpful in providing a solution]. I imagine
-when I try it on a UNIX machine the process will be considerably
-more streamlined as perl is already installed.
+am using while working away from home, but I found this Stack
+Overflow page very helpful in providing a solution. I imagine when I
+try it on a UNIX machine the process will be considerably more
+streamlined as perl is already installed.
 
   [this Stack Overflow page very helpful in providing a solution]: https://tex.stackexchange.com/questions/165543/using-latexdiff-in-miktex
 

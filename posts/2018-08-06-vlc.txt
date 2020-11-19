@@ -4,11 +4,11 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-I download podcasts using [pypodd], then I want to play the files,
-but I don’t want to leave the terminal. I found out that [VLC] has
-a some command line options, including ad really nice ncurses
-interface. I made an alias in my .bash_profile which starts VLC in
-the right way and plays a nominated file:
+I download podcasts using pypodd, then I want to play the files, but
+I don’t want to leave the terminal. I found out that VLC has a some
+command line options, including ad really nice ncurses interface. I
+made an alias in my .bash_profile which starts VLC in the right way
+and plays a nominated file:
 
   [pypodd]: https://github.com/johngodlee/pypodd
   [VLC]: https://www.videolan.org/vlc/
@@ -22,9 +22,9 @@ Then in bash I can type:
 to open VLC and play the file.
 
 There are lots of other arguments to use VLC in the command line,
-most of which are documented [here].
+most of which are documented here.
 
   [here]: https://wiki.videolan.org/Documentation:Advanced_Use_of_VLC/
 
-  {IMAGE}[1]
+[VLC terminal screenshot]
 

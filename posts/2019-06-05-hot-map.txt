@@ -14,5 +14,5 @@ chart on the right hand side of the panel. Each bar should show
 whether the selected point was hotter or colder than the equivalent
 day of the year in previous years.
 
-  {IMAGE}[1]
+[Schematic diagram of app layout]
 

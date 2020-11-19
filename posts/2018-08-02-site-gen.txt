@@ -4,11 +4,11 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-I use [Jekyll] to generate my blog and that probably won’t change
-any time soon. There’s lots of other options for generating a static
-site from a folder of files, like [Hugo] or [Pelican], but
-Jekyll benefits massively from having a lot of support online and a
-big userbase, so it’s always easy to fix any problems I’m having.
+I use Jekyll to generate my blog and that probably won’t change any
+time soon. There’s lots of other options for generating a static
+site from a folder of files, like Hugo or Pelican, but Jekyll
+benefits massively from having a lot of support online and a big
+userbase, so it’s always easy to fix any problems I’m having.
 
   [Jekyll]: https://jekyllrb.com/
   [Hugo]: https://gohugo.io/
@@ -33,8 +33,8 @@ type of page, the title, and the date:
     ---
 
 I can use pandoc to convert these markdown files to HTML with a css
-file to style the HTML. The CSS file can be seen [here]. To
-convert a single markdown file I can do this:
+file to style the HTML. The CSS file can be seen here. To convert a
+single markdown file I can do this:
 
   [here]: https://johngodlee.github.io/files/site_gen/site_gen.css
 
@@ -42,7 +42,7 @@ convert a single markdown file I can do this:
 
 The output markup looks like this:
 
-  {IMAGE}[1]
+[Sample page with pandoc]
 
 
 To do this on a folder of markdown files I have to name some

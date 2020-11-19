@@ -11,9 +11,9 @@ but because I have no artistic skills, I decided to do it using R.
 
 I got some shapefiles to start with:
 
--   [A simple global river bankfull width and depth database] -
-    For the rivers
--   [GADM Data] - Outline of Belize
+-   A simple global river bankfull width and depth database - For
+    the rivers
+-   GADM Data - Outline of Belize
 
   [A simple global river bankfull width and depth database]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/wrcr.20440
   [GADM Data]: https://gadm.org/download_country_v3.html
@@ -22,13 +22,13 @@ I also experimented with other shapefiles of rivers in Belize, but
 the one above is the one I preferred, mainly because it has slightly
 angular lines. These are the other sources I looked at:
 
--   [Meerman 2015]
--   [Digital Chart of the World - Inland Water]
+-   Meerman 2015
+-   Digital Chart of the World - Inland Water
 
   [Meerman 2015]: http://www.biodiversity.bz/
   [Digital Chart of the World - Inland Water]: http://www.diva-gis.org/gdata
 
-  {IMAGE}[1]
+[Map comparison]
 
 
 Here is the R code that I used to create the map output. I saved it
@@ -117,5 +117,5 @@ as an svg for printing and also as a png for previewing:
 I’m printing off the big file next week, then I want to frame it in
 a thin black edge frame with glossy glass.
 
-  {IMAGE}[2]
+[Best map]
 

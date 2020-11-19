@@ -7,8 +7,8 @@ AUTHOR: John L. Godlee
 I’ve been looking for a better notetaking app on my Android phone.
 There are lots of notetaking apps on the Google Play Store and they
 vary massively in features, speed, reliability, privacy, and app
-size. [F-droid] also has a lot of notetaking apps and these vary
-in quality even more, with many being abandoned hobby projects, and
+size. F-droid also has a lot of notetaking apps and these vary in
+quality even more, with many being abandoned hobby projects, and
 some with very niche features. I think that it’s important to
 support free and open source software, so I limited myself to
 searching for a new notetaking app on F-droid.
@@ -51,9 +51,9 @@ In total I found 44 notetaking apps on F-droid. I excluded apps that
 only provided todo-list features, because I often want to take
 longer notes, write letters and blog posts and stuff. Below is a
 table comparing these apps and their features, as tested on an
-Android 7.1.1 running on [Bluestacks] on my Macbook Pro. I just
-didn’t have the patience to install and uninstall each app on my
-ailing Android phone, but hopefully Bluestacks is an appropriate
+Android 7.1.1 running on Bluestacks on my Macbook Pro. I just didn’t
+have the patience to install and uninstall each app on my ailing
+Android phone, but hopefully Bluestacks is an appropriate
 replacement. While I was going through the apps I found extra
 features which I have included in the table, despite them not being
 features I particularly need. When recording whether an app had a
@@ -960,7 +960,7 @@ Orgzly is good but I don’t see myself learning its idiosyncratic
 ways. Markor almost made its way to being on of my favourites, but
 it ran quite clunky on my setup.
 
-After much deliberation, I’m going to live with [Scarlet Notes]
-for a while and see how it goes.
+After much deliberation, I’m going to live with Scarlet Notes for a
+while and see how it goes.
 
   [Scarlet Notes]: https://github.com/BijoySingh/Scarlet-Notes

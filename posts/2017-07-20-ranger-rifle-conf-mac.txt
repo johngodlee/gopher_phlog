@@ -11,7 +11,7 @@ weren’t text editor compatible was difficult, pressing on the
 highlighted files merely returned an open with: prompt, and nothing
 I typed seemed to work.
 
-  {IMAGE}[1]
+[Ranger screenshot]
 
 
 I found out that rifle.conf is the config file which controls how
@@ -23,7 +23,7 @@ well with an ordinary mac setup.
 
 So I decided to try and strip down rifle.conf and rebuild it for use
 on macOS. If you want to skip straight to the rifle.conf that I use,
-[follow this link].
+follow this link.
 
   [follow this link]: files/rifle.conf
 
@@ -55,7 +55,7 @@ has not been found. The same goes for Preview, preview.app and
 Preview.app.
 
 Instead, on a Mac, I find the best way to call an application from
-the command line is to use [open].
+the command line is to use open.
 
   [open]: https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/open.1.html
 
@@ -87,7 +87,7 @@ Regular expressions can be used to make more complex conditions,
 e.g. using | to include multiple file extensions in one line, or []
 and ? to list similar extensions without repetition. Try to work out
 what the conditions below mean. If you need a refresher on Regex, I
-often refer to [this website]:
+often refer to this website:
 
   [this website]: LINK%20TO%20REGEX
 

@@ -73,12 +73,12 @@ useful when you are trying to typeset the final document.
 I got a lot of help and inspiration from the following StackExchange
 posts:
 
--   [bibtex - Dealing with strict rules for paper submission using
-    LaTeX - TeX - LaTeX Stack Exchange]
--   [automation - How do I combine several tex files into one? -
-    TeX - LaTeX Stack Exchange]
--   [input - Generating a single TeX file by merging different TeX
-    files - TeX - LaTeX Stack Exchange]
+-   bibtex - Dealing with strict rules for paper submission using
+    LaTeX - TeX - LaTeX Stack Exchange
+-   automation - How do I combine several tex files into one? -
+    TeX - LaTeX Stack Exchange
+-   input - Generating a single TeX file by merging different TeX
+    files - TeX - LaTeX Stack Exchange
 
   [bibtex - Dealing with strict rules for paper submission using LaTeX - TeX - LaTeX Stack Exchange]:
     https://tex.stackexchange.com/questions/514153/dealing-with-strict-rules-for-paper-submission-using-latex
@@ -90,8 +90,8 @@ posts:
 And from this question which I asked myself to help figure out the
 for loop bit:
 
--   [Insert file contents at line number from bash arrays - Stack
-    Overflow]
+-   Insert file contents at line number from bash arrays - Stack
+    Overflow
 
   [Insert file contents at line number from bash arrays - Stack Overflow]:
     https://stackoverflow.com/questions/60980245/insert-file-contents-at-line-number-from-bash-arrays/60989942?noredirect=1#comment107902183_60989942

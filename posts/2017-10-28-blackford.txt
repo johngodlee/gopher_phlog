@@ -25,7 +25,7 @@ A9. Here is an elevation profile and the R code I used to make it:
         geom_line() +
         theme_bw()
 
-  {IMAGE}[1]
+[Elevation profile]
 
 
 The first part of the route is really steeply uphill, we had to get
@@ -46,13 +46,13 @@ The raised bog had loads of mushrooms, especially in areas that had
 been recently disturbed by a tussock being pushed over, or a rut
 caused by a tire track.
 
-  {IMAGE}[2]
+[Small mushroom]
 
 
 There were also lots of caterpillars, though I don’t know what
 species they were.
 
-  {IMAGE}[3]
+[Hairy caterpillar]
 
 
 We got talking to a historian and amateur metal-detectorist who
@@ -60,8 +60,8 @@ showed us some WWII bunkers that he reckoned had been used for
 testing different types of explosives on concrete, then had been
 repurposed as training grounds in later years.
 
-  {IMAGE}[4]
+[Ruined concrete bunker]
 
 
-  {IMAGE}[5]
+[Moorland landscape]
 

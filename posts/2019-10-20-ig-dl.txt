@@ -11,8 +11,8 @@ Instagram, there is absolutely no way I would make an account with
 them. I fear it would be too much of a time sink, and I’m paranoid
 of giving too much detail of my personal interests to Facebook.
 
-I found a command line tool called [InstaLooter] which you can use
-to scrape public Instagram profiles without an account and save the
+I found a command line tool called InstaLooter which you can use to
+scrape public Instagram profiles without an account and save the
 images on my local machine which I can then read at my leisure, in
 the spirit of RSS. This is how I implemented the program.
 

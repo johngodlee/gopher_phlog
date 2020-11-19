@@ -6,7 +6,7 @@ AUTHOR: John L. Godlee
 
 For a project I’ve been helping out with, I had to find information
 on the human uses of tree species in African savannas. I used the
-book “[Field Guide to Trees of Southern Africa]” by Wyk and Wyk
+book “Field Guide to Trees of Southern Africa” by Wyk and Wyk
 (2013), which has lots of information in the text descriptions of
 each species. Of the 645 species in our plots, 346 had information
 on human uses in the book. While we were looking specifically at
@@ -103,5 +103,5 @@ is the R code:
         labs(x = "Latitude",
                  y = "Longitude")
 
-  {IMAGE}[1]
+[Heatmap of spoon making trees]
 

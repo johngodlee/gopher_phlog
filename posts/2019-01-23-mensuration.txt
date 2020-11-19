@@ -6,11 +6,10 @@ AUTHOR: John L. Godlee
 
 In preparation for fieldwork I’ve been thinking a lot about how to
 measure tree dimensions efficiently and accurately, in order to
-estimate biomass. [SEOSAW], which form the network of plots I am
+estimate biomass. SEOSAW, which form the network of plots I am
 working in, have amalgamated a lot of information from previous data
 collection protocols with guidance from the many experts in the
-group to come up with their own [protocol for measuring tree
-stems].
+group to come up with their own protocol for measuring tree stems.
 
   [SEOSAW]: https://seosaw.github.io/
   [protocol for measuring tree stems]: https://seosaw.github.io/resources/SEOSAW_FieldManual_v3_2018.pdf
@@ -25,26 +24,26 @@ becomes doubly important when the same trees are re-measured over
 the course of years in order to see how biomass has changed.
 
 I was inspired partly by diagrams which I’d seen previously in
-Winrock International’s [Standard Operating Procedures for
-Terrestrial Carbon Measurement Manual].
+Winrock International’s Standard Operating Procedures for
+Terrestrial Carbon Measurement Manual.
 
   [Standard Operating Procedures for Terrestrial Carbon Measurement Manual]:
     https://www.winrock.org/document/standard-operating-procedures-for-terrestrial-carbon-measurement-manual/
 
 Here are some of the diagrams I made:
 
-  {IMAGE}[1]
+[Default tree]
 
 
-  {IMAGE}[2]
+[Forked tree]
 
 
-  {IMAGE}[3]
+[Leaning tree]
 
 
-  {IMAGE}[4]
+[Liana]
 
 
-[Here is a pdf of all the diagrams with explanations].
+Here is a pdf of all the diagrams with explanations.
 
   [Here is a pdf of all the diagrams with explanations]: https://johngodlee.github.io/files/mensuration/diagrams.pdf

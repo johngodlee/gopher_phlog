@@ -5,8 +5,8 @@ AUTHOR: John L. Godlee
 
 
 At the weekend, we made up a walk that took in some of the end of
-the [Southern Upland Way] and some of the old John Muir Way, now
-known as the [John Muir Link].
+the Southern Upland Way and some of the old John Muir Way, now known
+as the John Muir Link.
 
   [Southern Upland Way]: https://www.walkhighlands.co.uk/borders/longformacus-cocksburnpath.shtml
   [John Muir Link]: https://www.walkhighlands.co.uk/lothian/dunbar-dunglass.shtml
@@ -20,11 +20,10 @@ tracks. Then as we descended towards the A1 and over the other side
 Dean, which is a nice bit of woodland and pine plantation where we
 spent the night.
 
-  {IMAGE}({{ site.baseurl }}/img/suw/gorse.png)][1]
+  {IMAGE}({{ site.baseurl }}/img/suw/gorse.png)
 
 
-  {IMAGE}({{ site.baseurl
-}}/img/suw/pease.png)][2]
+  {IMAGE}({{ site.baseurl }}/img/suw/pease.png)
 
 
 We both took bivvy bags and I set up a tarp over the top of us, to
@@ -34,10 +33,10 @@ leftover bacon grease, then in the morning we had some coffee using
 the kettle. Leftover film canisters are my new preferred method of
 taking small pots of grease, spices, coffee, etc. out on hikes.
 
-  {IMAGE}[3]
+[Tarp]
 
 
-  {IMAGE}[4]
+[Trangia cooking]
 
 
 The next day we walked to Cockburnspath in the morning and stocked
@@ -52,10 +51,10 @@ perimeter of the site and that is where the rout directs you. It’s
 pretty brutalist in its appearance and it’s fun to get so close to
 the power station, which I see from the train a lot.
 
-  {IMAGE}[5]
+[Tree on cliff]
 
 
-  {IMAGE}[6]
+[Bay and power station]
 
 
 Trekking the last bit of the route is a bit boring. The golf course
@@ -63,9 +62,9 @@ at Dunbar goes right up to the coast and walkers are forced to skirt
 around the edge of it. But then it’s an easy walk into town towards
 the train station.
 
-[Here is a shapefile of our route]. If you inspect the points you
-will be able to see clearly where we camped on the Saturday night.
-Also, my phone ran out of battery sometime on the second day, so the
-last bit of the walk is filled in manually on QGIS.
+Here is a shapefile of our route. If you inspect the points you will
+be able to see clearly where we camped on the Saturday night. Also,
+my phone ran out of battery sometime on the second day, so the last
+bit of the walk is filled in manually on QGIS.
 
   [Here is a shapefile of our route]: https://johngodlee.github.io/files/suw/suw.zip

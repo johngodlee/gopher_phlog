@@ -23,7 +23,7 @@ to your audience “if the Sun was 30 cm diameter, Neptune would be in
 the next town over”.
 
 I only know how to make web apps in R Shiny, so I made one, and
-published it [here].
+published it here.
 
   [here]: https://johngodlee.shinyapps.io/orbit_app/
 
@@ -43,5 +43,5 @@ of the planetary orbits, for example:
 -   Orbital eccentricity
 -   Longitude of ascending node
 
-  {IMAGE}[1]
+[Screenshot of Shiny app showing orbits]
 

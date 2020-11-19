@@ -4,8 +4,8 @@ AUTHOR: John L. Godlee
 ====================================================================
 
 
-I use [ledger] to keep track of my expenses and for a long time I
-had to manually copy in all my expenses manually from the csv output
+I use ledger to keep track of my expenses and for a long time I had
+to manually copy in all my expenses manually from the csv output
 that my bank provides of my transactions. Then recently I read about
 ledger convert which can take a csv file and convert it to the
 ledger journal format.

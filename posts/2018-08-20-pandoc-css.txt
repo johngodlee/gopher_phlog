@@ -10,7 +10,7 @@ credit is due for the original css file I’ve included it in the CSS
 file.
 
 All the CSS templates and the raw html for inspection can be
-downloaded from [here].
+downloaded from here.
 
   [here]: https://johngodlee.github.io/files/pandoc_css/pandoc_css.zip
 
@@ -28,73 +28,73 @@ On to the templates:
 
 blue_big
 
-  {IMAGE}[1]
+[blue_big screenshot]
 
   [1]: https://johngodlee.github.io/files/pandoc_css/test_blue_big.html
 
 buttondown
 
-  {IMAGE}[2]
+[buttondown screenshot]
 
   [2]: https://johngodlee.github.io/files/pandoc_css/test_buttondown.html
 
 chmduquesne_resume
 
-  {IMAGE}[3]
+[chmduquesne_resume screenshot]
 
   [3]: https://johngodlee.github.io/files/pandoc_css/test_chmduquesne_resume.html
 
 github_pages
 
-  {IMAGE}[4]
+[github_pages screenshot]
 
   [4]: https://johngodlee.github.io/files/pandoc_css/test_github_pages.html
 
 github
 
-  {IMAGE}[5]
+[github screenshot]
 
   [5]: https://johngodlee.github.io/files/pandoc_css/test_github.html
 
 killercup
 
-  {IMAGE}[6]
+[killercup screenshot]
 
   [6]: https://johngodlee.github.io/files/pandoc_css/test_killercup.html
 
 modest
 
-  {IMAGE}[7]
+[modest screenshot]
 
   [7]: https://johngodlee.github.io/files/pandoc_css/test_modest.html
 
 panam
 
-  {IMAGE}[8]
+[panam screenshot]
 
   [8]: https://johngodlee.github.io/files/pandoc_css/test_panam.html
 
 pandoc_tweak
 
-  {IMAGE}[9]
+[pandoc_tweak screenshot]
 
   [9]: https://johngodlee.github.io/files/pandoc_css/test_pandoc_tweak.html
 
 pandoc
 
-  {IMAGE}[10]
+[pandoc screenshot]
 
   [10]: https://johngodlee.github.io/files/pandoc_css/test_pandoc.html
 
 splendor
 
-  {IMAGE}[11]
+[splendor screenshot]
 
   [11]: https://johngodlee.github.io/files/pandoc_css/test_splendor.html
 
 typewriter
 
-  {IMAGE}[12]
+[typewriter screenshot]
 
   [12]: https://johngodlee.github.io/files/pandoc_css/test_typewriter.html
 

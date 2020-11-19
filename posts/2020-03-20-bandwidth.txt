@@ -16,8 +16,8 @@ is a summary of them.
 
 I frequently use Facebook to communicate with people back home when
 I’m on fieldwork. This is mainly because of “free.facebook.com”, a
-version of Facebook which is included in [Facebook’s “Free Basics”
-package]. It allows use of a stripped down version of Facebook and
+version of Facebook which is included in Facebook’s “Free Basics”
+package. It allows use of a stripped down version of Facebook and
 importantly, use of their messaging service, without spending any
 data on the network. In Tanzania, Angola, DRC, Namibia, and probably
 loads of other countries in Africa there is at least one mobile
@@ -32,11 +32,11 @@ version of Facebook as Free Basics.
 
 For checking email, I find it’s best to use a local email client,
 preferably one where you can request emails in plain text rather
-than HTML to limit the downloading of images. I use [neomutt] with
-[offlineimap], but I don’t see why something more user friendly
-like [Thunderbird] or [Claws] can’t be used instead. If a
-web-app is truly necessary, Gmail has a HTML only interface which
-loads a lot faster than their normal web-app. It can be accessed at:
+than HTML to limit the downloading of images. I use neomutt with
+offlineimap, but I don’t see why something more user friendly like
+Thunderbird or Claws can’t be used instead. If a web-app is truly
+necessary, Gmail has a HTML only interface which loads a lot faster
+than their normal web-app. It can be accessed at:
 [https://mail.google.com/mail/u/0/h].
 
   [neomutt]: https://neomutt.org/
@@ -45,9 +45,9 @@ loads a lot faster than their normal web-app. It can be accessed at:
   [Claws]: https://www.claws-mail.org/
 
 For web browsing, a fully fledged GUI web browser will eat a lot of
-data. Instead, I try to use [lynx] where I can. Lynx is a
+data. Instead, I try to use lynx where I can. Lynx is a
 terminal-based browser which can’t load Javascript or CSS, and
-cookies can even be disabled through its configuration. [w3m] is a
+cookies can even be disabled through its configuration. w3m is a
 good alternative to lynx. When a GUI browser is absolutely necessary
 it’s a good idea to disable Javascript and also to have an
 ad-blocker to disable unecessary images.

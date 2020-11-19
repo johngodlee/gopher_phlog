@@ -5,10 +5,10 @@ AUTHOR: John L. Godlee
 
 
 I’ve been involved in improving the data cleaning process for the
-[SEOSAW] database. I created an R package with a load of data
-cleaning functions and designed a workflow for ingesting new data
-into the database. Today I faffed around for a while making a flow
-diagram to keep track of all the functions.
+SEOSAW database. I created an R package with a load of data cleaning
+functions and designed a workflow for ingesting new data into the
+database. Today I faffed around for a while making a flow diagram to
+keep track of all the functions.
 
   [SEOSAW]: https://seosaw.github.io/
 
@@ -32,5 +32,5 @@ quick reference when cleaning their own data, either for inclusion
 into the SEOSAW database, or for comparing their own data with the
 SEOSAW repository.
 
-  {IMAGE}[2]
+[]
 

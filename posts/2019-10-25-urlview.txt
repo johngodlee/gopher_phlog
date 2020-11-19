@@ -5,20 +5,19 @@ AUTHOR: John L. Godlee
 
 
 I recently looked at newsboat as a way of reading RSS news feeds on
-my laptop. I use [Feeder] to read the feeds on my android phone
-and I wanted to keep up to date with the same list of feeds on my
-laptop. That’s not very exciting, there were the usual UI
-configurations to change colours and so on, but then I found that it
-was quite clumsy to act on URLs that I found in posts. Many RSS
-entries that I read, particularly those from Multi-reddits have
-images attached alongside the description text. I could open the
-whole entry in a web browser by pressing o within newsboat, but that
-seemed like overkill. What I wanted to do was download and open only
-the links I cared about.
+my laptop. I use Feeder to read the feeds on my android phone and I
+wanted to keep up to date with the same list of feeds on my laptop.
+That’s not very exciting, there were the usual UI configurations to
+change colours and so on, but then I found that it was quite clumsy
+to act on URLs that I found in posts. Many RSS entries that I read,
+particularly those from Multi-reddits have images attached alongside
+the description text. I could open the whole entry in a web browser
+by pressing o within newsboat, but that seemed like overkill. What I
+wanted to do was download and open only the links I cared about.
 
   [Feeder]: https://f-droid.org/en/packages/com.nononsenseapps.feeder/
 
-I came across [urlview] as a remedy for this problem. urlview
+I came across urlview as a remedy for this problem. urlview
 basically just checks through a text file or STDOUT and finds URLs,
 then presents them to you in a selectable list. With no extra
 configuration it just prints the selected URL to STDOUT, but with a
@@ -80,7 +79,7 @@ I can also use it in Mutt by adding this to my muttrc:
 
     macro index,pager U "<enter-command>set pipe_decode = yes<enter><pipe-message>urlview<enter><enter-command>set pipe_decode = no<enter>""view URLs"
 
-and there is a [tmux plugin] as well! Though I haven’t looked at
-that properly yet.
+and there is a tmux plugin as well! Though I haven’t looked at that
+properly yet.
 
   [tmux plugin]: https://github.com/tmux-plugins/tmux-urlview
