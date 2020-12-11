@@ -9,7 +9,7 @@ PhD thesis. To save myself some headaches down the line I put
 together a LaTeX thesis template system for myself. The template
 itself can be found here.
 
-  [here]: https://johngodlee.github.io/files/latex_thesis/template.zip
+  [here]: https://johngodlee.github.io/files/latex_thesis/thesis.zip
 
 The template hinges on compile.sh, which contains a shell script
 which can compile the thesis, each chapter separately, and
@@ -22,22 +22,32 @@ works for my needs.
 Below is a copy of the README.md found in the template, which
 details how it works:
 
+This directory contains a directory structure and associated styling
+files for a University of Edinburgh PhD thesis, created by the
+author, in the School of GeoSciences.
+
 Directory structure
+
+compile.sh is a shell script to generate the thesis and chapters.
+Takes 1:3 arguments: -c (clean), -t (thesis), -p (chapters)
+
+graphics_path.sh is a shell script to generate the paths to img/
+directories for each chapter and the common image directory.
 
 main.tex contains the top-level .tex skeleton file which calls all
 other files.
 
-frontmatter/ contains various .tex files used in the main thesis:
+frontmatter/ contains various .tex snippets used in the main thesis:
 title page (ttl.tex), acknowledgements (ack.tex), etc.
 
-img/ contains all images used in the thesis.
+img/ contains common images used in the thesis.
 
-appendices contains subdirectories each referring to a thesis-level
-appendix, similar to a chapter.
+chapters/ contains subdirectories each referring to a thesis chapter
+or an appendix. Each chapter should have a *_defin.tex named
+similarly to the chapter .tex file which defines LaTeX variables, at
+the very least the chapter name.
 
-chapters contains subdirectories each referring to a thesis chapter.
-Each chapter should have a defin.tex which defines LaTeX variables
-for the chapter name and the chapter directory (e.g. chapter_1).
+out/ contains all compiled .pdf files.
 
 preamble.tex contains all the preamble material used for the thesis.
 It is also called by chapter.tex.
@@ -48,11 +58,9 @@ formatted chapters.
 definitions.tex contains thesis-level LaTeX variables: thesis title,
 author name, thesis date, etc.
 
-compile.sh contains a shell script which can compile the thesis,
-each chapter, and optionally clean up auxilliary TeX files after
-using the -c flag.
+[Directory and dependency structure for main.tex]
 
-out contains all compiled .pdf files.
+  [Directory and dependency structure for main.tex]: struc.pdf
 
 Packages
 
@@ -105,10 +113,9 @@ main.tex can be altered to include new chapters, or to change the
 order of chapters.
 
 Each chapter should reside in its own directory within chapters.
-Each chapter .tex file should be accompanied by a defin.tex which
-defines two key LaTeX variables: \chaptertitle and chapterdir which
-define the title of the chapter and the directory the chapter
-resides in, respectively.
+Each chapter *.tex file should be accompanied by a *_defin.tex which
+defines at least one LaTeX variable: \chaptertitle which defines the
+title of the chapter.
 
 Chapter .tex files should be wrapped in
 \begin{refsection} ... \end{refsection} to ensure that references
@@ -120,9 +127,9 @@ Inspiration for this template came from other projects:
 
 -   uoe-gits / EdThesis LaTeX template · GitLab - Created by Magnus
     Hagdorn back in 2003.
--   Writing a PhD Thesis in LaTeX Johannes Miocic - A more recent
-    attempt, from 2015, the blog has links to other useful PhD
-    thesis LaTeX projects.
+-   Writing a PhD Thesis in LaTeX | Johannes Miocic - A more recent
+    attempt, from 2015, also with links to other PhD thesis LaTeX
+    projects.
 
   [uoe-gits / EdThesis LaTeX template · GitLab]: https://git.ecdf.ed.ac.uk/uoe-gits/edthesis
-  [Writing a PhD Thesis in LaTeX Johannes Miocic]: https://jojomio.wordpress.com/2014/02/14/writing-a-phd-thesis-in-latex/
+  [Writing a PhD Thesis in LaTeX | Johannes Miocic]: https://jojomio.wordpress.com/2014/02/14/writing-a-phd-thesis-in-latex/
