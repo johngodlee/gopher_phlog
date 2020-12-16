@@ -24,6 +24,7 @@ hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 
 i==== Phlog =======================================================	/
 
+02020-12-15 - Processing Terrestrial LiDAR with PDAL	posts/2020-12-15-tls_proc.txt
 02020-12-10 - Tiling wallpapers	posts/2020-12-10-tiling.txt
 02020-11-18 - Writing legibly in a field notebook	posts/2020-11-18-writing.txt
 02020-11-08 - Querying the SoilGrids REST API	posts/2020-11-08-soil_query.txt
@@ -33,7 +34,6 @@ i==== Phlog =======================================================	/
 02020-10-10 - Propagating basil	posts/2020-10-10-basil.txt
 02020-10-05 - Comparing which simulated distribution is closest to th	posts/2020-10-05-simulation.txt
 02020-09-15 - Making a LaTeX thesis template	posts/2020-09-15-latex_thesis.txt
-02020-09-10 - Making playlists for cmus	posts/2020-09-10-cmus_playlist.txt
 
 1Archive	posts
 
