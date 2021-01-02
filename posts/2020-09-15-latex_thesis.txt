@@ -60,7 +60,6 @@ author name, thesis date, etc.
 
 [Directory and dependency structure for main.tex]
 
-  [Directory and dependency structure for main.tex]: struc.pdf
 
 Packages
 
