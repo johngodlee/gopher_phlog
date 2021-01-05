@@ -96,17 +96,18 @@ The numbers, and some letters are called itemtypes. They denote what
 type of information the line holds. There are a bunch of itemtypes,
 but I think the commonly used itemtypes nowadays are:
 
-  Itemtype             Content
-  ---------- -----------------
-  0                  Text file
-  1                  Directory
-  7               Search query
-  9                Binary file
-  g                  GIF image
-  h                   HTML URL
-  i                inline text
-  s                 Sound file
-  I            Image (not-GIF)
+  Itemtype                   Content
+  ---------- -----------------------
+  0                        Text file
+  1                        Directory
+  7                     Search query
+  9                      Binary file
+  g                        GIF image
+  h                         HTML URL
+  i                      inline text
+  s                       Sound file
+  I                  Image (not-GIF)
+  =            Execute shell command
 
 One extra itemtype that I haven’t found documented ANYWHERE is =.
 This can be used to start a shell command on the server. For
