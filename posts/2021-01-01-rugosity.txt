@@ -106,10 +106,8 @@ surface plot of the canopy height surface:
     )
     dev.off()
 
-[Canopy top 99th percentile histogram]({{ site.baseurl
-}}/img/rugosity/hist.png
+[Canopy top 99th percentile histogram]
 
 
-[Canopy top surface plot]({{ site.baseurl
-}}/img/rugosity/surface.png
+[Canopy top surface plot]
 
