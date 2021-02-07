@@ -5,119 +5,91 @@ i==== Recipes =====================================================	/
 
 iDRINKS	/
 
-0Beach Leaf Gin	Beech_Leaf_Gin.txt
-0Blackberry Wine	Blackberry_Wine.txt
-0Blackcurrant Cordial	Blackcurrant_cordial.txt
-0Elderberry Cordial	Elderberry_cordial.txt
-0Elderflower Champagne	Elderflower_Champagne.txt
-0Plum Wine	Plum_Wine.txt
+0Beach Leaf Gin	beech_leaf_gin.txt
+0Blackberry Wine	blackberry_wine.txt
+0Blackcurrant Cordial	blackcurrant_cordial.txt
 0Buckwheat Saison with Cashmere Hops	buckwheat_saison.txt
+0Elderberry Cordial	elderberry_cordial.txt
+0Elderflower Champagne	elderflower_champagne.txt
+0Plum Wine	plum_wine.txt
+
+iMISC	/
+
+0Bean and Cheese Taquitos	bean_and_cheese_taquitos.txt
+0Hairy bittercress pesto	bittercress_pesto.txt
+0Chickpea and carrot crepes	chickpea_carrot_crepes.txt
+0Chilaquiles	chilaquiles.txt
+0Chocolate protein bar	chocolate_protein_bar.txt
+0Coleslaw	coleslaw.txt
+0Falafel	falafel.txt
+0Freezer vegan breakfast burritos	freezer_vegan_breakfast_burritos.txt
+0Lip Balm	lip_balm.txt
+0Tomato Ketchup 	tomato_ketchup.txt
+0Wood Sealant	wood_sealant.txt
 
 iDESSERT	/
 
-0Apricot and orange blossom baklava	Apricot_orange_blossom_baklava.txt
-0Baked Pumpkin with Apple	Baked_pumpkin_with_apple.txt
-0Chia Seed Chocolate Pudding	Chia_Seed_Chocolate_Pudding.txt
-0Elderberry Pie	Elderberry_pie.txt
-0Flapjacks	Flapjacks.txt
-0Gajar burfi	Gajar_burfi.txt
-0Microwave Brownie	Microwave_brownie.txt
-0Motichoor ladoo	Motichoor_ladoo.txt
-0Rava ladoo	Rava_ladoo.txt
-0Stewed Rhubarb	Stewed_rhubarb.txt
-0Sugar Cookies	Sugar_cookies.txt
-0Victoria Sponge Cake	Victoria_Sponge_Cake.txt
+0Chia Seed Chocolate Pudding	chia_seed_chocolate_pudding.txt
 0Chocolate brownies 	chocolate_brownies.txt
 0Vegan Chocolate Chip Cookies	chocolate_chip_cookies.txt
+0Elderberry Pie	elderberry_pie.txt
+0Flapjacks	flapjacks.txt
+0Gajar burfi	gajar_burfi.txt
+0Microwave Brownie	microwave_brownie.txt
 0Chocolate peanut butter cups	peanut_butter_cups.txt
+0Savoury Scones	savoury_scones.txt
+0Stewed Rhubarb	stewed_rhubarb.txt
 0Vegan brownies	vegan_brownie.txt
-
-iMISCELLANEOUS	/
-
-0Black bean hummus	Black_bean_hummus.txt
-0Lip Balm	Lip_balm.txt
-0Tomato Ketchup 	Tomato_Ketchup.txt
-0Wood Sealant	Wood_sealant.txt
-0Hairy bittercress pesto	bittercress_pesto.txt
-
-iMAIN DISHES	/
-
-0Basil Sage Gnocchi	Basil_Sage_Gnocchi.txt
-0Beans with charred chillies	Beans_with_charred_chillies.txt
-0Braised Leeks	Braised_leeks.txt
-0Pesto chicken stew with cheesy dumplings	Chicken_pesto_dumpling_stew.txt
-0Chickpea pastry slice	Chickpea_pastry_slice.txt
-0Chorizo and white bean stew	Chorizo_and_white_bean_stew.txt
-0Cornish Pasties	Cornish_Pasties.txt
-0Courgette Cheese Quiche	Courgette_Cheese_Quiche.txt
-0Hasselback potatoes	Hasselback_potatoes.txt
-0Lentil Daal	Lentil_Daal.txt
-0Mushroom Pithivier	Mushroom_Pithivier.txt
-0Mushroom fricassee	Mushroom_fricassee.txt
-0Pasta with vodka and sausage	Pasta_with_vodka_and_sausage.txt
-0Pheasant casserole	Pheasant_casserole.txt
-0Rabbit Stew	Rabbit_stew.txt
-0Raw Vegan Tortilla Filling	Raw_Vegan_Tortilla_Filling.txt
-0Red lentil chickpea chilli soup	Red_lentil_chickpea_chilli_soup.txt
-0Refried beans	Refried_beans.txt
-0Spinach, feta, oregano filo pie	Spinach_feta_oregano_filo_pie.txt
-0Squash Gnocchi	Squash_Gnocchi.txt
-0Sriracha Tofu	Sriracha_Tofu.txt
-0Stewed red cabbage	Stewed_red_cabbage.txt
-0Vegan Chilli	Vegan_Chilli.txt
-0Vegan Enchiladas	Vegan_Enchiladas.txt
-0Vegan Gnocchi	Vegan_Gnocchi.txt
-0Vegan Skillet Lasagne	Vegan_Skillet_Lasagna.txt
-0Vegetarian Haggis	Vegetarian_Haggis.txt
-0Creamy daal with turmeric-toasted cauliflower 	daal_toasted_cauliflower.txt
-0Veggie enchiladas	enchilladas.txt
-0Lentil and okra curry 	lentil_okra_curry.txt
-0Lentil wellington 	lentil_wellington.txt
-0Mushroom chilli	mushroom_chilli.txt
-0Mushroom and pecan wellington	mushroom_pecan_roll.txt
-0Nut Roast - Morna Brown 	nut_roast.txt
-0Potato and Leek Mini Pies	potato_leek_pies.txt
-0Vegan Chickpea Potato Curry	vegan_chickpea_potato_curry.txt
-0Creamy vegan pasta with broccoli and mushrooms	vegan_creamy_pasta.txt
-0Yorkshire pudding	yorkshire_pudding.txt
-
-iSNACKS SANDWICHES BREAKFAST	/
-
-0Battered avocado BAT sandwich	Battered_avocado_BAT_sandwich.txt
-0Bean and Cheese Taquitos	Bean_and_Cheese_Taquitos.txt
-0Chilaquiles	Chilaquiles.txt
-0Chocolate protein bar	Chocolate_protein_bar.txt
-0Coleslaw	Coleslaw.txt
-0Eggs Benedict	Eggs_Benedict.txt
-0Falafalala wrap	Falafalala_wrap.txt
-0Savoury Scones	Savoury_scones.txt
-0Tofu scramble	Tofu_Scramble.txt
-0Vegan Meatball Sub	Vegan_meatball_sub.txt
-0Vegan Pancakes	Vegan_pancakes.txt
-0Chickpea and carrot crepes	chickpea_carrot_crepes.txt
-0Freezer vegan breakfast burritos	freezer_vegan_breakfast_burritos.txt
+0Victoria Sponge Cake	victoria_sponge_cake.txt
 
 iBREAD	/
 
-0Arabic Bread	arabic_bread.txt
+0Arabic flatbreads	arabic_bread.txt
 0Cheesy beer bread rolls	beer_rolls.txt
-0Brown Loaf	brown_loaf.txt
 0Ciabatta (Yukon Magazine, Alpine Bakery)	ciabatta.txt
 0Drop biscuits 	drop_biscuits.txt
-0Dutch Oven Biscuits	dutch_oven_biscuits.txt
-0Dutch Oven Loaf	dutch_oven_loaf.txt
 0Khachapuri - Georgian Cheese Bread 	khachapuri.txt
+0Basic loaf	loaf.txt
 0Naan 	naan.txt
 0Olive Rosemary Foccacia	olive_rosemary_foccacia.txt
 0Potato bread	potato_bread.txt
 0Rosemary Sweet Potato Rolls	rosemary_sweet_potato_rolls.txt
 0Stuffing Rolls	stuffing_rolls.txt
-0Sweet Potato Crescent Rolls	sweet_potato_crescent_pastry_rolls.txt
+
+iMAINS	/
+
+0Basil Sage Gnocchi	basil_sage_gnocchi.txt
+0Bean chilli	bean_chilli.txt
+0Beans with charred chillies	beans_with_charred_chillies.txt
+0Braised Leeks	braised_leeks.txt
+0Pesto chicken stew with cheesy dumplings	chicken_pesto_dumpling_stew.txt
+0Chickpea pastry slice	chickpea_pastry_slice.txt
+0Chorizo and white bean stew	chorizo_and_white_bean_stew.txt
+0Cornish Pasties	cornish_pasties.txt
+0Courgette Cheese Quiche	courgette_cheese_quiche.txt
+0Eggs Benedict	eggs_benedict.txt
+0Vegan Gnocchi	gnocchi.txt
+0Hasselback potatoes	hasselback_potatoes.txt
+0Lentil wellington 	lentil_wellington.txt
+0Mushroom chilli	mushroom_chilli.txt
+0Mushroom fricassee	mushroom_fricassee.txt
+0Mushroom Pithivier	mushroom_pithivier.txt
+0Nut Roast - Morna Brown 	nut_roast.txt
+0Pasta with vodka and sausage	pasta_with_vodka_and_sausage.txt
+0Pheasant casserole	pheasant_casserole.txt
+0Potato and Leek Mini Pies	potato_leek_pies.txt
+0Rabbit Stew	rabbit_stew.txt
+0Refried beans	refried_beans.txt
+0Spinach, feta, oregano filo pie	spinach_feta_oregano_filo_pie.txt
+0Squash Gnocchi	squash_gnocchi.txt
+0Stewed red cabbage	stewed_red_cabbage.txt
+0Tofu scramble	tofu_scramble.txt
+0Vegetarian Haggis	vegetarian_haggis.txt
+0Yorkshire pudding	yorkshire_pudding.txt
 
 iPIZZA	/
 
-0Mini Calzones	Mini_Calzones.txt
-0Pizza Margherita	Pizza_Margherita.txt
-0Spinach Pizzetta	Spinach_Pizzetta.txt
+0Mini Calzones	mini_calzones.txt
 0Frank Pinello pizza dough	pinello_dough.txt
+0Pizza Margherita	pizza_margherita.txt
 0Vegan Lahmajun	vegan_lahmajun.txt

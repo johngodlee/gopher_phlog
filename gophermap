@@ -24,6 +24,7 @@ hhttps://johngodlee.github.io	URL:https://johngodlee.github.io
 
 i==== Phlog =======================================================	/
 
+02021-02-05 - What XLSForm+ODK cannot do	posts/2021-02-05-odk.txt
 02021-01-25 - Playfair cipher in R	posts/2021-01-25-playfair.txt
 02021-01-15 - Estimating grassy volume from terrestrial LiDAR	posts/2021-01-15-grass.txt
 02021-01-05 - Pandoc LaTeX shopping list template	posts/2021-01-05-shopping_list.txt
@@ -33,7 +34,6 @@ i==== Phlog =======================================================	/
 02020-12-15 - Processing Terrestrial LiDAR with PDAL	posts/2020-12-15-tls_proc.txt
 02020-12-10 - Tiling wallpapers	posts/2020-12-10-tiling.txt
 02020-11-18 - Writing legibly in a field notebook	posts/2020-11-18-writing.txt
-02020-11-08 - Querying the SoilGrids REST API	posts/2020-11-08-soil_query.txt
 
 1Archive	posts
 
