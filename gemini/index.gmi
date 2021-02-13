@@ -1,0 +1,42 @@
+```      
+      _       _            _         _____           _ _           
+     | |     | |          | |       / ____|         | | |          
+     | | ___ | |__  _ __  | |      | |  __  ___   __| | | ___  ___ 
+ _   | |/ _ \| '_ \| '_ \ | |      | | |_ |/ _ \ / _` | |/ _ \/ _ \
+| |__| | (_) | | | | | | || |___ _ | |__| | (_) | (_| | |  __/  __/
+ \____/ \___/|_| |_|_| |_||_____(_) \_____|\___/ \__,_|_|\___|\___|
+```
+
+# John L. Godlee
+
+This is a mirror of my personal website where I keep my CV, a collection of recipes, and a mirror of my blog.
+
+=> https://johngodlee.github.io HTTP blog mirror
+=> gopher://republic.circumlunar.space:70/1/~johngodlee Gopher phlog mirror
+
+=> ./contact.gmi Contact details
+=> ./johngodlee.asc PGP public key
+=> ./cv.txt CV
+
+=> ./recipes Recipes	
+=> ./books.txt Library	
+
+# Phlog 
+
+=> posts/2021-02-05-odk.gmi 2021-02-05 - What XLSForm+ODK cannot do 
+=> posts/2021-01-25-playfair.gmi 2021-01-25 - Playfair cipher in R
+=> posts/2021-01-15-grass.gmi 2021-01-15 - Estimating grassy volume from terrestrial LiDAR
+=> posts/2021-01-05-shopping_list.gmi 2021-01-05 - Pandoc LaTeX shopping list template
+=> posts/2021-01-01-rugosity.gmi 2021-01-01 - Estimating canopy rugosity from terrestrial LiDAR
+=> posts/2020-12-30-height.gmi 2020-12-30 - Extracting a vertical height profile from terrestrial LiDAR
+=> posts/2020-12-20-gap.gmi 2020-12-20 - Measuring canopy gap fraction from point clouds
+=> posts/2020-12-15-tls_proc.gmi 2020-12-15 - Processing Terrestrial LiDAR with PDAL
+=> posts/2020-12-10-tiling.gmi 2020-12-10 - Tiling wallpapers
+=> posts/2020-11-18-writing.gmi 2020-11-18 - Writing legibly in a field notebook
+
+=> ./posts Archive	
+
+## Other links
+
+=> gemini://republic.circumlunar.space:1965/ Mare Serenitatis Circumlunar Corporate Republic
+

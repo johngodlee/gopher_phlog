@@ -1,0 +1,133 @@
+# Pandoc CSS templates
+
+DATE: 2018-08-20
+AUTHOR: John L. Godlee
+
+
+This is a showcase of different CSS templates which I have adapted for use in Pandoc when converting from Markdown to HTML. Where credit is due for the original css file I've included it in the CSS file.
+
+All the CSS templates and the raw html for inspection can be downloaded from [here](https://johngodlee.github.io/files/pandoc_css/pandoc_css.zip).
+
+I normally use the templates in the following way to get a truly standalone .html file, which I can then email if necessary, or convert to a pdf using wkhtmltopdf:
+
+```
+style={style.css}
+
+pandoc -f markdown -t html5 --css=$style --standalone -o output.html input.md
+
+wkhtmltopdf output.html output.pdf
+```
+
+On to the templates:
+
+# blue_big
+
+=> https://johngodlee.github.io/img/pandoc_css/blue_big.png blue_big screenshot
+
+# buttondown
+
+=> https://johngodlee.github.io/img/pandoc_css/buttondown.png buttondown screenshot
+
+# chmduquesne_resume
+
+=> https://johngodlee.github.io/img/pandoc_css/chmduquesne_resume.png chmduquesne_resume screenshot
+
+# github_pages
+
+=> https://johngodlee.github.io/img/pandoc_css/github_pages.png github_pages screenshot
+
+# github
+
+=> https://johngodlee.github.io/img/pandoc_css/github.png github screenshot
+
+# killercup
+
+=> https://johngodlee.github.io/img/pandoc_css/killercup.png killercup screenshot
+
+# modest
+
+=> https://johngodlee.github.io/img/pandoc_css/modest.png modest screenshot
+
+# panam
+
+=> https://johngodlee.github.io/img/pandoc_css/panam.png panam screenshot
+
+# pandoc_tweak
+
+=> https://johngodlee.github.io/img/pandoc_css/pandoc_tweak.png pandoc_tweak screenshot
+
+# pandoc
+
+=> https://johngodlee.github.io/img/pandoc_css/pandoc.png pandoc screenshot
+
+# splendor
+
+=> https://johngodlee.github.io/img/pandoc_css/splendor.png splendor screenshot
+
+# typewriter
+
+=> https://johngodlee.github.io/img/pandoc_css/typewriter.png typewriter screenshot
+
+# Creating the images
+
+For interest's sake, this is the short bash script I used to loop over the css files to make the screenshots seen above:
+
+``` shell
+#!/bin/bash 
+
+for i in /Users/johngodlee/.pandoc/templates/css/*.css; do
+    name=$(echo ${i##*/})
+        filename=$(echo "$name" | cut -f 1 -d '.')
+    pandoc -f markdown -t html5 --css=$i -H $i --standalone -o "css_test_html/test_${filename}.html" test.md
+done
+```
+
+Note that all of the .css files are wrapped in a <style type="text/css"> ... </style>, which doesn't make any difference to the way the stylsheet functions, but meas that I can use the -H flag in pandoc to add the stylesheet contents to the head of the .html file, making it truly standalone.
+
+The contents of test.md:
+
+``` markdown
+---
+title: Lorem Ipsum
+author: John Godlee
+date: 2018-04-01
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ligula enim, commodo ut placerat vitae, cursus aliquam risus. 
+
+# Super header
+
+Praesent accumsan tincidunt interdum. Sed nulla tortor, convallis in placerat quis, consectetur sit amet arcu. [THIS IS A LINK](https://johngodlee.github.io) Etiam sit amet dui malesuada, 
+
+* List item 1
+* List item 2
+
+1. List item a
+2. List item b
+
+- - - 
+
+_Praesent accumsan_ __tincidunt interdum.__ Sed nulla tortor, convallis in placerat quis, consectetur sit amet arcu. Etiam sit amet dui malesuada, fermentum tortor finibus, tristique leo.
+
+- - - 
+
+## Smaller header
+
+> Fusce mattis `lacus commodo` orci rutrum, vel vestibulum dolor iaculis. Fusce et libero ligula. Proin non metus lorem. Duis `placerat lobortis` felis ac pretium. 
+>
+> -- Pliny
+
+``` r
+pdf("Regression_plot.pdf")
+  for (var in unique(Root$Plot_Date_Sample)) {
+    print( ggplot(Root[Root$Plot_Date_Sample==var,], 
+        aes(x = Time, y = Cum_Root_Mass_g)) +
+             geom_point())
+  }
+dev.off()
+\`\`\`
+
+![](../test.png)
+
+Duis tempus consectetur accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse eget metus enim. Proin semper at velit a varius. 
+```

@@ -1,0 +1,14 @@
+# UltiSnips cheatsheet
+
+DATE: 2019-10-30
+AUTHOR: John L. Godlee
+
+
+I made a cheatsheet for UltiSnips[1] to try and cement some of things I've learned about it over the last few days, because I want to use it more, particularly for writing LaTeX. The cheatsheet can be [found here](https://johngodlee.github.io/files/snips-cheat/ultisnips_cheatsheet.pdf).
+
+=> https://github.com/SirVer/ultisnips 1: https://github.com/SirVer/ultisnips
+
+I used a pretty good LaTeX template[2] to make the cheatsheet layout. After I made the cheatsheet I actually found this cheatsheet template[3] which looks to be more flexible, so maybe I'll try that next time.
+
+=> https://www.latextemplates.com/template/cheatsheet 2: https://www.latextemplates.com/template/cheatsheet
+=> https://wch.github.io/latexsheet/ 3: https://wch.github.io/latexsheet/

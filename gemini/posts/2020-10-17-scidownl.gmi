@@ -1,0 +1,35 @@
+# Scripting qutebrowser to grab papers with scidownl
+
+DATE: 2020-10-17
+AUTHOR: John L. Godlee
+
+
+I have been using scidownl[1] to download scientific papers using that I find on the web. It's quicker than using the journals' own pdf download interface, which often requires multiple button clicks and validating through my university.
+
+=> https://github.com/Tishacy/SciDownl 1: https://github.com/Tishacy/SciDownl
+
+With scidownl I can copy a DOI that I find on the web and download the paper:
+
+``` shell-script
+scidownl -D "10.2307/3236848"
+```
+
+To further streamline the process, I wrote a little keybinding for qutebrowser[2], my web browser, which allows me to highlight a DOI on the webpage, hit the keybinding (,d), and download the paper to my ~/Downloads directory in the background for reading later:
+
+=> https://qutebrowser.org/ 2: https://qutebrowser.org/
+
+``` python
+config.bind(',d', 'enter-mode caret ;; yank selection ;; spawn ~/bin/scidownl_qb {clipboard}')
+```
+
+scidownl_qb is just a shell script which downloads the file to the right location:
+
+``` shell-script
+#!/usr/bin/env sh
+
+/usr/local/bin/./scidownl -D "$1" -o /Users/johngodlee/Downloads
+```
+
+Note that I had to include the full path to the scidownl executable in the shell script. This is because qutebrowser uses a different $PATH to the rest of the OS[3].
+
+=> https://github.com/qutebrowser/qutebrowser/issues/4273 3: https://github.com/qutebrowser/qutebrowser/issues/4273

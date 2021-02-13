@@ -1,0 +1,28 @@
+# Diagrams for tree measurements
+
+DATE: 2019-01-23
+AUTHOR: John L. Godlee
+
+
+In preparation for fieldwork I've been thinking a lot about how to measure tree dimensions efficiently and accurately, in order to estimate biomass. SEOSAW[1], which form the network of plots I am working in, have amalgamated a lot of information from previous data collection protocols with guidance from the many experts in the group to come up with their own protocol for measuring tree stems[2].
+
+=> https://seosaw.github.io/ 1: https://seosaw.github.io/
+=> https://seosaw.github.io/resources/SEOSAW_FieldManual_v3_2018.pdf 2: https://seosaw.github.io/resources/SEOSAW_FieldManual_v3_2018.pdf
+
+I decided to make some diagrams in order to better explain some of the concepts in the protocol, specifically regarding the way that tree trunk diameter (DBH) is measured. Measuring in the right place is important as the diameter measurement is assumed to be representative of the whole tree, and is used to estimate tree biomass through allometric equations. Measuring in the right place becomes doubly important when the same trees are re-measured over the course of years in order to see how biomass has changed.
+
+I was inspired partly by diagrams which I'd seen previously in Winrock International's Standard Operating Procedures for Terrestrial Carbon Measurement Manual[3].
+
+=> https://www.winrock.org/document/standard-operating-procedures-for-terrestrial-carbon-measurement-manual/ 3: https://www.winrock.org/document/standard-operating-procedures-for-terrestrial-carbon-measurement-manual/
+
+Here are some of the diagrams I made:
+
+=> https://johngodlee.github.io/img/mensuration/diag_1.png Default tree
+
+=> https://johngodlee.github.io/img/mensuration/diag_2.png Forked tree
+
+=> https://johngodlee.github.io/img/mensuration/diag_3.png Leaning tree
+
+=> https://johngodlee.github.io/img/mensuration/diag_4.png Liana
+
+Here is a pdf of all the diagrams with explanations
