@@ -23,6 +23,7 @@ This is a mirror of my personal website where I keep my CV, a collection of reci
 
 # Phlog 
 
+=> posts/2021-02-15-repeat.gmi 2021-02-15 - Dynamic lists from user-added choices within repeats and groups, in ODK
 => posts/2021-02-05-odk.gmi 2021-02-05 - What XLSForm+ODK cannot do 
 => posts/2021-01-25-playfair.gmi 2021-01-25 - Playfair cipher in R
 => posts/2021-01-15-grass.gmi 2021-01-15 - Estimating grassy volume from terrestrial LiDAR
@@ -32,7 +33,6 @@ This is a mirror of my personal website where I keep my CV, a collection of reci
 => posts/2020-12-20-gap.gmi 2020-12-20 - Measuring canopy gap fraction from point clouds
 => posts/2020-12-15-tls_proc.gmi 2020-12-15 - Processing Terrestrial LiDAR with PDAL
 => posts/2020-12-10-tiling.gmi 2020-12-10 - Tiling wallpapers
-=> posts/2020-11-18-writing.gmi 2020-11-18 - Writing legibly in a field notebook
 
 => ./posts Archive	
 

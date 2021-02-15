@@ -32,7 +32,6 @@
 => chocolate_brownies.gmi Chocolate brownies 
 => chocolate_chip_cookies.gmi Vegan Chocolate Chip Cookies
 => elderberry_pie.gmi Elderberry Pie
-=> flapjacks.gmi Flapjacks
 => gajar_burfi.gmi Gajar burfi
 => microwave_brownie.gmi Microwave Brownie
 => peanut_butter_cups.gmi Chocolate peanut butter cups

@@ -1,0 +1,84 @@
+TITLE: Dynamic lists from user-added choices within repeats and groups, in ODK
+DATE: 2021-02-15
+AUTHOR: John L. Godlee
+====================================================================
+
+
+For the tree data collection form I have been creating in ODK with
+XLSForm, I wanted to allow users to quickly re-use species names
+from previous species identified within the plot to cut down on
+typing. It stands to reason that if a species is encountered within
+a plot, there are likely other trees of the same species within the
+plot. My mental model for the ODK form was to present the user with
+a repeating question, one iteration for each individual, which said:
+“from the choices listed below, choose the species of tree”, where
+the list of choices was populated by answers given by the user
+during previous iterations. If the list didn’t contain the correct
+species the user could enter it manually in a question below and the
+name would be added to the list of choices for future iterations of
+the repeat. Currently XLSForm+pyxform lack a method to accomplish
+this, so I posted a reply to a similar question on the ODK support
+forums. I got an incredibly helpful response from a member of the
+core developer team which involved editing the raw .xml after the
+form had been converted. Here is a rundown of the method posted
+using an example where users are asked to record the names of
+animals encountered. First, the .xls file, approximated using a
+markdown table:
+
+  [similar question on the ODK support forums]: https://forum.getodk.org/t/generate-multiple-choice-alternatives-based-on-the-answers-in-a-repeat/10269/16
+
+  ---------------------------------------------------------------------------------------------------------------------------
+  type             name            label    choice_filter      required   appearance     relevance          calculation
+  ---------------- --------------- -------- ------------------ ---------- -------------- ------------------ -----------------
+  begin_repeat     pet             Pet                                                                      
+
+  begin_group      pet_group       Pet                                    field-list                        
+
+  calculate        pos                                                                                      position(../..)
+
+  select_one       animal_select   Select   position() !=                 autocomplete                      
+  ${animal_type}                   the      current()/../pos                                                
+                                   animal   and animal_type !=                                              
+                                   type. If ’’                                                              
+                                   not in                                                                   
+                                   the                                                                      
+                                   list,                                                                    
+                                   type                                                                     
+                                   below.                                                                   
+
+  text             animal_type     Animal                      yes                       ${animal_select} = 
+                                   type                                                  ’’                 
+
+  end_group        pet_group                                                                                
+
+  end_repeat       pet                                                                                      
+  ---------------------------------------------------------------------------------------------------------------------------
+
+Technically this file is invalid in its specification. It can be
+awkward to produce XForm .xml from an invalid .xls. I used xls2xform
+from pyxform:
+
+    xls2xform --pretty_print --skip_validate pets.xls pets.xml
+
+pretty_print creates un-minified .xml that is easier to edit,
+--skip_validate allows the .xml file to be produced, where otherwise
+it would be discarded.
+
+After the XML is created it is necessary to edit it. These are the
+offending lines:
+
+    <itemset nodeset="..[position() != ./pos and animal_type != '']">
+    <value ref="animal_type"/>
+    <label ref="animal_type"/>
+    </itemset>
+
+Which must be amended to:
+
+    <itemset nodeset="/data/pet[position() != current()/../pos and pet_group/animal_type != '']">
+        <value ref="pet_group/animal_type"/>
+        <label ref="pet_group/animal_type"/>
+    </itemset>
+
+This update basically changes the references to take into account
+the nested grouping within the repeat, and changes where the pos
+item updates from.

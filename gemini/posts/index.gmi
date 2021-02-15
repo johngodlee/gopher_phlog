@@ -3,6 +3,7 @@
 => ../ Back to home
 
 
+=> 2021-02-15-repeat.gmi 2021-02-15 - Dynamic lists from user-added choices within repeats and groups, in ODK
 => 2021-02-05-odk.gmi 2021-02-05 - What XLSForm+ODK cannot do 
 => 2021-01-25-playfair.gmi 2021-01-25 - Playfair cipher in R
 => 2021-01-15-grass.gmi 2021-01-15 - Estimating grassy volume from terrestrial LiDAR
