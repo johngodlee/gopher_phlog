@@ -1,0 +1,109 @@
+# Making sense of the ODK ecosystem
+
+DATE: 2021-01-20
+AUTHOR: John L. Godlee
+
+
+I've been trying to make sense of all the different components which make up the OpenRosa/ODK ecosystem. Here is a tidied version of my notes.
+
+## XForms[1]
+
+A W3C XML standard for form specification. It is intended to be integrated into other markup languages such as XHTML, and is more flexible than a basic HTML web-form.
+
+=> https://www.w3.org/TR/xforms/ 1: https://www.w3.org/TR/xforms/
+
+## ODK (Open Data Kit)[2]
+
+A project which produces various software to author, collect, and manage mobile data collection. They maintain the ODK XForms standard. Originally sponsored by Google.
+
+=> https://opendatakit.org/ 2: https://opendatakit.org/
+
+### ODK XForms[3]
+
+A reduced version of the XForms specification. Initially developed by the OpenRosa Consortium and now forked and maintained by the ODK project.
+
+=> https://getodk.github.io/xforms-spec/ 3: https://getodk.github.io/xforms-spec/
+
+### ODK Collect[4]
+
+An Android app used to complete ODK XForms and submit responses to a remote server.
+
+=> https://docs.getodk.org/collect-intro/ 4: https://docs.getodk.org/collect-intro/
+
+### ODK Central[5]
+
+Successor to the now unmaintained ODK Aggregate[6], a server software for managing ODK Xforms. ODK Cloud[7] provides paid-for hosted ODK Central instances with regular updates, security, and support.
+
+=> https://docs.getodk.org/central-intro/ 5: https://docs.getodk.org/central-intro/
+=> https://docs.getodk.org/aggregate-intro/ 6: https://docs.getodk.org/aggregate-intro/
+=> https://getodk.org/#odk-cloud 7: https://getodk.org/#odk-cloud
+
+### ODK Briefcase[8]
+
+Desktop application for macOS, Windows, and Linux. Used to pull, push, and export forms on ODK servers such as ODK Central and ODK Aggregate. Can also pull forms directly from ODK Collect from a connected Android device.
+
+=> https://docs.getodk.org/briefcase-intro/ 8: https://docs.getodk.org/briefcase-intro/
+
+### ODK Build[9]
+
+A drag-and-drop style form builder web-app for creating ODK XForms. A downloadable version of ODK Build[10] is available for macOS and Windows.
+
+=> https://build.getodk.org/ 9: https://build.getodk.org/
+=> https://github.com/getodk/build 10: https://github.com/getodk/build
+
+### ODK-X[11]
+
+An experimental suite of software for collecting and managing data on mobile platforms, inspired by ODK and maintained by an overlapping group of developers. Implements a mixture of survey forms and Javascript-based apps, with the goal of allowing data managers to easily create bespoke and flexible mobile data collection platforms. ODK-X Survey[12] is most analagous to ODK-Collect, but uses HTML, CSS and Javascript rather than ODK XForms to define form logic.
+
+=> https://odk-x.org/ 11: https://odk-x.org/
+=> https://docs.odk-x.org/survey-using/ 12: https://docs.odk-x.org/survey-using/
+
+## JavaRosa[13]
+
+A Java library developed by the OpenRosa Consortium that implements the ODK XForms specification and renders forms. ODK Collect uses ODK JavaRosa[14], a fork of the original JavaRosa to render forms. JavaRosa is highly committed to ensuring that JavaRosa is usable on low-resource devices. ODK JavaRosa is at the heart of many applications which use ODK XForms.
+
+=> https://bitbucket.org/javarosa/javarosa/wiki/Home 13: https://bitbucket.org/javarosa/javarosa/wiki/Home
+=> https://github.com/getodk/javarosa 14: https://github.com/getodk/javarosa
+
+## KoboToolbox[15]
+
+A project "competing" with the ODK project which writes its own tools to author, collect and manage mobile data collction. KoboToolbox uses the ODK Xforms standard to create forms. KoboToolbox focuses on providing an end-to-end hosted solution, while ODK provides various components to allow the user to roll their own custom solution. The ODK project and KoboToolbox aim to keep the same pace and sync changes with each other.
+
+=> https://www.kobotoolbox.org/ 15: https://www.kobotoolbox.org/
+
+### KoboCollect[16]
+
+An ostensibly re-branded version of the ODK Collect Android app.
+
+=> https://play.google.com/store/apps/details?id=org.koboc.collect.android 16: https://play.google.com/store/apps/details?id=org.koboc.collect.android
+
+## XLSForms[17]
+
+A form standard used to simplify the authoring of ODK XForms using XLS files.
+
+=> https://xlsform.org/ 17: https://xlsform.org/
+
+### XLSForm Online[18]
+
+A web-app that allows users to upload a compatible XLSForms file and convert it to an ODK XForm. Can also preview the compiled ODK XForm in the web-app using Enketo.
+
+=> https://getodk.org/xlsform/ 18: https://getodk.org/xlsform/
+
+## pyxform[19]
+
+A Python library used to convert XLSForms to ODK XForms. A major re-write of the older xls2xform[20]. Many projects use pyxform in the background to build ODK XForms.
+
+=> https://github.com/XLSForm/pyxform 19: https://github.com/XLSForm/pyxform
+=> https://github.com/mvpdev/xls2xform/ 20: https://github.com/mvpdev/xls2xform/
+
+## XSLTForms[21]
+
+An XForms implementation (not ODK XForms) which allows web-browsers (client-side) to manipulate XForms. Generates HTML+Javascript (AJAX) from XHTML+XForms.
+
+=> http://www.agencexml.com/xsltforms 21: http://www.agencexml.com/xsltforms
+
+## Enketo[22]
+
+A project which uses the ODK ecosystem to run a web-app to render ODK XForms in a web browser. The web-app is used by a number of other projects including ODK and  KoboToolbox. There is also a downloadable version of the Enketo web-app available.
+
+=> https://enketo.org/ 22: https://enketo.org/
