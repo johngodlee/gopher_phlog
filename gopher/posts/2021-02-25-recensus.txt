@@ -1,0 +1,248 @@
+TITLE: LaTeX plot census forms
+DATE: 2021-02-25
+AUTHOR: John L. Godlee
+====================================================================
+
+
+In addition to the ODK forms I created to help collaborators collect
+woodland plot data for the SEOSAW plot network, I wanted to make
+sure that we could guide data collectors in collecting SEOSAW-style
+data even if they don’t have access to an Android device.
+
+  [SEOSAW]: https://seosaw.github.io
+
+I used LaTeX to create some forms which prompt users on the types of
+data to collect to describe a new plot. The idea is that the form is
+used in conjunction with the SEOSAW field manual.
+
+Here is a copy of the form, and here is the LaTeX code used to
+create it:
+
+  [Here is a copy of the form]: https://johngodlee.github.io/files/recensus/blank_plot.pdf
+
+    \documentclass[8pt,a4paper]{article}
+
+    % Tables
+    \usepackage{float}
+    \usepackage{tabularx}
+    \usepackage[table]{xcolor}    % also loads {colortbl}
+    \usepackage{makecell}
+    \usepackage{multicol}
+
+    \usepackage{ragged2e}
+    \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+    % Checkmarks
+    \usepackage{pifont}
+    \newcommand{\cmark}{\ding{51}}%
+    \newcommand{\xmark}{\ding{55}}%
+
+    % Page geometry
+    \usepackage{geometry}
+    \geometry{left=1cm,
+        right=1cm,
+        top=1cm,
+        bottom=1.6cm}
+
+    % Disable paragraph indentation
+    \setlength{\parindent}{0pt}
+
+    % Disable section numbering
+    \setcounter{secnumdepth}{0}
+
+    \pagenumbering{gobble}
+
+    \begin{document}
+
+    \begin{minipage}[t]{\textwidth}
+        {\Large{\textbf{Plot name:  \hspace{2.5cm} Date: \hspace{3cm} Data collector(s):}}}
+    \end{minipage}
+    \rule{\textwidth}{1pt}
+    \vspace{0.3cm}
+    \setlength\extrarowheight{2pt}
+    \begin{minipage}{0.45\textwidth}
+    \vspace{0.3cm}
+    \section{Plot dimensions}
+    \begin{tabularx}{\textwidth}{rX}
+        \hline
+        \hline
+        \makecell[r]{Plot shape \\[-2pt] {\footnotesize{(circle, rectangle,
+        other)}}} & \\
+        \makecell[r]{Plot width {\footnotesize{(m)}}} & \\
+        \makecell[r]{Plot length {\footnotesize{(m)}}} & \\
+        \makecell[r]{Plot diameter {\footnotesize{(m)}}} & \\
+        \hline
+        \makecell[r]{Subplot shape} & \\
+        \makecell[r]{Subplot width {\footnotesize{(m)}}} & \\
+        \makecell[r]{Subplot length {\footnotesize{(m)}}} & \\
+        \makecell[r]{Subplot diameter {\footnotesize{(m)}}} & \\
+        \hline
+        \makecell[r]{Nested? \\[-2pt] {\footnotesize{(describe in ``Plot notes'')}}} & \\
+
+        \hline
+    \end{tabularx}
+
+    \section{Sampling thresholds}
+    \begin{tabularx}{\textwidth}{rXX}
+        \hline
+        \hline
+         &  \multicolumn{1}{c}{Min.} & \multicolumn{1}{c}{Max.} \\
+        \makecell[r]{Diameter {\footnotesize{(cm)}}} & & \\
+        \makecell[r]{Height {\footnotesize{(m)}}} & & \\
+        \hline
+         & \multicolumn{2}{c}{TRUE/FALSE} \\
+        Lianas & & \\
+        Dead stems & & \\
+        Stumps & & \\
+        \hline
+    \end{tabularx}
+
+    \section{Plot location}
+    \begin{tabularx}{\textwidth}{rX}
+        \hline
+        \hline
+        \makecell[r]{Longitude {\footnotesize{(Dec.\textdegree)}}} & \\
+        \makecell[r]{Latitude {\footnotesize{(Dec.\textdegree)}}} & \\
+        \makecell[r]{Elevation {\footnotesize{(m)}}} & \\
+        \makecell[r]{Plot slope {\footnotesize{(0-90 Dec.\textdegree)}}} & \\
+        \makecell[r]{Plot aspect {\footnotesize{(0-365 Dec.\textdegree)}}} & \\
+        \makecell[r]{Catenal position \\[-2pt]{\footnotesize{(concave/convex slope,
+    midslope,}} \\[-2pt] {\footnotesize{valley floor, ridge, flat)}}} &  \\
+        \hline
+    \end{tabularx}
+
+    \end{minipage}
+    \hspace{1cm}
+    \begin{minipage}{0.45\textwidth}
+    \vspace{0.3cm}
+        \section{Herbivory}
+    \begin{tabularx}{\textwidth}{rX}
+        \hline
+        \hline
+         &  \multicolumn{1}{c}{TRUE/FALSE} \\
+        \makecell[r]{Elephants} & \\ 
+        \makecell[r]{Small non-social browsers \\[-2pt] {\footnotesize{(e.g.
+        dik-diks, duikers, steenbok)}}} & \\
+        \makecell[r]{Large browsers \\[-2pt] {\footnotesize{(e.g. giraffe, okapi,
+        kudu)}}} & \\
+        \makecell[r]{Medium social mixed diet \\[-2pt] {\footnotesize{(e.g. gazelle, oryx)}}} & \\
+        \makecell[r]{Non-ruminants, excluding suids \\[-2pt] {\footnotesize{(e.g. zebra, hippo, rhino)}}} & \\
+        \makecell[r]{Goats} & \\
+        \makecell[r]{Cattle} & \\
+        \hline
+        \makecell[r]{Termite mounds \\[-2pt] {\footnotesize{(count)}}} & \\
+        \hline
+    \end{tabularx}
+        
+    \section{Resource use}
+    \begin{tabularx}{\textwidth}{rX}
+        \hline
+        \hline
+         &  \multicolumn{1}{c}{TRUE/FALSE} \\
+        \makecell[r]{Large timber} & \\
+        \makecell[r]{Fuel wood} & \\
+        \makecell[r]{Charcoal} & \\
+        \makecell[r]{Farmed in past 30 years } & \\
+        \makecell[r]{Other woody-products \\[-2pt] {\footnotesize{(describe in
+        ``Plot notes'')}}} & \\
+        \makecell[r]{Non-wood products \\[-2pt] {\footnotesize{(describe in
+        ``Plot notes'')}}} & \\
+        \hline
+    \end{tabularx}
+
+    \section{Methods}
+    \begin{tabularx}{\textwidth}{rX}
+        \hline
+        \hline
+        \makecell[r]{\textbf{Slope} \\[-2pt] {\footnotesize{(clinometer,
+    eye,}} \\[-2pt] {\footnotesize{rangefinder, hypsometer)}}} \\
+    \makecell[r]{\textbf{Diameter} \\[-2pt] {\footnotesize{(circumference,}} \\[-2pt]
+    {\footnotesize{DBH tape, calipers)}}} \\
+    \makecell[r]{\textbf{Height} \\[-2pt] {\footnotesize{(clinometer,
+    eye,}} \\[-2pt] {\footnotesize{rangefinder, hypsometer)}}} \\
+    \makecell[r]{\textbf{Stem coordinate} \\[-2pt] {\footnotesize{(e.g. XY grid, GPS,}}
+        \\[-2pt] {\footnotesize{angle/distance, GPS)}}} \\
+        \hline
+    \end{tabularx}
+    \end{minipage}
+
+    \vspace{0.3cm}
+    \rule{\textwidth}{1pt}
+    \section{Plot notes}
+
+    {\footnotesize{E.g. nested plots, plot diagram, sampling strategy, experimental
+    treatments, fire exclusion/treatment, herbivore exclusion, community rights, other users, access points, weather, adjacent land use, other noteworthy features.}}
+
+    \newpage
+
+    \section{Stem decay}
+    \rowcolors{2}{gray!25}{white}
+    \begin{tabular}{cL{4cm}L{4cm}L{4cm}L{4cm}}
+        \hline
+    Class & Structure & Wood texture & Wood colour & Branches/twigs \\
+        \hline
+    1 & Sound, firm & Intact, no rot & Original colour & Branches with fine twigs \\
+    2 & Heartwood sound, sapwood a bit decayed & Sapwood partly soft. Wood cannot be pulled apart by hand & Original colour & Branches with some fine twigs present with peeling bark \\
+    3 & Heartwood sound, log supports its weight & Large hard pieces of sapwood can be pulled apart by hand & Red-brown, or original colour & Large branches with no fine twigs, branches do not pull out by hand \\
+    4 & Heartwood rotten, log does not support its weight & Soft, small, blocky pieces. Heartwood is soft.  & Red-brown, light brown, grey- brown & Large branches pull out easily by hand \\
+    5 & No structural integrity, no longer maintains shape & Very soft, powdery when dry. & Red-brown, dark brown & Branches not present \\
+    \hline
+    \end{tabular}
+    \rowcolors{1}{}{white}
+    \vspace{0.5cm}
+
+    \mbox{}% Left margin marker
+    \hfill% H
+    \begin{minipage}[t]{0.32\textwidth}
+        \centering
+        \section{Stem status}
+    \begin{tabular}{ll}
+        \hline
+        \hline
+    R & Topkilled, resprouting \\
+    T & Topkilled, no resprouting \\ 
+    D & Dead, no sign of life \\
+    \hline
+    \end{tabular}
+    \end{minipage}
+    \hfill% Horizontal stretch
+    \begin{minipage}[t]{0.32\textwidth}
+        \centering
+        \section{Stem mode}
+    \begin{tabular}{ll}
+        \hline
+        \hline
+    U & Uprooted \\
+    P & Snapped \\
+    S & Standing \\
+    V & Vanished \\ 
+    Q & Can't tell \\
+    \hline
+    \end{tabular}
+    \end{minipage}
+    \hfill% Horizontal stretch
+    \begin{minipage}[t]{0.32\textwidth}
+        \centering
+        \section{Cause of damage}
+    \begin{tabular}{ll}
+        \hline
+        \hline
+    N & Neighbouring tree \\
+    E & Elephant \\
+    F & Fire \\
+    H & Human (cut or ringbarked) \\ 
+    L & Lightning \\
+    M & Termites \\
+    W & Wind \\ 
+    Q & Can't tell \\
+    \hline
+    \end{tabular}
+    \end{minipage}
+    \hfill% Horizontal stretch
+    \mbox{}% Right margin marker
+
+    \end{document}
+
+Update 2021-03-06: These forms are now online and can be found here.
+
+  [found here]: https://seosaw.github.io/manuals

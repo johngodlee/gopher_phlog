@@ -25,6 +25,8 @@ hgemini://republic.circumlunar.space:1965/~johngodlee/	URL:gemini://republic.cir
 
 i==== Phlog =======================================================	/
 
+02021-03-01 - Microsoft Azure Translator API call in R	posts/2021-03-01-azure.txt
+02021-02-25 - LaTeX plot census forms	posts/2021-02-25-recensus.txt
 02021-01-20 - Making sense of the ODK ecosystem	posts/2021-02-20-xforms.txt
 02021-02-15 - Dynamic lists from user-added choices within repeats an	posts/2021-02-15-repeat.txt
 02021-02-05 - What XLSForm+ODK cannot do	posts/2021-02-05-odk.txt
@@ -33,8 +35,6 @@ i==== Phlog =======================================================	/
 02021-01-05 - Pandoc LaTeX shopping list template	posts/2021-01-05-shopping_list.txt
 02021-01-01 - Estimating canopy rugosity from terrestrial LiDAR	posts/2021-01-01-rugosity.txt
 02020-12-30 - Extracting a vertical height profile from terrestrial L	posts/2020-12-30-height.txt
-02020-12-20 - Measuring canopy gap fraction from point clouds	posts/2020-12-20-gap.txt
-02020-12-15 - Processing Terrestrial LiDAR with PDAL	posts/2020-12-15-tls_proc.txt
 
 1Archive	posts
 

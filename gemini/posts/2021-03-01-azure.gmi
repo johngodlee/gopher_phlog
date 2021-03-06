@@ -1,0 +1,193 @@
+# Microsoft Azure Translator API call in R
+
+DATE: 2021-03-01
+AUTHOR: John L. Godlee
+
+
+A colleague was having trouble constructing an API call in R to call the Microsoft Azure Translator. They had lots of household survey responses in Portuguese that they wanted to translate to English for analysis. There are some examples[1] on the Microsoft Azure documentation of how to call the API using C#, Go, Java, Node.js and Python, but nothing for R. There are some R packages for using Azure Translator that already exist:
+
+=> https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator 1: https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator
+
+* {translateR}[2] - Google and Microsoft API access
+* {AzureCognitive}[3] - larger scope than just translation. Officially endorsed?
+* {mstranslator}[4] - abandoned?
+
+but as Azure Translator uses a conventional RESTful API, it's also possible just to use the {httr} package[5].
+
+=> https://github.com/ChristopherLucas/translateR 2: https://github.com/ChristopherLucas/translateR
+=> https://github.com/Azure/AzureCognitive 3: https://github.com/Azure/AzureCognitive
+=> https://github.com/chainsawriot/mstranslator 4: https://github.com/chainsawriot/mstranslator
+=> https://github.com/r-lib/httr 5: https://github.com/r-lib/httr
+
+Using Azure Translator requires setting up an Azure account in order to access an API key. More documentation on that here[6]. As of 2021-02-30 there is a free tier for Azure Translator which offers up to 2 million characters of translation for free per month, with a few other features.
+
+=> https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator 6: https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator
+
+In R, first, load packages and create some text to translate, two sentences, in English and Portuguese:
+
+``` r
+# Packages
+library(httr)
+
+# Create some example Portuguese (used Google Translate)
+engl <- "This is some test text. The big train had black smoke."
+port <- "Este é um texto de teste. O grande trem tinha fumaça preta."
+engl2 <- "Cardboard boxes are easy to flatten"
+port2 <- "Caixas de papelão são fáceis de achatar"
+```
+
+Then, define keys, endpoints and parameters for the API call. The key, endpoint and location can be retrieved from your Azure portal.
+
+``` r
+key <- "XXX"
+endp <- "https://api.cognitive.microsofttranslator.com"
+location <- "global"
+path <- "translate"
+apiv <- "3.0"
+to_lang <- "en"
+```
+
+Create the headers:
+
+``` r
+heads <- c(
+  "Ocp-Apim-Subscription-Key" = key,
+  "Ocp-Apim-Subscription-Region" = location,
+  "Content-type" = "application/json"
+  )
+```
+
+This is the bit that took me a bit of trial and error to figure out, using nested lists to create a JSON-like query that can then be converted to JSON for the API query. The Azure documentation states that API queries should follow this structure:
+
+``` json
+[
+    {
+    	"Text" : "Hello, what is your name?"
+    },
+    {
+    	"Text" : "My name is John"
+    }
+]
+```
+
+So in R, thats a list, containing two other named lists (named "Text"), each containing a single character string, the string to translate. In R:
+
+``` r
+input <- list(port, port2)
+input_list <- lapply(input, function(x) {
+  list("Text" = x)
+  })
+```
+
+Construct the query using httr::POST():
+
+``` r
+result <- POST(
+  endp, 
+  path = path,
+  query = list(
+    `api-version` = apiv,
+    to = to_lang
+    ),
+  body = input_list, 
+  encode = "json", 
+  add_headers(.headers = heads)
+)
+```
+
+The result is returned as a JSON string, so R needs to parse it to return a similarly nested list structure:
+
+``` json
+[
+    {
+    	"detectedLanguage" : {
+    		"language" : "pt",
+    		"score" : 1.0
+    	},
+    	"translations" : [
+    		{
+    			"text" : "This is a test text. The big train had black smoke.",
+    			"to" : "en"
+    		}
+    	]
+    },
+    {
+    	"detectedLanguage" : { 
+    		"language" : "pt",
+    		"score" : 1.0
+    	},
+    	"translations" : [
+    		{
+    			"text" : "Cardboard boxes are easy to flatten",
+    			"to" : "en"
+    		}
+    	]
+    }
+]
+```
+
+``` r
+result_parse <- content(result, as = "parsed")
+```
+
+```
+[1]
+[1]
+[1]
+1
+
+[1]
+1
+
+
+[1]
+[1]]$translations[[1]
+[1]]$translations[[1]
+1
+
+[1]]$translations[[1]
+1
+
+
+
+
+[2]
+[2]
+[2]
+1
+
+[2]
+1
+
+
+[2]
+[2]]$translations[[1]
+[2]]$translations[[1]
+1
+
+[2]]$translations[[1]
+1
+```
+
+Then it's trivial to convert it to whatever data structure you want, in my case I want a dataframe:
+
+``` r
+result_df <- do.call(rbind, lapply(result_parse, function(x) {
+  data.frame(
+    from_lang_det = x$detectedLanguage$language,
+    from_lang_score = x$detectedLanguage$score,
+    to_lang = x$translations[[1]]$to,
+    trans = x$translations[[1]]$text
+    )
+}))
+```
+
+``` table
+┌───────────────┬─────────────────┬─────────┬─────────────────────────┐
+│ from_lang_det │ from_lang_score │ to_lang │          trans          │
+╞═══════════════╪═════════════════╪═════════╪═════════════════════════╡
+│ pt            │ 1               │ en      │ This is a test text ... │
+├───────────────┼─────────────────┼─────────┼─────────────────────────┤
+│ pt            │ 1               │ en      │ Cardboard boxes are ... │
+└───────────────┴─────────────────┴─────────┴─────────────────────────┘
+```
