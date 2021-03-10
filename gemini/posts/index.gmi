@@ -3,6 +3,7 @@
 => ../ Back to home
 
 
+=> 2021-03-10-rss_journals.gmi 2021-03-10 - RSS feeds for scientific journals
 => 2021-03-01-azure.gmi 2021-03-01 - Microsoft Azure Translator API call in R
 => 2021-02-25-recensus.gmi 2021-02-25 - LaTeX plot census forms
 => 2021-02-20-xforms.gmi 2021-01-20 - Making sense of the ODK ecosystem

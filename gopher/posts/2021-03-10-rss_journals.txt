@@ -1,0 +1,46 @@
+TITLE: RSS feeds for scientific journals
+DATE: 2021-03-10
+AUTHOR: John L. Godlee
+====================================================================
+
+
+I use RSS to keep up with most of the media I consume, using
+newsboat as an RSS reader. I use it for news, blogs, podcasts,
+youtube. I also get email alerts from a few scientific journals on
+their new articles, to try and keep up with current research.
+
+  [newsboat]:
+
+Only recently did I realise that I could use RSS to keep up with
+scientific journals as well. Most peer-reviewed journals have RSS
+feeds which list their newest articles.
+
+I did a quick check of my master BibTeX file to see which journals I
+cite the most in my writing:
+
+    grep "journal = " lib.bib | sed 's/.*{\(.*\)}.*/\1/g' | sort | uniq -c | sort
+
+The top 10 journals by number of articles were, with their RSS
+feeds:
+
+-   24 - Ecology Letters
+-   14 - Journal of Ecology
+-   14 - Global Change Biology
+-   14 - Forest Ecology and Management
+-   13 - Science
+-   11 - Nature
+-   11 - Ecology
+-   9 - Journal of Biogeography
+-   9 - Global Ecology and Biogeography
+-   9 - Agricultural and Forest Meteorology
+
+  [Ecology Letters]: https://onlinelibrary.wiley.com/journal/14610248#
+  [Journal of Ecology]: https://besjournals.onlinelibrary.wiley.com/feed/13652745/most-recent
+  [Global Change Biology]: https://onlinelibrary.wiley.com/action/showFeed?jc=13652486&type=etoc&feed=rss
+  [Forest Ecology and Management]: http://rss.sciencedirect.com/publication/science/03781127
+  [Science]: https://www.sciencemag.org/rss/weekly_news_email.xml
+  [Nature]: http://feeds.nature.com/ncomms/rss/current
+  [Ecology]: https://esajournals.onlinelibrary.wiley.com/feed/19399170/most-recent
+  [Journal of Biogeography]: https://onlinelibrary.wiley.com/feed/13652699/most-recent
+  [Global Ecology and Biogeography]: https://onlinelibrary.wiley.com/feed/14668238/most-recent
+  [Agricultural and Forest Meteorology]: http://rss.sciencedirect.com/publication/science/01681923
